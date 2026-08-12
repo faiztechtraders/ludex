@@ -1,0 +1,172 @@
+@import 'tailwindcss';
+@import '../creative/tokens.css';
+
+/* ============================================================================
+   BASE
+   ========================================================================= */
+
+@layer base {
+  html {
+    color-scheme: dark;
+    scrollbar-color: var(--color-hairline) transparent;
+  }
+
+  body {
+    background-color: var(--color-void);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    /* The atmosphere layer: two wide radial bleeds of magenta and cyan that
+       sit behind everything. This is what stops the near-black canvas from
+       reading as flat grey. */
+    background-image:
+      radial-gradient(ellipse 80% 55% at 15% -10%, rgb(255 62 165 / 0.16), transparent 60%),
+      radial-gradient(ellipse 70% 50% at 88% 4%, rgb(34 228 255 / 0.12), transparent 62%),
+      radial-gradient(ellipse 100% 60% at 50% 105%, rgb(168 85 247 / 0.10), transparent 70%);
+    background-attachment: fixed;
+    min-height: 100dvh;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+
+  /* One consistent focus treatment everywhere. Neon on near-black passes AA
+     comfortably, and the offset keeps it clear of card borders. */
+  :focus-visible {
+    outline: 2px solid var(--color-neon-cyan);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  ::selection {
+    background: var(--color-neon-magenta);
+    color: var(--color-text-inverse);
+  }
+
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-hairline);
+    border-radius: 999px;
+  }
+  ::-webkit-scrollbar-thumb:hover { background: var(--color-surface-3); }
+}
+
+/* ============================================================================
+   UTILITIES
+   Reusable neon treatments. Anything used in more than two components
+   belongs here rather than being re-typed as a long class string.
+   ========================================================================= */
+
+@utility glow-magenta { box-shadow: var(--glow-magenta); }
+@utility glow-cyan { box-shadow: var(--glow-cyan); }
+@utility glow-gold { box-shadow: var(--glow-gold); }
+
+/* Text that appears to emit light rather than merely be colored. */
+@utility text-glow {
+  text-shadow: 0 0 18px currentColor, 0 0 42px color-mix(in oklab, currentColor 45%, transparent);
+}
+
+/* Frosted panel — the default container treatment across the app. */
+@utility panel {
+  background: color-mix(in oklab, var(--color-surface) 82%, transparent);
+  border: 1px solid var(--color-hairline);
+  border-radius: var(--radius-panel);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--glow-soft);
+}
+
+/* CRT scanline overlay. Applied to hero surfaces and the spin reel, never to
+   body text — it costs legibility. */
+@utility scanlines {
+  position: relative;
+  isolation: isolate;
+}
+@utility scanlines-after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgb(255 255 255 / 0.035) 0px,
+    rgb(255 255 255 / 0.035) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
+
+/* The signature brand gradient: magenta -> violet -> cyan. */
+@utility brand-gradient {
+  background-image: linear-gradient(
+    100deg,
+    var(--color-neon-magenta) 0%,
+    var(--color-neon-violet) 52%,
+    var(--color-neon-cyan) 100%
+  );
+}
+@utility brand-gradient-text {
+  background-image: linear-gradient(
+    100deg,
+    var(--color-neon-magenta) 0%,
+    var(--color-neon-violet) 52%,
+    var(--color-neon-cyan) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* ============================================================================
+   KEYFRAMES
+   ========================================================================= */
+
+@keyframes ludex-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+
+@keyframes ludex-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
+}
+
+@keyframes ludex-shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Skeleton shimmer for loading cards. */
+@utility shimmer {
+  background-image: linear-gradient(
+    90deg,
+    var(--color-surface) 25%,
+    var(--color-surface-2) 50%,
+    var(--color-surface) 75%
+  );
+  background-size: 200% 100%;
+  animation: ludex-shimmer 1.6s linear infinite;
+}
+
+/* ============================================================================
+   REDUCED MOTION
+   A global backstop. Components additionally check `useReducedMotion()` so
+   motion-driven layout (the spin reel) degrades to an instant result rather
+   than a broken half-animation.
+   ========================================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

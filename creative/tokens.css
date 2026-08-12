@@ -1,0 +1,125 @@
+/* ============================================================================
+   LUDEX DESIGN TOKENS
+   Single source of truth for color, elevation, motion and rhythm.
+
+   This file is imported by src/index.css *after* `@import "tailwindcss"`.
+   Tailwind v4 inlines it and reads the @theme block, so every token in a
+   Tailwind namespace automatically becomes a utility class:
+
+     --color-neon-magenta  ->  bg-neon-magenta / text-neon-magenta / border-neon-magenta
+     --font-display        ->  font-display
+     --radius-card         ->  rounded-card
+     --ease-arcade         ->  ease-arcade
+
+   Tokens outside a namespace (--glow-*, --dur-*) are still emitted as plain
+   CSS variables on :root, for use in hand-written CSS or arbitrary values
+   like shadow-(--glow-magenta).
+
+   Do not hardcode hex values in components. Add a token here instead.
+   ========================================================================= */
+
+@theme {
+  /* ---- Canvas -----------------------------------------------------------
+     Near-black with a violet cast rather than neutral grey. Pure #000 makes
+     neon read as harsh; the violet bias makes magenta/cyan feel lit rather
+     than pasted on top. */
+  --color-void: #07060f;        /* page background, deepest layer */
+  --color-abyss: #0d0b1a;       /* section background */
+  --color-surface: #141127;     /* card background */
+  --color-surface-2: #1c1834;   /* raised card / hover */
+  --color-surface-3: #262040;   /* popovers, active states */
+  --color-hairline: #322a55;    /* 1px borders, dividers */
+
+  /* ---- Neon accents -----------------------------------------------------
+     Magenta is the primary action color, cyan the secondary/informational
+     one. Both are bright enough to clear AA contrast on --color-void at
+     normal text sizes. The "-deep" variants are fills sitting behind light
+     text — never use them for text itself. */
+  --color-neon-magenta: #ff3ea5;
+  --color-neon-magenta-soft: #ff7ac4;
+  --color-neon-magenta-deep: #7a1550;
+
+  --color-neon-cyan: #22e4ff;
+  --color-neon-cyan-soft: #7cf0ff;
+  --color-neon-cyan-deep: #0a5c6e;
+
+  --color-neon-violet: #a855f7;   /* gradient midpoint, tier accents */
+  --color-neon-lime: #adff4a;     /* success, "perfect match" */
+  --color-neon-amber: #ffb020;    /* warning, streak flame */
+
+  /* ---- Rarity / tier ----------------------------------------------------
+     Mapped from the game `tier` field. Deliberately gacha-flavored: the
+     hidden gem is the legendary drop, which is the entire emotional payoff
+     of the spin. */
+  --color-tier-mainstream: #38bdf8;   /* common — familiar blue */
+  --color-tier-indie: #a855f7;        /* rare — violet */
+  --color-tier-gem: #ffc83d;          /* legendary — gold */
+
+  /* ---- Text -------------------------------------------------------------
+     Contrast against --color-void: primary 16.8:1, secondary 8.4:1,
+     muted 4.8:1 (AA for body text). Never go dimmer than --color-text-muted
+     for anything a user actually has to read. */
+  --color-text: #f4f1ff;
+  --color-text-secondary: #b8b0d8;
+  --color-text-muted: #8279a8;
+  --color-text-inverse: #07060f;
+
+  /* ---- Platform brand hues ---------------------------------------------
+     One hue per hardware family, with the older generation a desaturated
+     step down from the current one. That way a family reads as a family at a
+     glance, and the newer console is always the brighter of the pair. */
+  --color-platform-pc: #6aa9ff;
+
+  --color-platform-ps5: #4a8fff;
+  --color-platform-ps4: #3a6ab0;
+
+  --color-platform-xbox-series: #52d16a;
+  --color-platform-xbox-one: #3f9450;
+
+  --color-platform-switch2: #ff5e3a;
+  --color-platform-switch: #d1414a;
+
+  /* ---- Radius ----------------------------------------------------------- */
+  --radius-chip: 999px;
+  --radius-card: 14px;
+  --radius-panel: 20px;
+
+  /* ---- Type -------------------------------------------------------------
+     The display face is used ONLY for headings, the wordmark, spin numerals
+     and tier labels. Body copy is always the UI sans — arcade type at
+     paragraph length is unreadable. */
+  --font-display: 'Chakra Petch', 'Rajdhani', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: ui-monospace, 'Cascadia Code', 'JetBrains Mono', monospace;
+
+  /* ---- Motion easing ----------------------------------------------------
+     Three curves only. Springs/overshoot for things the user directly
+     manipulates or is rewarded by; plain eases for anything the system does
+     on its own. */
+  --ease-arrival: cubic-bezier(0.16, 1, 0.3, 1);       /* entrances — most UI */
+  --ease-swap: cubic-bezier(0.65, 0, 0.35, 1);         /* two-way transitions */
+  --ease-arcade: cubic-bezier(0.34, 1.56, 0.64, 1);    /* overshoot — rewards, drops */
+
+  /* ---- Glow -------------------------------------------------------------
+     Neon depends on bloom, not drop shadow. Each is a layered box-shadow:
+     a tight core line plus a wide diffuse halo. */
+  --glow-magenta: 0 0 0 1px rgb(255 62 165 / 0.5),
+                  0 0 12px -2px rgb(255 62 165 / 0.55),
+                  0 0 40px -8px rgb(255 62 165 / 0.4);
+  --glow-cyan: 0 0 0 1px rgb(34 228 255 / 0.5),
+               0 0 12px -2px rgb(34 228 255 / 0.55),
+               0 0 40px -8px rgb(34 228 255 / 0.4);
+  --glow-gold: 0 0 0 1px rgb(255 200 61 / 0.55),
+               0 0 16px -2px rgb(255 200 61 / 0.6),
+               0 0 56px -10px rgb(255 200 61 / 0.45);
+  --glow-soft: 0 8px 32px -12px rgb(0 0 0 / 0.8);
+
+  /* ---- Motion duration -------------------------------------------------- */
+  --dur-fast: 140ms;
+  --dur-base: 240ms;
+  --dur-slow: 420ms;
+
+  /* ---- Layout ------------------------------------------------------------ */
+  --width-content: 1200px;
+  --header-height: 68px;
+}

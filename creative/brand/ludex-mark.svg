@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Ludex">
+  <title>Ludex mark</title>
+  <defs>
+    <linearGradient id="ludexBrand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff3ea5"/>
+      <stop offset="52%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#22e4ff"/>
+    </linearGradient>
+    <filter id="ludexGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="2.4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer gem: a cut-diamond silhouette. Reads as both a game-world
+       collectible and the "dex" of a catalogue. -->
+  <g filter="url(#ludexGlow)">
+    <path d="M32 4 58 22.5 48 56 16 56 6 22.5Z"
+          fill="none" stroke="url(#ludexBrand)" stroke-width="3.5"
+          stroke-linejoin="round"/>
+    <!-- Inner facet -->
+    <path d="M32 17 46.5 27.3 41 46 23 46 17.5 27.3Z"
+          fill="url(#ludexBrand)" opacity="0.16"/>
+    <!-- Play glyph — the "find something to play" payload -->
+    <path d="M27 25.5 41.5 32.5 27 39.5Z"
+          fill="url(#ludexBrand)"/>
+  </g>
+</svg>

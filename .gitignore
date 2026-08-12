@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+dist-ssr/
+*.local
+
+# env — never commit an API key
+.env
+.env.*
+!.env.example
+
+# editor / OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# tooling caches
+.vercel/
+.vite/
+coverage/
+*.tsbuildinfo
+
+# screenshot/ captures are a LOCAL verification artifact, not a deliverable.
+# Full-page shots run to 9 MB each (Browse is ~95,000 px tall) and git keeps
+# every blob forever, so committing them would weigh the repo down permanently
+# for something `npm run shot` regenerates in seconds. The README stays.
+screenshot/*.png
+screenshot/.tmp/

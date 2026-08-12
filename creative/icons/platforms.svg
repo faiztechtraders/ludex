@@ -1,0 +1,53 @@
+<!--
+  Ludex platform icons — canonical source.
+
+  Deliberately generic hardware silhouettes rather than manufacturer logos:
+  Ludex is not affiliated with Microsoft, Sony or Nintendo, and trademarked
+  marks shouldn't be baked into the UI. Each glyph is recognizable by
+  hardware shape alone.
+
+  All paths use currentColor so they inherit text color and glow treatments.
+  These same paths are mirrored inline in
+  src/components/platform/PlatformIcon.tsx — keep the two in sync.
+
+  Usage: <svg><use href="/creative/icons/platforms.svg#platform-ps5"/></svg>
+  (in practice the React component is used instead, to avoid a network fetch)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+
+  <!-- PC / Windows — a tilted four-pane window -->
+  <symbol id="platform-windows" viewBox="0 0 24 24">
+    <path fill="currentColor" d="M3 5.4 10.6 4.3v7.2H3zM11.6 4.15 21 2.8v8.7h-9.4zM3 12.5h7.6v7.2L3 18.6zM11.6 12.5H21v8.7l-9.4-1.35z"/>
+  </symbol>
+
+  <!-- PS5 — DualSense-style controller silhouette -->
+  <symbol id="platform-ps5" viewBox="0 0 24 24">
+    <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"
+          d="M8.4 7h7.2c1.5 0 2.5.9 2.9 2.3l1.6 6c.4 1.6-.5 2.9-1.9 2.9-.9 0-1.5-.4-2.1-1.1L14.6 15H9.4l-1.5 2.1c-.6.7-1.2 1.1-2.1 1.1-1.4 0-2.3-1.3-1.9-2.9l1.6-6C5.9 7.9 6.9 7 8.4 7Z"/>
+    <path fill="currentColor" d="M7.2 10.4h1.1v1.2h1.2v1.1H8.3v1.2H7.2v-1.2H6v-1.1h1.2z"/>
+    <circle fill="currentColor" cx="16.3" cy="11" r=".95"/>
+    <circle fill="currentColor" cx="16.3" cy="13.9" r=".95"/>
+    <circle fill="currentColor" cx="14.85" cy="12.45" r=".95"/>
+    <circle fill="currentColor" cx="17.75" cy="12.45" r=".95"/>
+  </symbol>
+
+  <!-- Nintendo Switch — screen flanked by two detachable controllers -->
+  <symbol id="platform-switch" viewBox="0 0 24 24">
+    <rect fill="none" stroke="currentColor" stroke-width="1.7" x="8.6" y="3.2" width="6.8" height="17.6" rx="0.9"/>
+    <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"
+          d="M8.6 3.2H6.2A3 3 0 0 0 3.2 6.2v11.6a3 3 0 0 0 3 3h2.4M15.4 3.2h2.4a3 3 0 0 1 3 3v11.6a3 3 0 0 1-3 3h-2.4"/>
+    <circle fill="currentColor" cx="6" cy="8.4" r="1.15"/>
+    <circle fill="currentColor" cx="18" cy="15.6" r="1.15"/>
+  </symbol>
+
+  <!-- Nintendo Switch 2 — wider screen, magnetic rails, "2" badge -->
+  <symbol id="platform-switch2" viewBox="0 0 24 24">
+    <rect fill="none" stroke="currentColor" stroke-width="1.7" x="7.4" y="3.2" width="9.2" height="17.6" rx="0.9"/>
+    <path fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"
+          d="M7.4 3.2H5.6A2.4 2.4 0 0 0 3.2 5.6v12.8a2.4 2.4 0 0 0 2.4 2.4h1.8M16.6 3.2h1.8a2.4 2.4 0 0 1 2.4 2.4v12.8a2.4 2.4 0 0 1-2.4 2.4h-1.8"/>
+    <!-- magnetic attachment rails, the visual tell of the Switch 2 -->
+    <path fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" d="M5.6 9.2v5.6M18.4 9.2v5.6"/>
+    <path fill="currentColor" d="M10.15 15.6v-1.05l2.05-1.9c.42-.4.6-.66.6-1.02 0-.44-.32-.74-.8-.74-.5 0-.83.33-.85.87h-1.05c.02-1.1.76-1.83 1.93-1.83 1.14 0 1.87.66 1.87 1.63 0 .64-.31 1.1-1.06 1.79l-1.12 1.04v.05h2.25v1.16z"/>
+  </symbol>
+
+</svg>
