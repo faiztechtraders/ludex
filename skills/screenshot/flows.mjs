@@ -62,6 +62,28 @@ await flow('spin-reveal', desktop, async (page) => {
   await page.screenshot({ path: path.join(OUT, 'daily-spin-result.png'), fullPage: true });
 });
 
+/* -- the gacha animation can be skipped ------------------------------------ */
+// The machine is ~2.3s of show. That is fine once and an obstacle by the tenth
+// reroll, so tapping it must cut straight to the result. Asserting on the
+// elapsed time is the point: a skip that still waits out the timeline passes a
+// "did it reveal" check while being exactly the bug worth catching.
+await flow('spin-animation-is-skippable', desktop, async (page) => {
+  await page.goto(`${BASE}/spin`, { waitUntil: 'networkidle' });
+  await page.getByRole('button', { name: /SPIN|ROLL AGAIN/i }).click();
+
+  const machine = page.locator('[role="presentation"]');
+  await machine.waitFor({ state: 'visible', timeout: 5000 });
+
+  const t0 = Date.now();
+  await machine.click();
+  await page.getByRole('heading', { name: 'Play this.' }).waitFor({ timeout: 5000 });
+  const ms = Date.now() - t0;
+
+  if (ms > 1200) {
+    throw new Error(`skip took ${ms}ms — it is sitting through the animation`);
+  }
+});
+
 /* -- answering the quiz produces scored, explained results ----------------- */
 await flow('quiz-to-results', desktop, async (page) => {
   await page.goto(`${BASE}/vibe-check`, { waitUntil: 'networkidle' });

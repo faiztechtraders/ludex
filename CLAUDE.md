@@ -218,10 +218,13 @@ plain sort.
   `s => levelFromXp(s.xp)` builds a new object every call, reports a change on every render, and
   React aborts the whole tree with *"getSnapshot should be cached"* — **every route goes blank**.
   Select the raw value and derive in the component; see `useLevel` in `src/store/`.
-- **A CSS transition needs a resting frame first.** The gacha reel originally mounted with its
-  final transform already applied, so no transition ran, `transitionend` never fired, and the
-  spin hung forever on "Rolling…". `GachaReel` now paints at rest, then moves on a double
-  `requestAnimationFrame`, with a timeout failsafe for backgrounded tabs.
+- **Never advance a sequence on an animation event.** The old gacha reel mounted with its final
+  transform already applied, so no transition ran, `transitionend` never fired, and the spin hung
+  forever on "Rolling…". `transitionend` is also simply not delivered when a tab is backgrounded
+  mid-animation. `GachaMachine` (which replaced the reel) drives its four stages from **one
+  timer chain** and treats every visual as decorative — if the compositor drops the whole
+  animation, the sequence still completes on schedule. `flows.mjs` asserts both that it reveals
+  and that tapping it skips in under 1.2s.
 - **The front page must not be all one tier.** Weighting the daily rotation purely by obscurity
   produced four gold "Hidden Gem" cards, which devalues gold and shows a first-time visitor
   nothing they recognize. `dailyFeatured` draws round-robin from a tier pattern. Tested.

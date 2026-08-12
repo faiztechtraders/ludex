@@ -6,7 +6,7 @@ import { TIER_RARITY } from '@/data/schema.ts';
 import { GAMES } from '@/data/games/index.ts';
 import { dailySpinPool, todaySeed, seededFloat } from '@/engine/index.ts';
 import { useLudexStore, selectHasSpunToday } from '@/store/useLudexStore.ts';
-import { GachaReel } from '@/components/spin/GachaReel.tsx';
+import { GachaMachine } from '@/components/spin/GachaMachine.tsx';
 import { GameCover } from '@/components/game/GameCover.tsx';
 import { TierBadge, TIER_COLORS, TIER_GLOW } from '@/components/game/TierBadge.tsx';
 import { SaveButton } from '@/components/game/SaveButton.tsx';
@@ -122,6 +122,10 @@ export default function DailySpin() {
               initial={reduced ? false : { opacity: 0, scale: 0.94 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.94 }}
+              // `mode="wait"` holds the machine back until this exit finishes,
+              // so a default-length exit is ~380ms of dead screen before the
+              // show starts — paid on every reroll. Leave quickly.
+              transition={{ duration: 0.14 }}
               className="flex flex-col items-center gap-6"
             >
               <ChaosButton onClick={spin} label={hasSpunToday ? 'ROLL AGAIN' : 'SPIN'} />
@@ -135,14 +139,9 @@ export default function DailySpin() {
 
           {phase === 'spinning' && result && (
             <motion.div key="spinning" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-              <GachaReel
-                pool={pool}
-                winner={result}
-                spinning
-                onSettled={() => setPhase('revealed')}
-              />
-              <p className="mt-6 animate-[ludex-pulse_1.2s_ease-in-out_infinite] font-display text-sm uppercase tracking-[0.2em] text-text-muted">
-                Rolling…
+              <GachaMachine winner={result} onSettled={() => setPhase('revealed')} />
+              <p className="mt-2 font-display text-xs uppercase tracking-[0.2em] text-text-muted">
+                Tap to skip
               </p>
             </motion.div>
           )}
