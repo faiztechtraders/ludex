@@ -33,8 +33,21 @@ const DELAY_MS = 900;
 const priced = GAMES.filter((g) => g.steamAppId);
 console.log(`\n  Fetching ${region} prices for ${priced.length} Steam games…\n`);
 
-/** slug -> { final, initial, discount, currency } — all amounts in minor units. */
+/**
+ * slug -> [{ store, final, initial, discount, currency }] — minor units.
+ *
+ * An array because a cross-platform game is sold at genuinely different prices
+ * on each store, and collapsing that to one number picks a winner arbitrarily.
+ */
 const prices = new Map();
+
+function addOffer(slug, offer) {
+  const list = prices.get(slug) ?? [];
+  // Re-running a store replaces its entry rather than duplicating it.
+  const next = list.filter((o) => o.store !== offer.store);
+  next.push(offer);
+  prices.set(slug, next);
+}
 let currency = null;
 let free = 0;
 let unavailable = 0;
@@ -99,7 +112,12 @@ async function nintendoPrice(game) {
  * wins, with subscription offers skipped outright.
  */
 async function playstationPrice(game) {
-  const res = await fetch(`https://www.playstation.com/en-us/games/${game.playstationSlug}/`, {
+  // Sony localises the whole page, so the requested region's own currency comes
+  // back directly — RM 99.00 rather than $19.99. Worth doing: the real Malaysian
+  // price is RM 99 while converting the US price gives RM 81.71, so the
+  // conversion was not merely imprecise, it was wrong by a fifth.
+  const locale = region === 'MY' ? 'en-my' : `en-${region.toLowerCase()}`;
+  const res = await fetch(`https://www.playstation.com/${locale}/games/${game.playstationSlug}/`, {
     headers: { 'User-Agent': 'Mozilla/5.0' },
     signal: AbortSignal.timeout(20_000),
   });
@@ -108,17 +126,31 @@ async function playstationPrice(game) {
 
   const money = (s) => {
     if (!/\d/.test(String(s))) return null; // "Included", "Free", "Pre-order"
-    const n = Number(String(s).replace(/[^0-9.]/g, ''));
+    // Strip thousands separators before parsing, or "RM 1,299.00" becomes 1.299.
+    const n = Number(String(s).replace(/[^0-9.,]/g, '').replace(/,(?=\d{3}\b)/g, ''));
     return Number.isFinite(n) && n > 0 ? Math.round(n * 100) : null;
   };
+
+  /** Read the currency off the symbol rather than assuming the region's. */
+  const currencyOf = (s) => {
+    if (/RM/i.test(s)) return 'MYR';
+    if (/S\$/.test(s)) return 'SGD';
+    if (/£/.test(s)) return 'GBP';
+    if (/€/.test(s)) return 'EUR';
+    return 'USD';
+  };
+  let detected = null;
 
   const offers = [];
   for (const m of html.matchAll(/"price":\{([^}]*)\}/g)) {
     const block = m[1];
     if (/"serviceBranding":\[[^\]]*PS_PLUS/.test(block)) continue;
-    const base = money(block.match(/"basePrice":"([^"]*)"/)?.[1]);
-    const disc = money(block.match(/"discountedPrice":"([^"]*)"/)?.[1]);
+    const baseRaw = block.match(/"basePrice":"([^"]*)"/)?.[1] ?? '';
+    const discRaw = block.match(/"discountedPrice":"([^"]*)"/)?.[1] ?? '';
+    const base = money(baseRaw);
+    const disc = money(discRaw);
     if (base === null && disc === null) continue;
+    detected ??= currencyOf(baseRaw || discRaw);
     const final = disc ?? base;
     const initial = base ?? disc;
     if (final === null || initial === null) continue;
@@ -135,7 +167,7 @@ async function playstationPrice(game) {
       best.initial > best.final
         ? Math.round(((best.initial - best.final) / best.initial) * 100)
         : 0,
-    currency: 'USD',
+    currency: detected ?? 'USD',
   };
 }
 
@@ -176,7 +208,8 @@ for (let i = 0; i < priced.length; i += BATCH) {
         continue;
       }
       currency ??= p.currency;
-      prices.set(game.slug, {
+      addOffer(game.slug, {
+        store: 'Steam',
         final: p.final,
         initial: p.initial,
         discount: p.discount_percent,
@@ -192,43 +225,54 @@ for (let i = 0; i < priced.length; i += BATCH) {
 
 /* --------------------------------------------------------- console stores */
 /**
- * Games with no Steam listing were previously priceless in the UI, which meant
- * clicking through to the store just to see a number. Nintendo and PlayStation
- * both expose one; they quote in USD, so each entry records its own currency.
+ * Every store a game is actually listed on, not just the first one found.
+ *
+ * A multi-platform game is bought at different prices on different stores, and
+ * showing only Steam hides that a Switch owner pays something else entirely.
+ * Console stores are queried for *any* game with a resolved slug, including
+ * ones that already have a Steam price.
  */
-const consoles = GAMES.filter(
-  (g) => !prices.has(g.slug) && (g.nintendoSlug || g.playstationSlug),
-);
+const consoles = GAMES.filter((g) => g.nintendoSlug || g.playstationSlug);
 console.log(`\n  Fetching console prices for ${consoles.length} games…\n`);
 
 let consoleHits = 0;
 for (const [i, game] of consoles.entries()) {
-  try {
-    const found = game.nintendoSlug ? await nintendoPrice(game) : await playstationPrice(game);
-    if (found) {
-      prices.set(game.slug, found);
-      consoleHits++;
+  for (const [store, fetcher] of [
+    ['Nintendo', game.nintendoSlug ? nintendoPrice : null],
+    ['PlayStation', game.playstationSlug ? playstationPrice : null],
+  ]) {
+    if (!fetcher) continue;
+    try {
+      const found = await fetcher(game);
+      if (found) {
+        addOffer(game.slug, { store, ...found });
+        consoleHits++;
+      }
+    } catch {
+      /* a missing price is a normal outcome, not a failure */
     }
-  } catch {
-    /* a missing price is a normal outcome, not a failure */
+    await new Promise((r) => setTimeout(r, 350));
   }
   if ((i + 1) % 25 === 0 || i + 1 === consoles.length) {
     console.log(`    …${i + 1}/${consoles.length}`);
   }
-  await new Promise((r) => setTimeout(r, 350));
 }
 console.log(`    resolved ${consoleHits}`);
 
 /* ---------------------------------------------------------------- fx rate */
 // Only needed if something is quoted in a currency other than the snapshot's.
-const foreign = [...prices.values()].some((p) => p.currency !== currency);
+const all = [...prices.values()].flat();
+const foreign = all.some((p) => p.currency !== currency);
 const usdRate = foreign ? await fxRate('USD', currency ?? 'MYR') : null;
 if (foreign) {
   console.log(`\n  USD -> ${currency}: ${usdRate ?? 'unavailable (prices stay in USD)'}`);
 }
 
-const discounted = [...prices.values()].filter((p) => p.discount > 0);
-console.log(`\n  priced: ${prices.size}  ·  on sale: ${discounted.length}  ·  free/unpriced: ${free}  ·  unavailable: ${unavailable}`);
+const discounted = all.filter((p) => p.discount > 0);
+const multi = [...prices.values()].filter((l) => l.length > 1).length;
+console.log(
+  `\n  priced: ${prices.size} games / ${all.length} offers  ·  multi-store: ${multi}  ·  on sale: ${discounted.length}  ·  free/unpriced: ${free}  ·  unavailable: ${unavailable}`,
+);
 
 if (dryRun) {
   console.log('\n  --dry: nothing written.\n');
@@ -243,13 +287,15 @@ if (prices.size === 0) {
 }
 
 const base = currency ?? 'MYR';
+const ORDER = { Steam: 0, PlayStation: 1, Nintendo: 2, Xbox: 3 };
 const rows = [...prices.entries()]
   .sort(([a], [b]) => (a < b ? -1 : 1))
-  .map(([slug, p]) => {
-    // Fourth element only when the currency differs from the snapshot's, which
-    // keeps the common case (every Steam row) to three numbers.
-    const tail = p.currency === base ? '' : `, '${p.currency}'`;
-    return `  '${slug}': [${p.final}, ${p.initial}, ${p.discount}${tail}],`;
+  .map(([slug, offers]) => {
+    const list = [...offers]
+      .sort((a, b) => (ORDER[a.store] ?? 9) - (ORDER[b.store] ?? 9))
+      .map((o) => `['${o.store}', ${o.final}, ${o.initial}, ${o.discount}, '${o.currency}']`)
+      .join(', ');
+    return `  '${slug}': [${list}],`;
   })
   .join('\n');
 
@@ -280,13 +326,17 @@ export const PRICE_SNAPSHOT = {
 } as const;
 
 /**
- * slug -> [final, original, discountPercent, currency?]
+ * slug -> one entry per store: [store, final, original, discountPercent, currency]
  *
- * Amounts are minor units. The currency is present only when it differs from
- * PRICE_SNAPSHOT.currency — console stores quote USD while Steam quotes the
- * requested region, and silently mixing the two would misprice 90 games.
+ * Amounts are minor units. A cross-platform game is sold at genuinely different
+ * prices on different stores, so collapsing them to a single number would pick
+ * a winner arbitrarily — and each carries its own currency, because Nintendo
+ * quotes USD while Steam and PlayStation quote the requested region. Treating
+ * $59.99 as RM 59.99 would misprice those games fourfold.
  */
-export const PRICES: Record<string, readonly [number, number, number, string?]> = {
+export type PriceOffer = readonly [string, number, number, number, string];
+
+export const PRICES: Record<string, readonly PriceOffer[]> = {
 ${rows}
 };
 `;

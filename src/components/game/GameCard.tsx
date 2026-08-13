@@ -5,7 +5,7 @@ import { PlatformBadgeRow } from '@/components/platform/PlatformBadge.tsx';
 import { GameCover } from './GameCover.tsx';
 import { TierBadge } from './TierBadge.tsx';
 import { MatchRing } from './MatchRing.tsx';
-import { priceFor } from '@/lib/price.ts';
+import { bestDiscount } from '@/lib/price.ts';
 import { SaveButton } from './SaveButton.tsx';
 
 /**
@@ -28,7 +28,8 @@ export function GameCard({
 }) {
   const accent = game.art.accent;
   const topReason = reasons?.[0]?.text;
-  const discount = priceFor(game.slug)?.discount ?? 0;
+  // Best discount across every store — a Switch sale matters as much as a Steam one.
+  const discount = bestDiscount(game.slug);
 
   return (
     <article

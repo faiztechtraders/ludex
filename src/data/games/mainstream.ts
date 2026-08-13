@@ -14,6 +14,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'elden-ring',
     slug: 'elden-ring',
+    playstationSlug: 'elden-ring',
     steamAppId: 1245620,
     title: 'Elden Ring',
     year: 2022,
@@ -42,6 +43,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'baldurs-gate-3',
     slug: 'baldurs-gate-3',
+    playstationSlug: 'baldurs-gate-3',
     steamAppId: 1086940,
     title: "Baldur's Gate 3",
     year: 2023,
@@ -152,6 +154,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'cyberpunk-2077',
     slug: 'cyberpunk-2077',
+    playstationSlug: 'cyberpunk-2077',
     steamAppId: 1091500,
     title: 'Cyberpunk 2077',
     year: 2020,
@@ -179,6 +182,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'god-of-war-ragnarok',
     slug: 'god-of-war-ragnarok',
+    playstationSlug: 'god-of-war-ragnarok',
     steamAppId: 2322010,
     title: 'God of War Ragnarök',
     year: 2022,
@@ -233,6 +237,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'it-takes-two',
     slug: 'it-takes-two',
+    playstationSlug: 'it-takes-two',
     steamAppId: 1426210,
     title: 'It Takes Two',
     year: 2021,
@@ -261,6 +266,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'red-dead-redemption-2',
     slug: 'red-dead-redemption-2',
+    playstationSlug: 'red-dead-redemption-2',
     steamAppId: 1174180,
     title: 'Red Dead Redemption 2',
     year: 2018,
@@ -343,6 +349,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'resident-evil-4-remake',
     slug: 'resident-evil-4-remake',
+    playstationSlug: 'resident-evil-4-remake',
     steamAppId: 2050650,
     title: 'Resident Evil 4 (Remake)',
     year: 2023,
@@ -369,6 +376,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'helldivers-2',
     slug: 'helldivers-2',
+    playstationSlug: 'helldivers-2',
     steamAppId: 553850,
     title: 'Helldivers 2',
     year: 2024,
@@ -396,6 +404,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'the-witcher-3',
     slug: 'the-witcher-3',
+    playstationSlug: 'the-witcher-3-wild-hunt',
     steamAppId: 292030,
     title: 'The Witcher 3: Wild Hunt',
     year: 2015,
@@ -423,6 +432,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'split-fiction',
     slug: 'split-fiction',
+    playstationSlug: 'split-fiction',
     steamAppId: 2001120,
     title: 'Split Fiction',
     year: 2025,
@@ -479,6 +489,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'street-fighter-6',
     slug: 'street-fighter-6',
+    playstationSlug: 'street-fighter-6',
     steamAppId: 1364780,
     title: 'Street Fighter 6',
     year: 2023,

@@ -10,6 +10,8 @@ import { PRICES, PRICE_SNAPSHOT } from '@/data/prices.ts';
  */
 
 export interface GamePrice {
+  /** 'Steam' | 'PlayStation' | 'Nintendo' … */
+  store: string;
   /** Current price, in the currency's minor unit. */
   final: number;
   /** Price before any discount. Equal to `final` when not on sale. */
@@ -21,31 +23,48 @@ export interface GamePrice {
   asOf: string;
 }
 
-export function priceFor(slug: string): GamePrice | null {
-  const row = PRICES[slug];
-  if (!row) return null;
-  const [final, original, discount, currency] = row;
-  return {
+/**
+ * Every store this game has a price on, in a stable display order.
+ *
+ * A cross-platform game genuinely costs different amounts on different stores,
+ * so showing one number would hide that a Switch owner pays something else.
+ */
+export function pricesFor(slug: string): GamePrice[] {
+  const rows = PRICES[slug];
+  if (!rows?.length) return [];
+  return rows.map(([store, final, original, discount, currency]) => ({
+    store,
     final,
     original,
     discount,
-    // Absent means "same as the snapshot" — see the note in prices.ts.
-    currency: currency ?? PRICE_SNAPSHOT.currency,
+    currency,
     asOf: PRICE_SNAPSHOT.fetchedAt,
-  };
+  }));
+}
+
+/** The headline price — the store the reader is most likely to buy on. */
+export function priceFor(slug: string): GamePrice | null {
+  return pricesFor(slug)[0] ?? null;
+}
+
+/** The best discount across all stores, for the card badge. */
+export function bestDiscount(slug: string): number {
+  return pricesFor(slug).reduce((best, p) => Math.max(best, p.discount), 0);
 }
 
 /**
  * Approximate the snapshot currency for a price quoted in another one.
  *
- * Nintendo and PlayStation only publish USD, so a Malaysian reader would
- * otherwise have to do the sum themselves — which is exactly the click this
- * feature exists to remove. Returns null when no rate was captured, so the UI
- * shows the real USD figure alone rather than inventing a number.
+ * Nintendo publishes USD only, so a Malaysian reader would otherwise have to do
+ * the sum themselves — which is the click this feature exists to remove.
+ * Returns null when no rate was captured, so the UI shows the real figure alone
+ * rather than inventing a number.
  *
- * Deliberately approximate: the regional eShop price is set by Nintendo and is
- * usually *not* the converted US price, so this is a rough guide and the UI
- * marks it with ≈.
+ * Deliberately approximate, and the UI marks it with ≈: a regional store sets
+ * its own price and it is often not the converted one. PlayStation Malaysia
+ * charges RM 99 for Shadow of the Colossus where the converted US price is
+ * RM 81.71 — which is exactly why PlayStation is now fetched per-region and
+ * only Nintendo still needs converting.
  */
 export function approxInSnapshotCurrency(price: GamePrice): number | null {
   if (price.currency === PRICE_SNAPSHOT.currency) return null;
@@ -64,7 +83,7 @@ export function formatPrice(amount: number, currency: string): string {
   try {
     // Format for the currency's own home locale, not the reader's. Malaysian
     // prices should read "RM 72"; the reader's locale would render the same
-    // figure as "MYR 72.00", which looks vaguer than what Steam actually shows.
+    // figure as "MYR 72.00", which looks vaguer than what the store shows.
     const locale = currency === PRICE_SNAPSHOT.currency ? `en-${PRICE_SNAPSHOT.region}` : 'en-US';
     return new Intl.NumberFormat(locale, {
       style: 'currency',
