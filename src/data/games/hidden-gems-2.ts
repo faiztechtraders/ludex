@@ -34,7 +34,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Puzzles solved by actually reading pages, not clicking hotspots',
     ],
     similar: ['norco', 'papers-please', 'immortality'],
-    art: { accent: '#3ac9c9', shots: ['44f6eede111648bf9db886631307533c85a3fdee', 'c2442b662cc73aa023284b4f713318c7aeb6be66', '2e8e4e5b56f95805856360d7f645ad162d53b37e', '2e65297fc331e9f75209b4ff1328dbee102a9a07'] },
+    art: { accent: '#3ac9c9', shots: ['ss_44f6eede111648bf9db886631307533c85a3fdee.1920x1080.jpg', 'ss_c2442b662cc73aa023284b4f713318c7aeb6be66.1920x1080.jpg', 'ss_2e8e4e5b56f95805856360d7f645ad162d53b37e.1920x1080.jpg', 'ss_2e65297fc331e9f75209b4ff1328dbee102a9a07.1920x1080.jpg'] },
   },
   {
     id: 'heavens-vault',
@@ -61,7 +61,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'A real sense of scholarship rather than puzzle-solving',
     ],
     similar: ['chants-of-sennaar', 'outer-wilds', 'return-of-the-obra-dinn'],
-    art: { accent: '#c98a5a', shots: ['48675af862282e17122a978c938d45fcf0513f67', '09cf5bfbf83dd563fc24491eca9baade0da2a0c5', '2972cfcc72f53db9241773466f13d0601b3856d2', '6ff3c8f989b1e476eb11722d177490dca77c62c5'] },
+    art: { accent: '#c98a5a', shots: ['ss_48675af862282e17122a978c938d45fcf0513f67.1920x1080.jpg', 'ss_09cf5bfbf83dd563fc24491eca9baade0da2a0c5.1920x1080.jpg', 'ss_2972cfcc72f53db9241773466f13d0601b3856d2.1920x1080.jpg', 'ss_6ff3c8f989b1e476eb11722d177490dca77c62c5.1920x1080.jpg'] },
   },
   {
     id: 'overboard',
@@ -88,7 +88,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Delightfully arch and very well written',
     ],
     similar: ['the-case-of-the-golden-idol', 'paradise-killer', 'return-of-the-obra-dinn'],
-    art: { accent: '#c93a5a', shots: ['cd060d7a463f78e707173e18370f54adb55ef181', '6624a85fa17a278fe06f1dd888e04cf5e4e4dcfd', 'c9a97a87c917fa41097531fffd191f3c85d5866d', '948f56f630815003b8dccafec20fa9ebc359c2f0'] },
+    art: { accent: '#c93a5a', shots: ['ss_cd060d7a463f78e707173e18370f54adb55ef181.1920x1080.jpg', 'ss_6624a85fa17a278fe06f1dd888e04cf5e4e4dcfd.1920x1080.jpg', 'ss_c9a97a87c917fa41097531fffd191f3c85d5866d.1920x1080.jpg', 'ss_948f56f630815003b8dccafec20fa9ebc359c2f0.1920x1080.jpg'] },
   },
   {
     id: 'in-other-waters',
@@ -115,7 +115,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'You never see the ocean, and you can picture it perfectly',
     ],
     similar: ['citizen-sleeper', 'subnautica', 'sable'],
-    art: { accent: '#3ac9a8', shots: ['56ac5fbdc110728334815853f14cbc5d8892eb58', '7634cc261c8b4fbd63ede481d699a890b9d5eedb', 'b865830914b1ad6b0ec62ec672cc644f2116f8df', '4e4fd3702b9c2565faedf42fcdf16add7293356e'] },
+    art: { accent: '#3ac9a8', shots: ['ss_56ac5fbdc110728334815853f14cbc5d8892eb58.1920x1080.jpg', 'ss_7634cc261c8b4fbd63ede481d699a890b9d5eedb.1920x1080.jpg', 'ss_b865830914b1ad6b0ec62ec672cc644f2116f8df.1920x1080.jpg', 'ss_4e4fd3702b9c2565faedf42fcdf16add7293356e.1920x1080.jpg'] },
   },
   {
     id: 'eastward',
@@ -142,7 +142,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'A full cooking system that actually matters',
     ],
     similar: ['undertale', 'sea-of-stars', 'moon-remix-rpg'],
-    art: { accent: '#e0a03a', shots: ['5d50545b49db3a8502666b4195d2fabd0e31a29d', 'b3512f7576dbdd1e35dd3fb27a04f29174efb00d', '2c7516dbcfba035a359a2eb7257356809a3f5eaa', 'ddd76431b1df70e234494c92370e2391680c98ef'] },
+    art: { accent: '#e0a03a', shots: ['ss_5d50545b49db3a8502666b4195d2fabd0e31a29d.1920x1080.jpg', 'ss_b3512f7576dbdd1e35dd3fb27a04f29174efb00d.1920x1080.jpg', 'ss_2c7516dbcfba035a359a2eb7257356809a3f5eaa.1920x1080.jpg', 'ss_ddd76431b1df70e234494c92370e2391680c98ef.1920x1080.jpg'] },
   },
   {
     id: 'wandersong',
@@ -169,7 +169,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'A quiet argument against the chosen-one story',
     ],
     similar: ['chicory-a-colorful-tale', 'undertale', 'a-short-hike'],
-    art: { accent: '#e0c93a', shots: ['eb7c3d7a2485586dfe0402550fd5524a2836914f', '1ccb5bdd2cfc8ffce9af0b9c1ea7d4f5a63bdfb6', 'a03e759ec21f4ead60baaf518a6bcd2811f78508', '1bb1f7e78972168322146fba10a5eaf13000536e'] },
+    art: { accent: '#e0c93a', shots: ['ss_eb7c3d7a2485586dfe0402550fd5524a2836914f.1920x1080.jpg', 'ss_1ccb5bdd2cfc8ffce9af0b9c1ea7d4f5a63bdfb6.1920x1080.jpg', 'ss_a03e759ec21f4ead60baaf518a6bcd2811f78508.1920x1080.jpg', 'ss_1bb1f7e78972168322146fba10a5eaf13000536e.1920x1080.jpg'] },
   },
   {
     id: 'chicory-a-colorful-tale',
@@ -196,7 +196,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'A second player can drop in to paint alongside you',
     ],
     similar: ['wandersong', 'a-short-hike', 'gris'],
-    art: { accent: '#e0b03a', shots: ['2f643ac851b504a1c10e0b6f1cfdc3089707ab55', '1f16a64698124ab065ed1fdd7cc0ea23511f3791', '9e46f9eaaf395c41aacba63a739670abd9255c7d', '119ef0155a50538c028669a625aabc939dc6e30c'] },
+    art: { accent: '#e0b03a', shots: ['ss_2f643ac851b504a1c10e0b6f1cfdc3089707ab55.1920x1080.jpg', 'ss_1f16a64698124ab065ed1fdd7cc0ea23511f3791.1920x1080.jpg', 'ss_9e46f9eaaf395c41aacba63a739670abd9255c7d.1920x1080.jpg', 'ss_119ef0155a50538c028669a625aabc939dc6e30c.1920x1080.jpg'] },
   },
   {
     id: 'kentucky-route-zero',
@@ -223,7 +223,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'One of the most formally ambitious games ever released',
     ],
     similar: ['norco', 'disco-elysium', 'pentiment'],
-    art: { accent: '#3a5ac9', shots: ['86f61b9478c321fd10ab4b8a75c92111138da563', '55f0b4aab1ddce50a64a702edc845d0679fce824', '7646b7187875432c8fe7e2ae0dc81a613f9d7d94', '8cc6721b011327f320be698ebd3997a373f8df57'] },
+    art: { accent: '#3a5ac9', shots: ['ss_86f61b9478c321fd10ab4b8a75c92111138da563.1920x1080.jpg', 'ss_55f0b4aab1ddce50a64a702edc845d0679fce824.1920x1080.jpg', 'ss_7646b7187875432c8fe7e2ae0dc81a613f9d7d94.1920x1080.jpg', 'ss_8cc6721b011327f320be698ebd3997a373f8df57.1920x1080.jpg'] },
   },
   {
     id: 'sunless-sea',
@@ -249,7 +249,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Death is expected; your captain leaves a legacy',
     ],
     similar: ['citizen-sleeper', 'darkest-dungeon', 'dredge'],
-    art: { accent: '#3a6a8a', shots: ['ae2b617e2ca6d55caeb38e833f1f15000d57e5d7', '8969a7855d1d5c73d01e9798f702cfe4ee7902fc', '8306631f4ab9919756b346f8a48b1d35ef29a8d4', '62af66925a80b87773b3dc613f14ae0019af6b93'] },
+    art: { accent: '#3a6a8a', shots: ['ss_ae2b617e2ca6d55caeb38e833f1f15000d57e5d7.1920x1080.jpg', 'ss_8969a7855d1d5c73d01e9798f702cfe4ee7902fc.1920x1080.jpg', 'ss_8306631f4ab9919756b346f8a48b1d35ef29a8d4.1920x1080.jpg', 'ss_62af66925a80b87773b3dc613f14ae0019af6b93.1920x1080.jpg'] },
   },
   {
     id: 'gorogoa',
@@ -276,7 +276,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Two hours, and unlike anything else you have played',
     ],
     similar: ['cocoon', 'the-case-of-the-golden-idol', 'unpacking'],
-    art: { accent: '#c98a4a', shots: ['9493c2549394df3f4675078b1f6eab9f4d82d3bd', 'ae5c2e784e2fab9b8512dd31b7e31300cf3241a6', 'aa212d776cb3cd25316b3932c218c08f4843f4dd', 'a2c2926eaf4b50ef6a329f3964d2ef2ea39f54d9'] },
+    art: { accent: '#c98a4a', shots: ['ss_9493c2549394df3f4675078b1f6eab9f4d82d3bd.1920x1080.jpg', 'ss_ae5c2e784e2fab9b8512dd31b7e31300cf3241a6.1920x1080.jpg', 'ss_aa212d776cb3cd25316b3932c218c08f4843f4dd.1920x1080.jpg', 'ss_a2c2926eaf4b50ef6a329f3964d2ef2ea39f54d9.1920x1080.jpg'] },
   },
   {
     id: 'opus-magnum',
@@ -302,7 +302,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Exports your machines as GIFs, which is the actual endgame',
     ],
     similar: ['factorio', 'shenzhen-io', 'into-the-breach'],
-    art: { accent: '#c9a03a', shots: ['e54f24ab7b2bebaee812be7e46e907ccc6323643', 'e395f88a023ad623f64a622d343eee17e1e6ea9d', '0e35cab840c52b9d39b988d0b0c96b8fe9117264', '92c30b0f0d8737cfe8c0b70364bbb3712e2bdd43'] },
+    art: { accent: '#c9a03a', shots: ['ss_e54f24ab7b2bebaee812be7e46e907ccc6323643.1920x1080.jpg', 'ss_e395f88a023ad623f64a622d343eee17e1e6ea9d.1920x1080.jpg', 'ss_0e35cab840c52b9d39b988d0b0c96b8fe9117264.1920x1080.jpg', 'ss_92c30b0f0d8737cfe8c0b70364bbb3712e2bdd43.1920x1080.jpg'] },
   },
   {
     id: 'shenzhen-io',
@@ -328,7 +328,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Includes a full solitaire game as a break from the work',
     ],
     similar: ['opus-magnum', 'factorio', 'baba-is-you'],
-    art: { accent: '#5ac96a', shots: ['f82dbe324f90188e80c1b576735b11d0470aa599', 'f32d4d5ee3cba2519041436e325f304044302687', '6453fda807249663ee2da607b378f9afd29240d5', 'f115cbf2ac40510b14071482271f8da918271856'] },
+    art: { accent: '#5ac96a', shots: ['ss_f82dbe324f90188e80c1b576735b11d0470aa599.1920x1080.jpg', 'ss_f32d4d5ee3cba2519041436e325f304044302687.1920x1080.jpg', 'ss_6453fda807249663ee2da607b378f9afd29240d5.1920x1080.jpg', 'ss_f115cbf2ac40510b14071482271f8da918271856.1920x1080.jpg'] },
   },
   {
     id: 'patricks-parabox',
@@ -355,7 +355,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Will break your brain in the good way',
     ],
     similar: ['baba-is-you', 'void-stranger', 'the-witness'],
-    art: { accent: '#e07a3a', shots: ['fc9994b3d063276aaaeacbc86c6d740dabeebdc0', '0b19edb1240691a90ac5ec0b47391c605ce05f8a', 'c7326d5f22aa95fd47ab08be5a2241a1425f0642', 'ac61cbb0165921ab91eb36f0dbbdf85b6d70bd36'] },
+    art: { accent: '#e07a3a', shots: ['ss_fc9994b3d063276aaaeacbc86c6d740dabeebdc0.1920x1080.jpg', 'ss_0b19edb1240691a90ac5ec0b47391c605ce05f8a.1920x1080.jpg', 'ss_c7326d5f22aa95fd47ab08be5a2241a1425f0642.1920x1080.jpg', 'ss_ac61cbb0165921ab91eb36f0dbbdf85b6d70bd36.1920x1080.jpg'] },
   },
   {
     id: 'superliminal',
@@ -382,7 +382,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Dreamlike in a way that occasionally turns unnerving',
     ],
     similar: ['portal-2', 'the-witness', 'superhot'],
-    art: { accent: '#3a9fc9', shots: ['ec116fe04a78f76212934c3aa20bf8b38681683d', '4a2b446656c93cd3575acc42650ffb79723b020d', '55546194e5a1c244be30b31ebc75a311d1b52756', '8f0ce3f7da9830c8398e13435599c69068877ce8'] },
+    art: { accent: '#3a9fc9', shots: ['ss_ec116fe04a78f76212934c3aa20bf8b38681683d.1920x1080.jpg', 'ss_4a2b446656c93cd3575acc42650ffb79723b020d.1920x1080.jpg', 'ss_55546194e5a1c244be30b31ebc75a311d1b52756.1920x1080.jpg', 'ss_8f0ce3f7da9830c8398e13435599c69068877ce8.1920x1080.jpg'] },
   },
   {
     id: 'manifold-garden',
@@ -409,7 +409,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Serene rather than stressful, despite the difficulty',
     ],
     similar: ['the-witness', 'superliminal', 'cocoon'],
-    art: { accent: '#e0d13a', shots: ['1b3cb13f0969b365821a884f0be6c8f616061385', '7751cdc646a4a596d3e568fc6cce5fda1334f152', '44e2f962e262a5773c6ffe2ba69dc96843171b47', '3e156148e13921611c3715a57dc6e3d72355fc2a'] },
+    art: { accent: '#e0d13a', shots: ['ss_1b3cb13f0969b365821a884f0be6c8f616061385.1920x1080.jpg', 'ss_7751cdc646a4a596d3e568fc6cce5fda1334f152.1920x1080.jpg', 'ss_44e2f962e262a5773c6ffe2ba69dc96843171b47.1920x1080.jpg', 'ss_3e156148e13921611c3715a57dc6e3d72355fc2a.1920x1080.jpg'] },
   },
   {
     id: 'islanders',
@@ -436,7 +436,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Genuinely relaxing — no timers anywhere',
     ],
     similar: ['dorfromantik', 'powerwash-simulator', 'unpacking'],
-    art: { accent: '#5ac9a8', shots: ['8c62b14de6d60916ff35a50000596bff79fadd71', 'e0d7d61fffc5c216a044bc44775bf5a05252bfd9', '0c343e4041966c8bf1584297b7c29b3cc0af7ebb', 'd586e1096a9fa1a790066b513286b20e671e681c'] },
+    art: { accent: '#5ac9a8', shots: ['ss_8c62b14de6d60916ff35a50000596bff79fadd71.1920x1080.jpg', 'ss_e0d7d61fffc5c216a044bc44775bf5a05252bfd9.1920x1080.jpg', 'ss_0c343e4041966c8bf1584297b7c29b3cc0af7ebb.1920x1080.jpg', 'ss_d586e1096a9fa1a790066b513286b20e671e681c.1920x1080.jpg'] },
   },
   {
     id: 'toem',
@@ -463,7 +463,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'The definition of a comfort game',
     ],
     similar: ['a-short-hike', 'unpacking', 'chicory-a-colorful-tale'],
-    art: { accent: '#c9c9c9', shots: ['452053e6976add5d6690c6f5dc227d3fd4bda26d', '3c5c560a2627d6d35f69a138ec3159517c662e44', '88ec5d56ccceb942d8baa5f56481d254db78c398', 'dfeeaf5b6eb5d45930fc931edf83d450841e0c82'] },
+    art: { accent: '#c9c9c9', shots: ['ss_452053e6976add5d6690c6f5dc227d3fd4bda26d.1920x1080.jpg', 'ss_3c5c560a2627d6d35f69a138ec3159517c662e44.1920x1080.jpg', 'ss_88ec5d56ccceb942d8baa5f56481d254db78c398.1920x1080.jpg', 'ss_dfeeaf5b6eb5d45930fc931edf83d450841e0c82.1920x1080.jpg'] },
   },
   {
     id: 'strange-horticulture',
@@ -490,7 +490,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'You can pet the cat, and you will',
     ],
     similar: ['the-case-of-the-golden-idol', 'dredge', 'return-of-the-obra-dinn'],
-    art: { accent: '#5a8a4a', shots: ['bdf4e7e6ab970f19c95ae96896e9457a95dbdf65', '5cdbae50e4a7a86a1e4a6b462bafba22779dfc1b', '741db5d7020d737ea8aba278e95f7111d7ca8f6e', 'd84ae4b75c238d5664a3bd4edfd74b0b687a1ce8'] },
+    art: { accent: '#5a8a4a', shots: ['ss_bdf4e7e6ab970f19c95ae96896e9457a95dbdf65.1920x1080.jpg', 'ss_5cdbae50e4a7a86a1e4a6b462bafba22779dfc1b.1920x1080.jpg', 'ss_741db5d7020d737ea8aba278e95f7111d7ca8f6e.1920x1080.jpg', 'ss_d84ae4b75c238d5664a3bd4edfd74b0b687a1ce8.1920x1080.jpg'] },
   },
   {
     id: 'slay-the-princess',
@@ -518,7 +518,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Charcoal-sketch art that shifts with the story',
     ],
     similar: ['inscryption', 'immortality', 'mouthwashing'],
-    art: { accent: '#c93a4a', shots: ['5262a1ed60b5f1f8419f0c0be3dafa92a7167eba', 'd48a0403c8ce84a614120fa419109151f166fb40', '9d91e5ccfe3f0ee5484054d7b535d4a3209e3c0e', 'a21403e66530a55daf306332893ce6cfa3c76948'] },
+    art: { accent: '#c93a4a', shots: ['ss_5262a1ed60b5f1f8419f0c0be3dafa92a7167eba.1920x1080.jpg', 'ss_d48a0403c8ce84a614120fa419109151f166fb40.1920x1080.jpg', 'ss_9d91e5ccfe3f0ee5484054d7b535d4a3209e3c0e.1920x1080.jpg', 'ss_a21403e66530a55daf306332893ce6cfa3c76948.1920x1080.jpg'] },
   },
   {
     id: 'mouthwashing',
@@ -545,7 +545,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Short, and you will not want it longer',
     ],
     similar: ['signalis', 'iron-lung', 'slay-the-princess'],
-    art: { accent: '#c96a3a', shots: ['d582f6e384652c1a05fb6e928ab6557b0abba1b3', 'ec922c5769acb9986aa009e41b71ecdcd51e484f', 'bf9f8aeca93daffa7a4493d9af8ffc4524cada74', 'fc1d15989f3d8ef8c6493881bb68dd284defa0cb'] },
+    art: { accent: '#c96a3a', shots: ['ss_d582f6e384652c1a05fb6e928ab6557b0abba1b3.1920x1080.jpg', 'ss_ec922c5769acb9986aa009e41b71ecdcd51e484f.1920x1080.jpg', 'ss_bf9f8aeca93daffa7a4493d9af8ffc4524cada74.1920x1080.jpg', 'ss_fc1d15989f3d8ef8c6493881bb68dd284defa0cb.1920x1080.jpg'] },
   },
   {
     id: 'iron-lung',
@@ -572,7 +572,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Costs almost nothing',
     ],
     similar: ['mouthwashing', 'signalis', 'in-other-waters'],
-    art: { accent: '#8a2a2a', shots: ['8f6028d45627c23f4818e881860aec6ef029fbbf', '1c62a35a9022be7973eacaa117f6c5b4a37d71d1', '88dfadc6433914520fa9b48c91260bd5a1251c27', '2356416dc8749fb2ec956e83b7b714dab974b69a'] },
+    art: { accent: '#8a2a2a', shots: ['ss_8f6028d45627c23f4818e881860aec6ef029fbbf.1920x1080.jpg', 'ss_1c62a35a9022be7973eacaa117f6c5b4a37d71d1.1920x1080.jpg', 'ss_88dfadc6433914520fa9b48c91260bd5a1251c27.1920x1080.jpg', 'ss_2356416dc8749fb2ec956e83b7b714dab974b69a.1920x1080.jpg'] },
   },
   {
     id: 'pathologic-2',
@@ -598,7 +598,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'The most uncompromising game on this list',
     ],
     similar: ['darkest-dungeon', 'rain-world', 'signalis'],
-    art: { accent: '#8a7a3a', shots: ['311a12f71b4530981ba89c32769ebe7bf02f557c', '072c820ef96365d9f333f7e67be4ba660186bf54', '36c8652875ccb554ef54f86111712d7a74c28881', 'bc3a6f6fe79fe5999f58d2fd624af02b6c1a98ad'] },
+    art: { accent: '#8a7a3a', shots: ['ss_311a12f71b4530981ba89c32769ebe7bf02f557c.1920x1080.jpg', 'ss_072c820ef96365d9f333f7e67be4ba660186bf54.1920x1080.jpg', 'ss_36c8652875ccb554ef54f86111712d7a74c28881.1920x1080.jpg', 'ss_bc3a6f6fe79fe5999f58d2fd624af02b6c1a98ad.1920x1080.jpg'] },
   },
   {
     id: 'mundaun',
@@ -625,7 +625,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Quietly eerie rather than loud',
     ],
     similar: ['strange-horticulture', 'signalis', 'norco'],
-    art: { accent: '#a89a7a', shots: ['e7c6c199840dec742268b440c6be7edc2fb89ebe', '5774da5e43e87318ac482eb6096511926068fc21', 'db7db1922bee1d8f8e291454cd3e022c90dd19a5', '82c3e76e434aabeab5c7983441494e4cba7ca6d2'] },
+    art: { accent: '#a89a7a', shots: ['ss_e7c6c199840dec742268b440c6be7edc2fb89ebe.1920x1080.jpg', 'ss_5774da5e43e87318ac482eb6096511926068fc21.1920x1080.jpg', 'ss_db7db1922bee1d8f8e291454cd3e022c90dd19a5.1920x1080.jpg', 'ss_82c3e76e434aabeab5c7983441494e4cba7ca6d2.1920x1080.jpg'] },
   },
   {
     id: 'the-excavation-of-hobs-barrow',
@@ -652,7 +652,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'The final act is genuinely upsetting',
     ],
     similar: ['strange-horticulture', 'mundaun', 'norco'],
-    art: { accent: '#8a6a3a', shots: ['1cbde44706c0f43e70dfa9470e7eae637a3997ce', 'e2c110ce7b194b07ae1f87ff63d3f4940ff07b57', '831c707acda02342342596916de5c245b23cbf98', '20ccd173329bf905f3b575101063af77a329d5be'] },
+    art: { accent: '#8a6a3a', shots: ['ss_1cbde44706c0f43e70dfa9470e7eae637a3997ce.1920x1080.jpg', 'ss_e2c110ce7b194b07ae1f87ff63d3f4940ff07b57.1920x1080.jpg', 'ss_831c707acda02342342596916de5c245b23cbf98.1920x1080.jpg', 'ss_20ccd173329bf905f3b575101063af77a329d5be.1920x1080.jpg'] },
   },
   {
     id: 'genesis-noir',
@@ -679,7 +679,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'More art piece than game, and honest about that',
     ],
     similar: ['gorogoa', 'gris', 'kentucky-route-zero'],
-    art: { accent: '#e0a03a', shots: ['11d445b0e6014d4903876bf61e1859ae86ee4184', '4aa381ea727f973115f18f4aa544ff53b85471bd', '9cebd7e389311f8bc20114b7edf301340434e052', '9ca8e7e14fd65c8d8f2f2b8ec003f6557b8d70c4'] },
+    art: { accent: '#e0a03a', shots: ['ss_11d445b0e6014d4903876bf61e1859ae86ee4184.1920x1080.jpg', 'ss_4aa381ea727f973115f18f4aa544ff53b85471bd.1920x1080.jpg', 'ss_9cebd7e389311f8bc20114b7edf301340434e052.1920x1080.jpg', 'ss_9ca8e7e14fd65c8d8f2f2b8ec003f6557b8d70c4.1920x1080.jpg'] },
   },
   {
     id: 'sludge-life',
@@ -706,7 +706,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Has real, specific attitude, which is rarer than it should be',
     ],
     similar: ['bomb-rush-cyberfunk', 'hypnospace-outlaw', 'norco'],
-    art: { accent: '#8ac93a', shots: ['99ea66621410745364df4a5d4429f1df07914ccc', 'eeefe093cf8f8db5e05f95a5f7c87b14dabaa897', 'e4b9d6ed64d447541db37e94e3c4f52e7bf06f6b', '8958014a5b8ddd3069e35d5870f5e77bcebd50f9'] },
+    art: { accent: '#8ac93a', shots: ['ss_99ea66621410745364df4a5d4429f1df07914ccc.1920x1080.jpg', 'ss_eeefe093cf8f8db5e05f95a5f7c87b14dabaa897.1920x1080.jpg', 'ss_e4b9d6ed64d447541db37e94e3c4f52e7bf06f6b.1920x1080.jpg', 'ss_8958014a5b8ddd3069e35d5870f5e77bcebd50f9.1920x1080.jpg'] },
   },
   {
     id: 'umurangi-generation',
@@ -733,7 +733,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Political in a way games almost never risk',
     ],
     similar: ['toem', 'norco', 'sludge-life'],
-    art: { accent: '#3ac9a0', shots: ['533f5b67b93d74949d84382ca17e4780d23f64d6', 'a151e471dcc611d9569ee6dd2bbbf11acc13cf39', '3d28de03281ca5c9b0e606c1f0f5ffe472ef5a24', '0f17be3491293ade9b1ffbb91b83ce62aeb7a05a'] },
+    art: { accent: '#3ac9a0', shots: ['ss_533f5b67b93d74949d84382ca17e4780d23f64d6.1920x1080.jpg', 'ss_a151e471dcc611d9569ee6dd2bbbf11acc13cf39.1920x1080.jpg', 'ss_3d28de03281ca5c9b0e606c1f0f5ffe472ef5a24.1920x1080.jpg', 'ss_0f17be3491293ade9b1ffbb91b83ce62aeb7a05a.1920x1080.jpg'] },
   },
   {
     id: 'rollerdrome',
@@ -759,7 +759,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Short arenas that reward endless replaying for score',
     ],
     similar: ['olliolli-world', 'neon-white', 'ultrakill'],
-    art: { accent: '#e0703a', shots: ['ed2d4c6f0fcdeb3fdc7828a2a341c469bd09e87b', '841c91627d59ab788a8457da025ee807b91d1e10', 'd13fe5b6c2c5684cf80c9b3f8259f8a80e1308bc', '5e9685e863b9f764e275adb0ce80d22f7603ac0a'] },
+    art: { accent: '#e0703a', shots: ['ss_ed2d4c6f0fcdeb3fdc7828a2a341c469bd09e87b.1920x1080.jpg', 'ss_841c91627d59ab788a8457da025ee807b91d1e10.1920x1080.jpg', 'ss_d13fe5b6c2c5684cf80c9b3f8259f8a80e1308bc.1920x1080.jpg', 'ss_5e9685e863b9f764e275adb0ce80d22f7603ac0a.1920x1080.jpg'] },
   },
   {
     id: 'dicey-dungeons',
@@ -786,7 +786,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Chipzel soundtrack, as with VVVVVV',
     ],
     similar: ['slay-the-spire', 'balatro', 'wildfrost'],
-    art: { accent: '#e03a8a', shots: ['34c9e63f73c668bcde5dd4671e944c09e1c169b5', 'b61fb9b76ab03bdea062e7415001a9fd61e64f3f', 'ff6462111212aa9618405e30db7f7229f31e46ba', '9ea62a96346f2c6806cde6c5a1c80e3dedb5d0e3'] },
+    art: { accent: '#e03a8a', shots: ['ss_34c9e63f73c668bcde5dd4671e944c09e1c169b5.1920x1080.jpg', 'ss_b61fb9b76ab03bdea062e7415001a9fd61e64f3f.1920x1080.jpg', 'ss_ff6462111212aa9618405e30db7f7229f31e46ba.1920x1080.jpg', 'ss_9ea62a96346f2c6806cde6c5a1c80e3dedb5d0e3.1920x1080.jpg'] },
   },
   {
     id: 'wildfrost',
@@ -813,7 +813,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Beautiful, tactile card art',
     ],
     similar: ['slay-the-spire', 'dicey-dungeons', 'balatro'],
-    art: { accent: '#5ac9e0', shots: ['d7ed2146d858a0abd02a8256befe264328595537', '81c4f6108af5679782590dfbce1a3f948069d27b', '099d1276c899b5d6813bb2fd354fe1f0c9dbe789', 'b749d8c76c55e060e44b7db56dfedc615333035f'] },
+    art: { accent: '#5ac9e0', shots: ['ss_d7ed2146d858a0abd02a8256befe264328595537.1920x1080.jpg', 'ss_81c4f6108af5679782590dfbce1a3f948069d27b.1920x1080.jpg', 'ss_099d1276c899b5d6813bb2fd354fe1f0c9dbe789.1920x1080.jpg', 'ss_b749d8c76c55e060e44b7db56dfedc615333035f.1920x1080.jpg'] },
   },
   {
     id: 'cobalt-core',
@@ -840,7 +840,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Runs are forty minutes and always different',
     ],
     similar: ['slay-the-spire', 'into-the-breach', 'ftl-faster-than-light'],
-    art: { accent: '#3a8fe0', shots: ['61d8442fc974476e7d4f5d521cb61a577995315f', '9accfa526e235a4a5ee331969f8a315cb67bb94f', '62a984c6b1eddb3316ce648981f0a3527702d345', '6087eccadbec96d9dbebe2d2f7a08af80c73fd1c'] },
+    art: { accent: '#3a8fe0', shots: ['ss_61d8442fc974476e7d4f5d521cb61a577995315f.1920x1080.jpg', 'ss_9accfa526e235a4a5ee331969f8a315cb67bb94f.1920x1080.jpg', 'ss_62a984c6b1eddb3316ce648981f0a3527702d345.1920x1080.jpg', 'ss_6087eccadbec96d9dbebe2d2f7a08af80c73fd1c.1920x1080.jpg'] },
   },
   {
     id: 'suzerain',
@@ -894,7 +894,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Time pressure makes every detour a genuine cost',
     ],
     similar: ['citizen-sleeper', 'suzerain', 'sunless-sea'],
-    art: { accent: '#8a6a4a', shots: ['69b9728311fca16893c916d49230824ab05ff390', 'ea20ca59e6c57abea7e3f72a50a40772e98000bf', '3f7b5544f9970070f6fae15bb940d21416484cef', '999eb09c051e59b3802f95eecca0eaa75d4519a4'] },
+    art: { accent: '#8a6a4a', shots: ['ss_69b9728311fca16893c916d49230824ab05ff390.1920x1080.jpg', 'ss_ea20ca59e6c57abea7e3f72a50a40772e98000bf.1920x1080.jpg', 'ss_3f7b5544f9970070f6fae15bb940d21416484cef.1920x1080.jpg', 'ss_999eb09c051e59b3802f95eecca0eaa75d4519a4.1920x1080.jpg'] },
   },
   {
     id: 'fights-in-tight-spaces',
@@ -921,7 +921,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Clean minimal art that keeps the board readable',
     ],
     similar: ['into-the-breach', 'slay-the-spire', 'sifu'],
-    art: { accent: '#e03a3a', shots: ['0ea5ac7cbe02ce5bef48ee1cd61a99f3cbeff6d3', 'b1f510921036ae014ee37db203a8148d1bcadd01', '492ef9a177e2b3beb0d4c51ba899b37e939c0a61', '58d7a50732315f8b0d7a0a929a7bc331e708b15d'] },
+    art: { accent: '#e03a3a', shots: ['ss_0ea5ac7cbe02ce5bef48ee1cd61a99f3cbeff6d3.1920x1080.jpg', 'ss_b1f510921036ae014ee37db203a8148d1bcadd01.1920x1080.jpg', 'ss_492ef9a177e2b3beb0d4c51ba899b37e939c0a61.1920x1080.jpg', 'ss_58d7a50732315f8b0d7a0a929a7bc331e708b15d.1920x1080.jpg'] },
   },
   {
     id: 'citizen-sleeper-2',
@@ -948,7 +948,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Still the best writing about work in games',
     ],
     similar: ['citizen-sleeper', 'roadwarden', 'suzerain'],
-    art: { accent: '#3ac9c0', shots: ['859c7899bb0395bce013043b96af878966847a7d', '6c1ca7e48af414d17ef78567aa64b694ae53b011', 'dec2a941a6072a82ec7256bb7a827cd0c8b763e7', '9c422460222eca604bc9b75f40d3cbbe516bd5e5'] },
+    art: { accent: '#3ac9c0', shots: ['ss_859c7899bb0395bce013043b96af878966847a7d.1920x1080.jpg', 'ss_6c1ca7e48af414d17ef78567aa64b694ae53b011.1920x1080.jpg', 'ss_dec2a941a6072a82ec7256bb7a827cd0c8b763e7.1920x1080.jpg', 'ss_9c422460222eca604bc9b75f40d3cbbe516bd5e5.1920x1080.jpg'] },
   },
   {
     id: 'pseudoregalia',
@@ -975,7 +975,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Made by one person; costs almost nothing',
     ],
     similar: ['animal-well', 'tunic', 'metroid-dread'],
-    art: { accent: '#a85ac9', shots: ['f42949407a371eab4cdb2d971e04b0bb38511950', 'b5583b1ebcc000241d03b75066787804aab85772', '93f3f0e60556d05568eac90b88e345110ede8630', 'd53bdc1bab60706fb9f27f9d0e86784da7e52eaf'] },
+    art: { accent: '#a85ac9', shots: ['ss_f42949407a371eab4cdb2d971e04b0bb38511950.1920x1080.jpg', 'ss_b5583b1ebcc000241d03b75066787804aab85772.1920x1080.jpg', 'ss_93f3f0e60556d05568eac90b88e345110ede8630.1920x1080.jpg', 'ss_d53bdc1bab60706fb9f27f9d0e86784da7e52eaf.1920x1080.jpg'] },
   },
   {
     id: 'a-monsters-expedition',
@@ -1002,7 +1002,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Far bigger than it looks; the campaign is huge',
     ],
     similar: ['patricks-parabox', 'baba-is-you', 'islanders'],
-    art: { accent: '#5ac96a', shots: ['63731ffd4a9659b88021a354ffd675676b30099e', '0afd2fe1e7f29bc8016f24c01fb0ee48c9d769b6', 'ae51cff26969456b2b91d9ac2da74fe19848bed9', 'c952ba48db32d00a6e5a17aec4baf5a6d256e806'] },
+    art: { accent: '#5ac96a', shots: ['ss_63731ffd4a9659b88021a354ffd675676b30099e.1920x1080.jpg', 'ss_0afd2fe1e7f29bc8016f24c01fb0ee48c9d769b6.1920x1080.jpg', 'ss_ae51cff26969456b2b91d9ac2da74fe19848bed9.1920x1080.jpg', 'ss_c952ba48db32d00a6e5a17aec4baf5a6d256e806.1920x1080.jpg'] },
   },
   {
     id: 'storyteller',
@@ -1029,7 +1029,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Genuinely delightful when a solution clicks',
     ],
     similar: ['gorogoa', 'unpacking', 'the-case-of-the-golden-idol'],
-    art: { accent: '#e0a85a', shots: ['5f99d37b23fc3d4469c40dfc78a69cd3a51d4f26', 'abb2a53ef96ab74a2d1c8d4bef88944d4f767303', '9f7f204fae84954897fcf76b951f0f32dde65f5d', 'cb1b6c6addb69a3182c8ed89ca5f30cb25b7eefd'] },
+    art: { accent: '#e0a85a', shots: ['ss_5f99d37b23fc3d4469c40dfc78a69cd3a51d4f26.1920x1080.jpg', 'ss_abb2a53ef96ab74a2d1c8d4bef88944d4f767303.1920x1080.jpg', 'ss_9f7f204fae84954897fcf76b951f0f32dde65f5d.1920x1080.jpg', 'ss_cb1b6c6addb69a3182c8ed89ca5f30cb25b7eefd.1920x1080.jpg'] },
   },
   {
     id: 'behind-the-frame',
@@ -1056,7 +1056,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Puzzles are light by design; the story is the point',
     ],
     similar: ['venba', 'gris', 'toem'],
-    art: { accent: '#e0a03a', shots: ['6b3478cbd16c60ecbb83935bf976e1ef8b3242d9', '03c78e299cc71a8465eb6e3b34d32190c986d490', 'd4ceb6ddccfd4ca9cbdecd3f09a2b02c8be0c2b1', 'd4149064edbce96feab4acfae72c8a9b173a26bb'] },
+    art: { accent: '#e0a03a', shots: ['ss_6b3478cbd16c60ecbb83935bf976e1ef8b3242d9.1920x1080.jpg', 'ss_03c78e299cc71a8465eb6e3b34d32190c986d490.1920x1080.jpg', 'ss_d4ceb6ddccfd4ca9cbdecd3f09a2b02c8be0c2b1.1920x1080.jpg', 'ss_d4149064edbce96feab4acfae72c8a9b173a26bb.1920x1080.jpg'] },
   },
   {
     id: 'dordogne',
@@ -1083,7 +1083,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Four hours; closer to a short film',
     ],
     similar: ['venba', 'behind-the-frame', 'what-remains-of-edith-finch'],
-    art: { accent: '#8ac9c0', shots: ['0d2bac05234a73ac1cc9dbcbee31e6774e8846df', 'd1dbc0d779db775671116d7ee7e8e4a930275f5b', '309cb4ce395696af6ec48224b66a1d0df8e8fa1a', '8ac1b01d3ea25842019d5e91ceaba7b7c443500b'] },
+    art: { accent: '#8ac9c0', shots: ['ss_0d2bac05234a73ac1cc9dbcbee31e6774e8846df.1920x1080.jpg', 'ss_d1dbc0d779db775671116d7ee7e8e4a930275f5b.1920x1080.jpg', 'ss_309cb4ce395696af6ec48224b66a1d0df8e8fa1a.1920x1080.jpg', 'ss_8ac1b01d3ea25842019d5e91ceaba7b7c443500b.1920x1080.jpg'] },
   },
   {
     id: 'season-a-letter-to-the-future',
@@ -1109,7 +1109,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Gorgeous, and quietly devastating about impermanence',
     ],
     similar: ['umurangi-generation', 'sable', 'firewatch'],
-    art: { accent: '#e0a06a', shots: ['26033690127716333d95991a62aaa9390ab22962', '3a49bf1947f5ee93aa78313655bdabe4fedd6629', '6f168c280aab18fac256d9e726bc4a66ec6a934f', '889ce5618220b9e8e807364fb39382136282dc13'] },
+    art: { accent: '#e0a06a', shots: ['ss_26033690127716333d95991a62aaa9390ab22962.1920x1080.jpg', 'ss_3a49bf1947f5ee93aa78313655bdabe4fedd6629.1920x1080.jpg', 'ss_6f168c280aab18fac256d9e726bc4a66ec6a934f.1920x1080.jpg', 'ss_889ce5618220b9e8e807364fb39382136282dc13.1920x1080.jpg'] },
   },
   {
     id: 'cave-story-plus',
@@ -1163,7 +1163,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'From the studio behind Don’t Starve',
     ],
     similar: ['slay-the-spire', 'citizen-sleeper', 'wildfrost'],
-    art: { accent: '#c9663a', shots: ['e008b3d7e81277001de6ffec22acf75430d18772', 'b3eae62fa975c76ddfa187e3c002a005f234b24a', 'b390cf8fb94adeaa838b4e7321e0ee5351dc2345', '161eb55f39a59eefcb51a969d2b402bf84e50ce4'] },
+    art: { accent: '#c9663a', shots: ['ss_e008b3d7e81277001de6ffec22acf75430d18772.1920x1080.jpg', 'ss_b3eae62fa975c76ddfa187e3c002a005f234b24a.1920x1080.jpg', 'ss_b390cf8fb94adeaa838b4e7321e0ee5351dc2345.1920x1080.jpg', 'ss_161eb55f39a59eefcb51a969d2b402bf84e50ce4.1920x1080.jpg'] },
   },
   {
     id: 'peglin',
@@ -1190,7 +1190,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Runs are short and extremely repeatable',
     ],
     similar: ['balatro', 'dicey-dungeons', 'vampire-survivors'],
-    art: { accent: '#5ac93a', shots: ['1a2afdad48b809a7adecea90516889316d4f21bc', '71770eca91f44432783fbb971543b36f5f1023e1', 'a2148dcb2289ea71fe88911e39267f389e3488f5', 'ac8f1e46cf60585360ff4f0fc9bd5044c9fd1b59'] },
+    art: { accent: '#5ac93a', shots: ['ss_1a2afdad48b809a7adecea90516889316d4f21bc.1920x1080.jpg', 'ss_71770eca91f44432783fbb971543b36f5f1023e1.1920x1080.jpg', 'ss_a2148dcb2289ea71fe88911e39267f389e3488f5.1920x1080.jpg', 'ss_ac8f1e46cf60585360ff4f0fc9bd5044c9fd1b59.1920x1080.jpg'] },
   },
   {
     id: 'slice-and-dice',
@@ -1217,7 +1217,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Effectively endless difficulty tiers and modifiers',
     ],
     similar: ['dicey-dungeons', 'into-the-breach', 'slay-the-spire'],
-    art: { accent: '#c93a5a', shots: ['65cac24e092d7393b42b500cf17cab9f1875b32c', '7a493acebda8e3852e034c0e356c4132a2d4a09b', '1b0cb7c871749172327f53a8c1fdbe78ac294ffd', 'b0bc1e345c56311e5edc3cc219cfc3d302625b8c'] },
+    art: { accent: '#c93a5a', shots: ['ss_65cac24e092d7393b42b500cf17cab9f1875b32c.1920x1080.jpg', 'ss_7a493acebda8e3852e034c0e356c4132a2d4a09b.1920x1080.jpg', 'ss_1b0cb7c871749172327f53a8c1fdbe78ac294ffd.1920x1080.jpg', 'ss_b0bc1e345c56311e5edc3cc219cfc3d302625b8c.1920x1080.jpg'] },
   },
   {
     id: 'luck-be-a-landlord',
@@ -1244,7 +1244,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Runs are twenty minutes',
     ],
     similar: ['balatro', 'peglin', 'vampire-survivors'],
-    art: { accent: '#c9a83a', shots: ['6419b6d713a5cb51c3b3eae5db669459059ff142', 'd18cdd089a2fab21d1e1ee8a53fa3fb61a368a11', '6a6a1e7da6c6cb3949e596b6d7c5aad24043a0ff', '9bb8d43ad725885781a26091ac20739c50a3088b'] },
+    art: { accent: '#c9a83a', shots: ['ss_6419b6d713a5cb51c3b3eae5db669459059ff142.1920x1080.jpg', 'ss_d18cdd089a2fab21d1e1ee8a53fa3fb61a368a11.1920x1080.jpg', 'ss_6a6a1e7da6c6cb3949e596b6d7c5aad24043a0ff.1920x1080.jpg', 'ss_9bb8d43ad725885781a26091ac20739c50a3088b.1920x1080.jpg'] },
   },
   {
     id: 'backpack-hero',
@@ -1271,7 +1271,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'A town-building meta layer between runs',
     ],
     similar: ['slay-the-spire', 'luck-be-a-landlord', 'dicey-dungeons'],
-    art: { accent: '#a8763a', shots: ['34b2c0a700a0b3486233b5d73d0643433593975e', '35d0be5367e06332d1e7f82bf3d21759c0697cb6', 'e39025fae7fd8cc1f0f9c15cc7c66748e92d4773', 'c7c33e8f7564465b8ccc1ac0ada1cd7f1f3cdf65'] },
+    art: { accent: '#a8763a', shots: ['ss_34b2c0a700a0b3486233b5d73d0643433593975e.1920x1080.jpg', 'ss_35d0be5367e06332d1e7f82bf3d21759c0697cb6.1920x1080.jpg', 'ss_e39025fae7fd8cc1f0f9c15cc7c66748e92d4773.1920x1080.jpg', 'ss_c7c33e8f7564465b8ccc1ac0ada1cd7f1f3cdf65.1920x1080.jpg'] },
   },
   {
     id: 'have-a-nice-death',
@@ -1298,7 +1298,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Combat is fast and satisfying, close to Dead Cells',
     ],
     similar: ['dead-cells', 'hades', 'rogue-legacy-2'],
-    art: { accent: '#c93a3a', shots: ['583be13abc2405473907ebaf37ef4eb3772f952f', '25eb605c11ed758622f07888ca275d33bfbfb41c', '088ff2f7aab89779e2c91745c2c92ca4afd2e739', '23cfba4ea1123381be9aca109459c73106714410'] },
+    art: { accent: '#c93a3a', shots: ['ss_583be13abc2405473907ebaf37ef4eb3772f952f.1920x1080.jpg', 'ss_25eb605c11ed758622f07888ca275d33bfbfb41c.1920x1080.jpg', 'ss_088ff2f7aab89779e2c91745c2c92ca4afd2e739.1920x1080.jpg', 'ss_23cfba4ea1123381be9aca109459c73106714410.1920x1080.jpg'] },
   },
   {
     id: 'cryptmaster',
@@ -1324,7 +1324,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Uses your keyboard in a way no other RPG does',
     ],
     similar: ['void-stranger', 'inscryption', 'baba-is-you'],
-    art: { accent: '#8a5ac9', shots: ['89523b1b24301aaf8a886f2fa57db399f4b98c12', '01b173293f80b7eab18f5254eed3e7d7a54a8f52', '61c499d619b40d63e70eebf1a9eb25245c8fdc1b', '70aff26595463a6b7f5039e0fc6d53ce2dafc685'] },
+    art: { accent: '#8a5ac9', shots: ['ss_89523b1b24301aaf8a886f2fa57db399f4b98c12.1920x1080.jpg', 'ss_01b173293f80b7eab18f5254eed3e7d7a54a8f52.1920x1080.jpg', 'ss_61c499d619b40d63e70eebf1a9eb25245c8fdc1b.1920x1080.jpg', 'ss_70aff26595463a6b7f5039e0fc6d53ce2dafc685.1920x1080.jpg'] },
   },
   {
     id: 'betrayal-at-club-low',
@@ -1350,7 +1350,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Nobody makes games that feel like Cosmo D’s',
     ],
     similar: ['paradise-killer', 'norco', 'citizen-sleeper'],
-    art: { accent: '#c93a8a', shots: ['889316d002aa0cf6f7fb56071b2761cdb5064dd2', '47a252ef2eb02c4bf12be757322e2ffd170a8554', '2fd51ef34ee398c956a067b19f6382c9ffe0c1f5', '033ac6ba5778ae73cee37f67ab3ee2a113977073'] },
+    art: { accent: '#c93a8a', shots: ['ss_889316d002aa0cf6f7fb56071b2761cdb5064dd2.1920x1080.jpg', 'ss_47a252ef2eb02c4bf12be757322e2ffd170a8554.1920x1080.jpg', 'ss_2fd51ef34ee398c956a067b19f6382c9ffe0c1f5.1920x1080.jpg', 'ss_033ac6ba5778ae73cee37f67ab3ee2a113977073.1920x1080.jpg'] },
   },
   {
     id: 'the-looker',
@@ -1376,7 +1376,7 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Works even if you have not played The Witness',
     ],
     similar: ['the-witness', 'superliminal', 'storyteller'],
-    art: { accent: '#c9c93a', shots: ['e4373d3ead1db7e44fd72371c2f7e7fe12f222a4', '39161fddb28930c4ce77d9a1e8d14acff5611f41', 'bd11c6f8cc55036c574bed6b5c65d356fe388a44', '05f09a551b2a4e0c61e209505e37b43609e8f991'] },
+    art: { accent: '#c9c93a', shots: ['ss_e4373d3ead1db7e44fd72371c2f7e7fe12f222a4.1920x1080.jpg', 'ss_39161fddb28930c4ce77d9a1e8d14acff5611f41.1920x1080.jpg', 'ss_bd11c6f8cc55036c574bed6b5c65d356fe388a44.1920x1080.jpg', 'ss_05f09a551b2a4e0c61e209505e37b43609e8f991.1920x1080.jpg'] },
   },
   {
     id: 'wobbledogs',
@@ -1403,6 +1403,6 @@ export const HIDDEN_GEMS_2: Game[] = [
       'Nothing else is remotely like it',
     ],
     similar: ['slime-rancher', 'dorfromantik', 'powerwash-simulator'],
-    art: { accent: '#e08ac9', shots: ['27afbac2ecd090a58e5023659784cdfbcf71ff12', '8769f086355a3e38dc137dfa1138dfa7e06001f1', 'b10d95977a5ceb28b639db5eb1cbba35cf388d9b', '2f9d205fb873a69154f7d4daa372f48f8c3fae52'] },
+    art: { accent: '#e08ac9', shots: ['ss_27afbac2ecd090a58e5023659784cdfbcf71ff12.1920x1080.jpg', 'ss_8769f086355a3e38dc137dfa1138dfa7e06001f1.1920x1080.jpg', 'ss_b10d95977a5ceb28b639db5eb1cbba35cf388d9b.1920x1080.jpg', 'ss_2f9d205fb873a69154f7d4daa372f48f8c3fae52.1920x1080.jpg'] },
   },
 ];

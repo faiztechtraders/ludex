@@ -33,7 +33,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Available on everything, unlike its inspiration',
     ],
     similar: ['paper-mario-thousand-year-door', 'sea-of-stars', 'chained-echoes'],
-    art: { accent: '#c9a03a', shots: ['18070b8482e104807816492af62c306f6abcb193', 'ae349225eaf9dda16cfa8fb94f2591b23bba3ef1', 'b7c5f851f6824c639f256e7dac5ad7340c4bb06b', '4ea54c3b9a2b2e524fcca354b5b982e1c1a8b977'] },
+    art: { accent: '#c9a03a', shots: ['ss_18070b8482e104807816492af62c306f6abcb193.1920x1080.jpg', 'ss_ae349225eaf9dda16cfa8fb94f2591b23bba3ef1.1920x1080.jpg', 'ss_b7c5f851f6824c639f256e7dac5ad7340c4bb06b.1920x1080.jpg', 'ss_4ea54c3b9a2b2e524fcca354b5b982e1c1a8b977.1920x1080.jpg'] },
   },
   {
     id: 'monster-sanctuary',
@@ -59,7 +59,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Deeper combat than any mainline creature collector',
     ],
     similar: ['cassette-beasts', 'coromon', 'pokemon-legends-z-a'],
-    art: { accent: '#5a8ac9', shots: ['e3ab1f39569cd006a30b6b2d42167fbe82fe1366', '88390afe7108c67c2693c0cf11fd601d1e619c46', '4e67fbd67b2de4618855521d5e92a04abe3e5587', 'd50027f09c2187eff9f8876b16b0a6a0c6d340eb'] },
+    art: { accent: '#5a8ac9', shots: ['ss_e3ab1f39569cd006a30b6b2d42167fbe82fe1366.1920x1080.jpg', 'ss_88390afe7108c67c2693c0cf11fd601d1e619c46.1920x1080.jpg', 'ss_4e67fbd67b2de4618855521d5e92a04abe3e5587.1920x1080.jpg', 'ss_d50027f09c2187eff9f8876b16b0a6a0c6d340eb.1920x1080.jpg'] },
   },
   {
     id: 'coromon',
@@ -111,7 +111,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Colour returns to the island as you help people',
     ],
     similar: ['animal-crossing-new-horizons', 'spiritfarer', 'littlewood'],
-    art: { accent: '#e0a06a', shots: ['4e637bfdb6089d8eadd6e23d7d7868628198bad1', 'c96f42f93ecc85a33e8a1a27c5c5e03c033669ba', '7ccc68d4ac9698f3066995d02587b50977dace71', 'c60c924cb5ef5b366969e168b76a8631d2c5f2b1'] },
+    art: { accent: '#e0a06a', shots: ['ss_4e637bfdb6089d8eadd6e23d7d7868628198bad1.1920x1080.jpg', 'ss_c96f42f93ecc85a33e8a1a27c5c5e03c033669ba.1920x1080.jpg', 'ss_7ccc68d4ac9698f3066995d02587b50977dace71.1920x1080.jpg', 'ss_c60c924cb5ef5b366969e168b76a8631d2c5f2b1.1920x1080.jpg'] },
   },
   {
     id: 'ooblets',
@@ -137,7 +137,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'The whimsy is either delightful or too much; no middle ground',
     ],
     similar: ['stardew-valley', 'cozy-grove', 'coral-island'],
-    art: { accent: '#c95ac9', shots: ['ac9b89cd8233c2baf3716113b7bc14b04ddaced7', '02de4cdb1df6adb5b566097eec96d13ffddd296e', '7697a31bd38cf7d13db5c0e77fdd2403205d7da1', '20f9ee0ec6c3266318290fa844183398f7fe7220'] },
+    art: { accent: '#c95ac9', shots: ['ss_ac9b89cd8233c2baf3716113b7bc14b04ddaced7.1920x1080.jpg', 'ss_02de4cdb1df6adb5b566097eec96d13ffddd296e.1920x1080.jpg', 'ss_7697a31bd38cf7d13db5c0e77fdd2403205d7da1.1920x1080.jpg', 'ss_20f9ee0ec6c3266318290fa844183398f7fe7220.1920x1080.jpg'] },
   },
   {
     id: 'fae-farm',
@@ -163,7 +163,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Bright, soft and completely low-stakes',
     ],
     similar: ['stardew-valley', 'coral-island', 'disney-dreamlight-valley'],
-    art: { accent: '#a85ac9', shots: ['a1f1fd1a79c86ece30a15275abd0d3cb70d47be1', '5f62663b519aa4fcd896a5011bd94ba09422cd13', '018ead7efa1bfc1db7929766411336fe1691b5a7', 'bc555ba59f178c19a07897fec7240e2f97237ba3'] },
+    art: { accent: '#a85ac9', shots: ['ss_a1f1fd1a79c86ece30a15275abd0d3cb70d47be1.1920x1080.jpg', 'ss_5f62663b519aa4fcd896a5011bd94ba09422cd13.1920x1080.jpg', 'ss_018ead7efa1bfc1db7929766411336fe1691b5a7.1920x1080.jpg', 'ss_bc555ba59f178c19a07897fec7240e2f97237ba3.1920x1080.jpg'] },
   },
   {
     id: 'planet-of-lana',
@@ -189,7 +189,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Five hours, beautifully paced',
     ],
     similar: ['inside', 'gris', 'limbo'],
-    art: { accent: '#5ac9a0', shots: ['73b0b2da6ced61844f4ad07e97613ebbb2c7bd65', '6f4a2ba6f5946be25ef2cd5cc9b8bf932b9178ff', '393d5e36d6c9d3e920e9f8066bf420ca61215709', 'd62aa7852b06c638a777235bf93b642fb5e7e2e3'] },
+    art: { accent: '#5ac9a0', shots: ['ss_73b0b2da6ced61844f4ad07e97613ebbb2c7bd65.1920x1080.jpg', 'ss_6f4a2ba6f5946be25ef2cd5cc9b8bf932b9178ff.1920x1080.jpg', 'ss_393d5e36d6c9d3e920e9f8066bf420ca61215709.1920x1080.jpg', 'ss_d62aa7852b06c638a777235bf93b642fb5e7e2e3.1920x1080.jpg'] },
   },
   {
     id: 'endling',
@@ -215,7 +215,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Six hours and thoroughly upsetting',
     ],
     similar: ['this-war-of-mine', 'spiritfarer', 'the-long-dark'],
-    art: { accent: '#c9763a', shots: ['0948583aa494935a7224a6be2788bc00dfcf25fe', '8a85d1bbfd6df8e4398f7dca02b97cb422e9c303', 'ce7d113c0f4f932e462f850047bb01a92db8ff7d', 'ab55ed20c0eacf0d0790d130b1209db722da5445'] },
+    art: { accent: '#c9763a', shots: ['ss_0948583aa494935a7224a6be2788bc00dfcf25fe.1920x1080.jpg', 'ss_8a85d1bbfd6df8e4398f7dca02b97cb422e9c303.1920x1080.jpg', 'ss_ce7d113c0f4f932e462f850047bb01a92db8ff7d.1920x1080.jpg', 'ss_ab55ed20c0eacf0d0790d130b1209db722da5445.1920x1080.jpg'] },
   },
   {
     id: 'twelve-minutes',
@@ -241,7 +241,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Be aware the ending is genuinely divisive',
     ],
     similar: ['the-forgotten-city', 'overboard', 'her-story'],
-    art: { accent: '#c9843a', shots: ['0f8fd280d0e1477778774ebb99664b3d8c5a2148', '85c0b4036a36a61027cb17415ac739f2a05239b8', '018eace66d6a29987176d2f7b609555a6df01702', '6e3873b36cb5a80adcefbc750d4a93f55074a2d9'] },
+    art: { accent: '#c9843a', shots: ['ss_0f8fd280d0e1477778774ebb99664b3d8c5a2148.1920x1080.jpg', 'ss_85c0b4036a36a61027cb17415ac739f2a05239b8.1920x1080.jpg', 'ss_018eace66d6a29987176d2f7b609555a6df01702.1920x1080.jpg', 'ss_6e3873b36cb5a80adcefbc750d4a93f55074a2d9.1920x1080.jpg'] },
   },
   {
     id: 'before-your-eyes',
@@ -266,7 +266,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Playable with a mouse if you have no webcam',
     ],
     similar: ['what-remains-of-edith-finch', 'venba', 'her-story'],
-    art: { accent: '#5a9fc9', shots: ['dc3b2599ae808c75b47b895fef59ddd6aab50807', '19fa08135c1fee19c09541b6ebc5755cae762129', 'f010815c1de9ca282600b04a46283afac56d9f6f', '69a0f2af67f14a0d3dc66ad87c343a99226e0a5a'] },
+    art: { accent: '#5a9fc9', shots: ['ss_dc3b2599ae808c75b47b895fef59ddd6aab50807.1920x1080.jpg', 'ss_19fa08135c1fee19c09541b6ebc5755cae762129.1920x1080.jpg', 'ss_f010815c1de9ca282600b04a46283afac56d9f6f.1920x1080.jpg', 'ss_69a0f2af67f14a0d3dc66ad87c343a99226e0a5a.1920x1080.jpg'] },
   },
   {
     id: 'as-dusk-falls',
@@ -292,7 +292,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Serious, grounded drama rather than a thriller',
     ],
     similar: ['detroit-become-human', 'until-dawn', 'life-is-strange'],
-    art: { accent: '#c96a5a', shots: ['67f27098ead746c6d7fdb98530b029bd396aeb1b', '2e3bc7befeb4b36c1647659180c6930fe54e7fe3', 'a09a7efbbab1855c735df5f3698d18e8cd099918', '2765f4e56734c84608a874cb263d2f05675b715e'] },
+    art: { accent: '#c96a5a', shots: ['ss_67f27098ead746c6d7fdb98530b029bd396aeb1b.1920x1080.jpg', 'ss_2e3bc7befeb4b36c1647659180c6930fe54e7fe3.1920x1080.jpg', 'ss_a09a7efbbab1855c735df5f3698d18e8cd099918.1920x1080.jpg', 'ss_2765f4e56734c84608a874cb263d2f05675b715e.1920x1080.jpg'] },
   },
   {
     id: 'somerville',
@@ -318,7 +318,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Uneven, but the highs are very high',
     ],
     similar: ['inside', 'limbo', 'planet-of-lana'],
-    art: { accent: '#3a7a9f', shots: ['0ba90f93378b7e07587b3dec2b101f1595e3ac8a', 'bfa6b1d1d6d5eb0ee10af3add23d6ad8f306b6ea', '982d8401f36076a8133278b81bf064a1e5984398', '3f8b99a90ec3ec87019b784feb0b7e952ecbc31b'] },
+    art: { accent: '#3a7a9f', shots: ['ss_0ba90f93378b7e07587b3dec2b101f1595e3ac8a.1920x1080.jpg', 'ss_bfa6b1d1d6d5eb0ee10af3add23d6ad8f306b6ea.1920x1080.jpg', 'ss_982d8401f36076a8133278b81bf064a1e5984398.1920x1080.jpg', 'ss_3f8b99a90ec3ec87019b784feb0b7e952ecbc31b.1920x1080.jpg'] },
   },
   {
     id: 'maquette',
@@ -344,7 +344,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Four hours',
     ],
     similar: ['superliminal', 'patricks-parabox', 'viewfinder'],
-    art: { accent: '#e0a08a', shots: ['910be761f3261907c5c83db343da37c6871e84c4', '0f634d99e2bbf4fca041bd2157b2508cade80bf8', 'bbe8cc7d070949cf488345d46564fdfd34696eb9', '761b78bb294ae396489e8c252fd8a27a287c428f'] },
+    art: { accent: '#e0a08a', shots: ['ss_910be761f3261907c5c83db343da37c6871e84c4.1920x1080.jpg', 'ss_0f634d99e2bbf4fca041bd2157b2508cade80bf8.1920x1080.jpg', 'ss_bbe8cc7d070949cf488345d46564fdfd34696eb9.1920x1080.jpg', 'ss_761b78bb294ae396489e8c252fd8a27a287c428f.1920x1080.jpg'] },
   },
   {
     id: 'escape-academy',
@@ -370,7 +370,7 @@ export const HIDDEN_GEMS_4: Game[] = [
       'Rooms take twenty minutes each',
     ],
     similar: ['we-were-here-together', 'keep-talking-and-nobody-explodes', 'the-house-of-da-vinci'],
-    art: { accent: '#e0c93a', shots: ['2e7d265da1af9da54951bcae28c55930a999ef6a', '0905d9b13f1b2608018b6ddf75620721234289f3', '3b686558c1b506828f139a6e225a1c9737c26739', '42703ca2e8ac0a278ec0e6800fcfef70474fe34c'] },
+    art: { accent: '#e0c93a', shots: ['ss_2e7d265da1af9da54951bcae28c55930a999ef6a.1920x1080.jpg', 'ss_0905d9b13f1b2608018b6ddf75620721234289f3.1920x1080.jpg', 'ss_3b686558c1b506828f139a6e225a1c9737c26739.1920x1080.jpg', 'ss_42703ca2e8ac0a278ec0e6800fcfef70474fe34c.1920x1080.jpg'] },
   },
   {
     id: 'the-house-of-da-vinci',

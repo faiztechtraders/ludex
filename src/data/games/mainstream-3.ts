@@ -61,7 +61,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Fifteen hours, tightly edited',
     ],
     similar: ['the-last-of-us-part-ii', 'god-of-war-ragnarok', 'red-dead-redemption-2'],
-    art: { accent: '#6a8a5a', shots: ['3f1805ecddafacee7f61f87cb8e4624435a83ee3', '89fffc2857dcae29dee2a09f1be33d745610e19d', '8cd55ab975b2e47f4d4d9a0da4ae6948040ef807', 'f4829000d3677a9b5b2f234482a7deff12b31ac9'] },
+    art: { accent: '#6a8a5a', shots: ['ss_3f1805ecddafacee7f61f87cb8e4624435a83ee3.1920x1080.jpg', 'ss_89fffc2857dcae29dee2a09f1be33d745610e19d.1920x1080.jpg', 'ss_8cd55ab975b2e47f4d4d9a0da4ae6948040ef807.1920x1080.jpg', 'ss_f4829000d3677a9b5b2f234482a7deff12b31ac9.1920x1080.jpg'] },
   },
   {
     id: 'uncharted-4',
@@ -115,7 +115,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Frequently sold for almost nothing',
     ],
     similar: ['uncharted-4', 'horizon-forbidden-west', 'assassins-creed-odyssey'],
-    art: { accent: '#a84a3a', shots: ['65861a8ea2efcb01fca8aa4b1233663bb053ab54', 'cd920308517efb19c11b44e251af89e40fb412d5', '8f34a87469f3a0c73049cbd0469bdff6e3d22713', '822faf14b04eac6140067109e75a5a859f4f42db'] },
+    art: { accent: '#a84a3a', shots: ['ss_65861a8ea2efcb01fca8aa4b1233663bb053ab54.1920x1080.jpg', 'ss_cd920308517efb19c11b44e251af89e40fb412d5.1920x1080.jpg', 'ss_8f34a87469f3a0c73049cbd0469bdff6e3d22713.1920x1080.jpg', 'ss_822faf14b04eac6140067109e75a5a859f4f42db.1920x1080.jpg'] },
   },
   {
     id: 'assassins-creed-odyssey',
@@ -142,7 +142,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Naval combat that is genuinely fun rather than filler',
     ],
     similar: ['assassins-creed-black-flag', 'the-witcher-3', 'ghost-of-tsushima'],
-    art: { accent: '#3a8fc9', shots: ['0ef33c0f230da6ebac94f5959f0e0a8bbc48cf8a', '3f8f4a09fb1d69648a8c20aae19ca2924ba275bd', '6dc9f95cfb6d264c3535b53ce08f36ee07066550', '458b7cc7392b6fd073bbd679868fd486013cb474'] },
+    art: { accent: '#3a8fc9', shots: ['ss_0ef33c0f230da6ebac94f5959f0e0a8bbc48cf8a.1920x1080.jpg', 'ss_3f8f4a09fb1d69648a8c20aae19ca2924ba275bd.1920x1080.jpg', 'ss_6dc9f95cfb6d264c3535b53ce08f36ee07066550.1920x1080.jpg', 'ss_458b7cc7392b6fd073bbd679868fd486013cb474.1920x1080.jpg'] },
   },
   {
     id: 'assassins-creed-black-flag',
@@ -169,7 +169,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Works fine with no series knowledge',
     ],
     similar: ['assassins-creed-odyssey', 'sea-of-thieves', 'red-dead-redemption-2'],
-    art: { accent: '#3aa8a8', shots: ['82453694854272967e6f7c2147ff86f62a2b1408', 'afb6f91bc96b51d0684bb4cbec4389b49dcb96db', 'c2ad7f22e27b8ffab2a896e543a82fc8f6e9a1a7', '7aa79ce41e1233ff22701281af51b5f0ab51245e'] },
+    art: { accent: '#3aa8a8', shots: ['ss_82453694854272967e6f7c2147ff86f62a2b1408.1920x1080.jpg', 'ss_afb6f91bc96b51d0684bb4cbec4389b49dcb96db.1920x1080.jpg', 'ss_c2ad7f22e27b8ffab2a896e543a82fc8f6e9a1a7.1920x1080.jpg', 'ss_7aa79ce41e1233ff22701281af51b5f0ab51245e.1920x1080.jpg'] },
   },
   {
     id: 'sea-of-thieves',
@@ -196,7 +196,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Years of free content updates',
     ],
     similar: ['assassins-creed-black-flag', 'deep-rock-galactic', 'helldivers-2'],
-    art: { accent: '#3ac9c9', shots: ['ec623c77d75dfa098c622b547b1ab21ad4cae0a8', '6ea04bdc415c336a195555aec4b97a73a9910fc1', '2144ac860fd64d82cb9cc49680f5087c7bb8fe2f', '4fb90cbac34d2cbe74b86383bda660cd0316b907'] },
+    art: { accent: '#3ac9c9', shots: ['ss_ec623c77d75dfa098c622b547b1ab21ad4cae0a8.1920x1080.jpg', 'ss_6ea04bdc415c336a195555aec4b97a73a9910fc1.1920x1080.jpg', 'ss_2144ac860fd64d82cb9cc49680f5087c7bb8fe2f.1920x1080.jpg', 'ss_4fb90cbac34d2cbe74b86383bda660cd0316b907.1920x1080.jpg'] },
   },
   {
     id: 'forza-horizon-5',
@@ -223,7 +223,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Nothing is ever locked behind winning',
     ],
     similar: ['gran-turismo-7', 'mario-kart-world', 'the-crew-motorfest'],
-    art: { accent: '#e05a3a', shots: ['cf56e25a0290556ba83229eb0ab370d10be0407c', '00f0090174380eeaf8753bd3d1028b6772c3aebf', 'b65236b365315ebb6da6114ce42cd74b59cab3c8', '0a13a7ccd38e7c3e6a5f1720050732833b53b6a8'] },
+    art: { accent: '#e05a3a', shots: ['ss_cf56e25a0290556ba83229eb0ab370d10be0407c.1920x1080.jpg', 'ss_00f0090174380eeaf8753bd3d1028b6772c3aebf.1920x1080.jpg', 'ss_b65236b365315ebb6da6114ce42cd74b59cab3c8.1920x1080.jpg', 'ss_0a13a7ccd38e7c3e6a5f1720050732833b53b6a8.1920x1080.jpg'] },
   },
   {
     id: 'gran-turismo-7',
@@ -276,7 +276,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Where most of your friends already are',
     ],
     similar: ['battlefield-2042', 'helldivers-2', 'doom-the-dark-ages'],
-    art: { accent: '#7a8a5a', shots: ['9cd9585e9eed5acb963d3462c594cfce341e6b64', 'aa043742143d678b18c27c6035c23ea8a1c26544', '8cfeab83b903aeb2939481f4ed932aa01d879434', 'c15d3bbc88fb942c72663e89cb6e0e23aad6cec3'] },
+    art: { accent: '#7a8a5a', shots: ['ss_9cd9585e9eed5acb963d3462c594cfce341e6b64.1920x1080.jpg', 'ss_aa043742143d678b18c27c6035c23ea8a1c26544.1920x1080.jpg', 'ss_8cfeab83b903aeb2939481f4ed932aa01d879434.1920x1080.jpg', 'ss_c15d3bbc88fb942c72663e89cb6e0e23aad6cec3.1920x1080.jpg'] },
   },
   {
     id: 'battlefield-2042',
@@ -411,7 +411,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Everyone already knows how to play it',
     ],
     similar: ['nba-2k25', 'rocket-league', 'mario-kart-world'],
-    art: { accent: '#3ac96a', shots: ['857b4aaf3c10b2a886d60f029f32b2f86d968311', 'aeeea35bf96fad387b97befd9a5c4b9d8ee2ac1a', 'c8460408705b54e37228cc320a2da1c19e4dc12f', 'ee0be94a0a8e1325050481bcf351d736e6d2982d'] },
+    art: { accent: '#3ac96a', shots: ['ss_857b4aaf3c10b2a886d60f029f32b2f86d968311.1920x1080.jpg', 'ss_aeeea35bf96fad387b97befd9a5c4b9d8ee2ac1a.1920x1080.jpg', 'ss_c8460408705b54e37228cc320a2da1c19e4dc12f.1920x1080.jpg', 'ss_ee0be94a0a8e1325050481bcf351d736e6d2982d.1920x1080.jpg'] },
   },
   {
     id: 'nba-2k25',
@@ -439,7 +439,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Excellent couch multiplayer',
     ],
     similar: ['ea-sports-fc-25', 'rocket-league', 'street-fighter-6'],
-    art: { accent: '#e0863a', shots: ['8e3db832678488ed1003fa41cc0ef9bd74d332e5', '40b45c20c14c8996000e81f697bd1d09f26ea5fd', '0d4dd0f0fdfe67d8b3c641816b53b01a6ba062a0', '3a08987033974b0e58d9d9f21794da91aae82811'] },
+    art: { accent: '#e0863a', shots: ['ss_8e3db832678488ed1003fa41cc0ef9bd74d332e5.1920x1080.jpg', 'ss_40b45c20c14c8996000e81f697bd1d09f26ea5fd.1920x1080.jpg', 'ss_0d4dd0f0fdfe67d8b3c641816b53b01a6ba062a0.1920x1080.jpg', 'ss_3a08987033974b0e58d9d9f21794da91aae82811.1920x1080.jpg'] },
   },
   {
     id: 'mortal-kombat-1',
@@ -467,7 +467,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Extremely not for children',
     ],
     similar: ['street-fighter-6', 'tekken-8', 'super-smash-bros-ultimate'],
-    art: { accent: '#c93a2a', shots: ['7eb14734a264570367c607698371e492415f48a4', '29b0a9e87d5a4981d7403994b661c43117a87d84', '18eadd6859ed15531d25cd67fe1d2402e9bf75b3', '02b8c4f08fbf4d1a5affb9e6e64716d63df16760'] },
+    art: { accent: '#c93a2a', shots: ['ss_7eb14734a264570367c607698371e492415f48a4.1920x1080.jpg', 'ss_29b0a9e87d5a4981d7403994b661c43117a87d84.1920x1080.jpg', 'ss_18eadd6859ed15531d25cd67fe1d2402e9bf75b3.1920x1080.jpg', 'ss_02b8c4f08fbf4d1a5affb9e6e64716d63df16760.1920x1080.jpg'] },
   },
   {
     id: 'tekken-8',
@@ -493,7 +493,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Arcade Quest is a surprisingly charming tutorial',
     ],
     similar: ['street-fighter-6', 'mortal-kombat-1', 'super-smash-bros-ultimate'],
-    art: { accent: '#e0703a', shots: ['62e6ec252bc1a641e8e42dba07f23631d5da85e6', '99dabe34abc0f92adc39d7099908c9540be7eb3f', 'bbd38a5fe748ec966cbc85ffcd4931f0f2da8ffd', '7c55021d3ba8e4f14c6d9dbea9f19d9b7665d5f0'] },
+    art: { accent: '#e0703a', shots: ['ss_62e6ec252bc1a641e8e42dba07f23631d5da85e6.1920x1080.jpg', 'ss_99dabe34abc0f92adc39d7099908c9540be7eb3f.1920x1080.jpg', 'ss_bbd38a5fe748ec966cbc85ffcd4931f0f2da8ffd.1920x1080.jpg', 'ss_7c55021d3ba8e4f14c6d9dbea9f19d9b7665d5f0.1920x1080.jpg'] },
   },
   {
     id: 'far-cry-5',
@@ -547,7 +547,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Resolver weapons are entertainingly ridiculous',
     ],
     similar: ['far-cry-5', 'assassins-creed-odyssey', 'ghost-recon-breakpoint'],
-    art: { accent: '#e07a2e', shots: ['65c6467467795423bb959aa2c76ad2659f6553cd', '195eb286dad05d3b9e56f22eafacce7efe9c9ebf', '8bf4118728c0df8340c665329b78e428ed0a7c9f', 'b0fa07116df319216ac4a4e7855a4c4a1d224bd0'] },
+    art: { accent: '#e07a2e', shots: ['ss_65c6467467795423bb959aa2c76ad2659f6553cd.1920x1080.jpg', 'ss_195eb286dad05d3b9e56f22eafacce7efe9c9ebf.1920x1080.jpg', 'ss_8bf4118728c0df8340c665329b78e428ed0a7c9f.1920x1080.jpg', 'ss_b0fa07116df319216ac4a4e7855a4c4a1d224bd0.1920x1080.jpg'] },
   },
   {
     id: 'ghost-recon-breakpoint',
@@ -601,7 +601,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'The gadgets make it a proper immersive sim at times',
     ],
     similar: ['grand-theft-auto-v', 'marvels-spider-man-2', 'cyberpunk-2077'],
-    art: { accent: '#3ac98a', shots: ['8071f719fea2d45baa805449ec550395db700118', 'b93d600b2a0372d6b5a5d191b46654ba489819d1', '6eb9108a5ac2f33942d15ebf0801f0e69373d4f8', '3466ea1a9e73594961b9f73fd560f379f7f49870'] },
+    art: { accent: '#3ac98a', shots: ['ss_8071f719fea2d45baa805449ec550395db700118.1920x1080.jpg', 'ss_b93d600b2a0372d6b5a5d191b46654ba489819d1.1920x1080.jpg', 'ss_6eb9108a5ac2f33942d15ebf0801f0e69373d4f8.1920x1080.jpg', 'ss_3466ea1a9e73594961b9f73fd560f379f7f49870.1920x1080.jpg'] },
   },
   {
     id: 'dishonored-2',
@@ -628,7 +628,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Two playable characters with completely different powers',
     ],
     similar: ['prey-2017', 'deathloop', 'hitman-world-of-assassination'],
-    art: { accent: '#3a8a9f', shots: ['f2206b92cfde7e2c63a106e35ddc847700a2f7d8', '29982f240a3bca5bcf7f4a2150b88ea7de240df0', '4095dc87c8e6f8a3f6a12134e1e0f3bb3e9aa808', '09a97431ef9a96276d20628e1539e2ea3259c74d'] },
+    art: { accent: '#3a8a9f', shots: ['ss_f2206b92cfde7e2c63a106e35ddc847700a2f7d8.1920x1080.jpg', 'ss_29982f240a3bca5bcf7f4a2150b88ea7de240df0.1920x1080.jpg', 'ss_4095dc87c8e6f8a3f6a12134e1e0f3bb3e9aa808.1920x1080.jpg', 'ss_09a97431ef9a96276d20628e1539e2ea3259c74d.1920x1080.jpg'] },
   },
   {
     id: 'prey-2017',
@@ -655,7 +655,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Genuinely tense without relying on jump scares',
     ],
     similar: ['dishonored-2', 'system-shock-remake', 'subnautica'],
-    art: { accent: '#c9a83a', shots: ['06b6c27c834b5639c54d470b3b5c711cf72a94af', 'ff6b4efb3add6ea9a1d67f5c6c0fae6661ed9fd8', '976f1d181de3dc8bc86c78fe900c98be457d0942', '788d370761d6b3c488f4314ea2752170621573c6'] },
+    art: { accent: '#c9a83a', shots: ['ss_06b6c27c834b5639c54d470b3b5c711cf72a94af.1920x1080.jpg', 'ss_ff6b4efb3add6ea9a1d67f5c6c0fae6661ed9fd8.1920x1080.jpg', 'ss_976f1d181de3dc8bc86c78fe900c98be457d0942.1920x1080.jpg', 'ss_788d370761d6b3c488f4314ea2752170621573c6.1920x1080.jpg'] },
   },
   {
     id: 'deathloop',
@@ -682,7 +682,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Another player can invade as your rival, or you can turn that off',
     ],
     similar: ['dishonored-2', 'hitman-world-of-assassination', 'outer-wilds'],
-    art: { accent: '#e0703a', shots: ['26bfb9a442924c466a844086646727f5d6191810', 'b05a1ef5c5a43860f7728637c7047695d0d52236', 'b18d58a9b6a161bf3b253044b9b3edb91802be0c', '75c463b64181b9607076ec65bb79e7c507a2abd4'] },
+    art: { accent: '#e0703a', shots: ['ss_26bfb9a442924c466a844086646727f5d6191810.1920x1080.jpg', 'ss_b05a1ef5c5a43860f7728637c7047695d0d52236.1920x1080.jpg', 'ss_b18d58a9b6a161bf3b253044b9b3edb91802be0c.1920x1080.jpg', 'ss_75c463b64181b9607076ec65bb79e7c507a2abd4.1920x1080.jpg'] },
   },
   {
     id: 'hitman-world-of-assassination',
@@ -709,7 +709,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Genuinely very funny once you stop taking it seriously',
     ],
     similar: ['deathloop', 'dishonored-2', 'the-case-of-the-golden-idol'],
-    art: { accent: '#c93a4a', shots: ['f3a815f62dea7af43eebff863b49ded1bcf8098e', '271349780bd2aab343e3f705ba5244a0956314f5', '691a534e333e33a4d6b994c9d63be26c83a687d7', '33965f74f31503257ea4e4af3d31b10faedd5250'] },
+    art: { accent: '#c93a4a', shots: ['ss_f3a815f62dea7af43eebff863b49ded1bcf8098e.1920x1080.jpg', 'ss_271349780bd2aab343e3f705ba5244a0956314f5.1920x1080.jpg', 'ss_691a534e333e33a4d6b994c9d63be26c83a687d7.1920x1080.jpg', 'ss_33965f74f31503257ea4e4af3d31b10faedd5250.1920x1080.jpg'] },
   },
   {
     id: 'system-shock-remake',
@@ -735,7 +735,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Difficulty is configurable across four separate axes',
     ],
     similar: ['prey-2017', 'dishonored-2', 'signalis'],
-    art: { accent: '#3ac97a', shots: ['f4a9713413a54cd9ffea88c84c3197d87012b0eb', 'd8f11b2d84bb30139af1ebbb239e0bc84863a36d', 'cc77d3592195c09de0585a5149ed1021304c2989', 'fde31c4a5b63a1776e240640aa22f536e6a5b579'] },
+    art: { accent: '#3ac97a', shots: ['ss_f4a9713413a54cd9ffea88c84c3197d87012b0eb.1920x1080.jpg', 'ss_d8f11b2d84bb30139af1ebbb239e0bc84863a36d.1920x1080.jpg', 'ss_cc77d3592195c09de0585a5149ed1021304c2989.1920x1080.jpg', 'ss_fde31c4a5b63a1776e240640aa22f536e6a5b579.1920x1080.jpg'] },
   },
   {
     id: 'control',
@@ -763,7 +763,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'The Ashtray Maze sequence alone is worth it',
     ],
     similar: ['alan-wake-2', 'prey-2017', 'returnal'],
-    art: { accent: '#c93a3a', shots: ['8376498631b089e52fb5c75ffe119e0de5e6aed1', '5a16ce565951479e142c56a23f19d88333d84945', 'c038bb7b20d72ba5d33cc95f7235aefa0b84a706', '949cf39deee737fec3aadff903ec5311dd22bdab'] },
+    art: { accent: '#c93a3a', shots: ['ss_8376498631b089e52fb5c75ffe119e0de5e6aed1.1920x1080.jpg', 'ss_5a16ce565951479e142c56a23f19d88333d84945.1920x1080.jpg', 'ss_c038bb7b20d72ba5d33cc95f7235aefa0b84a706.1920x1080.jpg', 'ss_949cf39deee737fec3aadff903ec5311dd22bdab.1920x1080.jpg'] },
   },
   {
     id: 'star-wars-jedi-survivor',
@@ -790,7 +790,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'Koboh is a great, dense world to poke around',
     ],
     similar: ['star-wars-jedi-fallen-order', 'sekiro', 'god-of-war-ragnarok'],
-    art: { accent: '#c9843a', shots: ['e589d6bb347c13f7226f0b294fd12880ced8d171', '6f2e72d773e4280f3a4860c7fb1d62e72932a9b0', 'f14055548a6c51171036ebb3d00ddf5c97e5bd05', 'bb84b8cbf9294c6166819c3d3328c4efbdb9d46c'] },
+    art: { accent: '#c9843a', shots: ['ss_e589d6bb347c13f7226f0b294fd12880ced8d171.1920x1080.jpg', 'ss_6f2e72d773e4280f3a4860c7fb1d62e72932a9b0.1920x1080.jpg', 'ss_f14055548a6c51171036ebb3d00ddf5c97e5bd05.1920x1080.jpg', 'ss_bb84b8cbf9294c6166819c3d3328c4efbdb9d46c.1920x1080.jpg'] },
   },
   {
     id: 'star-wars-jedi-fallen-order',
@@ -817,6 +817,6 @@ export const MAINSTREAM_GAMES_3: Game[] = [
       'BD-1 is the best companion in a Star Wars anything',
     ],
     similar: ['star-wars-jedi-survivor', 'sekiro', 'control'],
-    art: { accent: '#3a8fc9', shots: ['695a5724e306269d81ca0118d86308a170c9e913', 'cfad9481db1a3b68fb5fcb2298cfc74bcb6a469e', '763dcc7434f072d6fdbb9037b4d37f4474e29d9b', '045d78dba983384cf8282e617e7ba04e40a9e2e9'] },
+    art: { accent: '#3a8fc9', shots: ['ss_695a5724e306269d81ca0118d86308a170c9e913.1920x1080.jpg', 'ss_cfad9481db1a3b68fb5fcb2298cfc74bcb6a469e.1920x1080.jpg', 'ss_763dcc7434f072d6fdbb9037b4d37f4474e29d9b.1920x1080.jpg', 'ss_045d78dba983384cf8282e617e7ba04e40a9e2e9.1920x1080.jpg'] },
   },
 ];

@@ -115,7 +115,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Nine hours with genuinely zero filler',
     ],
     similar: ['it-takes-two', 'outer-wilds', 'chants-of-sennaar'],
-    art: { accent: '#e08a2e', shots: ['f3f6787d74739d3b2ec8a484b5c994b3d31ef325', '6a4f5afdaa98402de9cf0b59fed27bab3256a6f4', '0cdd90fafc160b52d08b303d205f9fd4e83cf164', 'ec35a739b4b33270eb170d9e561c5b016cba50a6'] },
+    art: { accent: '#e08a2e', shots: ['ss_f3f6787d74739d3b2ec8a484b5c994b3d31ef325.1920x1080.jpg', 'ss_6a4f5afdaa98402de9cf0b59fed27bab3256a6f4.1920x1080.jpg', 'ss_0cdd90fafc160b52d08b303d205f9fd4e83cf164.1920x1080.jpg', 'ss_ec35a739b4b33270eb170d9e561c5b016cba50a6.1920x1080.jpg'] },
   },
   {
     id: 'super-smash-bros-ultimate',
@@ -196,7 +196,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Genuinely one of the hardest mainstream games ever released',
     ],
     similar: ['nine-sols', 'elden-ring', 'dark-souls-iii'],
-    art: { accent: '#b83a3a', shots: ['0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0', '2685dd844a2a523b6c7ec207d46a538db6a908cd', '15f0e9982621aed44900215ad283811af0779b1d', '1e6f5540866a5564d65df915c22fe1e57e336a6f'] },
+    art: { accent: '#b83a3a', shots: ['ss_0f7b0f8ed9ffc49aba26f9328caa9a1d59ad60f0.1920x1080.jpg', 'ss_2685dd844a2a523b6c7ec207d46a538db6a908cd.1920x1080.jpg', 'ss_15f0e9982621aed44900215ad283811af0779b1d.1920x1080.jpg', 'ss_1e6f5540866a5564d65df915c22fe1e57e336a6f.1920x1080.jpg'] },
   },
   {
     id: 'dark-souls-iii',
@@ -223,7 +223,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Level design that folds back on itself beautifully',
     ],
     similar: ['elden-ring', 'sekiro', 'nine-sols'],
-    art: { accent: '#8a6a3a', shots: ['5efd318b85a3917d1c6e717f4cb813b47547cd6f', '1c0fa39091901496d77cf4cecfea4ffb056d6452', '1318a04ef11d87f38aebe6d47a96124f8f888ca8', '61524dee9ebf72d462638f21adbbbea4c93d791d'] },
+    art: { accent: '#8a6a3a', shots: ['ss_5efd318b85a3917d1c6e717f4cb813b47547cd6f.1920x1080.jpg', 'ss_1c0fa39091901496d77cf4cecfea4ffb056d6452.1920x1080.jpg', 'ss_1318a04ef11d87f38aebe6d47a96124f8f888ca8.1920x1080.jpg', 'ss_61524dee9ebf72d462638f21adbbbea4c93d791d.1920x1080.jpg'] },
   },
   {
     id: 'persona-5-royal',
@@ -250,7 +250,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Turn-based combat with real depth under the flash',
     ],
     similar: ['final-fantasy-vii-rebirth', 'baldurs-gate-3', 'xenoblade-chronicles-3'],
-    art: { accent: '#d6202a', shots: ['663171dc3afce8fe987e57e8659f91b69faa39bc', 'a3258aba84ae2f2ff13a02a160f7495bfc152adb', 'ddcc016b8e5c434ccbd1a89c0157ce73acf905ae', 'c665872b4c5cb3a4e4fd3a4abde97ee60fe51e33'] },
+    art: { accent: '#d6202a', shots: ['ss_663171dc3afce8fe987e57e8659f91b69faa39bc.1920x1080.jpg', 'ss_a3258aba84ae2f2ff13a02a160f7495bfc152adb.1920x1080.jpg', 'ss_ddcc016b8e5c434ccbd1a89c0157ce73acf905ae.1920x1080.jpg', 'ss_c665872b4c5cb3a4e4fd3a4abde97ee60fe51e33.1920x1080.jpg'] },
   },
   {
     id: 'final-fantasy-vii-rebirth',
@@ -276,7 +276,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'You do not need to have played the 1997 original',
     ],
     similar: ['persona-5-royal', 'god-of-war-ragnarok', 'xenoblade-chronicles-3'],
-    art: { accent: '#3a7fc9', shots: ['7a83a64967a06edbf0d43821153a0188471d596a', '7c389d8ed52b6bd2350a3bc9866ac45c919fb2e9', '5540aef3258019f77559ca77ef29ba893b61010f', '45513682d4c2e77b2a89e7bea00ec2851c110116'] },
+    art: { accent: '#3a7fc9', shots: ['ss_7a83a64967a06edbf0d43821153a0188471d596a.1920x1080.jpg', 'ss_7c389d8ed52b6bd2350a3bc9866ac45c919fb2e9.1920x1080.jpg', 'ss_5540aef3258019f77559ca77ef29ba893b61010f.1920x1080.jpg', 'ss_45513682d4c2e77b2a89e7bea00ec2851c110116.1920x1080.jpg'] },
   },
   {
     id: 'clair-obscur-expedition-33',
@@ -302,7 +302,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'From a first-time studio, which makes it more impressive still',
     ],
     similar: ['persona-5-royal', 'final-fantasy-vii-rebirth', 'nine-sols'],
-    art: { accent: '#c9a03a', shots: ['483a27df5072beb3a4650634a764bda750fbcb82', 'e49800e906e8a0f00707458c836567c933603bac', 'b8089016095e6a16e324a59c45b2f24a439bd0b3', '8439c07d7b1f2fcfc6449db5f051f8d0867f4785'] },
+    art: { accent: '#c9a03a', shots: ['ss_483a27df5072beb3a4650634a764bda750fbcb82.1920x1080.jpg', 'ss_e49800e906e8a0f00707458c836567c933603bac.1920x1080.jpg', 'ss_b8089016095e6a16e324a59c45b2f24a439bd0b3.1920x1080.jpg', 'ss_8439c07d7b1f2fcfc6449db5f051f8d0867f4785.1920x1080.jpg'] },
   },
   {
     id: 'astro-bot',
@@ -382,7 +382,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Rich accessibility options across the board',
     ],
     similar: ['ghost-of-tsushima', 'the-witcher-3', 'monster-hunter-wilds'],
-    art: { accent: '#c9683a', shots: ['7c1ead4b3d952fd0fb92735397945bd8732bba53', '2d05273cef37bcc3651dc9dbea42dbeca5f5f196', '87750b2dbc34d82d1ffef7aaab40a9f46d970d99', 'a4a19b86e80488f3d608e835e5ae3086760db866'] },
+    art: { accent: '#c9683a', shots: ['ss_7c1ead4b3d952fd0fb92735397945bd8732bba53.1920x1080.jpg', 'ss_2d05273cef37bcc3651dc9dbea42dbeca5f5f196.1920x1080.jpg', 'ss_87750b2dbc34d82d1ffef7aaab40a9f46d970d99.1920x1080.jpg', 'ss_a4a19b86e80488f3d608e835e5ae3086760db866.1920x1080.jpg'] },
   },
   {
     id: 'monster-hunter-wilds',
@@ -408,7 +408,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Hunts run 15-25 minutes, so sessions are flexible',
     ],
     similar: ['helldivers-2', 'deep-rock-galactic', 'elden-ring'],
-    art: { accent: '#c99a3a', shots: ['31b5597fecf2d9a2904bc9bbf8011aacb18143db', '9245c1ede8c3fc2cd65e4890a74a01ef50b726da', 'c722e74607ffda9a1472093ccc934f1bdde10ab8', 'd439e321350c004c4d866c248019aefdc6a50600'] },
+    art: { accent: '#c99a3a', shots: ['ss_31b5597fecf2d9a2904bc9bbf8011aacb18143db.1920x1080.jpg', 'ss_9245c1ede8c3fc2cd65e4890a74a01ef50b726da.1920x1080.jpg', 'ss_c722e74607ffda9a1472093ccc934f1bdde10ab8.1920x1080.jpg', 'ss_d439e321350c004c4d866c248019aefdc6a50600.1920x1080.jpg'] },
   },
   {
     id: 'diablo-iv',
@@ -650,7 +650,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Not forgiving — go in expecting to lose a lot',
     ],
     similar: ['hades', 'signalis', 'dead-cells'],
-    art: { accent: '#a03ac9', shots: ['3c260834df0c87cfc9ac1b457d0ec0eb3b9f367c', 'a91854c29cee0b4975862d174f03ff374ae5e26c', 'e15da2a195556b773ba8a982051f55de50d79a75', 'ea2f5b9dd34cd18e05970343edfb36ed0dade475'] },
+    art: { accent: '#a03ac9', shots: ['ss_3c260834df0c87cfc9ac1b457d0ec0eb3b9f367c.1920x1080.jpg', 'ss_a91854c29cee0b4975862d174f03ff374ae5e26c.1920x1080.jpg', 'ss_e15da2a195556b773ba8a982051f55de50d79a75.1920x1080.jpg', 'ss_ea2f5b9dd34cd18e05970343edfb36ed0dade475.1920x1080.jpg'] },
   },
   {
     id: 'ratchet-and-clank-rift-apart',
@@ -677,7 +677,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Bright and stress-free while still being spectacular',
     ],
     similar: ['astro-bot', 'marvels-spider-man-2', 'super-mario-odyssey'],
-    art: { accent: '#e0952e', shots: ['852202ce40cd9c558f7f732a9c2e23a6980bca6f', '31b29f38b6c97cf8c4cd80936f2defd347a62091', '5d2c999ecdccbc200121318b479bf0bdeb16b9b9', 'ba3c36a6efab13bae80058565deec546d8962594'] },
+    art: { accent: '#e0952e', shots: ['ss_852202ce40cd9c558f7f732a9c2e23a6980bca6f.1920x1080.jpg', 'ss_31b29f38b6c97cf8c4cd80936f2defd347a62091.1920x1080.jpg', 'ss_5d2c999ecdccbc200121318b479bf0bdeb16b9b9.1920x1080.jpg', 'ss_ba3c36a6efab13bae80058565deec546d8962594.1920x1080.jpg'] },
   },
   {
     id: 'alan-wake-2',
@@ -728,7 +728,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Third-person mode available if first-person horror is too much',
     ],
     similar: ['resident-evil-4-remake', 'alan-wake-2', 'signalis'],
-    art: { accent: '#8a3a4a', shots: ['d25704b01be292d1337df4fea0fba2aab322b58a', '8113ec993ec474055c4cdce5ee86f91f7cf6663f', '50283e6df9d2f3f24ff4a1a36a94ae307e21cee8', '363d9c05ee0a974b766938610a3352e7a89b9c92'] },
+    art: { accent: '#8a3a4a', shots: ['ss_d25704b01be292d1337df4fea0fba2aab322b58a.1920x1080.jpg', 'ss_8113ec993ec474055c4cdce5ee86f91f7cf6663f.1920x1080.jpg', 'ss_50283e6df9d2f3f24ff4a1a36a94ae307e21cee8.1920x1080.jpg', 'ss_363d9c05ee0a974b766938610a3352e7a89b9c92.1920x1080.jpg'] },
   },
   {
     id: 'cuphead',
@@ -755,7 +755,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Two-player co-op, though it does not make it easier',
     ],
     similar: ['celeste', 'pizza-tower', 'hollow-knight'],
-    art: { accent: '#e0a83a', shots: ['e3096a5555cb77d88db165c83d5ef3a24af1354a', '615455299355eaf552c638c7ea5b24a8b46e02dd', '483fb089be0093beeef03525276803a9ca4f66a1', '48477e4a865827aa0be6a44f00944d8d2a3e5eb9'] },
+    art: { accent: '#e0a83a', shots: ['ss_e3096a5555cb77d88db165c83d5ef3a24af1354a.1920x1080.jpg', 'ss_615455299355eaf552c638c7ea5b24a8b46e02dd.1920x1080.jpg', 'ss_483fb089be0093beeef03525276803a9ca4f66a1.1920x1080.jpg', 'ss_48477e4a865827aa0be6a44f00944d8d2a3e5eb9.1920x1080.jpg'] },
   },
   {
     id: 'terraria',
@@ -782,7 +782,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Up to eight players in one world',
     ],
     similar: ['minecraft', 'stardew-valley', 'dead-cells'],
-    art: { accent: '#3aa85a', shots: ['8c03886f214d2108cafca13845533eaa3d87d83f', 'ae168a00ab08104ba266dc30232654d4b3c919e5', '9edd98caaf9357c2f40758f354475a56e356e8b0', '75ea9a7e39eb34b40efa1e6dfd2536098dc4734b'] },
+    art: { accent: '#3aa85a', shots: ['ss_8c03886f214d2108cafca13845533eaa3d87d83f.1920x1080.jpg', 'ss_ae168a00ab08104ba266dc30232654d4b3c919e5.1920x1080.jpg', 'ss_9edd98caaf9357c2f40758f354475a56e356e8b0.1920x1080.jpg', 'ss_75ea9a7e39eb34b40efa1e6dfd2536098dc4734b.1920x1080.jpg'] },
   },
   {
     id: 'doom-the-dark-ages',
@@ -809,7 +809,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Absolutely relentless, in the intended way',
     ],
     similar: ['helldivers-2', 'resident-evil-4-remake', 'street-fighter-6'],
-    art: { accent: '#b03a2a', shots: ['ba66d42e3d1ea78e5b085682484210b390eb9ccc', 'bbb5ead71b9321c6ba9bfc8941917136f9961fdb', '3c894cfd44c1c12a539d2dbcb93cbecfbdbbb383', '18de5ba08a6468e26bdc7a991fb00d3383e36d0c'] },
+    art: { accent: '#b03a2a', shots: ['ss_ba66d42e3d1ea78e5b085682484210b390eb9ccc.1920x1080.jpg', 'ss_bbb5ead71b9321c6ba9bfc8941917136f9961fdb.1920x1080.jpg', 'ss_3c894cfd44c1c12a539d2dbcb93cbecfbdbbb383.1920x1080.jpg', 'ss_18de5ba08a6468e26bdc7a991fb00d3383e36d0c.1920x1080.jpg'] },
   },
   {
     id: 'among-us',
@@ -836,6 +836,6 @@ export const MAINSTREAM_GAMES_2: Game[] = [
       'Cheap on every platform, so a whole group can buy in',
     ],
     similar: ['lethal-company', 'phasmophobia', 'super-mario-party-jamboree'],
-    art: { accent: '#c93a3a', shots: ['b7374128e5b786a302a716bca038d604b00ffe46', '719484b5e0314cc2ae43793786448e032056a31d', 'ffd9c8926cbd7fce3ca5e5efb4399c47bb196bc8', '1fbd9dc9fd6a2710d233a088ef426a6d78fcf884'] },
+    art: { accent: '#c93a3a', shots: ['ss_b7374128e5b786a302a716bca038d604b00ffe46.1920x1080.jpg', 'ss_719484b5e0314cc2ae43793786448e032056a31d.1920x1080.jpg', 'ss_ffd9c8926cbd7fce3ca5e5efb4399c47bb196bc8.1920x1080.jpg', 'ss_1fbd9dc9fd6a2710d233a088ef426a6d78fcf884.1920x1080.jpg'] },
   },
 ];

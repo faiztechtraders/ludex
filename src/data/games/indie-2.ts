@@ -64,7 +64,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Absurd value; the DLC is equally cheap',
     ],
     similar: ['balatro', 'dead-cells', 'risk-of-rain-2'],
-    art: { accent: '#c9a03a', shots: ['6c55afe36be2a7784bf18cb9b3218321ae2d10e5', '6105ad3d6af52593c31d915bf39e91512611ea8e', '054159adc52856d066d48bda02866da524c43439', '01ec75b8055dbaa6895a0be127508ff569917a1e'] },
+    art: { accent: '#c9a03a', shots: ['ss_6c55afe36be2a7784bf18cb9b3218321ae2d10e5.1920x1080.jpg', 'ss_6105ad3d6af52593c31d915bf39e91512611ea8e.1920x1080.jpg', 'ss_054159adc52856d066d48bda02866da524c43439.1920x1080.jpg', 'ss_01ec75b8055dbaa6895a0be127508ff569917a1e.1920x1080.jpg'] },
   },
   {
     id: 'stray',
@@ -92,7 +92,7 @@ export const INDIE_GAMES_2: Game[] = [
       'A dedicated meow button, used constantly',
     ],
     similar: ['sable', 'a-short-hike', 'inside'],
-    art: { accent: '#e8a03a', shots: ['88e209a90c2039fa76bca6fa08c641365be38d50', 'e8f0cbd5efdba352e89c4cfcee3fe991a1e1be8a', '2221af260c64362fdc835a9dca65f6f1d1192b25', '3fdd04a5418293864bf82d33c75f833121e63804'] },
+    art: { accent: '#e8a03a', shots: ['ss_88e209a90c2039fa76bca6fa08c641365be38d50.1920x1080.jpg', 'ss_e8f0cbd5efdba352e89c4cfcee3fe991a1e1be8a.1920x1080.jpg', 'ss_2221af260c64362fdc835a9dca65f6f1d1192b25.1920x1080.jpg', 'ss_3fdd04a5418293864bf82d33c75f833121e63804.1920x1080.jpg'] },
   },
   {
     id: 'dave-the-diver',
@@ -119,7 +119,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Very funny without trying too hard',
     ],
     similar: ['dredge', 'stardew-valley', 'cult-of-the-lamb'],
-    art: { accent: '#3aa8c9', shots: ['7c86a17d545b6260ecdcfdd62622e49dcc9011bd', '783e1f6c2d4c358fb494d055c47c0e888922abd5', '6eac5a3b59e181d1ffa26757b041be521bfe1779', 'bc9150385c6fcd41ac7195be36597469f54a792c'] },
+    art: { accent: '#3aa8c9', shots: ['ss_7c86a17d545b6260ecdcfdd62622e49dcc9011bd.1920x1080.jpg', 'ss_783e1f6c2d4c358fb494d055c47c0e888922abd5.1920x1080.jpg', 'ss_6eac5a3b59e181d1ffa26757b041be521bfe1779.1920x1080.jpg', 'ss_bc9150385c6fcd41ac7195be36597469f54a792c.1920x1080.jpg'] },
   },
   {
     id: 'sea-of-stars',
@@ -173,7 +173,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Five hours that feel completely intentional',
     ],
     similar: ['inside', 'the-witness', 'chants-of-sennaar'],
-    art: { accent: '#c96a3a', shots: ['e1760582c4ed7da2bc737b878126864f83308ca0', '33edba0e9cbf89a896e9ec2e9b2731303c4ea83a', '33294bb3b7addea79361629d24023223dab0aa4c', '515d6e054265fde30ca72373ffaefd50e9276fc2'] },
+    art: { accent: '#c96a3a', shots: ['ss_e1760582c4ed7da2bc737b878126864f83308ca0.1920x1080.jpg', 'ss_33edba0e9cbf89a896e9ec2e9b2731303c4ea83a.1920x1080.jpg', 'ss_33294bb3b7addea79361629d24023223dab0aa4c.1920x1080.jpg', 'ss_515d6e054265fde30ca72373ffaefd50e9276fc2.1920x1080.jpg'] },
   },
   {
     id: 'neon-white',
@@ -200,7 +200,7 @@ export const INDIE_GAMES_2: Game[] = [
       'The soundtrack is relentless in the best way',
     ],
     similar: ['pizza-tower', 'ultrakill', 'celeste'],
-    art: { accent: '#e03a6a', shots: ['d8c2c0eb97bc25344f24da92e55b6420ca94c607', '27ea65326988eeeaa504bb8c0d2c892aae894b57', '38fc87620e7706535193143404488e5c10863813', '7ebe34f5d96739a0901619b31b8f5a2a1c43bc50'] },
+    art: { accent: '#e03a6a', shots: ['ss_d8c2c0eb97bc25344f24da92e55b6420ca94c607.1920x1080.jpg', 'ss_27ea65326988eeeaa504bb8c0d2c892aae894b57.1920x1080.jpg', 'ss_38fc87620e7706535193143404488e5c10863813.1920x1080.jpg', 'ss_7ebe34f5d96739a0901619b31b8f5a2a1c43bc50.1920x1080.jpg'] },
   },
   {
     id: 'hi-fi-rush',
@@ -227,7 +227,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Relentlessly cheerful in a way action games rarely are',
     ],
     similar: ['bomb-rush-cyberfunk', 'neon-white', 'pizza-tower'],
-    art: { accent: '#e0b03a', shots: ['382e9d5abb00498eee6a86b0366a2db7826268b7', '8a13650ffe930da77593dae80f0118588c46a5ca', '62a7ff68fff7850be6a0784eff41edafd33b2099', '7dfaee4616fbed65b2b0fcb82d55dc0a957fd8a5'] },
+    art: { accent: '#e0b03a', shots: ['ss_382e9d5abb00498eee6a86b0366a2db7826268b7.1920x1080.jpg', 'ss_8a13650ffe930da77593dae80f0118588c46a5ca.1920x1080.jpg', 'ss_62a7ff68fff7850be6a0784eff41edafd33b2099.1920x1080.jpg', 'ss_7dfaee4616fbed65b2b0fcb82d55dc0a957fd8a5.1920x1080.jpg'] },
   },
   {
     id: 'sifu',
@@ -254,7 +254,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Difficulty options were added later if the original was too brutal',
     ],
     similar: ['sekiro', 'nine-sols', 'katana-zero'],
-    art: { accent: '#c93a3a', shots: ['9be1654f96e9fd6517fbe9107d76da245cbfaeb9', '7f7fd03f973d0a1e5e9d481a2235402c19c0f0e5', 'fcbdfe30cb361fdc6971878306a5179d175240c9', 'c917c981f912e8331b40a2638a32b3021458d4b8'] },
+    art: { accent: '#c93a3a', shots: ['ss_9be1654f96e9fd6517fbe9107d76da245cbfaeb9.1920x1080.jpg', 'ss_7f7fd03f973d0a1e5e9d481a2235402c19c0f0e5.1920x1080.jpg', 'ss_fcbdfe30cb361fdc6971878306a5179d175240c9.1920x1080.jpg', 'ss_c917c981f912e8331b40a2638a32b3021458d4b8.1920x1080.jpg'] },
   },
   {
     id: 'katana-zero',
@@ -281,7 +281,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Synthwave soundtrack that people buy on its own',
     ],
     similar: ['neon-white', 'sifu', 'superhot'],
-    art: { accent: '#e03a5a', shots: ['c269a57182b021d2aac2bb8d42421d0ef301360d', 'd4f8ef350ac44c096f8137208c381cac31e68242', 'fce2aae6d24fbca70a8196e04f66c51d49a353b0', '9c5b43f5a2ab00b35857b8ccb0c4a24a9755091f'] },
+    art: { accent: '#e03a5a', shots: ['ss_c269a57182b021d2aac2bb8d42421d0ef301360d.1920x1080.jpg', 'ss_d4f8ef350ac44c096f8137208c381cac31e68242.1920x1080.jpg', 'ss_fce2aae6d24fbca70a8196e04f66c51d49a353b0.1920x1080.jpg', 'ss_9c5b43f5a2ab00b35857b8ccb0c4a24a9755091f.1920x1080.jpg'] },
   },
   {
     id: 'ori-will-of-the-wisps',
@@ -309,7 +309,7 @@ export const INDIE_GAMES_2: Game[] = [
       'The orchestral score is film-quality',
     ],
     similar: ['hollow-knight', 'gris', 'celeste'],
-    art: { accent: '#5ac9d6', shots: ['0cf0ec6681ae5771173790dbc99ddb3bf3b886ad', 'f8ac174b7949e89fe1939a7bd2c471785dee55f0', '3ae04b208aaff3869f69617c47449ec1d7a06513', '608e317acbb76258bedcf1a79e6673a61475908f'] },
+    art: { accent: '#5ac9d6', shots: ['ss_0cf0ec6681ae5771173790dbc99ddb3bf3b886ad.1920x1080.jpg', 'ss_f8ac174b7949e89fe1939a7bd2c471785dee55f0.1920x1080.jpg', 'ss_3ae04b208aaff3869f69617c47449ec1d7a06513.1920x1080.jpg', 'ss_608e317acbb76258bedcf1a79e6673a61475908f.1920x1080.jpg'] },
   },
   {
     id: 'risk-of-rain-2',
@@ -336,7 +336,7 @@ export const INDIE_GAMES_2: Game[] = [
       'The tension of "one more stage" is the whole design',
     ],
     similar: ['deep-rock-galactic', 'dead-cells', 'vampire-survivors'],
-    art: { accent: '#c95a3a', shots: ['2bb49071317f7b241a527cf6e7aabd2cb6af055b', 'a3f57f281813cb51cb5d919701470acb962ff297', '328d6fcb223f848c2a1047bb86702c4175d92317', 'dc777b5c583794c99440b196cd1d26884fb1720b'] },
+    art: { accent: '#c95a3a', shots: ['ss_2bb49071317f7b241a527cf6e7aabd2cb6af055b.1920x1080.jpg', 'ss_a3f57f281813cb51cb5d919701470acb962ff297.1920x1080.jpg', 'ss_328d6fcb223f848c2a1047bb86702c4175d92317.1920x1080.jpg', 'ss_dc777b5c583794c99440b196cd1d26884fb1720b.1920x1080.jpg'] },
   },
   {
     id: 'subnautica',
@@ -389,7 +389,7 @@ export const INDIE_GAMES_2: Game[] = [
       'That deliberately soft, painterly art style',
     ],
     similar: ['minecraft', 'subnautica', 'deep-rock-galactic'],
-    art: { accent: '#5a8f6a', shots: ['a600a7d4ca954543e22f571a9629521a13f82143', 'cd0262c5abf8a90ee5e1059acafc5a92b6be0e73', '3db385fc1223914dadb199ac8682683a8c59454e', '6032c9336c6cf9c1ebc914cedf022b38e97fd271'] },
+    art: { accent: '#5a8f6a', shots: ['ss_a600a7d4ca954543e22f571a9629521a13f82143.1920x1080.jpg', 'ss_cd0262c5abf8a90ee5e1059acafc5a92b6be0e73.1920x1080.jpg', 'ss_3db385fc1223914dadb199ac8682683a8c59454e.1920x1080.jpg', 'ss_6032c9336c6cf9c1ebc914cedf022b38e97fd271.1920x1080.jpg'] },
   },
   {
     id: 'rimworld',
@@ -442,7 +442,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Never been on sale, and does not need to be',
     ],
     similar: ['rimworld', 'minecraft', 'opus-magnum'],
-    art: { accent: '#c9832a', shots: ['36e4d8e5540805f5ed492d24d784ed9ba661752b', '171f398a8e347fad650a9c1b6c3b77c612781510', '0bf814493f247b6baa093511b46c352cf9e98435', '2533e54b0bd90a29adbedb60108ed277536ad445'] },
+    art: { accent: '#c9832a', shots: ['ss_36e4d8e5540805f5ed492d24d784ed9ba661752b.1920x1080.jpg', 'ss_171f398a8e347fad650a9c1b6c3b77c612781510.1920x1080.jpg', 'ss_0bf814493f247b6baa093511b46c352cf9e98435.1920x1080.jpg', 'ss_2533e54b0bd90a29adbedb60108ed277536ad445.1920x1080.jpg'] },
   },
   {
     id: 'divinity-original-sin-2',
@@ -469,7 +469,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Arguably more mechanically freeform than BG3',
     ],
     similar: ['baldurs-gate-3', 'wildermyth', 'disco-elysium'],
-    art: { accent: '#c9622a', shots: ['b59e5889726cab2cf01a93d0c0d192d25928952a', '34a428cdd26113e8645b77331d9fc82fcc50a4a2', '66d58326ebea7154d7f3d89e02f13913452caef7', 'd3badb07717f13ef3316928c513f8c4c7f7b50b1'] },
+    art: { accent: '#c9622a', shots: ['ss_b59e5889726cab2cf01a93d0c0d192d25928952a.1920x1080.jpg', 'ss_34a428cdd26113e8645b77331d9fc82fcc50a4a2.1920x1080.jpg', 'ss_66d58326ebea7154d7f3d89e02f13913452caef7.1920x1080.jpg', 'ss_d3badb07717f13ef3316928c513f8c4c7f7b50b1.1920x1080.jpg'] },
   },
   {
     id: 'darkest-dungeon',
@@ -496,7 +496,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Deliberately cruel — it wants you to lose people',
     ],
     similar: ['slay-the-spire', 'rimworld', 'signalis'],
-    art: { accent: '#8a3a4a', shots: ['04572edc979601b038756f87861c6f8c6c337806', '799c78932c87f2be0cbd45dd1b80ebd0a355e575', 'a967c2d7344433cdf72a53ef1922586b0d7cce69', 'c9d41e74d574f6fa9bf53c0cf74f8430c2072cc2'] },
+    art: { accent: '#8a3a4a', shots: ['ss_04572edc979601b038756f87861c6f8c6c337806.1920x1080.jpg', 'ss_799c78932c87f2be0cbd45dd1b80ebd0a355e575.1920x1080.jpg', 'ss_a967c2d7344433cdf72a53ef1922586b0d7cce69.1920x1080.jpg', 'ss_c9d41e74d574f6fa9bf53c0cf74f8430c2072cc2.1920x1080.jpg'] },
   },
   {
     id: 'into-the-breach',
@@ -523,7 +523,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Undo lets you experiment without punishment',
     ],
     similar: ['ftl-faster-than-light', 'slay-the-spire', 'baba-is-you'],
-    art: { accent: '#3a8fa8', shots: ['6113590509c195f98fa64cd738df534762e0c358', 'edc919f964fd053441967b89592bc930a65f4171', '82cfc5241c4a093091fbd7d2e124a52a57930527', '4b985c7747c1ff0b7fbbf3eaf8ca5a1272f0dadb'] },
+    art: { accent: '#3a8fa8', shots: ['ss_6113590509c195f98fa64cd738df534762e0c358.1920x1080.jpg', 'ss_edc919f964fd053441967b89592bc930a65f4171.1920x1080.jpg', 'ss_82cfc5241c4a093091fbd7d2e124a52a57930527.1920x1080.jpg', 'ss_4b985c7747c1ff0b7fbbf3eaf8ca5a1272f0dadb.1920x1080.jpg'] },
   },
   {
     id: 'ftl-faster-than-light',
@@ -549,7 +549,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Runs take under two hours',
     ],
     similar: ['into-the-breach', 'darkest-dungeon', 'slay-the-spire'],
-    art: { accent: '#3a9f8a', shots: ['052d698926073e8d407a864f0e63a486af24ec0d', '779ba1fda143fc42a8eb1212830ad855422e84ad', '19d6b545c89bf8e73abc13c548a1e5aeb8801f53', '8bc4c5c483fb85bcdcbcdbe98cbe44e82bfc961f'] },
+    art: { accent: '#3a9f8a', shots: ['ss_052d698926073e8d407a864f0e63a486af24ec0d.1920x1080.jpg', 'ss_779ba1fda143fc42a8eb1212830ad855422e84ad.1920x1080.jpg', 'ss_19d6b545c89bf8e73abc13c548a1e5aeb8801f53.1920x1080.jpg', 'ss_8bc4c5c483fb85bcdcbcdbe98cbe44e82bfc961f.1920x1080.jpg'] },
   },
   {
     id: 'baba-is-you',
@@ -576,7 +576,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Will make you feel stupid and then brilliant, repeatedly',
     ],
     similar: ['the-witness', 'patricks-parabox', 'into-the-breach'],
-    art: { accent: '#e0e0e0', shots: ['908c8a4fd0ffec9f29341eb50eb7f074c105342f', '9eadb1cdc09f574d49d32a722d7bda5813c96a64', 'c535fc337bdb15bfe35a164cc13db7ec92fd1f44', 'e421ba3fb93e902eb4af05564ebf3afcabaae951'] },
+    art: { accent: '#e0e0e0', shots: ['ss_908c8a4fd0ffec9f29341eb50eb7f074c105342f.1920x1080.jpg', 'ss_9eadb1cdc09f574d49d32a722d7bda5813c96a64.1920x1080.jpg', 'ss_c535fc337bdb15bfe35a164cc13db7ec92fd1f44.1920x1080.jpg', 'ss_e421ba3fb93e902eb4af05564ebf3afcabaae951.1920x1080.jpg'] },
   },
   {
     id: 'the-witness',
@@ -602,7 +602,7 @@ export const INDIE_GAMES_2: Game[] = [
       'You can wander off and solve things in almost any order',
     ],
     similar: ['cocoon', 'baba-is-you', 'outer-wilds'],
-    art: { accent: '#5ac96a', shots: ['9c73ac83c8acfb69db6166f239fdba2ffa099b32', '6a7964a4dede8ad7d8b4e413e8b291defbbaa55b', '583fdbf6aa66a179d60a2261bab7b10c102e36e8', '05033717114ac8a697fbf45c149d26bb1cfc6893'] },
+    art: { accent: '#5ac96a', shots: ['ss_9c73ac83c8acfb69db6166f239fdba2ffa099b32.1920x1080.jpg', 'ss_6a7964a4dede8ad7d8b4e413e8b291defbbaa55b.1920x1080.jpg', 'ss_583fdbf6aa66a179d60a2261bab7b10c102e36e8.1920x1080.jpg', 'ss_05033717114ac8a697fbf45c149d26bb1cfc6893.1920x1080.jpg'] },
   },
   {
     id: 'inside',
@@ -629,7 +629,7 @@ export const INDIE_GAMES_2: Game[] = [
       'An ending people are still arguing about',
     ],
     similar: ['limbo', 'cocoon', 'signalis'],
-    art: { accent: '#8a3a3a', shots: ['d23769199f1e3d498f8293892f0456696458c717', 'b15d0a5c037198b5b9db6a82fedf5018f1b43de5', 'ebeba62a8d2141b4fd36760500529fb2d9a29190', '8b67b9a40e620c7316df60cb5a783820f77b935c'] },
+    art: { accent: '#8a3a3a', shots: ['ss_d23769199f1e3d498f8293892f0456696458c717.1920x1080.jpg', 'ss_b15d0a5c037198b5b9db6a82fedf5018f1b43de5.1920x1080.jpg', 'ss_ebeba62a8d2141b4fd36760500529fb2d9a29190.1920x1080.jpg', 'ss_8b67b9a40e620c7316df60cb5a783820f77b935c.1920x1080.jpg'] },
   },
   {
     id: 'limbo',
@@ -656,7 +656,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Death is frequent but restarts are instant',
     ],
     similar: ['inside', 'little-nightmares-2', 'cocoon'],
-    art: { accent: '#7a7a7a', shots: ['d33513ed37acf1073ea92f182b76e165101bfdac', '402b32434e4bb1a8445397aa24b1b893fe3d257f', 'a62bc173abb93fbc12dbb6b8d366524a43c1356f', 'a9d219f68ed392daba5e848c55dd9814ee3483b2'] },
+    art: { accent: '#7a7a7a', shots: ['ss_d33513ed37acf1073ea92f182b76e165101bfdac.1920x1080.jpg', 'ss_402b32434e4bb1a8445397aa24b1b893fe3d257f.1920x1080.jpg', 'ss_a62bc173abb93fbc12dbb6b8d366524a43c1356f.1920x1080.jpg', 'ss_a9d219f68ed392daba5e848c55dd9814ee3483b2.1920x1080.jpg'] },
   },
   {
     id: 'little-nightmares-2',
@@ -684,7 +684,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Six hours, no padding',
     ],
     similar: ['inside', 'limbo', 'signalis'],
-    art: { accent: '#c9b03a', shots: ['b7bdc32338c0261ee0773ad0b13024c853a2141c', 'a17e682e91c93695f2855be46428c4fc04c997f3', 'a2f4c8ad95844656764d6b7d3a033fc787e82144', 'fa043ec9f1f044e57085bbff9b5200d60fa05d91'] },
+    art: { accent: '#c9b03a', shots: ['ss_b7bdc32338c0261ee0773ad0b13024c853a2141c.1920x1080.jpg', 'ss_a17e682e91c93695f2855be46428c4fc04c997f3.1920x1080.jpg', 'ss_a2f4c8ad95844656764d6b7d3a033fc787e82144.1920x1080.jpg', 'ss_fa043ec9f1f044e57085bbff9b5200d60fa05d91.1920x1080.jpg'] },
   },
   {
     id: 'what-remains-of-edith-finch',
@@ -712,7 +712,7 @@ export const INDIE_GAMES_2: Game[] = [
       'No fail states — it is purely about the telling',
     ],
     similar: ['venba', 'a-short-hike', 'firewatch'],
-    art: { accent: '#c98a3a', shots: ['5e17b98cf2effabcb74aedc537ef3d68578b5c66', 'b33a742463deb8564a382e1744febceaa91a5bab', 'cc50bb10f1858d16a4df684f4dd264bda5d432ba', '77ebb61562a25dbcd0c4cc1c5090b76a76a055b2'] },
+    art: { accent: '#c98a3a', shots: ['ss_5e17b98cf2effabcb74aedc537ef3d68578b5c66.1920x1080.jpg', 'ss_b33a742463deb8564a382e1744febceaa91a5bab.1920x1080.jpg', 'ss_cc50bb10f1858d16a4df684f4dd264bda5d432ba.1920x1080.jpg', 'ss_77ebb61562a25dbcd0c4cc1c5090b76a76a055b2.1920x1080.jpg'] },
   },
   {
     id: 'firewatch',
@@ -739,7 +739,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Four hours, best played in one sitting',
     ],
     similar: ['what-remains-of-edith-finch', 'sable', 'oxenfree'],
-    art: { accent: '#e0752e', shots: ['80432f2d4f4192017115c23e7dff090df95b204a', 'c7e16bc8d5a6d40ab1f7c339395d26d8f6eb57ff', '570bc87288b5ab4e235ba270e1d2ae30312d5b82', 'eb64648f294463df89e55f9363cdf159aebcf11e'] },
+    art: { accent: '#e0752e', shots: ['ss_80432f2d4f4192017115c23e7dff090df95b204a.1920x1080.jpg', 'ss_c7e16bc8d5a6d40ab1f7c339395d26d8f6eb57ff.1920x1080.jpg', 'ss_570bc87288b5ab4e235ba270e1d2ae30312d5b82.1920x1080.jpg', 'ss_eb64648f294463df89e55f9363cdf159aebcf11e.1920x1080.jpg'] },
   },
   {
     id: 'oxenfree',
@@ -766,7 +766,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Choices carry through to a New Game+ that remembers',
     ],
     similar: ['firewatch', 'what-remains-of-edith-finch', 'norco'],
-    art: { accent: '#5a6ac9', shots: ['72abbfd384f1825b6d68ed8977b373b78dfbc30f', 'a976add91216ecd7f5b9530a3928dc32b658c7dd', '5ef1b9268958d76272708b411960a00a81050aba', '75af452f6e7f6c5dc1ada4f001abcccac6c57db7'] },
+    art: { accent: '#5a6ac9', shots: ['ss_72abbfd384f1825b6d68ed8977b373b78dfbc30f.1920x1080.jpg', 'ss_a976add91216ecd7f5b9530a3928dc32b658c7dd.1920x1080.jpg', 'ss_5ef1b9268958d76272708b411960a00a81050aba.1920x1080.jpg', 'ss_75af452f6e7f6c5dc1ada4f001abcccac6c57db7.1920x1080.jpg'] },
   },
   {
     id: 'papers-please',
@@ -792,7 +792,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Glory to Arstotzka',
     ],
     similar: ['return-of-the-obra-dinn', 'citizen-sleeper', 'norco'],
-    art: { accent: '#8a6a4a', shots: ['4cd77e3ef5b147b011a5cf8f96b8bcbcd79b3e15', 'a1d08145ac2d3e85e8db440ccfeb7f7ad3c8247a', '4b50458fbc4afe2917803b59a35afb3e5d61c960', '958285f31774906eb4def9d98a83e7926ceb3be2'] },
+    art: { accent: '#8a6a4a', shots: ['ss_4cd77e3ef5b147b011a5cf8f96b8bcbcd79b3e15.1920x1080.jpg', 'ss_a1d08145ac2d3e85e8db440ccfeb7f7ad3c8247a.1920x1080.jpg', 'ss_4b50458fbc4afe2917803b59a35afb3e5d61c960.1920x1080.jpg', 'ss_958285f31774906eb4def9d98a83e7926ceb3be2.1920x1080.jpg'] },
   },
   {
     id: 'gris',
@@ -819,7 +819,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Four hours, closer to an album than a game',
     ],
     similar: ['ori-will-of-the-wisps', 'a-short-hike', 'sable'],
-    art: { accent: '#5a7fc9', shots: ['4fa618f5a2141d48a05716d43598a260235b0aaa', 'a155ad5423e11e3e764a1a270dcf4f30323f0a35', '62883bfa8a341db3f9c5c03768f5c14f938fe8fc', '9c717701f0a67af52d227f69001e1415c932ae60'] },
+    art: { accent: '#5a7fc9', shots: ['ss_4fa618f5a2141d48a05716d43598a260235b0aaa.1920x1080.jpg', 'ss_a155ad5423e11e3e764a1a270dcf4f30323f0a35.1920x1080.jpg', 'ss_62883bfa8a341db3f9c5c03768f5c14f938fe8fc.1920x1080.jpg', 'ss_9c717701f0a67af52d227f69001e1415c932ae60.1920x1080.jpg'] },
   },
   {
     id: 'journey',
@@ -845,7 +845,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Nothing can hurt you — it is purely about the going',
     ],
     similar: ['sable', 'gris', 'a-short-hike'],
-    art: { accent: '#e0a03a', shots: ['d4c7bfb15df749b78b6957320a4a23d71d531858', 'c7741b2d22bdd5e5765816c9ef1b1e675616ce81', '040366eaf8bdf1dfb5a16ba5e503742ce96f2f6d', 'ed77e7844e32c4cb181ce585fa1a368285c66ec5'] },
+    art: { accent: '#e0a03a', shots: ['ss_d4c7bfb15df749b78b6957320a4a23d71d531858.1920x1080.jpg', 'ss_c7741b2d22bdd5e5765816c9ef1b1e675616ce81.1920x1080.jpg', 'ss_040366eaf8bdf1dfb5a16ba5e503742ce96f2f6d.1920x1080.jpg', 'ss_ed77e7844e32c4cb181ce585fa1a368285c66ec5.1920x1080.jpg'] },
   },
   {
     id: 'untitled-goose-game',
@@ -872,7 +872,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Three hours; it knows exactly when to stop',
     ],
     similar: ['a-short-hike', 'tinykin', 'overcooked-2'],
-    art: { accent: '#e0c93a', shots: ['deb5b83b07d3f7c1050ea46b51117109da06952b', '7576323f465966792d0fb021acf5a8a81a16e9f9', 'f77f22299e196a9e8e702bd36fbba9951a6c0a01', '4f8a37c4fe9882876c891333dc2a76060a3e5652'] },
+    art: { accent: '#e0c93a', shots: ['ss_deb5b83b07d3f7c1050ea46b51117109da06952b.1920x1080.jpg', 'ss_7576323f465966792d0fb021acf5a8a81a16e9f9.1920x1080.jpg', 'ss_f77f22299e196a9e8e702bd36fbba9951a6c0a01.1920x1080.jpg', 'ss_4f8a37c4fe9882876c891333dc2a76060a3e5652.1920x1080.jpg'] },
   },
   {
     id: 'superhot',
@@ -899,7 +899,7 @@ export const INDIE_GAMES_2: Game[] = [
       'White, red and black, and nothing else',
     ],
     similar: ['neon-white', 'katana-zero', 'superliminal'],
-    art: { accent: '#e03a3a', shots: ['ae4a994de7b15e3cec3e56ae714cf7a44c7188cf', '1e3ef7d9d9654c6189e6680502a0ce3068d1aef7', 'fbd718c60719f045e4e4ee1d23d159ecabb3a171', '7d2f3db42595a665912155fa44a9b65f807fd483'] },
+    art: { accent: '#e03a3a', shots: ['ss_ae4a994de7b15e3cec3e56ae714cf7a44c7188cf.1920x1080.jpg', 'ss_1e3ef7d9d9654c6189e6680502a0ce3068d1aef7.1920x1080.jpg', 'ss_fbd718c60719f045e4e4ee1d23d159ecabb3a171.1920x1080.jpg', 'ss_7d2f3db42595a665912155fa44a9b65f807fd483.1920x1080.jpg'] },
   },
   {
     id: 'slime-rancher',
@@ -926,7 +926,7 @@ export const INDIE_GAMES_2: Game[] = [
       'A good first game for a young player',
     ],
     similar: ['stardew-valley', 'powerwash-simulator', 'tinykin'],
-    art: { accent: '#e0a8c9', shots: ['5339a74c4563d40a1d8a5638db2a9ed59c5b883b', 'd0e6a30325a9f7ff4fb3d6ba344c4131bb5f98cb', '58bea16c1d3147c47b0b36cef82008b949c18d97', 'e03a3526536a7da15dc1b89dc4e6285a87e8e2db'] },
+    art: { accent: '#e0a8c9', shots: ['ss_5339a74c4563d40a1d8a5638db2a9ed59c5b883b.1920x1080.jpg', 'ss_d0e6a30325a9f7ff4fb3d6ba344c4131bb5f98cb.1920x1080.jpg', 'ss_58bea16c1d3147c47b0b36cef82008b949c18d97.1920x1080.jpg', 'ss_e03a3526536a7da15dc1b89dc4e6285a87e8e2db.1920x1080.jpg'] },
   },
   {
     id: 'shovel-knight',
@@ -953,7 +953,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Generous checkpointing you can gamble away for gold',
     ],
     similar: ['celeste', 'cuphead', 'pizza-tower'],
-    art: { accent: '#3a8fc9', shots: ['019205f5f9ae1c3f0d5359e967135a76ae1ebd2d', 'd4a97787fdb4f0c6bdc0826fcbb7319f74fffc6c', '77b1cdeb564ee017030e7ff88f647db7ada26206', '30ebf4cbeb9acb9a8c4143f4506f119ba7680400'] },
+    art: { accent: '#3a8fc9', shots: ['ss_019205f5f9ae1c3f0d5359e967135a76ae1ebd2d.1920x1080.jpg', 'ss_d4a97787fdb4f0c6bdc0826fcbb7319f74fffc6c.1920x1080.jpg', 'ss_77b1cdeb564ee017030e7ff88f647db7ada26206.1920x1080.jpg', 'ss_30ebf4cbeb9acb9a8c4143f4506f119ba7680400.1920x1080.jpg'] },
   },
   {
     id: 'rogue-legacy-2',
@@ -980,7 +980,7 @@ export const INDIE_GAMES_2: Game[] = [
       'The inherited-traits joke never gets old',
     ],
     similar: ['dead-cells', 'hades', 'risk-of-rain-2'],
-    art: { accent: '#c9a03a', shots: ['38e3dcba9ad2a6c8d6defb69ae1b3137f9eb2907', '21e41442a39177a8785cb4bce39ff65f0f74672c', '387ee5bf5e2faffadfb7b6925b90ca9e767ee595', '0371a24285fb03b09b40e595773dd243222128df'] },
+    art: { accent: '#c9a03a', shots: ['ss_38e3dcba9ad2a6c8d6defb69ae1b3137f9eb2907.1920x1080.jpg', 'ss_21e41442a39177a8785cb4bce39ff65f0f74672c.1920x1080.jpg', 'ss_387ee5bf5e2faffadfb7b6925b90ca9e767ee595.1920x1080.jpg', 'ss_0371a24285fb03b09b40e595773dd243222128df.1920x1080.jpg'] },
   },
   {
     id: 'blasphemous-2',
@@ -1035,7 +1035,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Beautiful, sad, and only fifteen hours',
     ],
     similar: ['hollow-knight', 'blasphemous-2', 'gris'],
-    art: { accent: '#6a7fa8', shots: ['1c2bf22139c82d0c46ccee075e1e71e08b88ab44', 'a3d8c04253e525da1907fd8028ab66a318c1f0c1', '0076f81d06eb547dbec80d06a3148c1c614f540b', 'c1180c9d99d525508066f4d919e280d1a4f8bb8e'] },
+    art: { accent: '#6a7fa8', shots: ['ss_1c2bf22139c82d0c46ccee075e1e71e08b88ab44.1920x1080.jpg', 'ss_a3d8c04253e525da1907fd8028ab66a318c1f0c1.1920x1080.jpg', 'ss_0076f81d06eb547dbec80d06a3148c1c614f540b.1920x1080.jpg', 'ss_c1180c9d99d525508066f4d919e280d1a4f8bb8e.1920x1080.jpg'] },
   },
   {
     id: 'loop-hero',
@@ -1062,7 +1062,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Runs are short and always different',
     ],
     similar: ['slay-the-spire', 'into-the-breach', 'vampire-survivors'],
-    art: { accent: '#8a8a5a', shots: ['500e7212653fa6586f7a84c89b4c60be4e425fbb', '455789884ed94fd20410ac5a139e8c3bb8f6f369', 'd6cf090e7c644756cc66443c0740f5497e6afbba', '6a416c70c8f1bc80c84a02a0627d2050061b0e39'] },
+    art: { accent: '#8a8a5a', shots: ['ss_500e7212653fa6586f7a84c89b4c60be4e425fbb.1920x1080.jpg', 'ss_455789884ed94fd20410ac5a139e8c3bb8f6f369.1920x1080.jpg', 'ss_d6cf090e7c644756cc66443c0740f5497e6afbba.1920x1080.jpg', 'ss_6a416c70c8f1bc80c84a02a0627d2050061b0e39.1920x1080.jpg'] },
   },
   {
     id: 'kena-bridge-of-spirits',
@@ -1088,7 +1088,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Eleven focused hours',
     ],
     similar: ['ori-will-of-the-wisps', 'death-s-door', 'tunic'],
-    art: { accent: '#3aa88a', shots: ['52e16ae68eadf382538cdaaa876f58f0e2e9c757', 'e5eededd88d1d923114b796babb21d0eb209a475', 'b732caa0f33758a267a12cf2018f5af8eaeb5a45', '6a00ab7cbc120b7296de971903cc234632513717'] },
+    art: { accent: '#3aa88a', shots: ['ss_52e16ae68eadf382538cdaaa876f58f0e2e9c757.1920x1080.jpg', 'ss_e5eededd88d1d923114b796babb21d0eb209a475.1920x1080.jpg', 'ss_b732caa0f33758a267a12cf2018f5af8eaeb5a45.1920x1080.jpg', 'ss_6a00ab7cbc120b7296de971903cc234632513717.1920x1080.jpg'] },
   },
   {
     id: 'wildermyth',
@@ -1115,7 +1115,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Carries heroes between campaigns as living legends',
     ],
     similar: ['divinity-original-sin-2', 'rimworld', 'fire-emblem-three-houses'],
-    art: { accent: '#a8863a', shots: ['3a550445bd69fcd8df3b57227ddac57502407fad', 'f5a6c358f0ce9366cd5372c2049fda4370085ede', '13cb73afe38d7d0961360cc7ffe646fec2ab176b', 'b717225f5e9a43e98b885c12b448f0c94f7e6374'] },
+    art: { accent: '#a8863a', shots: ['ss_3a550445bd69fcd8df3b57227ddac57502407fad.1920x1080.jpg', 'ss_f5a6c358f0ce9366cd5372c2049fda4370085ede.1920x1080.jpg', 'ss_13cb73afe38d7d0961360cc7ffe646fec2ab176b.1920x1080.jpg', 'ss_b717225f5e9a43e98b885c12b448f0c94f7e6374.1920x1080.jpg'] },
   },
   {
     id: 'cassette-beasts',
@@ -1142,7 +1142,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Genuinely open-world rather than a linear route',
     ],
     similar: ['pokemon-legends-z-a', 'sea-of-stars', 'undertale'],
-    art: { accent: '#c93a8a', shots: ['8c6d904950b675f8cb2e0255a1f5b06d7898bc5b', '580f8e3d83ab9357cface16e0272eb541f51984e', 'aaa30fb9959b16d8026ac1e83a3bb0e8c591ed8b', '4b4231e199091054d443b319f97811646fbab9d4'] },
+    art: { accent: '#c93a8a', shots: ['ss_8c6d904950b675f8cb2e0255a1f5b06d7898bc5b.1920x1080.jpg', 'ss_580f8e3d83ab9357cface16e0272eb541f51984e.1920x1080.jpg', 'ss_aaa30fb9959b16d8026ac1e83a3bb0e8c591ed8b.1920x1080.jpg', 'ss_4b4231e199091054d443b319f97811646fbab9d4.1920x1080.jpg'] },
   },
   {
     id: 'ultrakill',
@@ -1168,7 +1168,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Made largely by one person',
     ],
     similar: ['neon-white', 'doom-the-dark-ages', 'pizza-tower'],
-    art: { accent: '#c93a3a', shots: ['8c743b6de2d6124bd583d8764f28cafe2b7ecb3f', '7a5692d56ec4115252980fed4ad5536d1e401e04', 'bc7a00fadbcde4a6c6dcb95d8e464ad5ffc06e3c', '21e8e9c78b24c73451c8d9ed1d17e21e43f3adb7'] },
+    art: { accent: '#c93a3a', shots: ['ss_8c743b6de2d6124bd583d8764f28cafe2b7ecb3f.1920x1080.jpg', 'ss_7a5692d56ec4115252980fed4ad5536d1e401e04.1920x1080.jpg', 'ss_bc7a00fadbcde4a6c6dcb95d8e464ad5ffc06e3c.1920x1080.jpg', 'ss_21e8e9c78b24c73451c8d9ed1d17e21e43f3adb7.1920x1080.jpg'] },
   },
   {
     id: 'unpacking',
@@ -1196,7 +1196,7 @@ export const INDIE_GAMES_2: Game[] = [
       'That one apartment will get you',
     ],
     similar: ['a-short-hike', 'venba', 'powerwash-simulator'],
-    art: { accent: '#e0a08a', shots: ['b32bfdd3f68e1f9e264bd37e10a464629ca034f8', '9b358510285a4b70e446237de5996bc434415c01', '8ad1858b98d2a04212a44b65ce2ae199e02a87cd', 'e0be82259f402c277973c5d0c4f2a22d01d9b1c2'] },
+    art: { accent: '#e0a08a', shots: ['ss_b32bfdd3f68e1f9e264bd37e10a464629ca034f8.1920x1080.jpg', 'ss_9b358510285a4b70e446237de5996bc434415c01.1920x1080.jpg', 'ss_8ad1858b98d2a04212a44b65ce2ae199e02a87cd.1920x1080.jpg', 'ss_e0be82259f402c277973c5d0c4f2a22d01d9b1c2.1920x1080.jpg'] },
   },
   {
     id: 'dorfromantik',
@@ -1223,7 +1223,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Perfect for half an hour before bed',
     ],
     similar: ['powerwash-simulator', 'unpacking', 'islanders'],
-    art: { accent: '#7ac95a', shots: ['a49e5fcc5301e8a05a1da7ce233a5377cf680e98', '5388583373f0895184a83c4db492e6f6dff5af2d', '2232950021d44e7fab5ca387470d4dd909548080', '7ea026a23427e733f6aa3b88bd1f06c1ad465852'] },
+    art: { accent: '#7ac95a', shots: ['ss_a49e5fcc5301e8a05a1da7ce233a5377cf680e98.1920x1080.jpg', 'ss_5388583373f0895184a83c4db492e6f6dff5af2d.1920x1080.jpg', 'ss_2232950021d44e7fab5ca387470d4dd909548080.1920x1080.jpg', 'ss_7ea026a23427e733f6aa3b88bd1f06c1ad465852.1920x1080.jpg'] },
   },
   {
     id: 'the-talos-principle-2',
@@ -1249,7 +1249,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Stunning environments at a huge scale',
     ],
     similar: ['the-witness', 'portal-2', 'outer-wilds'],
-    art: { accent: '#c9a85a', shots: ['97419974d92d1699357f950d452925852080a372', '4f849d7ecfa4a7bf7d3f181fb797eecebf6f3bc2', '3aa4b4a649800952141ecfee0c9b046c30554f44', '50ef9c47289f15137be62db739d754979a54d6ec'] },
+    art: { accent: '#c9a85a', shots: ['ss_97419974d92d1699357f950d452925852080a372.1920x1080.jpg', 'ss_4f849d7ecfa4a7bf7d3f181fb797eecebf6f3bc2.1920x1080.jpg', 'ss_3aa4b4a649800952141ecfee0c9b046c30554f44.1920x1080.jpg', 'ss_50ef9c47289f15137be62db739d754979a54d6ec.1920x1080.jpg'] },
   },
   {
     id: 'chained-echoes',
@@ -1276,7 +1276,7 @@ export const INDIE_GAMES_2: Game[] = [
       'One developer, and it holds up against studio JRPGs',
     ],
     similar: ['sea-of-stars', 'astlibra-revision', 'persona-5-royal'],
-    art: { accent: '#3a8fa8', shots: ['b25ed2e671e7b616ec14e7ed3a2f483909e368c4', 'b350a5ee81b0eff7c044c99b2d809489d35a665c', 'cfba4c66d14e860d381374d252381f7469f39582', '02152fa16493a1fe30ce307864c7b2d6f82daede'] },
+    art: { accent: '#3a8fa8', shots: ['ss_b25ed2e671e7b616ec14e7ed3a2f483909e368c4.1920x1080.jpg', 'ss_b350a5ee81b0eff7c044c99b2d809489d35a665c.1920x1080.jpg', 'ss_cfba4c66d14e860d381374d252381f7469f39582.1920x1080.jpg', 'ss_02152fa16493a1fe30ce307864c7b2d6f82daede.1920x1080.jpg'] },
   },
   {
     id: 'tchia',
@@ -1303,7 +1303,7 @@ export const INDIE_GAMES_2: Game[] = [
       'A playable ukulele with actual chord input',
     ],
     similar: ['a-short-hike', 'sable', 'zelda-breath-of-the-wild'],
-    art: { accent: '#3ab0a8', shots: ['cdc483c1ff927c8fed02c311f9c8e5815669d787', 'bfdc468211bd4b986a78a6fd735fac920669969a', 'd89710da79b4c694bfece0b0b00a835829cdbd22', 'c0bb191d23fd5b7032eaecb737395c5d1eae02f0'] },
+    art: { accent: '#3ab0a8', shots: ['ss_cdc483c1ff927c8fed02c311f9c8e5815669d787.1920x1080.jpg', 'ss_bfdc468211bd4b986a78a6fd735fac920669969a.1920x1080.jpg', 'ss_d89710da79b4c694bfece0b0b00a835829cdbd22.1920x1080.jpg', 'ss_c0bb191d23fd5b7032eaecb737395c5d1eae02f0.1920x1080.jpg'] },
   },
   {
     id: 'olliolli-world',
@@ -1330,7 +1330,7 @@ export const INDIE_GAMES_2: Game[] = [
       'Levels are short and beg to be replayed for score',
     ],
     similar: ['bomb-rush-cyberfunk', 'pizza-tower', 'celeste'],
-    art: { accent: '#e05a9c', shots: ['dff8e742c638c3484f3362d256cbf5b0e2213a7f', '1be7b63593451bdb708c4e1419a2c6f017b54f49', 'a3ab0cef2050ab2f4500170925727a231a09f3a7', '9b32fc1a3386c3c66468827c011a39338f6dd60e'] },
+    art: { accent: '#e05a9c', shots: ['ss_dff8e742c638c3484f3362d256cbf5b0e2213a7f.1920x1080.jpg', 'ss_1be7b63593451bdb708c4e1419a2c6f017b54f49.1920x1080.jpg', 'ss_a3ab0cef2050ab2f4500170925727a231a09f3a7.1920x1080.jpg', 'ss_9b32fc1a3386c3c66468827c011a39338f6dd60e.1920x1080.jpg'] },
   },
   {
     id: 'hardspace-shipbreaker',
@@ -1356,6 +1356,6 @@ export const INDIE_GAMES_2: Game[] = [
       'Open shifts mode removes the time pressure entirely',
     ],
     similar: ['powerwash-simulator', 'citizen-sleeper', 'subnautica'],
-    art: { accent: '#e08a3a', shots: ['aa434acace88144c378655f93e31545196b3b050', '354c8b1c330b453224661fd541adb5975ef54a2c', '21ab7c534689de8750d2a99ea33af94c78a5452a', 'a6631597bfb9b9d2d3a0aa6353d45fae05e2caec'] },
+    art: { accent: '#e08a3a', shots: ['ss_aa434acace88144c378655f93e31545196b3b050.1920x1080.jpg', 'ss_354c8b1c330b453224661fd541adb5975ef54a2c.1920x1080.jpg', 'ss_21ab7c534689de8750d2a99ea33af94c78a5452a.1920x1080.jpg', 'ss_a6631597bfb9b9d2d3a0aa6353d45fae05e2caec.1920x1080.jpg'] },
   },
 ];

@@ -413,6 +413,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'final-fantasy-xiv',
     slug: 'final-fantasy-xiv',
+    playstationSlug: 'final-fantasy-xiv-online',
     steamAppId: 39210,
     title: 'Final Fantasy XIV Online',
     year: 2013,
@@ -459,7 +460,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
       'Classic servers exist if you want the 2004 version',
     ],
     similar: ['final-fantasy-xiv', 'guild-wars-2', 'the-elder-scrolls-online'],
-    art: { accent: '#c8a02c', cover: 'https://m.media-amazon.com/images/M/MV5BOTViZDllZTAtMjZmNC00MzA3LWFkODktNzgxYmY1NWQzM2Q3XkEyXkFqcGc@._V1_QL75_UX600_.jpg' },
+    art: { accent: '#c8a02c', cover: 'https://upload.wikimedia.org/wikipedia/en/6/65/World_of_Warcraft.png' },
   },
   {
     id: 'guild-wars-2',
@@ -641,7 +642,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
       'Shootdodge into slow motion never stops being satisfying',
       'A genuinely bleak, well-acted noir story',
     ],
-    similar: ['control', 'sifu', 'sifu'],
+    similar: ['control', 'sifu'],
     art: { accent: '#c0803a', shots: ['ss_84fc2ba217ce04ec4b782f9f5ccc09d20980f220.1920x1080.jpg', 'ss_b442d79fbc45be2cb773d3de6f7b40fa5f126588.1920x1080.jpg', 'ss_4ae054ce0dd3563aea20d8f76630ea4caff878d2.1920x1080.jpg', 'ss_6e329c5ed6d471c55ef7e04c9aac309005bfa734.1920x1080.jpg'] },
   },
   {
@@ -698,7 +699,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'injustice-2',
     slug: 'injustice-2',
-    steamAppId: 363600,
+    steamAppId: 627270,
     title: 'Injustice 2',
     year: 2017,
     developer: 'NetherRealm Studios',
@@ -719,7 +720,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
       'Every stage transition is absurd in the best way',
     ],
     similar: ['mortal-kombat-1', 'street-fighter-6', 'tekken-8'],
-    art: { accent: '#3a72c4', shots: ['ss_ef04958535a5ccef9263bc3f15aef6a7002f0be7.1920x1080.jpg', 'ss_63e8b8176bf29fc13c9689a6ef2be2fd0d0f6fac.1920x1080.jpg', 'ss_a777704a21fda02e15c9950db4b01f2a78f81b43.1920x1080.jpg', 'ss_d798dbecda7057aba1d9a0321bde913c550a08b4.1920x1080.jpg'] },
+    art: { accent: '#3a72c4', shots: ['ss_5d23a78b6a43cc6cea92166b101bd28351030f59.1920x1080.jpg', 'ss_6c134ed979e8abf86364bf4a3d32e35dde16b696.1920x1080.jpg', 'ss_297cb766d40b263bd630ac48abb3fafc6a221987.1920x1080.jpg', 'ss_2220435653ad0bc7fe6d512dca5e542521be2dfb.1920x1080.jpg'] },
   },
   {
     id: 'persona-4-golden',
@@ -797,7 +798,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
       'One of the finest soundtracks in the medium',
       'Switches genre mid-scene without warning',
     ],
-    similar: ['nier-automata', 'nier-automata', 'final-fantasy-xvi'],
+    similar: ['nier-automata', 'final-fantasy-xvi'],
     art: { accent: '#b8ae96', shots: ['ss_2ff3ddb26c30b8397bce45abd0b4d847c3457259.1920x1080.jpg', 'ss_f33bdbe53fa2d75e429f9b35a1299109c9ab8991.1920x1080.jpg', 'ss_b7867dae1f1fa62a2cc82165c8c79eb6821782d6.1920x1080.jpg', 'ss_8d7a5e5a0a7fe7782bf238763a2e29f8f6419e84.1920x1080.jpg'] },
   },
   {
@@ -823,7 +824,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
       'Containment failure is a real, constant threat',
       'Sandbox mode if you would rather not be graded',
     ],
-    similar: ['planet-coaster', 'two-point-hospital', 'two-point-hospital'],
+    similar: ['planet-coaster', 'two-point-hospital'],
     art: { accent: '#c2513a', shots: ['ss_e2043f89661bf4da80628e6ab1e97b0a67f1c7ed.1920x1080.jpg', 'ss_96527037800b404246c4e508062c925eabae20a6.1920x1080.jpg', 'ss_f22feb0cee0172cd3b9d1b6c845b90d911ee8858.1920x1080.jpg', 'ss_efde72180f48c4b722b04ac7c0b13ee46b45bdf0.1920x1080.jpg'] },
   },
   {
@@ -849,7 +850,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
       'Ride the coasters you design',
       'A community that shares genuinely absurd creations',
     ],
-    similar: ['two-point-hospital', 'jurassic-world-evolution-2', 'two-point-hospital'],
+    similar: ['two-point-hospital', 'jurassic-world-evolution-2'],
     art: { accent: '#3fa8c9', shots: ['ss_e3661fafe7f2e701ef91528e7b803857a418f6dd.1920x1080.jpg', 'ss_a8e5a30dec8285b1d461d2b3d3b3870dfbc1c4d0.1920x1080.jpg', 'ss_3622fa354b6700fff396a302ff76322d4595ae82.1920x1080.jpg', 'ss_b69df02e9c0ef568218fbf0b1b61f5dfa429cdfc.1920x1080.jpg'] },
   },
   {

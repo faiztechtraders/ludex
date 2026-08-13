@@ -58,7 +58,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Constant invention, if a little hand-holdy',
     ],
     similar: ['tunic', 'zelda-links-awakening', 'psychonauts-2'],
-    art: { accent: '#3ac9a8', shots: ['7e133ae64cd9ca07f813d18d6a90d03add8dc44b', 'f7471b779abf4af1f67792e625bccf3891b9e62e', '32752877cbedc3fc6a9c75ed95afff17aa9f7b7f', '98e6a435fdf09b74d3bbe00d6919284d13ba3cca'] },
+    art: { accent: '#3ac9a8', shots: ['ss_7e133ae64cd9ca07f813d18d6a90d03add8dc44b.1920x1080.jpg', 'ss_f7471b779abf4af1f67792e625bccf3891b9e62e.1920x1080.jpg', 'ss_32752877cbedc3fc6a9c75ed95afff17aa9f7b7f.1920x1080.jpg', 'ss_98e6a435fdf09b74d3bbe00d6919284d13ba3cca.1920x1080.jpg'] },
   },
   {
     id: 'thank-goodness-youre-here',
@@ -84,7 +84,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Matt Berry is in it, which tells you the register',
     ],
     similar: ['untitled-goose-game', 'what-the-golf', 'donut-county'],
-    art: { accent: '#e0a83a', shots: ['928c3226d2a3723e29e63cc19c13f47bd88faa86', 'c624fda9191859781cf9b34a6563c1953d977800', '179e32f0cddfa678a826750968325810bf83e6b3', 'dfd24b8c643032dea42919d1584b94f100dccd2b'] },
+    art: { accent: '#e0a83a', shots: ['ss_928c3226d2a3723e29e63cc19c13f47bd88faa86.1920x1080.jpg', 'ss_c624fda9191859781cf9b34a6563c1953d977800.1920x1080.jpg', 'ss_179e32f0cddfa678a826750968325810bf83e6b3.1920x1080.jpg', 'ss_dfd24b8c643032dea42919d1584b94f100dccd2b.1920x1080.jpg'] },
   },
   {
     id: 'ufo-50',
@@ -109,7 +109,7 @@ export const INDIE_GAMES_4: Game[] = [
       'You will find three or four you love, and they differ per person',
     ],
     similar: ['spelunky-2', 'animal-well', 'shovel-knight'],
-    art: { accent: '#c93a5a', shots: ['927184ce23f456d9a302a1c1e75588aae4edfebb', 'fc1d24cb1a1e2be6f32834bf322af2864d48eaf3', 'a74b84c81001243c2b6a3ad243325f2d9fcf5377', 'cb6093ea7097449cc8a6b8d924761d786e1a1cf5'] },
+    art: { accent: '#c93a5a', shots: ['ss_927184ce23f456d9a302a1c1e75588aae4edfebb.1920x1080.jpg', 'ss_fc1d24cb1a1e2be6f32834bf322af2864d48eaf3.1920x1080.jpg', 'ss_a74b84c81001243c2b6a3ad243325f2d9fcf5377.1920x1080.jpg', 'ss_cb6093ea7097449cc8a6b8d924761d786e1a1cf5.1920x1080.jpg'] },
   },
   {
     id: 'skul-the-hero-slayer',
@@ -135,7 +135,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Runs are around forty minutes',
     ],
     similar: ['dead-cells', 'wizard-of-legend', 'rogue-legacy-2'],
-    art: { accent: '#3ac9c0', shots: ['b5ed9f9f5c95df4e168107d024cd4107bc2223e3', '4d085911571f127e48dc392c0db50d97e810fb39', '119845ea870bb04a8c75abbef135f6a21cc0687c', '44eae43480fa6d9c350bf6d1100e6d8dc911d8ee'] },
+    art: { accent: '#3ac9c0', shots: ['ss_b5ed9f9f5c95df4e168107d024cd4107bc2223e3.1920x1080.jpg', 'ss_4d085911571f127e48dc392c0db50d97e810fb39.1920x1080.jpg', 'ss_119845ea870bb04a8c75abbef135f6a21cc0687c.1920x1080.jpg', 'ss_44eae43480fa6d9c350bf6d1100e6d8dc911d8ee.1920x1080.jpg'] },
   },
   {
     id: 'viewfinder',
@@ -160,7 +160,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Four hours, no filler',
     ],
     similar: ['superliminal', 'portal-2', 'manifold-garden'],
-    art: { accent: '#e0763a', shots: ['504c7776817cb8a36104b31d803d18acf52b669f', '6ab66f69441e3168c97bbe8020603faa75fffa48', '1392613d4ff0f7c3f989cc899cb40ce93b3ff8fb', '080379206cfd1972567fce770bb79ee4b6b35d6c'] },
+    art: { accent: '#e0763a', shots: ['ss_504c7776817cb8a36104b31d803d18acf52b669f.1920x1080.jpg', 'ss_6ab66f69441e3168c97bbe8020603faa75fffa48.1920x1080.jpg', 'ss_1392613d4ff0f7c3f989cc899cb40ce93b3ff8fb.1920x1080.jpg', 'ss_080379206cfd1972567fce770bb79ee4b6b35d6c.1920x1080.jpg'] },
   },
   {
     id: 'keep-talking-and-nobody-explodes',
@@ -186,7 +186,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Works brilliantly with people who never play games',
     ],
     similar: ['among-us', 'overcooked-2', 'we-were-here-together'],
-    art: { accent: '#c93a3a', shots: ['55f22f9996c327c281d241ed09d43c74337d7e30', 'cfaf92410612fef91cde9fe27f3cdcbdcf5a1380', '11c9963bc5d93a2c31857c94760305208fc9b023', '4c429dd69d9682727f15b87549bbee6b7a11df77'] },
+    art: { accent: '#c93a3a', shots: ['ss_55f22f9996c327c281d241ed09d43c74337d7e30.1920x1080.jpg', 'ss_cfaf92410612fef91cde9fe27f3cdcbdcf5a1380.1920x1080.jpg', 'ss_11c9963bc5d93a2c31857c94760305208fc9b023.1920x1080.jpg', 'ss_4c429dd69d9682727f15b87549bbee6b7a11df77.1920x1080.jpg'] },
   },
   {
     id: 'braid-anniversary-edition',
@@ -212,7 +212,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Historically important and still excellent',
     ],
     similar: ['the-witness', 'limbo', 'cocoon'],
-    art: { accent: '#c98a3a', shots: ['320fc2bf5c2b9b42c73a10451c4a710cb08a3d96', '59e3348fa79118f5e2f37db0c0e7695e82393771', '654230af657b4300ed692da96b2782665d9b3b48', '14971642f27908991469cb28dbec355fa0823c84'] },
+    art: { accent: '#c98a3a', shots: ['ss_320fc2bf5c2b9b42c73a10451c4a710cb08a3d96.1920x1080.jpg', 'ss_59e3348fa79118f5e2f37db0c0e7695e82393771.1920x1080.jpg', 'ss_654230af657b4300ed692da96b2782665d9b3b48.1920x1080.jpg', 'ss_14971642f27908991469cb28dbec355fa0823c84.1920x1080.jpg'] },
   },
   {
     id: 'little-nightmares-3',
@@ -239,7 +239,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Playable without the earlier games',
     ],
     similar: ['little-nightmares-2', 'inside', 'limbo'],
-    art: { accent: '#c9a03a', shots: ['d0802b426b1116c4d0f7c92cc81de359bc342345', '2895b195f79c30ae097dd4525301288b97ac0c95', 'bb507b20463211ae9c76e09b950f0a70f8213afa', 'c4ff1a965b1a769314a9952f40e6bf445b2adfac'] },
+    art: { accent: '#c9a03a', shots: ['d0802b426b1116c4d0f7c92cc81de359bc342345/ss_d0802b426b1116c4d0f7c92cc81de359bc342345.1920x1080.jpg', '2895b195f79c30ae097dd4525301288b97ac0c95/ss_2895b195f79c30ae097dd4525301288b97ac0c95.1920x1080.jpg', 'bb507b20463211ae9c76e09b950f0a70f8213afa/ss_bb507b20463211ae9c76e09b950f0a70f8213afa.1920x1080.jpg', 'c4ff1a965b1a769314a9952f40e6bf445b2adfac/ss_c4ff1a965b1a769314a9952f40e6bf445b2adfac.1920x1080.jpg'] },
   },
   {
     id: 'road-96',
@@ -265,7 +265,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Your small choices aggregate into a national outcome',
     ],
     similar: ['life-is-strange', 'norco', 'citizen-sleeper'],
-    art: { accent: '#e0763a', shots: ['f6a0005ca992d3a43b23a0629daae9a5935320dd', 'f98823c82d0cbf9b9480bfe56c18d673a0e954b0', 'bce0d673243b261c04fa2714e6de291ee3ed1bd6', '33c4c5e2c578064942b6e32f7df4b57b9f4a066b'] },
+    art: { accent: '#e0763a', shots: ['ss_f6a0005ca992d3a43b23a0629daae9a5935320dd.1920x1080.jpg', 'ss_f98823c82d0cbf9b9480bfe56c18d673a0e954b0.1920x1080.jpg', 'ss_bce0d673243b261c04fa2714e6de291ee3ed1bd6.1920x1080.jpg', 'ss_33c4c5e2c578064942b6e32f7df4b57b9f4a066b.1920x1080.jpg'] },
   },
   {
     id: 'life-is-strange',
@@ -292,7 +292,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Culturally important, and it holds up',
     ],
     similar: ['life-is-strange-true-colors', 'oxenfree', 'night-in-the-woods'],
-    art: { accent: '#3a9fa8', shots: ['d74ebed52e05e7c22937e53fcf6c7bf1de70ada1', 'f0cbce81ce638fca6fa8154d6b5f0178e67eb87f', '2abb901703c73f9230d0ad42846c29d263825807', 'f071f2da3d45953de69f00e05c6e333954ecdf26'] },
+    art: { accent: '#3a9fa8', shots: ['ss_d74ebed52e05e7c22937e53fcf6c7bf1de70ada1.1920x1080.jpg', 'ss_f0cbce81ce638fca6fa8154d6b5f0178e67eb87f.1920x1080.jpg', 'ss_2abb901703c73f9230d0ad42846c29d263825807.1920x1080.jpg', 'ss_f071f2da3d45953de69f00e05c6e333954ecdf26.1920x1080.jpg'] },
   },
   {
     id: 'life-is-strange-true-colors',
@@ -319,7 +319,7 @@ export const INDIE_GAMES_4: Game[] = [
       'No knowledge of the earlier games needed',
     ],
     similar: ['life-is-strange', 'oxenfree', 'road-96'],
-    art: { accent: '#c95a9c', shots: ['93afc98cccbc51c1364fedb56548896c69ef3704', '92b4caae062d5aebe04ab738db4b78d1c623e3c5', 'e5627051a221b6630cb3d9dacc69065fd1a4f8da', '57a8d1468ecbd7fe2f9629b024dd41ba33187148'] },
+    art: { accent: '#c95a9c', shots: ['ss_93afc98cccbc51c1364fedb56548896c69ef3704.1920x1080.jpg', 'ss_92b4caae062d5aebe04ab738db4b78d1c623e3c5.1920x1080.jpg', 'ss_e5627051a221b6630cb3d9dacc69065fd1a4f8da.1920x1080.jpg', 'ss_57a8d1468ecbd7fe2f9629b024dd41ba33187148.1920x1080.jpg'] },
   },
   {
     id: 'night-in-the-woods',
@@ -345,7 +345,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Very specific about small-town American decline',
     ],
     similar: ['norco', 'life-is-strange', 'omori'],
-    art: { accent: '#8a3ac9', shots: ['f038268bdcef20dc090dca4e0ac8fbed4923c496', 'be58beee5186f4b06b828a90a126f47cca55ae0a', 'b76969ea2ad31d4e4271232be5276672cd229d14', 'e586930c3199b402969aee59f1b74d46db42af0d'] },
+    art: { accent: '#8a3ac9', shots: ['ss_f038268bdcef20dc090dca4e0ac8fbed4923c496.1920x1080.jpg', 'ss_be58beee5186f4b06b828a90a126f47cca55ae0a.1920x1080.jpg', 'ss_b76969ea2ad31d4e4271232be5276672cd229d14.1920x1080.jpg', 'ss_e586930c3199b402969aee59f1b74d46db42af0d.1920x1080.jpg'] },
   },
   {
     id: 'disney-dreamlight-valley',
@@ -398,7 +398,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Genuinely deep management under the jokes',
     ],
     similar: ['two-point-museum', 'the-sims-4', 'cities-skylines-ii'],
-    art: { accent: '#3ac9c9', shots: ['513fe00a570aae8aa17f0c7c34441d900ecea67d', '239c16a6a0faf1463d043503a828a1e443bd8d70', '37b485ac8c86b35d0d28afbb9d2f8370db45c87c', 'd4eb2054ed07876863d049c741afe9c0c4b4b23d'] },
+    art: { accent: '#3ac9c9', shots: ['ss_513fe00a570aae8aa17f0c7c34441d900ecea67d.1920x1080.jpg', 'ss_239c16a6a0faf1463d043503a828a1e443bd8d70.1920x1080.jpg', 'ss_37b485ac8c86b35d0d28afbb9d2f8370db45c87c.1920x1080.jpg', 'ss_d4eb2054ed07876863d049c741afe9c0c4b4b23d.1920x1080.jpg'] },
   },
   {
     id: 'moving-out',
@@ -424,7 +424,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Levels are five minutes',
     ],
     similar: ['overcooked-2', 'unrailed', 'human-fall-flat'],
-    art: { accent: '#e05a7a', shots: ['17984d719e442ba6863288e3c1ebedea216005b2', '7ac336466088cdac14c27870dd770aa30ed11a08', 'af3a9c0c6cdd913fdf35bb163fc4b259aae006af', '17897597ec533d34644e83b86095200aa60b5fd0'] },
+    art: { accent: '#e05a7a', shots: ['ss_17984d719e442ba6863288e3c1ebedea216005b2.1920x1080.jpg', 'ss_7ac336466088cdac14c27870dd770aa30ed11a08.1920x1080.jpg', 'ss_af3a9c0c6cdd913fdf35bb163fc4b259aae006af.1920x1080.jpg', 'ss_17897597ec533d34644e83b86095200aa60b5fd0.1920x1080.jpg'] },
   },
   {
     id: 'plateup',
@@ -450,7 +450,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Far deeper than Overcooked, and more stressful for it',
     ],
     similar: ['overcooked-2', 'moving-out', 'against-the-storm'],
-    art: { accent: '#e0a83a', shots: ['8c944c593113598b6446b6b5d07962a10fe79ec6', '2fb45e66d1b4e8c3d8fe6743fad278bcc082c2d5', '833de2e09f19972bb9e7db021c793da6afdab8a0', '5cdb7d8147767fece03a9a69a10af64a2e0c5e47'] },
+    art: { accent: '#e0a83a', shots: ['ss_8c944c593113598b6446b6b5d07962a10fe79ec6.1920x1080.jpg', 'ss_2fb45e66d1b4e8c3d8fe6743fad278bcc082c2d5.1920x1080.jpg', 'ss_833de2e09f19972bb9e7db021c793da6afdab8a0.1920x1080.jpg', 'ss_5cdb7d8147767fece03a9a69a10af64a2e0c5e47.1920x1080.jpg'] },
   },
   {
     id: 'content-warning',
@@ -475,7 +475,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Very cheap and very funny',
     ],
     similar: ['lethal-company', 'phasmophobia', 'peak'],
-    art: { accent: '#c9c93a', shots: ['5df7377699e11b22ffbb604f2b3cc74d39d9bb2f', '0639604a881c0a0c9e02960b61d108c1f643809d', 'f7f450f42db587f4e143ad1178500ad786c965a3', 'ae459a02056e53665b20270b3b2c2ec74e6c4963'] },
+    art: { accent: '#c9c93a', shots: ['ss_5df7377699e11b22ffbb604f2b3cc74d39d9bb2f.1920x1080.jpg', 'ss_0639604a881c0a0c9e02960b61d108c1f643809d.1920x1080.jpg', 'ss_f7f450f42db587f4e143ad1178500ad786c965a3.1920x1080.jpg', 'ss_ae459a02056e53665b20270b3b2c2ec74e6c4963.1920x1080.jpg'] },
   },
   {
     id: 'peak',
@@ -526,7 +526,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Four hours and completely sweet-natured',
     ],
     similar: ['a-short-hike', 'untitled-goose-game', 'lil-gator-game'],
-    art: { accent: '#e0a03a', shots: ['d7a8f3a2f9a7e0b9c787cdf828f7e2e9a7501737', '4411c2eec56218e630a63f0449350d98c9122e5f', 'b797ea262c6b810ae5134653a4108ed05ffefa5c', 'ea5a798e12a4465ccda543ad99733aeb0de0a264'] },
+    art: { accent: '#e0a03a', shots: ['ss_d7a8f3a2f9a7e0b9c787cdf828f7e2e9a7501737.1920x1080.jpg', 'ss_4411c2eec56218e630a63f0449350d98c9122e5f.1920x1080.jpg', 'ss_b797ea262c6b810ae5134653a4108ed05ffefa5c.1920x1080.jpg', 'ss_ea5a798e12a4465ccda543ad99733aeb0de0a264.1920x1080.jpg'] },
   },
   {
     id: 'tiny-glade',
@@ -551,7 +551,7 @@ export const INDIE_GAMES_4: Game[] = [
       'Deeply calming — the best wind-down game here',
     ],
     similar: ['townscaper', 'summerhouse', 'dorfromantik'],
-    art: { accent: '#8ac9a0', shots: ['1a98b0d5e8111f100b3ececda8f682333337e3cb', '6a8c7a510715796a659bd9fd828cc02cf73e11de', 'c9086858afd32f9c2bd49c164ddc2494af1e7f31', '83248b45f1431127f94ab7bcfc246e5efb26848e'] },
+    art: { accent: '#8ac9a0', shots: ['ss_1a98b0d5e8111f100b3ececda8f682333337e3cb.1920x1080.jpg', 'ss_6a8c7a510715796a659bd9fd828cc02cf73e11de.1920x1080.jpg', 'ss_c9086858afd32f9c2bd49c164ddc2494af1e7f31.1920x1080.jpg', 'ss_83248b45f1431127f94ab7bcfc246e5efb26848e.1920x1080.jpg'] },
   },
   {
     id: 'we-were-here-together',
@@ -577,6 +577,6 @@ export const INDIE_GAMES_4: Game[] = [
       'The first game in the series is free',
     ],
     similar: ['keep-talking-and-nobody-explodes', 'portal-2', 'it-takes-two'],
-    art: { accent: '#3a8fc9', shots: ['541cc35fb93e274f24adfb10dcaacaf42401ce28', 'b12a02e1bf0409d21edb8b95095121f87cc9e1b7', 'fd4fcc012edd05b4ff45e2ec8b14bfd494ae5db4', '312322e8fe0a012d62566e8f7013ddd7a3defcd3'] },
+    art: { accent: '#3a8fc9', shots: ['ss_541cc35fb93e274f24adfb10dcaacaf42401ce28.1920x1080.jpg', 'ss_b12a02e1bf0409d21edb8b95095121f87cc9e1b7.1920x1080.jpg', 'ss_fd4fcc012edd05b4ff45e2ec8b14bfd494ae5db4.1920x1080.jpg', 'ss_312322e8fe0a012d62566e8f7013ddd7a3defcd3.1920x1080.jpg'] },
   },
 ];

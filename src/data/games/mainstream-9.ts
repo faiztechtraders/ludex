@@ -19,6 +19,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'madden-nfl-25',
     slug: 'madden-nfl-25',
+    steamAppId: 2582560,
     title: 'Madden NFL 25',
     year: 2024,
     developer: 'EA Tiburon',
@@ -39,7 +40,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
       'Best tackling animation the series has had',
     ],
     similar: ['nba-2k25', 'ea-sports-fc-25', 'mlb-the-show-24'],
-    art: { accent: '#3f6fa8', cover: 'https://upload.wikimedia.org/wikipedia/en/c/c0/Madden_NFL_25_%282024%29_cover.png' },
+    art: { accent: '#3f6fa8', shots: ['ss_e5a06a698517662aeee18218274c064500343a5b.1920x1080.jpg', 'ss_d55bac5a5c68fe28d7b513385fdd803ded6f382b.1920x1080.jpg', 'ss_5492328ce6a892588a6e05c74c37ba20f9d514a1.1920x1080.jpg', 'ss_5fa710294b51ab3490a1583022c5fa15b2048370.1920x1080.jpg'] },
   },
   {
     id: 'mlb-the-show-24',
@@ -295,7 +296,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
       'A second life on YouTube it never expected',
     ],
     similar: ['tony-hawks-pro-skater-1-2', 'descenders', 'riders-republic'],
-    art: { accent: '#4a9ac2', cover: 'https://m.media-amazon.com/images/M/MV5BYmQzOThkZGItMzA1Yy00NDFkLWJkYjUtNzFkNjRlNzk1YmM1XkEyXkFqcGc@._V1_QL75_UX600_.jpg' },
+    art: { accent: '#4a9ac2', cover: 'https://upload.wikimedia.org/wikipedia/en/8/84/Skate-3-Boxart.jpg' },
   },
   {
     id: 'mario-strikers-battle-league',
@@ -321,7 +322,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
       'Matches take five minutes',
     ],
     similar: ['mario-tennis-aces', 'mario-golf-super-rush', 'rocket-league'],
-    art: { accent: '#3f9ad4', cover: 'https://assets.nintendo.com/image/upload/c_fill,w_600,h_900,f_auto,q_auto/store/software/switch/70010000049936/c280b6843af262757f041d2aa3543992ec076b97545abea4dbadda797d9056fc', hero: 'https://assets.nintendo.com/image/upload/c_fill,w_1920,f_auto,q_auto/store/software/switch/70010000049936/b251b331f6d0f691121d1df78f9461c66c7537013205a60af431bb33206d454f', shots: ['https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000049936/b251b331f6d0f691121d1df78f9461c66c7537013205a60af431bb33206d454f', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000049936/197c3c4a052ac6990e96c5827f67a4a2631c6853331007a2cda87851500f50ec', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000049936/ce363f4712ccdad748af43d96e13a1c3260912d920a2b9bda93ac67aff02d619', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000049936/f2678b33615746fb4e0bb0ab7d91404e726ad1e59623434eff83ff30392943dc'] },
+    art: { accent: '#3f9ad4', cover: 'https://upload.wikimedia.org/wikipedia/en/4/4e/Mario_strikers_battle_league.jpeg', hero: 'https://assets.nintendo.com/image/upload/c_fill,w_1920,f_auto,q_auto/store/software/switch/70010000049936/b251b331f6d0f691121d1df78f9461c66c7537013205a60af431bb33206d454f', shots: ['https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000049936/b251b331f6d0f691121d1df78f9461c66c7537013205a60af431bb33206d454f', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000049936/197c3c4a052ac6990e96c5827f67a4a2631c6853331007a2cda87851500f50ec', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000049936/ce363f4712ccdad748af43d96e13a1c3260912d920a2b9bda93ac67aff02d619', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000049936/f2678b33615746fb4e0bb0ab7d91404e726ad1e59623434eff83ff30392943dc'] },
   },
   {
     id: 'mario-tennis-aces',
@@ -605,13 +606,13 @@ export const MAINSTREAM_GAMES_9: Game[] = [
       'Genuinely frightening, twenty-five years on',
       'RPG systems layered onto a horror shooter',
     ],
-    similar: ['prey-2017', 'signalis', 'signalis'],
+    similar: ['prey-2017', 'signalis'],
     art: { accent: '#3fb8a0', shots: ['ss_27e9296f9d27d17a9e8b9962c86f89b52d897ab4.1920x1080.jpg', 'ss_d2263d1aff7abbec1be9cb0b3ccadddc87b3d937.1920x1080.jpg', 'ss_5fc4019bf5f74c79772892005c48ae941c1ebc72.1920x1080.jpg', 'ss_38cf463333b315e0c79158167f2705d2a35a830f.1920x1080.jpg'] },
   },
   {
     id: 'jackbox-party-pack-10',
     slug: 'jackbox-party-pack-10',
-    steamAppId: 2216760,
+    steamAppId: 2216830,
     title: 'The Jackbox Party Pack 10',
     year: 2023,
     developer: 'Jackbox Games',
@@ -633,7 +634,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
       'The one reliable answer to "we have people over"',
     ],
     similar: ['just-dance-2024', 'clubhouse-games', 'pummel-party'],
-    art: { accent: '#e0a02f', cover: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2216760/header.jpg', hero: 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2216760/header.jpg', shots: ['ss_5e27b491810ecb78eb6c8651f425b98663a23296.1920x1080.jpg', 'ss_4e137a2e4b582d9c12efbec801fbc8859c1ced87.1920x1080.jpg'] },
+    art: { accent: '#e0a02f', shots: ['ss_9661bc189ca37758dbd456e201b0c954032d9f12.1920x1080.jpg', 'ss_5ec177b573670271396729e005b6688633a0c960.1920x1080.jpg', 'ss_1b720299cedb559ebaf09078f4fd3678de59329f.1920x1080.jpg', 'ss_c428ed9ac6f4f9876af7a508d10f4488f42ceb3e.1920x1080.jpg'] },
   },
   {
     id: 'clubhouse-games',
@@ -658,7 +659,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
       'One copy can share local play with nearby Switches',
       'The tutorials are genuinely excellent',
     ],
-    similar: ['jackbox-party-pack-10', 'nintendo-switch-sports', 'jackbox-party-pack-10'],
+    similar: ['jackbox-party-pack-10', 'nintendo-switch-sports'],
     art: { accent: '#3fa87f', cover: 'https://upload.wikimedia.org/wikipedia/en/7/72/Clubhouse_Games_51_Worldwide_Classics.jpg', hero: 'https://assets.nintendo.com/image/upload/c_fill,w_1920,f_auto,q_auto/store/software/switch/70010000029716/e6f1c56bae41e1bee50dae2cd701bf31b188ccff4968ddbad7a95bdfa08f0e11', shots: ['https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029716/e6f1c56bae41e1bee50dae2cd701bf31b188ccff4968ddbad7a95bdfa08f0e11', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029716/b73183e4ab8c7d0d6d2db754ce7c135db50b3a5e50b64302eab6bbe22a905507', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029716/2068063d9b08d889c418d88136aa904f2100812b9c284fea47d5723bdc65e0b7', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029716/455ee9ac9fd79f43c651266a9a285c4f3b6897a2b28c9e39340b150cb30de046'] },
   },
 ];

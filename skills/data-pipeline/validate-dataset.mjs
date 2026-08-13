@@ -147,6 +147,21 @@ for (const game of GAMES) {
   }
 }
 
+/* -- `similar` must not repeat itself --
+   `similarTo` dedupes and backfills from the vibe-nearest games, so a repeated
+   entry costs nothing visible — it just quietly drops one curated pick in
+   favour of an algorithmic one, which is the opposite of why the field exists.
+   Eighteen arrays picked this up when a bulk repoint mapped a dangling slug
+   onto a value already in the same list. */
+for (const game of GAMES) {
+  const dupes = game.similar.filter((s, i) => game.similar.indexOf(s) !== i);
+  if (dupes.length) {
+    warnings.push(
+      `${game.slug}: similar lists ${[...new Set(dupes)].map((d) => `"${d}"`).join(', ')} more than once`,
+    );
+  }
+}
+
 /* -- two games must not claim the same Steam app --
    `steamAppId` drives cover, hero and screenshot URLs, so a copy-pasted id
    silently dresses one game in another's art. Placid Plastic Duck Simulator

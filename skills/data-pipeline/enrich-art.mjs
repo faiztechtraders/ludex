@@ -75,6 +75,30 @@ const normalize = (s) =>
  * batch of Switch titles lost their box art that way. One retry recovers nearly
  * all of them.
  */
+/**
+ * Steam's appdetails endpoint, with a retry that actually fires.
+ *
+ * When it throttles you it answers **HTTP 200** with `{"<id>":{"success":false}}`
+ * rather than a 429, so `getJSON`'s status-based retry sees a perfectly good
+ * response and returns it. During a 756-game run that silently cost eight
+ * games their screenshots — no error, no warning, just empty galleries that
+ * looked like the games genuinely had no art.
+ *
+ * `success: false` is also what a legitimately unavailable app returns (Final
+ * Fantasy XIV is age-gated and never resolves), so this cannot distinguish the
+ * two — it just has to stop giving up on the first one.
+ */
+async function steamDetails(appId, attempts = 4) {
+  for (let i = 0; i < attempts; i++) {
+    const body = await getJSON(`https://store.steampowered.com/api/appdetails?appids=${appId}`);
+    const entry = body?.[appId];
+    if (entry?.success) return entry.data;
+    // Back off hard: throttling clears on a timescale of seconds, not millis.
+    if (i < attempts - 1) await sleep(2500 * (i + 1));
+  }
+  return null;
+}
+
 async function getJSON(url, timeout = 20_000, attempts = 3) {
   let lastError;
   for (let i = 0; i < attempts; i++) {
@@ -157,10 +181,7 @@ async function steamArt(appId) {
   let shots;
   let headerFallback;
   try {
-    const details = await getJSON(
-      `https://store.steampowered.com/api/appdetails?appids=${appId}`,
-    );
-    const data = details?.[appId]?.data;
+    const data = await steamDetails(appId);
     if (data) {
       /**
        * Keep the path *relative to the app folder*, not just the hash. Newer

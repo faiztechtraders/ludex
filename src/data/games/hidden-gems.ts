@@ -36,7 +36,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Dense, deliberately obscure story worth piecing together',
     ],
     similar: ['resident-evil-4-remake', 'norco', 'inscryption'],
-    art: { accent: '#c93a4a', shots: ['a2603694154878b8260c1dd498a06168cad012a4', '9d602346170b19121e4baec94f5fab54cc43637c', 'dc87789ecfa2f83dd58ac778866fbf7fdc1ec99a', 'bb676746c44db01c2bd7ca78616032984f958106'] },
+    art: { accent: '#c93a4a', shots: ['ss_a2603694154878b8260c1dd498a06168cad012a4.1920x1080.jpg', 'ss_9d602346170b19121e4baec94f5fab54cc43637c.1920x1080.jpg', 'ss_dc87789ecfa2f83dd58ac778866fbf7fdc1ec99a.1920x1080.jpg', 'ss_bb676746c44db01c2bd7ca78616032984f958106.1920x1080.jpg'] },
   },
   {
     id: 'sable',
@@ -63,7 +63,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Japanese Breakfast soundtrack that fits it perfectly',
     ],
     similar: ['a-short-hike', 'zelda-breath-of-the-wild', 'venba'],
-    art: { accent: '#e8a84a', shots: ['f7cf5d40340dfcfc534daff63be314fdbb9e6817', 'dbe1b07f58393b56c20e9ac031442e1e161fa989', 'cad83dc56ce2d4e690df7d31eac8346db25baa9d', '2a01e59f6610eb3fab65d17bc16f09430009db42'] },
+    art: { accent: '#e8a84a', shots: ['ss_f7cf5d40340dfcfc534daff63be314fdbb9e6817.1920x1080.jpg', 'ss_dbe1b07f58393b56c20e9ac031442e1e161fa989.1920x1080.jpg', 'ss_cad83dc56ce2d4e690df7d31eac8346db25baa9d.1920x1080.jpg', 'ss_2a01e59f6610eb3fab65d17bc16f09430009db42.1920x1080.jpg'] },
   },
   {
     id: 'citizen-sleeper',
@@ -90,7 +90,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Short chapters — easy to play in half-hour sittings',
     ],
     similar: ['disco-elysium', 'norco', 'cyberpunk-2077'],
-    art: { accent: '#e04a7f', shots: ['6b528fa7988c1e5048871f3c530be67ce574eadb', '9db68bf85c1d9e44331f5a8dd4134aae8a744076', '730f225650cb14351559b6e51045bc93f207593f', '2b9b5a8363db89fad8386d91b3427900632be27f'] },
+    art: { accent: '#e04a7f', shots: ['ss_6b528fa7988c1e5048871f3c530be67ce574eadb.1920x1080.jpg', 'ss_9db68bf85c1d9e44331f5a8dd4134aae8a744076.1920x1080.jpg', 'ss_730f225650cb14351559b6e51045bc93f207593f.1920x1080.jpg', 'ss_2b9b5a8363db89fad8386d91b3427900632be27f.1920x1080.jpg'] },
   },
   {
     id: 'the-forgotten-city',
@@ -117,7 +117,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Eight hours, no filler',
     ],
     similar: ['outer-wilds', 'return-of-the-obra-dinn', 'pentiment'],
-    art: { accent: '#c9a05a', shots: ['b7dde47ffbef23c2d5255a676fa7be227248b3e5', 'e6d1b75e48ca08e8fd4d7178056db885dcf86279', 'fd64e689b7134c61c045beb1c6dce9b170a8fdae', 'e76976fc3cac87feee5cbe4d950d7ebf53c814f0'] },
+    art: { accent: '#c9a05a', shots: ['ss_b7dde47ffbef23c2d5255a676fa7be227248b3e5.1920x1080.jpg', 'ss_e6d1b75e48ca08e8fd4d7178056db885dcf86279.1920x1080.jpg', 'ss_fd64e689b7134c61c045beb1c6dce9b170a8fdae.1920x1080.jpg', 'ss_e76976fc3cac87feee5cbe4d950d7ebf53c814f0.1920x1080.jpg'] },
   },
   {
     id: 'void-stranger',
@@ -144,7 +144,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Almost nobody has played it and everybody who has will not shut up about it',
     ],
     similar: ['animal-well', 'lorelei-and-the-laser-eyes', 'return-of-the-obra-dinn'],
-    art: { accent: '#8a5ad6', shots: ['37d4a95f2a5d589b2750ce263914127aec6e4fe1', '80361dbd008ed66fe9a11b28685634ffd3a7cb11', 'bd19c58f4835464a7cc8f5549dfbda902a04736a', '98f8e914c123f6a6e9884f902b8d854c7603aff3'] },
+    art: { accent: '#8a5ad6', shots: ['ss_37d4a95f2a5d589b2750ce263914127aec6e4fe1.1920x1080.jpg', 'ss_80361dbd008ed66fe9a11b28685634ffd3a7cb11.1920x1080.jpg', 'ss_bd19c58f4835464a7cc8f5549dfbda902a04736a.1920x1080.jpg', 'ss_98f8e914c123f6a6e9884f902b8d854c7603aff3.1920x1080.jpg'] },
   },
   {
     id: 'norco',
@@ -171,7 +171,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Six hours — read it like a novel',
     ],
     similar: ['disco-elysium', 'citizen-sleeper', 'signalis'],
-    art: { accent: '#c95a3f', shots: ['665735a220bfddfeabd16bb50ca27ab6c42e75a1', 'ffbf44cd5f9311994095b576cf2914b7ca7176fb', 'fd039036baa785338537528659270259a00fb6c0', '86d33aa1c8bbffd49ea477ec2803e5da89cdb6b9'] },
+    art: { accent: '#c95a3f', shots: ['ss_665735a220bfddfeabd16bb50ca27ab6c42e75a1.1920x1080.jpg', 'ss_ffbf44cd5f9311994095b576cf2914b7ca7176fb.1920x1080.jpg', 'ss_fd039036baa785338537528659270259a00fb6c0.1920x1080.jpg', 'ss_86d33aa1c8bbffd49ea477ec2803e5da89cdb6b9.1920x1080.jpg'] },
   },
   {
     id: 'lorelei-and-the-laser-eyes',
@@ -198,7 +198,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Dreamlike without being incoherent',
     ],
     similar: ['blue-prince', 'return-of-the-obra-dinn', 'void-stranger'],
-    art: { accent: '#d13a3a', shots: ['86f62a07410301ecd069518695cfca290c185785', '6d6585ba21a31dff78818170b3090b738c3d2851', '5fb55deabca4eb6e739dbc7349d22aa812f19345', 'c37c597f912935bad034f34449a06b9d948c992f'] },
+    art: { accent: '#d13a3a', shots: ['ss_86f62a07410301ecd069518695cfca290c185785.1920x1080.jpg', 'ss_6d6585ba21a31dff78818170b3090b738c3d2851.1920x1080.jpg', 'ss_5fb55deabca4eb6e739dbc7349d22aa812f19345.1920x1080.jpg', 'ss_c37c597f912935bad034f34449a06b9d948c992f.1920x1080.jpg'] },
   },
   {
     id: 'pentiment',
@@ -225,7 +225,7 @@ export const HIDDEN_GEMS: Game[] = [
       'No combat; it is about people and consequence',
     ],
     similar: ['disco-elysium', 'the-forgotten-city', 'norco'],
-    art: { accent: '#c98a3a', shots: ['115917c4fe73896ec794b7e8e1795db02f33a11b', '845e68ea9b9eec0f09a838bd7fd6cdcc8537407b', 'd6e8594853dc8a16033c3644a0fbb05909f2848b', 'c9c6a041add3a9a798f01bb9f23f493626554253'] },
+    art: { accent: '#c98a3a', shots: ['ss_115917c4fe73896ec794b7e8e1795db02f33a11b.1920x1080.jpg', 'ss_845e68ea9b9eec0f09a838bd7fd6cdcc8537407b.1920x1080.jpg', 'ss_d6e8594853dc8a16033c3644a0fbb05909f2848b.1920x1080.jpg', 'ss_c9c6a041add3a9a798f01bb9f23f493626554253.1920x1080.jpg'] },
   },
   {
     id: 'immortality',
@@ -251,7 +251,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Non-linear — everyone assembles it differently',
     ],
     similar: ['norco', 'signalis', 'lorelei-and-the-laser-eyes'],
-    art: { accent: '#b0304a', shots: ['d0832bb75edca966464ea6262fae4f7478e39333', '8b61acf1d6eff20e82a07d7c5eeb726a608eb212', 'e0150575fbec67ac7b8dd6f193a6e18fc01bc481', 'a3f0976d52c3d3a7c147090d33416ab19f46b370'] },
+    art: { accent: '#b0304a', shots: ['ss_d0832bb75edca966464ea6262fae4f7478e39333.1920x1080.jpg', 'ss_8b61acf1d6eff20e82a07d7c5eeb726a608eb212.1920x1080.jpg', 'ss_e0150575fbec67ac7b8dd6f193a6e18fc01bc481.1920x1080.jpg', 'ss_a3f0976d52c3d3a7c147090d33416ab19f46b370.1920x1080.jpg'] },
   },
   {
     id: 'tinykin',
@@ -278,7 +278,7 @@ export const HIDDEN_GEMS: Game[] = [
       'The closest thing to a new Pikmin outside Nintendo',
     ],
     similar: ['a-short-hike', 'super-mario-odyssey', 'donkey-kong-bananza'],
-    art: { accent: '#4ac9c0', shots: ['a2beb6a28dc775403399e1add5c37d17ac2e4cb8', '6125cf9aca7965264a5ace6fe347314dc59e8bb1', '3659426586b49eaba4f01c8f6a4de468288328fc', '33d06f2ee9bf6825f06adec09f1434e8aef5e2b0'] },
+    art: { accent: '#4ac9c0', shots: ['ss_a2beb6a28dc775403399e1add5c37d17ac2e4cb8.1920x1080.jpg', 'ss_6125cf9aca7965264a5ace6fe347314dc59e8bb1.1920x1080.jpg', 'ss_3659426586b49eaba4f01c8f6a4de468288328fc.1920x1080.jpg', 'ss_33d06f2ee9bf6825f06adec09f1434e8aef5e2b0.1920x1080.jpg'] },
   },
   {
     id: 'the-case-of-the-golden-idol',
@@ -305,7 +305,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Builds into one connected multi-generational story',
     ],
     similar: ['return-of-the-obra-dinn', 'chants-of-sennaar', 'lorelei-and-the-laser-eyes'],
-    art: { accent: '#c9a33a', shots: ['d817a8158f79e7881241f0d4470cd010f2fbe44f', 'e9593cf60f8e7fd96d205f5be6b45a487365fa29', 'ca307de7f24032327368d7d1718833331e481cc8', '14f8ca6a582b71760770efdfac6cb38f7fcf4a98'] },
+    art: { accent: '#c9a33a', shots: ['ss_d817a8158f79e7881241f0d4470cd010f2fbe44f.1920x1080.jpg', 'ss_e9593cf60f8e7fd96d205f5be6b45a487365fa29.1920x1080.jpg', 'ss_ca307de7f24032327368d7d1718833331e481cc8.1920x1080.jpg', 'ss_14f8ca6a582b71760770efdfac6cb38f7fcf4a98.1920x1080.jpg'] },
   },
   {
     id: 'rain-world',
@@ -332,7 +332,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Only worth it if "the world ignores me" sounds appealing, not frustrating',
     ],
     similar: ['hollow-knight', 'signalis', 'void-stranger'],
-    art: { accent: '#6a7fa8', shots: ['cbd4e647d6b3bb3b311cb68fdf0cd8835d5919d7', '628274c84b196e270733f540139062f2787c4423', 'd551eee41e60ba8f5f2005b3de41c5f2c27cb444', '5c8c0413e98f3521e3df370d4ad7018b771ce353'] },
+    art: { accent: '#6a7fa8', shots: ['ss_cbd4e647d6b3bb3b311cb68fdf0cd8835d5919d7.1920x1080.jpg', 'ss_628274c84b196e270733f540139062f2787c4423.1920x1080.jpg', 'ss_d551eee41e60ba8f5f2005b3de41c5f2c27cb444.1920x1080.jpg', 'ss_5c8c0413e98f3521e3df370d4ad7018b771ce353.1920x1080.jpg'] },
   },
   {
     id: '1000xresist',
@@ -359,7 +359,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Gets stranger and better the further in you go',
     ],
     similar: ['citizen-sleeper', 'norco', 'immortality'],
-    art: { accent: '#4a9fd6', shots: ['31555847848f488834c689a1bae292c1277a11fa', 'dcb4a4f1976652d191b459dfea395543f55d7a6c', '3356fdfb22efb582924561944494100bf8823a51', '00df2986d4bff270a9bde6140b4192462584a00f'] },
+    art: { accent: '#4a9fd6', shots: ['ss_31555847848f488834c689a1bae292c1277a11fa.1920x1080.jpg', 'ss_dcb4a4f1976652d191b459dfea395543f55d7a6c.1920x1080.jpg', 'ss_3356fdfb22efb582924561944494100bf8823a51.1920x1080.jpg', 'ss_00df2986d4bff270a9bde6140b4192462584a00f.1920x1080.jpg'] },
   },
   {
     id: 'nine-sols',
@@ -386,7 +386,7 @@ export const HIDDEN_GEMS: Game[] = [
       'From the studio behind Detention and Devotion',
     ],
     similar: ['hollow-knight', 'death-s-door', 'elden-ring'],
-    art: { accent: '#d64a5a', shots: ['514e766f27fcfccf375c85a842099d53e9542258', 'a48f85ae073148d13332b1a7741a764a046f83be', '75017574e6cac5233b32492509fe47825dc530bf', 'bf5096e3682d7d2fb1d3fa7cccb5398fb934144a'] },
+    art: { accent: '#d64a5a', shots: ['ss_514e766f27fcfccf375c85a842099d53e9542258.1920x1080.jpg', 'ss_a48f85ae073148d13332b1a7741a764a046f83be.1920x1080.jpg', 'ss_75017574e6cac5233b32492509fe47825dc530bf.1920x1080.jpg', 'ss_bf5096e3682d7d2fb1d3fa7cccb5398fb934144a.1920x1080.jpg'] },
   },
   {
     id: 'bomb-rush-cyberfunk',
@@ -413,7 +413,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Low pressure — it wants you to look good, not to suffer',
     ],
     similar: ['pizza-tower', 'marvels-spider-man-2', 'sonic-racing-crossworlds'],
-    art: { accent: '#e8d13a', shots: ['88eb0d62109e0994e6b7efc23d4d8f3b6ad7d08e', 'df565f3d006ab2b42435b70cc4c4feea0fe00bc4', '044bea0014a39e31e6c3893dc6a4e80ad52896cd', '843772514e648d1c38da29433e1ac1b9bbe487fb'] },
+    art: { accent: '#e8d13a', shots: ['ss_88eb0d62109e0994e6b7efc23d4d8f3b6ad7d08e.1920x1080.jpg', 'ss_df565f3d006ab2b42435b70cc4c4feea0fe00bc4.1920x1080.jpg', 'ss_044bea0014a39e31e6c3893dc6a4e80ad52896cd.1920x1080.jpg', 'ss_843772514e648d1c38da29433e1ac1b9bbe487fb.1920x1080.jpg'] },
   },
   {
     id: 'venba',
@@ -440,7 +440,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Warm and quietly devastating',
     ],
     similar: ['a-short-hike', 'spiritfarer', 'norco'],
-    art: { accent: '#e0803a', shots: ['9ffa3886551c1d8958313356df322bc5e3f406a0', '3b77b7fd1d5faf56979bd1cc02e89d41ffb0ac83', 'b19d7e848a61ed07ae1171150e25af17bd58d166', 'c9eaa2d3043e5484fcfb9f8af595aa2b8df58978'] },
+    art: { accent: '#e0803a', shots: ['ss_9ffa3886551c1d8958313356df322bc5e3f406a0.1920x1080.jpg', 'ss_3b77b7fd1d5faf56979bd1cc02e89d41ffb0ac83.1920x1080.jpg', 'ss_b19d7e848a61ed07ae1171150e25af17bd58d166.1920x1080.jpg', 'ss_c9eaa2d3043e5484fcfb9f8af595aa2b8df58978.1920x1080.jpg'] },
   },
   {
     id: 'paradise-killer',
@@ -467,7 +467,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Free-form investigation with no quest markers',
     ],
     similar: ['the-case-of-the-golden-idol', 'lorelei-and-the-laser-eyes', 'citizen-sleeper'],
-    art: { accent: '#e04a9f', shots: ['d9c9c4f0939b2d40a1d02f4fc3e2bf9c6b42a558', '5a69d0b1e05df2d5b40aa85d78fb646a7753b026', '0ee4deeaa33b45f96ac96499c4966577b3f2dd50', '9e21741b9391a3430db34928ef1ca402ddf23ed4'] },
+    art: { accent: '#e04a9f', shots: ['ss_d9c9c4f0939b2d40a1d02f4fc3e2bf9c6b42a558.1920x1080.jpg', 'ss_5a69d0b1e05df2d5b40aa85d78fb646a7753b026.1920x1080.jpg', 'ss_0ee4deeaa33b45f96ac96499c4966577b3f2dd50.1920x1080.jpg', 'ss_9e21741b9391a3430db34928ef1ca402ddf23ed4.1920x1080.jpg'] },
   },
   {
     id: 'astlibra-revision',
@@ -494,7 +494,7 @@ export const HIDDEN_GEMS: Game[] = [
       'The clearest possible case of "do not judge it by the screenshots"',
     ],
     similar: ['nine-sols', 'dead-cells', 'hollow-knight'],
-    art: { accent: '#c9873a', shots: ['3e0095534df3fc37474c2eada73ed72bd5901a93', '0c80be451aafa02292388b337a0d24032df103e5', '623287447b3213532ea99909cc4873092fb5076a', '5d303686a08afb230b19487747a65f479cf68358'] },
+    art: { accent: '#c9873a', shots: ['ss_3e0095534df3fc37474c2eada73ed72bd5901a93.1920x1080.jpg', 'ss_0c80be451aafa02292388b337a0d24032df103e5.1920x1080.jpg', 'ss_623287447b3213532ea99909cc4873092fb5076a.1920x1080.jpg', 'ss_5d303686a08afb230b19487747a65f479cf68358.1920x1080.jpg'] },
   },
   {
     id: 'unrailed',
@@ -521,7 +521,7 @@ export const HIDDEN_GEMS: Game[] = [
       'Almost nobody knows it exists and it deserves better',
     ],
     similar: ['overcooked-2', 'super-mario-party-jamboree', 'it-takes-two'],
-    art: { accent: '#4ac96a', shots: ['718c17d9145a8f11eb99de457d513fc79bd82979', '60264335a97af2987159e787635f39cb9f19f648', '8496602ef1f242770f079665740f542aaa4eb638', '71511b260173d62f1fbc43b56b97611335f08c60'] },
+    art: { accent: '#4ac96a', shots: ['ss_718c17d9145a8f11eb99de457d513fc79bd82979.1920x1080.jpg', 'ss_60264335a97af2987159e787635f39cb9f19f648.1920x1080.jpg', 'ss_8496602ef1f242770f079665740f542aaa4eb638.1920x1080.jpg', 'ss_71511b260173d62f1fbc43b56b97611335f08c60.1920x1080.jpg'] },
   },
   {
     id: 'moon-remix-rpg',

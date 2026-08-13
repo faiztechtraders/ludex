@@ -36,7 +36,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'Play this before Ragnarök',
     ],
     similar: ['god-of-war-ragnarok', 'the-last-of-us-part-i', 'horizon-zero-dawn'],
-    art: { accent: '#c95a3a', shots: ['6eccc970b5de2943546d93d319be1b5c0618f21b', 'f1bff24d3967a21d303d95e11ed892e3d9113057', '3670ba72c7e3e9c3c3225547ef2c1053504e62b8', '93a3ca63aa2cd8c675bbb6430324ee3f2d44b845'] },
+    art: { accent: '#c95a3a', shots: ['ss_6eccc970b5de2943546d93d319be1b5c0618f21b.1920x1080.jpg', 'ss_f1bff24d3967a21d303d95e11ed892e3d9113057.1920x1080.jpg', 'ss_3670ba72c7e3e9c3c3225547ef2c1053504e62b8.1920x1080.jpg', 'ss_93a3ca63aa2cd8c675bbb6430324ee3f2d44b845.1920x1080.jpg'] },
   },
   {
     id: 'sonic-x-shadow-generations',
@@ -63,7 +63,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'Short levels built for replaying',
     ],
     similar: ['sonic-frontiers', 'sonic-mania', 'crash-bandicoot-4'],
-    art: { accent: '#3a6ae0', shots: ['999691f6eaf3e893e98e5ca7220956ed5545a61f', 'b9efdacae3f0cb1df10206b61e1e9b94d61bdf8e', '44984a7484025e3fd66ece25467fed03b6d59ce4', '2468217796a72956af1a0aa66bf724b6e0f4629d'] },
+    art: { accent: '#3a6ae0', shots: ['ss_999691f6eaf3e893e98e5ca7220956ed5545a61f.1920x1080.jpg', 'ss_b9efdacae3f0cb1df10206b61e1e9b94d61bdf8e.1920x1080.jpg', 'ss_44984a7484025e3fd66ece25467fed03b6d59ce4.1920x1080.jpg', 'ss_2468217796a72956af1a0aa66bf724b6e0f4629d.1920x1080.jpg'] },
   },
   {
     id: 'nioh-2',
@@ -89,7 +89,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'Enormous — the DLC roughly doubles it',
     ],
     similar: ['sekiro', 'lies-of-p', 'black-myth-wukong'],
-    art: { accent: '#8a3a4a', shots: ['c8ad5efb3acdb4099f77b8b611289e2aa00cd19c', 'bb996dea7ada75409e8c328b4f60e1f262e165d9', '7fcca74473ea2678e90ee4cff018392007b8f1c0', 'bdb077e9fcfabe5eca01571b8fd1bdbf03440d68'] },
+    art: { accent: '#8a3a4a', shots: ['ss_c8ad5efb3acdb4099f77b8b611289e2aa00cd19c.1920x1080.jpg', 'ss_bb996dea7ada75409e8c328b4f60e1f262e165d9.1920x1080.jpg', 'ss_7fcca74473ea2678e90ee4cff018392007b8f1c0.1920x1080.jpg', 'ss_bdb077e9fcfabe5eca01571b8fd1bdbf03440d68.1920x1080.jpg'] },
   },
   {
     id: 'wo-long-fallen-dynasty',
@@ -115,7 +115,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'Faster and more forgiving than Nioh',
     ],
     similar: ['nioh-2', 'sekiro', 'black-myth-wukong'],
-    art: { accent: '#c9843a', shots: ['46d32690392bad490af693cbf3394f8f346890ce', 'db17363dfa15e14909f975ff768c666e2fe98f63', '616f77c0cf7aa9ad801608d72bbaf188696b7438', '059a719c1e150ec703459541db853fd2fbf1df55'] },
+    art: { accent: '#c9843a', shots: ['ss_46d32690392bad490af693cbf3394f8f346890ce.1920x1080.jpg', 'ss_db17363dfa15e14909f975ff768c666e2fe98f63.1920x1080.jpg', 'ss_616f77c0cf7aa9ad801608d72bbaf188696b7438.1920x1080.jpg', 'ss_059a719c1e150ec703459541db853fd2fbf1df55.1920x1080.jpg'] },
   },
   {
     id: 'ghost-of-yotei',
@@ -166,7 +166,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'Very different from Elden Ring — go in expecting that',
     ],
     similar: ['elden-ring', 'helldivers-2', 'monster-hunter-wilds'],
-    art: { accent: '#8a5ac9', shots: ['0b9594934db8a1457c915e200f9d0d9b447a3df4', '1deefb0b7ea597f4227777239910b4990aa0cc77', '802cd66236d951fba204fb9980e2c0c9213a264c', 'b3ed8ab522f5965e46bc7c090cad9d018f937ae2'] },
+    art: { accent: '#8a5ac9', shots: ['ss_0b9594934db8a1457c915e200f9d0d9b447a3df4.1920x1080.jpg', 'ss_1deefb0b7ea597f4227777239910b4990aa0cc77.1920x1080.jpg', 'ss_802cd66236d951fba204fb9980e2c0c9213a264c.1920x1080.jpg', 'ss_b3ed8ab522f5965e46bc7c090cad9d018f937ae2.1920x1080.jpg'] },
   },
   {
     id: 'the-outer-worlds-2',
@@ -197,6 +197,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'super-mario-galaxy-1-2',
     slug: 'super-mario-galaxy-1-2',
+    nintendoSlug: 'super-mario-galaxy-1-2-switch-2',
     title: 'Super Mario Galaxy 1 + 2',
     year: 2025,
     developer: 'Nintendo EPD',
@@ -424,7 +425,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'Absurdly high production values throughout',
     ],
     similar: ['monster-hunter-wilds', 'final-fantasy-xvi', 'devil-may-cry-5'],
-    art: { accent: '#3a9fe0', shots: ['cdda0cdcd1f5aec78bb9edea1fa7d80feaf46d77', '26d3bbdddbf5f1b2c21c59bd0a1fe1fdd109cce4', '0f2acb9ebaaee9380739587ccf5457047d9adfa6', '6317bd5cd7153005ee1f089cb2c1dbeec80a06ca'] },
+    art: { accent: '#3a9fe0', shots: ['ss_cdda0cdcd1f5aec78bb9edea1fa7d80feaf46d77.1920x1080.jpg', 'ss_26d3bbdddbf5f1b2c21c59bd0a1fe1fdd109cce4.1920x1080.jpg', 'ss_0f2acb9ebaaee9380739587ccf5457047d9adfa6.1920x1080.jpg', 'ss_6317bd5cd7153005ee1f089cb2c1dbeec80a06ca.1920x1080.jpg'] },
   },
   {
     id: 'unicorn-overlord',
@@ -475,7 +476,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'The atmospheric shader work is lovely',
     ],
     similar: ['final-fantasy-xvi', 'granblue-fantasy-relink', 'xenoblade-chronicles-3'],
-    art: { accent: '#e0763a', shots: ['ff3e713e134572734fdc55adcb6043e2652f0506', '3ca8447106ddb23b14e4e30db0b24cbb359e2a5f', '7f7362042aff89d16cdf36c58b8c5674deb71d63', 'f14d3e50d12061fee9afa2f46718bc0e0538d286'] },
+    art: { accent: '#e0763a', shots: ['ss_ff3e713e134572734fdc55adcb6043e2652f0506.1920x1080.jpg', 'ss_3ca8447106ddb23b14e4e30db0b24cbb359e2a5f.1920x1080.jpg', 'ss_7f7362042aff89d16cdf36c58b8c5674deb71d63.1920x1080.jpg', 'ss_f14d3e50d12061fee9afa2f46718bc0e0538d286.1920x1080.jpg'] },
   },
   {
     id: 'microsoft-flight-simulator-2024',
@@ -501,7 +502,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'A career mode gives it structure this time',
     ],
     similar: ['gran-turismo-7', 'euro-truck-simulator-2', 'no-mans-sky'],
-    art: { accent: '#3a9fe0', shots: ['62dee3ea5e0ef5989a33b93eecab18c41d865b72', '2c5ad31f74f8787cd1f2180ec3001d6b6d46b8f9', '632088560168c4be6e1b8c6b85fbf6901220ca71', 'b4cdc13836299a875d57b3a5b17f845eef131930'] },
+    art: { accent: '#3a9fe0', shots: ['ss_62dee3ea5e0ef5989a33b93eecab18c41d865b72.1920x1080.jpg', 'ss_2c5ad31f74f8787cd1f2180ec3001d6b6d46b8f9.1920x1080.jpg', 'ss_632088560168c4be6e1b8c6b85fbf6901220ca71.1920x1080.jpg', 'ss_b4cdc13836299a875d57b3a5b17f845eef131930.1920x1080.jpg'] },
   },
   {
     id: 'euro-truck-simulator-2',
@@ -551,7 +552,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'Completely without stakes of any kind',
     ],
     similar: ['human-fall-flat', 'gang-beasts', 'untitled-goose-game'],
-    art: { accent: '#8ac93a', shots: ['88ddec97bc688866e9f721bfec70ba789d1b24b2', '62ea64e6444e595117eb355d6a7b76c7c131246a', '712025982bb09e2e6cf5c5d4387f5e20681d573e', 'bf05315e3aa4cd4867a579b1d367acfd6c235360'] },
+    art: { accent: '#8ac93a', shots: ['ss_88ddec97bc688866e9f721bfec70ba789d1b24b2.1920x1080.jpg', 'ss_62ea64e6444e595117eb355d6a7b76c7c131246a.1920x1080.jpg', 'ss_712025982bb09e2e6cf5c5d4387f5e20681d573e.1920x1080.jpg', 'ss_bf05315e3aa4cd4867a579b1d367acfd6c235360.1920x1080.jpg'] },
   },
   {
     id: 'half-life-alyx',
@@ -576,7 +577,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'VR headset required — that is the one catch',
     ],
     similar: ['resident-evil-7', 'prey-2017', 'dishonored-2'],
-    art: { accent: '#e0863a', shots: ['d61365e93f20ceb5a94a1e5b2811cf504cbfa303', 'fe7066404a704aa20f7c6f251facb7aef2606bda', '6868ae1644628f857e7df4b72a00fdf506f79c7f', '4236773ab28112613bd7d4c6282331c861bc222a'] },
+    art: { accent: '#e0863a', shots: ['ss_d61365e93f20ceb5a94a1e5b2811cf504cbfa303.1920x1080.jpg', 'ss_fe7066404a704aa20f7c6f251facb7aef2606bda.1920x1080.jpg', 'ss_6868ae1644628f857e7df4b72a00fdf506f79c7f.1920x1080.jpg', 'ss_4236773ab28112613bd7d4c6282331c861bc222a.1920x1080.jpg'] },
   },
   {
     id: 'half-life-2',
@@ -601,7 +602,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'Includes both episodes at no extra cost',
     ],
     similar: ['portal-2', 'half-life-alyx', 'titanfall-2'],
-    art: { accent: '#e0a03a', shots: ['47b4105b396de408cb8b6b4f358c69e5e2a62dae', '0e499071a60a20b24149ad65a8edb769250f2921', 'ffb00abd45012680e4f209355ec81f961b6dd1fb', 'b822a29b3804e05ab9517cac99a5d978d109a32b'] },
+    art: { accent: '#e0a03a', shots: ['ss_47b4105b396de408cb8b6b4f358c69e5e2a62dae.1920x1080.jpg', 'ss_0e499071a60a20b24149ad65a8edb769250f2921.1920x1080.jpg', 'ss_ffb00abd45012680e4f209355ec81f961b6dd1fb.1920x1080.jpg', 'ss_b822a29b3804e05ab9517cac99a5d978d109a32b.1920x1080.jpg'] },
   },
   {
     id: 'doom-eternal',
@@ -628,7 +629,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'Genuinely exhausting in the best way',
     ],
     similar: ['doom-the-dark-ages', 'ultrakill', 'titanfall-2'],
-    art: { accent: '#c93a2a', shots: ['4f93a7c5003d49cb32f6c0c6e547452b284580a0', '7e6a2148321c8024285e3924903d8897cac95358', 'af3b43c4be0029b52ceefaf55ebe1918e2cb3471', 'ebd31ded4723e991446ededa9e65c980f988567d'] },
+    art: { accent: '#c93a2a', shots: ['ss_4f93a7c5003d49cb32f6c0c6e547452b284580a0.1920x1080.jpg', 'ss_7e6a2148321c8024285e3924903d8897cac95358.1920x1080.jpg', 'ss_af3b43c4be0029b52ceefaf55ebe1918e2cb3471.1920x1080.jpg', 'ss_ebd31ded4723e991446ededa9e65c980f988567d.1920x1080.jpg'] },
   },
   {
     id: 'dragons-dogma-dark-arisen',
@@ -654,6 +655,6 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'Rough in places — that is part of its charm',
     ],
     similar: ['dragons-dogma-2', 'monster-hunter-world', 'elden-ring'],
-    art: { accent: '#8a6a3a', shots: ['30ea02f49950fdc3a1b0dab358776f0779c643c7', 'a4636ec6717324f707d542f195c624698dc020d4', '7c8c0dd0c00e1955c97d75d8bfbfc94f3e4acfac', '38a4e23052bbb0d144128ee4f2d1940b5e1d422f'] },
+    art: { accent: '#8a6a3a', shots: ['ss_30ea02f49950fdc3a1b0dab358776f0779c643c7.1920x1080.jpg', 'ss_a4636ec6717324f707d542f195c624698dc020d4.1920x1080.jpg', 'ss_7c8c0dd0c00e1955c97d75d8bfbfc94f3e4acfac.1920x1080.jpg', 'ss_38a4e23052bbb0d144128ee4f2d1940b5e1d422f.1920x1080.jpg'] },
   },
 ];

@@ -16,7 +16,8 @@
     "data:stats": "node skills/data-pipeline/stats.mjs",
     "shot": "node skills/screenshot/capture.mjs",
     "check": "node skills/screenshot/console-check.mjs",
-    "flows": "node skills/screenshot/flows.mjs"
+    "flows": "node skills/screenshot/flows.mjs",
+    "data:audit-steam": "node skills/data-pipeline/audit-steam-ids.mjs"
   },
   "dependencies": {
     "motion": "^13.1.0",

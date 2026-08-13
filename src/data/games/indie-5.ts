@@ -152,7 +152,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'boomerang-fu',
     slug: 'boomerang-fu',
-    steamAppId: 1073320,
+    steamAppId: 965680,
     title: 'Boomerang Fu',
     year: 2020,
     developer: 'Cranky Watermelon',
@@ -174,7 +174,7 @@ export const INDIE_GAMES_5: Game[] = [
       'You are a piece of sushi, and it matters',
     ],
     similar: ['duck-game', 'towerfall-ascension', 'super-bomberman-r-2'],
-    art: { accent: '#e0913f', shots: ['ss_63b5ffaceee1540441631f40938c30dba6cb7bef.1920x1080.jpg', 'ss_2bf4156a3339e88125f62bd938cbeef7a82c7f29.1920x1080.jpg', 'ss_b1df67f64d96d2703e306350183b6f7c31e5ea74.1920x1080.jpg', 'ss_1d24a2c4173d819d84fc9f3c2263427291aba5e1.1920x1080.jpg'] },
+    art: { accent: '#e0913f', shots: ['ss_ff8629d683e8b5b584430f7cdae568bfebb74f84.1920x1080.jpg', 'ss_98df23bc221ec49594871d7ee3c02b8288e70508.1920x1080.jpg', 'ss_13efe9d3857f289c19f3530672b291c78a3fe5f2.1920x1080.jpg', 'ss_fb142724f81d0fd093c275776b12c2a89ac7ffbd.1920x1080.jpg'] },
   },
   {
     id: 'super-bomberman-r-2',
@@ -258,7 +258,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'tools-up',
     slug: 'tools-up',
-    steamAppId: 1042610,
+    steamAppId: 1004490,
     title: 'Tools Up!',
     year: 2019,
     developer: 'The Knights of Unity',
@@ -280,7 +280,7 @@ export const INDIE_GAMES_5: Game[] = [
       'Short levels ideal for one evening',
     ],
     similar: ['overcooked-2', 'moving-out', 'pico-park'],
-    art: { accent: '#e0843f', cover: 'https://assets.nintendo.com/image/upload/c_fill,w_600,h_900,f_auto,q_auto/store/software/switch/70010000020682/053f1289217e975ef2c9b23075d5f080ba40dd0ef2b6166bfeeb215b02aeb6f2', hero: 'https://assets.nintendo.com/image/upload/c_fill,w_1920,f_auto,q_auto/store/software/switch/70010000020682/18fe4036ffccb482a8510867ffc6eba3af793d244bb96a3420b44a912b5f4abc', shots: ['https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000020682/18fe4036ffccb482a8510867ffc6eba3af793d244bb96a3420b44a912b5f4abc', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000020682/bab0fe67ef2af0106ed3d87d848addf0a48778d6cd8840bc1e931726eda9254a', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000020682/690f486d35828c0f145c96cdaf191e31a6069147cf4144d18f3530c3369c8f82', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000020682/35be5e138ba4d638b6549a8a2249d6413e071d72c72a8c5d0659a73ec55c9f2e'] },
+    art: { accent: '#e0843f', shots: ['ss_bb046c5b9cad504ff8af5366580970349052dfd6.1920x1080.jpg', 'ss_84f60dc37d930a73b1305a3cd8c0901526a78c95.1920x1080.jpg', 'ss_46be63f625eebde4b81c43c061505cdb6ae39d33.1920x1080.jpg', 'ss_82fc4d661411185dd9e2daf061590df37f53c628.1920x1080.jpg'] },
   },
   {
     id: 'we-were-here',
@@ -311,7 +311,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'operation-tango',
     slug: 'operation-tango',
-    steamAppId: 1435460,
+    steamAppId: 1335790,
     title: 'Operation: Tango',
     year: 2021,
     developer: 'Clever Plays',
@@ -332,7 +332,7 @@ export const INDIE_GAMES_5: Game[] = [
       'Genuinely stylish spy-thriller presentation',
     ],
     similar: ['we-were-here', 'keep-talking-and-nobody-explodes', 'escape-simulator'],
-    art: { accent: '#e0603f' },
+    art: { accent: '#e0603f', shots: ['ss_a819cfaebe56dd997808f971c884fd31df4b8faa.1920x1080.jpg', 'ss_5d2e1df9f215639a5d7217459066bf52b81ceb70.1920x1080.jpg', 'ss_cac2f0c6b3e0d6fd041a056dcf49e5c340e31afb.1920x1080.jpg', 'ss_28180a02e18521969b9b16ecc20ce874ff4885e5.1920x1080.jpg'] },
   },
   {
     id: 'escape-simulator',
@@ -443,7 +443,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'river-city-girls',
     slug: 'river-city-girls',
-    steamAppId: 1041520,
+    steamAppId: 1049320,
     title: 'River City Girls',
     year: 2019,
     developer: 'WayForward',
@@ -465,7 +465,7 @@ export const INDIE_GAMES_5: Game[] = [
       'The art and music are both excellent',
     ],
     similar: ['tmnt-shredders-revenge', 'streets-of-rage-4', 'scott-pilgrim-vs-the-world'],
-    art: { accent: '#e03f7f', shots: ['ss_6a976508f559b4cda40189f15b0794ce55a66637.1920x1080.jpg', 'ss_81bcb9e7048534a85a67f3f78bedb2e10a3349a1.1920x1080.jpg', 'ss_5183fb694162a9fd9d8140b447c1eccf9cd7f2eb.1920x1080.jpg', 'ss_08c498a51b8b51a98a1a8b476899c3c736ce9d24.1920x1080.jpg'] },
+    art: { accent: '#e03f7f', shots: ['ss_b32160c9ce6038ee5df46ddeb8a220bdab947a88.1920x1080.jpg', 'ss_c356a420251e2e907b1cdccc9b5bb372cee40ded.1920x1080.jpg', 'ss_e3f188d271e7d262c7162c2d2f0e49cda39aa417.1920x1080.jpg', 'ss_1276b1e3f2d335a280afb9ca7111fab68df17ec8.1920x1080.jpg'] },
   },
   {
     id: 'scott-pilgrim-vs-the-world',
@@ -522,7 +522,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'nidhogg-2',
     slug: 'nidhogg-2',
-    steamAppId: 601510,
+    steamAppId: 535520,
     title: 'Nidhogg II',
     year: 2017,
     developer: 'Messhof',
@@ -544,7 +544,7 @@ export const INDIE_GAMES_5: Game[] = [
       'The most tense two-player game on this list',
     ],
     similar: ['towerfall-ascension', 'samurai-gunn-2', 'divekick'],
-    art: { accent: '#c9c93f', shots: ['ss_4cfef91c5e34d7e0385469ae367c0a01adfdcb61.1920x1080.jpg', 'ss_b3919714fbe1369b37daefa187171acde0a63211.1920x1080.jpg', 'ss_3942fdbd494934f2f5292cdc523eedeb543f7241.1920x1080.jpg', 'ss_9176ea906223d635d1211df03237c09536ba148d.1920x1080.jpg'] },
+    art: { accent: '#c9c93f', shots: ['ss_894ff9cbda268b28a216eeea69a4f12f68d46e16.1920x1080.jpg', 'ss_5943b06d70d2d2b6b76c663eece7915286e4581a.1920x1080.jpg', 'ss_17bc72b95392d11c27f12f2bd030a28ecad21168.1920x1080.jpg', 'ss_43f36e8b6058176a02a02235d92c3d182e687cd6.1920x1080.jpg'] },
   },
   {
     id: 'lethal-league-blaze',
@@ -657,7 +657,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'warhammer-40k-boltgun',
     slug: 'warhammer-40k-boltgun',
-    steamAppId: 1782210,
+    steamAppId: 2005010,
     title: 'Warhammer 40,000: Boltgun',
     year: 2023,
     developer: 'Auroch Digital',
@@ -679,7 +679,7 @@ export const INDIE_GAMES_5: Game[] = [
       'No cover, no regenerating health, no apologies',
     ],
     similar: ['prodeus', 'dusk', 'space-marine-2'],
-    art: { accent: '#3f7fc9', shots: ['ss_335391df766a29348223d1093551a52c0695b06c.1920x1080.jpg', 'ss_fef8f54f0447e49d62564ca8f1cbfdb73801d2f2.1920x1080.jpg', 'ss_68030009c572cb7a4f6824e18fcc56d9becb5b28.1920x1080.jpg', 'ss_6fd12552e2216d1d02f9f82b97fb3c3f65106e81.1920x1080.jpg'] },
+    art: { accent: '#3f7fc9', shots: ['ss_4e79103eca834634c7b25ca1b142f3147cfbbca5.1920x1080.jpg', 'ss_83f34505acd4c35bcd1a9546ea791fc3ba3195b7.1920x1080.jpg', 'ss_28f453bcefedfb06d4cf5647e38c571e6abb6fb4.1920x1080.jpg', 'ss_c410a71484fae0f6790b963f3a4fe10fb5a5ccb0.1920x1080.jpg'] },
   },
   {
     id: 'turbo-overkill',
@@ -790,7 +790,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'hyper-demon',
     slug: 'hyper-demon',
-    steamAppId: 1957780,
+    steamAppId: 1743850,
     title: 'HYPER DEMON',
     year: 2022,
     developer: 'Sorath',
@@ -811,6 +811,6 @@ export const INDIE_GAMES_5: Game[] = [
       'Unlike anything else, including its predecessor',
     ],
     similar: ['devil-daggers', 'post-void', 'ultrakill'],
-    art: { accent: '#e0c93f', shots: ['ss_2a88ba5a228e65260c9f900de7c535b31c78cd7d.1920x1080.jpg', 'ss_61e5f611be99de317f39118103eb5d878e69416d.1920x1080.jpg', 'ss_4b38bfa6b11ee0a7c6a1cce03377adbe2f99d087.1920x1080.jpg', 'ss_22a244395c6adbb47208c74dcf9b2548cab7d8e8.1920x1080.jpg'] },
+    art: { accent: '#e0c93f', shots: ['ss_238ac888e000b7196ec444d7edf41f726b636ff2.1920x1080.jpg', 'ss_a5b74dfe749a0c374c9c9e00d23c21812447b587.1920x1080.jpg', 'ss_7da1a2be90adb403a8a607a42dabbf858ff533e6.1920x1080.jpg', 'ss_63f531677eee8be5004eb7dca301aacb23f125ef.1920x1080.jpg'] },
   },
 ];

@@ -37,7 +37,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'The single best "what is over there?" world in modern games',
     ],
     similar: ['nine-sols', 'hollow-knight', 'the-witcher-3'],
-    art: { accent: '#c9a227', shots: ['943bf6fe62352757d9070c1d33e50b92fe8539f1', 'dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42', '3c41384a24d86dddd58a8f61db77f9dc0bfda8b5', 'e0316c76f8197405c1312d072b84331dd735d60b'] },
+    art: { accent: '#c9a227', shots: ['ss_943bf6fe62352757d9070c1d33e50b92fe8539f1.1920x1080.jpg', 'ss_dcdac9e4b26ac0ee5248bfd2967d764fd00cdb42.1920x1080.jpg', 'ss_3c41384a24d86dddd58a8f61db77f9dc0bfda8b5.1920x1080.jpg', 'ss_e0316c76f8197405c1312d072b84331dd735d60b.1920x1080.jpg'] },
   },
   {
     id: 'baldurs-gate-3',
@@ -63,7 +63,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'Drop-in co-op for up to four, without dumbing anything down',
     ],
     similar: ['disco-elysium', 'pentiment', 'the-witcher-3'],
-    art: { accent: '#b8342a', shots: ['c73bc54415178c07fef85f54ee26621728c77504', '73d93bea842b93914d966622104dcb8c0f42972b', 'cf936d31061b58e98e0c646aee00e6030c410cda', 'b6a6ee6e046426d08ceea7a4506a1b5f44181543'] },
+    art: { accent: '#b8342a', shots: ['ss_c73bc54415178c07fef85f54ee26621728c77504.1920x1080.jpg', 'ss_73d93bea842b93914d966622104dcb8c0f42972b.1920x1080.jpg', 'ss_cf936d31061b58e98e0c646aee00e6030c410cda.1920x1080.jpg', 'ss_b6a6ee6e046426d08ceea7a4506a1b5f44181543.1920x1080.jpg'] },
   },
   {
     id: 'zelda-tears-of-the-kingdom',
@@ -171,7 +171,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'The Switch 2 version is a genuinely impressive native port',
     ],
     similar: ['the-witcher-3', 'signalis', 'citizen-sleeper'],
-    art: { accent: '#fcee0a', shots: ['2f649b68d579bf87011487d29bc4ccbfdd97d34f', '0e64170751e1ae20ff8fdb7001a8892fd48260e7', 'af2804aa4bf35d4251043744412ce3b359a125ef', '7924f64b6e5d586a80418c9896a1c92881a7905b'] },
+    art: { accent: '#fcee0a', shots: ['ss_2f649b68d579bf87011487d29bc4ccbfdd97d34f.1920x1080.jpg', 'ss_0e64170751e1ae20ff8fdb7001a8892fd48260e7.1920x1080.jpg', 'ss_af2804aa4bf35d4251043744412ce3b359a125ef.1920x1080.jpg', 'ss_7924f64b6e5d586a80418c9896a1c92881a7905b.1920x1080.jpg'] },
   },
   {
     id: 'god-of-war-ragnarok',
@@ -198,7 +198,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'Ends its story instead of setting up a sequel',
     ],
     similar: ['marvels-spider-man-2', 'resident-evil-4-remake', 'elden-ring'],
-    art: { accent: '#c04a2e', shots: ['7c59382e67eadf779e0e15c3837ee91158237f11', '05f27139b15c5410d07cd59b7b52adbdf73e13da', '974a7b998c0c14da7fe52a342cf36c98850a57ac', '78350297511e81f287b4bc361935efbc3016f6db'] },
+    art: { accent: '#c04a2e', shots: ['ss_7c59382e67eadf779e0e15c3837ee91158237f11.1920x1080.jpg', 'ss_05f27139b15c5410d07cd59b7b52adbdf73e13da.1920x1080.jpg', 'ss_974a7b998c0c14da7fe52a342cf36c98850a57ac.1920x1080.jpg', 'ss_78350297511e81f287b4bc361935efbc3016f6db.1920x1080.jpg'] },
   },
   {
     id: 'stardew-valley',
@@ -225,7 +225,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'Four-player co-op on one farm',
     ],
     similar: ['a-short-hike', 'spiritfarer', 'animal-crossing-new-horizons'],
-    art: { accent: '#7cb342', shots: ['b887651a93b0525739049eb4194f633de2df75be', '9ac899fe2cda15d48b0549bba77ef8c4a090a71c', '4fa0866709ede3753fdf2745349b528d5e8c4054', 'd836f0a5b0447fb6a2bdb0a6ac5f954949d3c41e'] },
+    art: { accent: '#7cb342', shots: ['ss_b887651a93b0525739049eb4194f633de2df75be.1920x1080.jpg', 'ss_9ac899fe2cda15d48b0549bba77ef8c4a090a71c.1920x1080.jpg', 'ss_4fa0866709ede3753fdf2745349b528d5e8c4054.1920x1080.jpg', 'ss_d836f0a5b0447fb6a2bdb0a6ac5f954949d3c41e.1920x1080.jpg'] },
   },
   {
     id: 'it-takes-two',
@@ -253,7 +253,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'The best possible game to play with a non-gamer partner',
     ],
     similar: ['split-fiction', 'mario-kart-world', 'super-mario-party-jamboree'],
-    art: { accent: '#4a90d9', shots: ['3e59753eefaba9a7704a18e902b48e8d38e95e0b', '6e987a0678b013bfd0073a9ac4703e1f04ca4dea', 'fdac523e3ea4d2f32a44449bb8c224857563bd7d', '4a62bc8fa398fc5b2094a6225dc5ecff9485f824'] },
+    art: { accent: '#4a90d9', shots: ['ss_3e59753eefaba9a7704a18e902b48e8d38e95e0b.1920x1080.jpg', 'ss_6e987a0678b013bfd0073a9ac4703e1f04ca4dea.1920x1080.jpg', 'ss_fdac523e3ea4d2f32a44449bb8c224857563bd7d.1920x1080.jpg', 'ss_4a62bc8fa398fc5b2094a6225dc5ecff9485f824.1920x1080.jpg'] },
   },
   {
     id: 'red-dead-redemption-2',
@@ -279,7 +279,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'Rewards patience — it is not trying to be efficient',
     ],
     similar: ['the-witcher-3', 'god-of-war-ragnarok', 'pentiment'],
-    art: { accent: '#a8332a', shots: ['66b553f4c209476d3e4ce25fa4714002cc914c4f', 'bac60bacbf5da8945103648c08d27d5e202444ca', '668dafe477743f8b50b818d5bbfcec669e9ba93e', '4ce07ae360b166f0f650e9a895a3b4b7bf15e34f'] },
+    art: { accent: '#a8332a', shots: ['ss_66b553f4c209476d3e4ce25fa4714002cc914c4f.1920x1080.jpg', 'ss_bac60bacbf5da8945103648c08d27d5e202444ca.1920x1080.jpg', 'ss_668dafe477743f8b50b818d5bbfcec669e9ba93e.1920x1080.jpg', 'ss_4ce07ae360b166f0f650e9a895a3b4b7bf15e34f.1920x1080.jpg'] },
   },
   {
     id: 'donkey-kong-bananza',
@@ -386,7 +386,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'Best played with three friends and a microphone',
     ],
     similar: ['it-takes-two', 'street-fighter-6', 'mario-kart-world'],
-    art: { accent: '#f2c033', shots: ['0c79f56fc7be1bd0102f2ca1c92c8f0900daf4fb', '33e684e9cb2517af1599f0ca2b57d65ee82c2e51', '8949ed7dd24a02d5ea13b08fc5c04fab400dc4bd', '50afbbc4d811c38fe9f64c1fc8d7eb9d9da6d24c'] },
+    art: { accent: '#f2c033', shots: ['aed08979e15f54798f287dd8820fb5838476b5fa/ss_aed08979e15f54798f287dd8820fb5838476b5fa.1920x1080.jpg', '71ef7c65fcf63ff974ce42150190c0420c66c72b/ss_71ef7c65fcf63ff974ce42150190c0420c66c72b.1920x1080.jpg', '6c8b61a7c63479b6f526d285af6687a362d5d7ae/ss_6c8b61a7c63479b6f526d285af6687a362d5d7ae.1920x1080.jpg', 'ss_0c79f56fc7be1bd0102f2ca1c92c8f0900daf4fb.1920x1080.jpg'] },
   },
   {
     id: 'the-witcher-3',
@@ -413,7 +413,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'Runs on Switch, remarkably, if you want it portable',
     ],
     similar: ['baldurs-gate-3', 'red-dead-redemption-2', 'cyberpunk-2077'],
-    art: { accent: '#b0342c', shots: ['5710298af2318afd9aa72449ef29ac4a2ef64d8e', '0901e64e9d4b8ebaea8348c194e7a3644d2d832d', '112b1e176c1bd271d8a565eacb6feaf90f240bb2', 'd1b73b18cbcd5e9e412c7a1dead3c5cd7303d2ad'] },
+    art: { accent: '#b0342c', shots: ['ss_5710298af2318afd9aa72449ef29ac4a2ef64d8e.1920x1080.jpg', 'ss_0901e64e9d4b8ebaea8348c194e7a3644d2d832d.1920x1080.jpg', 'ss_112b1e176c1bd271d8a565eacb6feaf90f240bb2.1920x1080.jpg', 'ss_d1b73b18cbcd5e9e412c7a1dead3c5cd7303d2ad.1920x1080.jpg'] },
   },
   {
     id: 'split-fiction',
@@ -495,7 +495,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'Bottomless skill ceiling if you want to chase it',
     ],
     similar: ['helldivers-2', 'balatro', 'mario-kart-world'],
-    art: { accent: '#f0a91e', shots: ['387137f8cccb048c35a8685634372e97785d40aa', 'a381f1b3b450c18900d47b991ce8e7456e9cdba5', 'f62ce93269a6d8e0027853358af4d6368e2c4b93', 'd186566a92ada8cdb08b04769a8c95cd1e380006'] },
+    art: { accent: '#f0a91e', shots: ['ss_387137f8cccb048c35a8685634372e97785d40aa.1920x1080.jpg', 'ss_a381f1b3b450c18900d47b991ce8e7456e9cdba5.1920x1080.jpg', 'ss_f62ce93269a6d8e0027853358af4d6368e2c4b93.1920x1080.jpg', 'ss_d186566a92ada8cdb08b04769a8c95cd1e380006.1920x1080.jpg'] },
   },
   {
     id: 'metroid-prime-4-beyond',
@@ -550,7 +550,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'Forgiving difficulty; it wants you to see everything',
     ],
     similar: ['the-witcher-3', 'zelda-tears-of-the-kingdom', 'cult-of-the-lamb'],
-    art: { accent: '#c8973f', shots: ['725bf58485beb4aa37a3a69c1e2baa69bf3e4653', 'df93b5e8a183f7232d68be94ae78920a90de1443', '94058497bf0f8fabdde17ee8d59bece609a60663', '8e08976236d29b1897769257ac3c64e9264792a5'] },
+    art: { accent: '#c8973f', shots: ['ss_725bf58485beb4aa37a3a69c1e2baa69bf3e4653.1920x1080.jpg', 'ss_df93b5e8a183f7232d68be94ae78920a90de1443.1920x1080.jpg', 'ss_94058497bf0f8fabdde17ee8d59bece609a60663.1920x1080.jpg', 'ss_8e08976236d29b1897769257ac3c64e9264792a5.1920x1080.jpg'] },
   },
   {
     id: 'marvels-spider-man-2',
@@ -577,7 +577,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'Comfortably finishable in a couple of weekends',
     ],
     similar: ['god-of-war-ragnarok', 'super-mario-odyssey', 'bomb-rush-cyberfunk'],
-    art: { accent: '#d1332e', shots: ['e4b67059ddedaeebd91fce113745f3eb99736f56', 'b4be948946130b7e140be82f24f1f9ccefae9117', 'f4140ba12158b812d9c1adc86c484d8e84b92e92', '7ef8bc176702470fdc73f62f8e537c3912e70444'] },
+    art: { accent: '#d1332e', shots: ['ss_e4b67059ddedaeebd91fce113745f3eb99736f56.1920x1080.jpg', 'ss_b4be948946130b7e140be82f24f1f9ccefae9117.1920x1080.jpg', 'ss_f4140ba12158b812d9c1adc86c484d8e84b92e92.1920x1080.jpg', 'ss_7ef8bc176702470fdc73f62f8e537c3912e70444.1920x1080.jpg'] },
   },
   {
     id: 'pokemon-legends-z-a',
@@ -660,7 +660,7 @@ export const MAINSTREAM_GAMES: Game[] = [
       'The definitive test of any relationship',
     ],
     similar: ['unrailed', 'super-mario-party-jamboree', 'it-takes-two'],
-    art: { accent: '#f07a2e', shots: ['2f84a12e1fe82cca37848bf29d4b8b16e83db03b', '7f290dccbdc3c0eb9ded951717bceba5d7455764', '652d62549a8a5fdf4f0061e20b16a3cd9a19dc45', '773917e64738bc879685cff49b8ac6eb4f15ab93'] },
+    art: { accent: '#f07a2e', shots: ['ss_2f84a12e1fe82cca37848bf29d4b8b16e83db03b.1920x1080.jpg', 'ss_7f290dccbdc3c0eb9ded951717bceba5d7455764.1920x1080.jpg', 'ss_652d62549a8a5fdf4f0061e20b16a3cd9a19dc45.1920x1080.jpg', 'ss_773917e64738bc879685cff49b8ac6eb4f15ab93.1920x1080.jpg'] },
   },
   {
     id: 'super-mario-party-jamboree',

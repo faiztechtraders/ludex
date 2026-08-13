@@ -32,7 +32,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Remastered so the first game is actually playable now',
     ],
     similar: ['dragon-age-inquisition', 'the-outer-worlds', 'starfield'],
-    art: { accent: '#3a7fc9', shots: ['3cfdbd8a5d94f9005d33ba17bb6b163dc458ddf7', '4e226eb092381ba6c4ea9c164a1d18574c993a8a', '8994024759b1e6afb09a99381637c8b6fb4e4075', '4b2b412307b72a21f68148c32fab7a278875d139'] },
+    art: { accent: '#3a7fc9', shots: ['ss_3cfdbd8a5d94f9005d33ba17bb6b163dc458ddf7.1920x1080.jpg', 'ss_4e226eb092381ba6c4ea9c164a1d18574c993a8a.1920x1080.jpg', 'ss_8994024759b1e6afb09a99381637c8b6fb4e4075.1920x1080.jpg', 'ss_4b2b412307b72a21f68148c32fab7a278875d139.1920x1080.jpg'] },
   },
   {
     id: 'dragon-age-inquisition',
@@ -59,7 +59,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Trespasser is one of the best DLC epilogues ever made',
     ],
     similar: ['mass-effect-legendary-edition', 'the-witcher-3', 'baldurs-gate-3'],
-    art: { accent: '#c94a3a', shots: ['4c90bdbb1c2567edec0778f2e8956d1a8ff1b4c3', 'a106df995b9051e24ebe5abdec168ea3495bfda4', 'e8e2d622313d983fc9eb3fd824a2e0401c247780', 'df4fb7825aef29e53e4b3e5dbb6c8dc6cd6e16d9'] },
+    art: { accent: '#c94a3a', shots: ['ss_4c90bdbb1c2567edec0778f2e8956d1a8ff1b4c3.1920x1080.jpg', 'ss_a106df995b9051e24ebe5abdec168ea3495bfda4.1920x1080.jpg', 'ss_e8e2d622313d983fc9eb3fd824a2e0401c247780.1920x1080.jpg', 'ss_df4fb7825aef29e53e4b3e5dbb6c8dc6cd6e16d9.1920x1080.jpg'] },
   },
   {
     id: 'starfield',
@@ -85,7 +85,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'The usual Bethesda mod ecosystem is already large',
     ],
     similar: ['elder-scrolls-v-skyrim', 'mass-effect-legendary-edition', 'no-mans-sky'],
-    art: { accent: '#c96a2a', shots: ['4887dc140a637684ddcfca518458668409f946dc', 'b2821283cb140cd5a6289a8160016b6a60d8f96e', '68f15d580bf91971f637be5e464bc803482d78f7', 'aae99c177004bb5ec653d2fcb65a5d30489ec7b8'] },
+    art: { accent: '#c96a2a', shots: ['ss_4887dc140a637684ddcfca518458668409f946dc.1920x1080.jpg', 'ss_b2821283cb140cd5a6289a8160016b6a60d8f96e.1920x1080.jpg', 'ss_68f15d580bf91971f637be5e464bc803482d78f7.1920x1080.jpg', 'ss_aae99c177004bb5ec653d2fcb65a5d30489ec7b8.1920x1080.jpg'] },
   },
   {
     id: 'no-mans-sky',
@@ -165,7 +165,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'A vast mod scene on PC and console alike',
     ],
     similar: ['fallout-new-vegas', 'elder-scrolls-v-skyrim', 'the-outer-worlds'],
-    art: { accent: '#c9a03a', shots: ['f7861bd71e6c0c218d8ff69fb1c626aec0d187cf', '910437ac708aed7c028f6e43a6224c633d086b0a', 'f649b8e57749f380cca225db5074edbb1e06d7f5', 'c310f858e6a7b02ffa21db984afb0dd1b24c1423'] },
+    art: { accent: '#c9a03a', shots: ['ss_f7861bd71e6c0c218d8ff69fb1c626aec0d187cf.1920x1080.jpg', 'ss_910437ac708aed7c028f6e43a6224c633d086b0a.1920x1080.jpg', 'ss_f649b8e57749f380cca225db5074edbb1e06d7f5.1920x1080.jpg', 'ss_c310f858e6a7b02ffa21db984afb0dd1b24c1423.1920x1080.jpg'] },
   },
   {
     id: 'fallout-new-vegas',
@@ -192,7 +192,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Rough around the edges; mods fix most of it',
     ],
     similar: ['fallout-4', 'the-outer-worlds', 'disco-elysium'],
-    art: { accent: '#c98a2a', shots: ['62f8d0b006935ff6de7fe276f713e7d15e579bc9', 'ec8a28942fcb5cb15718f949ab81124932a5084d', 'f703adcb9aa1d718a39288adf7d2e1b4dc0e568a', 'e05e3697347c076d3382188bcf883339cf6144d5'] },
+    art: { accent: '#c98a2a', shots: ['ss_62f8d0b006935ff6de7fe276f713e7d15e579bc9.1920x1080.jpg', 'ss_ec8a28942fcb5cb15718f949ab81124932a5084d.1920x1080.jpg', 'ss_f703adcb9aa1d718a39288adf7d2e1b4dc0e568a.1920x1080.jpg', 'ss_e05e3697347c076d3382188bcf883339cf6144d5.1920x1080.jpg'] },
   },
   {
     id: 'dying-light-2',
@@ -246,7 +246,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Never takes itself remotely seriously',
     ],
     similar: ['dying-light-2', 'far-cry-5', 'left-4-dead-2'],
-    art: { accent: '#e0763a', shots: ['d0ac6f8e16e69a331d848b879f6a2384f4cd8acd', '480f620579dbf5514834cea9db59b1ccfb8de8d3', 'e026a2f2800af5cef892b1677f028ee47bc97426', '55cf5d81b4ac85d2ecf19ebb46b7c7d593e0d4cd'] },
+    art: { accent: '#e0763a', shots: ['ss_d0ac6f8e16e69a331d848b879f6a2384f4cd8acd.1920x1080.jpg', 'ss_480f620579dbf5514834cea9db59b1ccfb8de8d3.1920x1080.jpg', 'ss_e026a2f2800af5cef892b1677f028ee47bc97426.1920x1080.jpg', 'ss_55cf5d81b4ac85d2ecf19ebb46b7c7d593e0d4cd.1920x1080.jpg'] },
   },
   {
     id: 'left-4-dead-2',
@@ -272,7 +272,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'The AI Director means no two runs are the same',
     ],
     similar: ['deep-rock-galactic', 'helldivers-2', 'dead-island-2'],
-    art: { accent: '#c93a2a', shots: ['2eae29fbdfe8e5e8999b96d8bb28c5db70507968', '29b3b4f2a3994c889f6fc12e0781d9d4726ef33f', '9488e329bb42d792a059fb44cb7135d25b6262f5', '6ec4ee04d4924b099e25ce79f3d6571c3b623b3b'] },
+    art: { accent: '#c93a2a', shots: ['ss_2eae29fbdfe8e5e8999b96d8bb28c5db70507968.1920x1080.jpg', 'ss_29b3b4f2a3994c889f6fc12e0781d9d4726ef33f.1920x1080.jpg', 'ss_9488e329bb42d792a059fb44cb7135d25b6262f5.1920x1080.jpg', 'ss_6ec4ee04d4924b099e25ce79f3d6571c3b623b3b.1920x1080.jpg'] },
   },
   {
     id: 'mirrors-edge-catalyst',
@@ -299,7 +299,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Time trials are where the game actually lives',
     ],
     similar: ['dying-light-2', 'neon-white', 'bomb-rush-cyberfunk'],
-    art: { accent: '#e03a3a', shots: ['2dc81dfd38eac438c9ed16b3c716bdab1ac201d7', 'fedab7714998112ae55d01901850078ec3762ddd', 'c743e2841933405885b1ba574416ee6fb11fb21e', '116c113eb5b453bba9b00dc6650f61685e1ee40e'] },
+    art: { accent: '#e03a3a', shots: ['ss_2dc81dfd38eac438c9ed16b3c716bdab1ac201d7.1920x1080.jpg', 'ss_fedab7714998112ae55d01901850078ec3762ddd.1920x1080.jpg', 'ss_c743e2841933405885b1ba574416ee6fb11fb21e.1920x1080.jpg', 'ss_116c113eb5b453bba9b00dc6650f61685e1ee40e.1920x1080.jpg'] },
   },
   {
     id: 'batman-arkham-knight',
@@ -327,7 +327,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'The Batmobile is divisive; everything else is not',
     ],
     similar: ['marvels-spider-man-2', 'middle-earth-shadow-of-war', 'control'],
-    art: { accent: '#3a5a8a', shots: ['90026e46a995760d53bfa2dc1612b73960c84c94', '4c9d5fb849b1a7169184a37db000919b276056fe', '5da3185e4f7da999300555747be6b84b8f16164f', '43ac2ec5dc64f59b1816b1cc0ba5b430d36c636f'] },
+    art: { accent: '#3a5a8a', shots: ['ss_90026e46a995760d53bfa2dc1612b73960c84c94.1920x1080.jpg', 'ss_4c9d5fb849b1a7169184a37db000919b276056fe.1920x1080.jpg', 'ss_5da3185e4f7da999300555747be6b84b8f16164f.1920x1080.jpg', 'ss_43ac2ec5dc64f59b1816b1cc0ba5b430d36c636f.1920x1080.jpg'] },
   },
   {
     id: 'middle-earth-shadow-of-war',
@@ -354,7 +354,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'The original microtransactions were removed years ago',
     ],
     similar: ['batman-arkham-knight', 'assassins-creed-odyssey', 'ghost-of-tsushima'],
-    art: { accent: '#8a3a2a', shots: ['d085a6cd49ed5bf4dcc67dfe0bba72ffc7ad6290', '10afae02830aee12600b55fedf05a10af070187c', '73e44d2d2282e0035beed3b78f565aa1f0f5f5b6', '096538495a348e1bff5432353cbee8e28fb3cee8'] },
+    art: { accent: '#8a3a2a', shots: ['ss_d085a6cd49ed5bf4dcc67dfe0bba72ffc7ad6290.1920x1080.jpg', 'ss_10afae02830aee12600b55fedf05a10af070187c.1920x1080.jpg', 'ss_73e44d2d2282e0035beed3b78f565aa1f0f5f5b6.1920x1080.jpg', 'ss_096538495a348e1bff5432353cbee8e28fb3cee8.1920x1080.jpg'] },
   },
   {
     id: 'destiny-2',
@@ -407,7 +407,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Over a decade of content, which is also the intimidating part',
     ],
     similar: ['destiny-2', 'monster-hunter-wilds', 'risk-of-rain-2'],
-    art: { accent: '#3ac9c9', shots: ['2e4077f215eccde84171a4b8e0f2bc8a3264c776', '0a541a8bf59e212870ea8d82260ac1b3ae2d0354', 'ce00a212a29e9a6c1fc37b16dbd802b2844a901d', '29355e0546599c72002b34b42fe952329df61c2e'] },
+    art: { accent: '#3ac9c9', shots: ['ss_2e4077f215eccde84171a4b8e0f2bc8a3264c776.1920x1080.jpg', 'ss_0a541a8bf59e212870ea8d82260ac1b3ae2d0354.1920x1080.jpg', 'ss_ce00a212a29e9a6c1fc37b16dbd802b2844a901d.1920x1080.jpg', 'ss_29355e0546599c72002b34b42fe952329df61c2e.1920x1080.jpg'] },
   },
   {
     id: 'the-crew-motorfest',
@@ -488,7 +488,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Six hours, one evening, one friend',
     ],
     similar: ['it-takes-two', 'split-fiction', 'portal-2'],
-    art: { accent: '#c9843a', shots: ['a7f52388d8d64bf56170baf5bd223fbbb1d9a94a', '55237e6d80cf3f9e2f3f0fa41d710a7ea35b022b', '666b409c3d07150ef0ddccb179a25d44fb62c937', '7348bdffb1dd4418175bcb91149f3b7daf30ecf8'] },
+    art: { accent: '#c9843a', shots: ['ss_a7f52388d8d64bf56170baf5bd223fbbb1d9a94a.1920x1080.jpg', 'ss_55237e6d80cf3f9e2f3f0fa41d710a7ea35b022b.1920x1080.jpg', 'ss_666b409c3d07150ef0ddccb179a25d44fb62c937.1920x1080.jpg', 'ss_7348bdffb1dd4418175bcb91149f3b7daf30ecf8.1920x1080.jpg'] },
   },
   {
     id: 'nier-automata',
@@ -516,7 +516,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'A soundtrack widely regarded as one of the best ever composed',
     ],
     similar: ['final-fantasy-vii-rebirth', 'persona-5-royal', 'bayonetta-3'],
-    art: { accent: '#c9c0a8', shots: ['d0314b4c134329a483b5e43af951f60274abc66b', '8b29f7e1ce9a8b9313dc3eb50dbe76a4cf94eef9', '2c265df38c3d2d393d74ee8e74d79bdafa16b143', '831e0e7c9d514393b711e9ed1d6796042521a80c'] },
+    art: { accent: '#c9c0a8', shots: ['ss_d0314b4c134329a483b5e43af951f60274abc66b.1920x1080.jpg', 'ss_8b29f7e1ce9a8b9313dc3eb50dbe76a4cf94eef9.1920x1080.jpg', 'ss_2c265df38c3d2d393d74ee8e74d79bdafa16b143.1920x1080.jpg', 'ss_831e0e7c9d514393b711e9ed1d6796042521a80c.1920x1080.jpg'] },
   },
   {
     id: 'bayonetta-3',
@@ -569,7 +569,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Peak "rule of cool" — it commits completely',
     ],
     similar: ['bayonetta-3', 'nier-automata', 'hi-fi-rush'],
-    art: { accent: '#c93a3a', shots: ['4410bada2565843dae693b03ac3a50256ff5dd66', '4ce180ed8979a51c72de51f985e9e9ba13500508', 'e2be70565f94a7f6c392cccddce08c67f2f87612', 'd1e0b403f593f17ad195c5382a7788d71c6f406a'] },
+    art: { accent: '#c93a3a', shots: ['ss_4410bada2565843dae693b03ac3a50256ff5dd66.1920x1080.jpg', 'ss_4ce180ed8979a51c72de51f985e9e9ba13500508.1920x1080.jpg', 'ss_e2be70565f94a7f6c392cccddce08c67f2f87612.1920x1080.jpg', 'ss_d1e0b403f593f17ad195c5382a7788d71c6f406a.1920x1080.jpg'] },
   },
   {
     id: 'monster-hunter-rise',
@@ -596,7 +596,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Excellent on Switch for handheld play',
     ],
     similar: ['monster-hunter-wilds', 'monster-hunter-world', 'dauntless'],
-    art: { accent: '#c98a3a', shots: ['f8249da14987e3c2d10fd4024736f28774c713da', '25686086b61ca88a859bc20d588682be92ab4d63', 'd8d96313f1049c800d37a3fc521f06f926fca3ac', '961c552a99c5c64689bebf0e272b13c80947f644'] },
+    art: { accent: '#c98a3a', shots: ['ss_f8249da14987e3c2d10fd4024736f28774c713da.1920x1080.jpg', 'ss_25686086b61ca88a859bc20d588682be92ab4d63.1920x1080.jpg', 'ss_d8d96313f1049c800d37a3fc521f06f926fca3ac.1920x1080.jpg', 'ss_961c552a99c5c64689bebf0e272b13c80947f644.1920x1080.jpg'] },
   },
   {
     id: 'monster-hunter-world',
@@ -622,7 +622,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Deeper and slower than Rise — pick based on taste',
     ],
     similar: ['monster-hunter-rise', 'monster-hunter-wilds', 'dauntless'],
-    art: { accent: '#3a8a6a', shots: ['a262c53b8629de7c6547933dc0b49d31f4e1b1f1', '6b4986a37c7b5c185a796085c002febcdd5357b5', '0dfb20f6f09c196bfc317bd517dc430ed6e6a2a4', '25902a9ae6977d6d10ebff20b87e8739e51c5b8b'] },
+    art: { accent: '#3a8a6a', shots: ['ss_a262c53b8629de7c6547933dc0b49d31f4e1b1f1.1920x1080.jpg', 'ss_6b4986a37c7b5c185a796085c002febcdd5357b5.1920x1080.jpg', 'ss_0dfb20f6f09c196bfc317bd517dc430ed6e6a2a4.1920x1080.jpg', 'ss_25902a9ae6977d6d10ebff20b87e8739e51c5b8b.1920x1080.jpg'] },
   },
   {
     id: 'dauntless',
@@ -674,7 +674,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Free, so a group can all jump in tonight',
     ],
     similar: ['apex-legends', 'splatoon-3', 'rocket-league'],
-    art: { accent: '#e0863a', cover: 'https://upload.wikimedia.org/wikipedia/en/8/89/Overwatch_2_Steam_artwork.jpg', hero: 'https://image.api.playstation.com/vulcan/ap/rnd/202605/2900/379935b665ef5ee76525f6b8ffd7c4c0255651d733d2ceab.jpg', shots: ['https://image.api.playstation.com/vulcan/ap/rnd/202605/2900/379935b665ef5ee76525f6b8ffd7c4c0255651d733d2ceab.jpg', 'https://image.api.playstation.com/cdn/UP0002/CUSA03313_00/FREE_CONTENTvb01MtAu02V4S3su7nww/PREVIEW_SCREENSHOT3_101602.jpg', 'https://image.api.playstation.com/cdn/UP0002/CUSA03313_00/FREE_CONTENTPXTqa2uMEQSDHxMveFy0/PREVIEW_SCREENSHOT9_101602.jpg', 'https://image.api.playstation.com/vulcan/ap/rnd/202605/2900/8fb69e9e427a5974385cbcbc0ad578f462acb37b50efd8ee.jpg'] },
+    art: { accent: '#e0863a', cover: 'https://upload.wikimedia.org/wikipedia/en/8/89/Overwatch_2_Steam_artwork.jpg', hero: 'https://image.api.playstation.com/vulcan/ap/rnd/202607/2921/aeb0a8a1a58b71c2eb49f3ed0406ceab62b65131f41ae21a.jpg', shots: ['https://image.api.playstation.com/vulcan/ap/rnd/202607/2921/aeb0a8a1a58b71c2eb49f3ed0406ceab62b65131f41ae21a.jpg', 'https://image.api.playstation.com/cdn/UP0002/CUSA03313_00/FREE_CONTENTvb01MtAu02V4S3su7nww/PREVIEW_SCREENSHOT3_101602.jpg', 'https://image.api.playstation.com/cdn/UP0002/CUSA03313_00/FREE_CONTENTPXTqa2uMEQSDHxMveFy0/PREVIEW_SCREENSHOT9_101602.jpg', 'https://image.api.playstation.com/vulcan/ap/rnd/202607/2921/3ab34f736b8e7f3ef0408fde2d335f95bca3a61760d960fc.jpg'] },
   },
   {
     id: 'valorant',
@@ -727,7 +727,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Learning curve is a cliff — go in expecting that',
     ],
     similar: ['valorant', 'apex-legends', 'call-of-duty-modern-warfare-2019'],
-    art: { accent: '#e0a03a', shots: ['796601d9d67faf53486eeb26d0724347cea67ddc', 'd830cfd0550fbb64d80e803e93c929c3abb02056', '13bb35638c0267759276f511ee97064773b37a51', '0f8cf82d019c614760fd20801f2bb4001da7ea77'] },
+    art: { accent: '#e0a03a', shots: ['ss_796601d9d67faf53486eeb26d0724347cea67ddc.1920x1080.jpg', 'ss_d830cfd0550fbb64d80e803e93c929c3abb02056.1920x1080.jpg', 'ss_13bb35638c0267759276f511ee97064773b37a51.1920x1080.jpg', 'ss_0f8cf82d019c614760fd20801f2bb4001da7ea77.1920x1080.jpg'] },
   },
   {
     id: 'league-of-legends',
@@ -778,7 +778,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Notoriously the hardest game here to learn',
     ],
     similar: ['league-of-legends', 'counter-strike-2', 'starcraft-ii'],
-    art: { accent: '#c9563a', shots: ['ad8eee787704745ccdecdfde3a5cd2733704898d', '7ab506679d42bfc0c0e40639887176494e0466d9', 'c9118375a2400278590f29a3537769c986ef6e39', 'f9ebafedaf2d5cfb80ef1f74baa18eb08cad6494'] },
+    art: { accent: '#c9563a', shots: ['ss_ad8eee787704745ccdecdfde3a5cd2733704898d.1920x1080.jpg', 'ss_7ab506679d42bfc0c0e40639887176494e0466d9.1920x1080.jpg', 'ss_c9118375a2400278590f29a3537769c986ef6e39.1920x1080.jpg', 'ss_f9ebafedaf2d5cfb80ef1f74baa18eb08cad6494.1920x1080.jpg'] },
   },
   {
     id: 'starcraft-ii',
@@ -858,7 +858,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Genuinely dangerous to start on a weeknight',
     ],
     similar: ['age-of-empires-iv', 'crusader-kings-iii', 'stellaris'],
-    art: { accent: '#3ac9a8', shots: ['12cc6e1f4084de5bc0f66bfdbe3aaf3e59388b53', '6c4a3cfb61f1a9677cf2ac549c2816a4e651f741', 'b2bf12299c38214fe520af0f724a6349d17ed330', '7f598198526afc260d939a98af4d76d95f5349e4'] },
+    art: { accent: '#3ac9a8', shots: ['ss_12cc6e1f4084de5bc0f66bfdbe3aaf3e59388b53.1920x1080.jpg', 'ss_6c4a3cfb61f1a9677cf2ac549c2816a4e651f741.1920x1080.jpg', 'ss_b2bf12299c38214fe520af0f724a6349d17ed330.1920x1080.jpg', 'ss_7f598198526afc260d939a98af4d76d95f5349e4.1920x1080.jpg'] },
   },
   {
     id: 'crusader-kings-iii',
@@ -910,7 +910,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Enormous DLC catalogue — the base game is plenty first',
     ],
     similar: ['civilization-vi', 'crusader-kings-iii', 'starcraft-ii'],
-    art: { accent: '#3a6ac9', shots: ['f844372cc220e3858aa17205e9fec0ae79a4e665', '692532123e560e6b866baee59b1e310a291a110d', '7f4d7cc160c43e77aa523e910b365e0ca436e6bb', '034b0d55a5c370bec4709f09d0914f9d131b7788'] },
+    art: { accent: '#3a6ac9', shots: ['ss_f844372cc220e3858aa17205e9fec0ae79a4e665.1920x1080.jpg', 'ss_692532123e560e6b866baee59b1e310a291a110d.1920x1080.jpg', 'ss_7f4d7cc160c43e77aa523e910b365e0ca436e6bb.1920x1080.jpg', 'ss_034b0d55a5c370bec4709f09d0914f9d131b7788.1920x1080.jpg'] },
   },
   {
     id: 'company-of-heroes-3',
@@ -965,6 +965,6 @@ export const MAINSTREAM_GAMES_4: Game[] = [
       'Yes, you will miss the 95% shot, and yes it is fair',
     ],
     similar: ['into-the-breach', 'fire-emblem-three-houses', 'company-of-heroes-3'],
-    art: { accent: '#3ac96a', shots: ['a95cdbe487dbabf6621962fc92f438e26c5fdfd3', 'ca76303e136d2ea500b8e6546d4319502ae8862a', '200cb06b3ff1b9af8d445d349391554ac48635b4', 'b2694a32e6211c47b886ee76eabdbcc41cf4b408'] },
+    art: { accent: '#3ac96a', shots: ['ss_a95cdbe487dbabf6621962fc92f438e26c5fdfd3.1920x1080.jpg', 'ss_ca76303e136d2ea500b8e6546d4319502ae8862a.1920x1080.jpg', 'ss_200cb06b3ff1b9af8d445d349391554ac48635b4.1920x1080.jpg', 'ss_b2694a32e6211c47b886ee76eabdbcc41cf4b408.1920x1080.jpg'] },
   },
 ];

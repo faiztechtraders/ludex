@@ -267,7 +267,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'The best starting point for the series',
     ],
     similar: ['xenoblade-chronicles-3', 'final-fantasy-vii-rebirth', 'persona-5-royal'],
-    art: { accent: '#3a8fc9', cover: 'https://upload.wikimedia.org/wikipedia/en/7/76/Xenoblade_3.png', hero: 'https://assets.nintendo.com/image/upload/c_fill,w_1920,f_auto,q_auto/store/software/switch/70010000029711/49efd052a4d8778d98a0337b86a9c89408f5fc6453e35cd0cdf91d8734e6ea35', shots: ['https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029711/49efd052a4d8778d98a0337b86a9c89408f5fc6453e35cd0cdf91d8734e6ea35', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029711/84970b80dc13a98cd389cf0e68ed1ed1dae571b7adbafa58588f0438a4202708', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029711/37173d7f0b5b5fe1c586aaf9572510daf25292b7427a274e2760c08b3b433f72', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029711/d6bbe3b7eaddadc827d994fc79dda65c1556e4dc7b97f8001373f175012f5564'] },
+    art: { accent: '#3a8fc9', cover: 'https://upload.wikimedia.org/wikipedia/en/7/7f/Xenoblade_Chronicles_X_-_Boxart.jpg', hero: 'https://assets.nintendo.com/image/upload/c_fill,w_1920,f_auto,q_auto/store/software/switch/70010000029711/49efd052a4d8778d98a0337b86a9c89408f5fc6453e35cd0cdf91d8734e6ea35', shots: ['https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029711/49efd052a4d8778d98a0337b86a9c89408f5fc6453e35cd0cdf91d8734e6ea35', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029711/84970b80dc13a98cd389cf0e68ed1ed1dae571b7adbafa58588f0438a4202708', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029711/37173d7f0b5b5fe1c586aaf9572510daf25292b7427a274e2760c08b3b433f72', 'https://assets.nintendo.com/image/upload/c_fill,w_1280,f_auto,q_auto/store/software/switch/70010000029711/d6bbe3b7eaddadc827d994fc79dda65c1556e4dc7b97f8001373f175012f5564'] },
   },
   {
     id: 'fire-emblem-engage',
@@ -320,7 +320,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'Very text-heavy — go in expecting to read',
     ],
     similar: ['fire-emblem-three-houses', 'octopath-traveler-ii', 'xcom-2'],
-    art: { accent: '#3a6ac9', shots: ['462d6307727e2391acf87f028dab8fb8c50eed07', '0cd27b9765dfad7358f7300e50dc6a418f4ae106', '93a99846dba83fa1dbc9b55613a0c76392dd1ca8', 'c30323ca9f6415f57275d48378f5160ce2446cc9'] },
+    art: { accent: '#3a6ac9', shots: ['ss_462d6307727e2391acf87f028dab8fb8c50eed07.1920x1080.jpg', 'ss_0cd27b9765dfad7358f7300e50dc6a418f4ae106.1920x1080.jpg', 'ss_93a99846dba83fa1dbc9b55613a0c76392dd1ca8.1920x1080.jpg', 'ss_c30323ca9f6415f57275d48378f5160ce2446cc9.1920x1080.jpg'] },
   },
   {
     id: 'octopath-traveler-ii',
@@ -346,7 +346,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'Fixes the first game’s biggest complaint — the stories now intersect',
     ],
     similar: ['triangle-strategy', 'sea-of-stars', 'dragon-quest-xi'],
-    art: { accent: '#c9a03a', shots: ['063d6228ccd9256814aec0cd46ebb4c093b56fea', 'dd347306294990fbb93e88a9fb6d694a7a2eec13', 'ffcc9f56fdf7d36ad4c0414dd2d85ed7389b42fe', 'd94d1bdba59a0a021225949f13fa8036b85808a7'] },
+    art: { accent: '#c9a03a', shots: ['ss_063d6228ccd9256814aec0cd46ebb4c093b56fea.1920x1080.jpg', 'ss_dd347306294990fbb93e88a9fb6d694a7a2eec13.1920x1080.jpg', 'ss_ffcc9f56fdf7d36ad4c0414dd2d85ed7389b42fe.1920x1080.jpg', 'ss_d94d1bdba59a0a021225949f13fa8036b85808a7.1920x1080.jpg'] },
   },
   {
     id: 'dragon-quest-xi',
@@ -397,7 +397,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'The Eikon battles are unlike anything else in games',
     ],
     similar: ['final-fantasy-vii-rebirth', 'devil-may-cry-5', 'god-of-war-ragnarok'],
-    art: { accent: '#8a3a3a', shots: ['99530c1f839832ceeab2cf3450d5c0905312de47', '7620e893321e1661bdf821617f349196c2b0019f', '04ef537e3123d4a8dcbbadccc190cf87dee67783', 'd3aea73c0bea755c7152ee339ebb7f7dfefe8f91'] },
+    art: { accent: '#8a3a3a', shots: ['ss_99530c1f839832ceeab2cf3450d5c0905312de47.1920x1080.jpg', 'ss_7620e893321e1661bdf821617f349196c2b0019f.1920x1080.jpg', 'ss_04ef537e3123d4a8dcbbadccc190cf87dee67783.1920x1080.jpg', 'ss_d3aea73c0bea755c7152ee339ebb7f7dfefe8f91.1920x1080.jpg'] },
   },
   {
     id: 'final-fantasy-vii-remake',
@@ -422,7 +422,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'Start here before Rebirth',
     ],
     similar: ['final-fantasy-vii-rebirth', 'final-fantasy-xvi', 'persona-5-royal'],
-    art: { accent: '#3a7fc9', shots: ['20a352a2c20dd4bfb08fa131dc4c2e763510f584', '55903e74751601e42fb7f858d5c07ec048386ce2', 'ac55306d00923f2902de20bb5ade7f9cc190e8cf', '6e30290a5de36f3274a11bd6c78f077c9e489115'] },
+    art: { accent: '#3a7fc9', shots: ['ss_20a352a2c20dd4bfb08fa131dc4c2e763510f584.1920x1080.jpg', 'ss_55903e74751601e42fb7f858d5c07ec048386ce2.1920x1080.jpg', 'ss_ac55306d00923f2902de20bb5ade7f9cc190e8cf.1920x1080.jpg', 'ss_6e30290a5de36f3274a11bd6c78f077c9e489115.1920x1080.jpg'] },
   },
   {
     id: 'persona-3-reload',
@@ -447,7 +447,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'You do not need to have played any other Persona',
     ],
     similar: ['persona-5-royal', 'metaphor-refantazio', 'xenoblade-chronicles-3'],
-    art: { accent: '#3a5ac9', shots: ['7017244fb8319ba927a0ef414959b95a6164356f', 'cfe4b9124ea5e815e7981e3ac29a72a02fd48239', 'c123d3e9360f030e6600db27311586d033f65ff7', 'f51fc26c627816bbd87011ca278b1fbbda2d6bc8'] },
+    art: { accent: '#3a5ac9', shots: ['ss_7017244fb8319ba927a0ef414959b95a6164356f.1920x1080.jpg', 'ss_cfe4b9124ea5e815e7981e3ac29a72a02fd48239.1920x1080.jpg', 'ss_c123d3e9360f030e6600db27311586d033f65ff7.1920x1080.jpg', 'ss_f51fc26c627816bbd87011ca278b1fbbda2d6bc8.1920x1080.jpg'] },
   },
   {
     id: 'metaphor-refantazio',
@@ -472,7 +472,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'Menus that are, once again, works of art',
     ],
     similar: ['persona-5-royal', 'persona-3-reload', 'clair-obscur-expedition-33'],
-    art: { accent: '#c93a2a', shots: ['9809b4bfb257dc3e4f39f3f54fad1768234c03ad', 'ec0825cd3ecfa6c74e3041c5842bcb3453e7cb45', '292f6c637e0c0e81b225aa055c4a348f821cbd48', 'de16693b88cfb65a20157ddd41925b3ce80e96f1'] },
+    art: { accent: '#c93a2a', shots: ['ss_9809b4bfb257dc3e4f39f3f54fad1768234c03ad.1920x1080.jpg', 'ss_ec0825cd3ecfa6c74e3041c5842bcb3453e7cb45.1920x1080.jpg', 'ss_292f6c637e0c0e81b225aa055c4a348f821cbd48.1920x1080.jpg', 'ss_de16693b88cfb65a20157ddd41925b3ce80e96f1.1920x1080.jpg'] },
   },
   {
     id: 'like-a-dragon-infinite-wealth',
@@ -498,7 +498,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'Works as an entry point despite the long series history',
     ],
     similar: ['yakuza-0', 'judgment', 'persona-5-royal'],
-    art: { accent: '#e0a03a', shots: ['615e436b89587d0685578972f946ee2880bb847b', '9b4b2dcd253762e5c7fd5dc620bc57d342bbada5', 'b45521ff0f42ad4c3ac57d0b37fee51364f543c1', 'a8bf355f28619cdb8b7a3db96e7ab411261cc1b6'] },
+    art: { accent: '#e0a03a', shots: ['ss_615e436b89587d0685578972f946ee2880bb847b.1920x1080.jpg', 'ss_9b4b2dcd253762e5c7fd5dc620bc57d342bbada5.1920x1080.jpg', 'ss_b45521ff0f42ad4c3ac57d0b37fee51364f543c1.1920x1080.jpg', 'ss_a8bf355f28619cdb8b7a3db96e7ab411261cc1b6.1920x1080.jpg'] },
   },
   {
     id: 'yakuza-0',
@@ -551,7 +551,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'No series knowledge needed at all',
     ],
     similar: ['yakuza-0', 'like-a-dragon-infinite-wealth', 'sleeping-dogs'],
-    art: { accent: '#3a6a9f', shots: ['3ace0d9ef99534bcbb5a2b73f32826ab7b3bdc4e', 'fb45b4875cf5968d301c9a4cf73f4c7ecca7bead', 'd5454039965149a929abe0670d86597505e62a28', '7e462b28818aea2faecc36cdfb2793040cf7592f'] },
+    art: { accent: '#3a6a9f', shots: ['ss_3ace0d9ef99534bcbb5a2b73f32826ab7b3bdc4e.1920x1080.jpg', 'ss_fb45b4875cf5968d301c9a4cf73f4c7ecca7bead.1920x1080.jpg', 'ss_d5454039965149a929abe0670d86597505e62a28.1920x1080.jpg', 'ss_7e462b28818aea2faecc36cdfb2793040cf7592f.1920x1080.jpg'] },
   },
   {
     id: 'sleeping-dogs',
@@ -577,7 +577,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'Eighteen hours with almost no filler',
     ],
     similar: ['yakuza-0', 'grand-theft-auto-v', 'watch-dogs-2'],
-    art: { accent: '#c93a3a', shots: ['9415daafbec6bc164d376fbf9299b53a7d982ae8', '69f44cb61b19aeada72170a67c124adc0eb201e5', 'afdfb1ecf4c988588e3bd310b055c86ad8046f96', '1d917922a05cf9ec949b0cc838b9f3b31f1e7fe0'] },
+    art: { accent: '#c93a3a', shots: ['ss_9415daafbec6bc164d376fbf9299b53a7d982ae8.1920x1080.jpg', 'ss_69f44cb61b19aeada72170a67c124adc0eb201e5.1920x1080.jpg', 'ss_afdfb1ecf4c988588e3bd310b055c86ad8046f96.1920x1080.jpg', 'ss_1d917922a05cf9ec949b0cc838b9f3b31f1e7fe0.1920x1080.jpg'] },
   },
   {
     id: 'demons-souls',
@@ -653,7 +653,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'Machine hunting is a puzzle, not a damage race',
     ],
     similar: ['horizon-forbidden-west', 'ghost-of-tsushima', 'monster-hunter-world'],
-    art: { accent: '#c9843a', shots: ['cf69250b6b7144244fe5ec715a82e9cf52398715', '0e5d0eb8f55e5c201e5bfdaf605ecd20e568771e', 'eea08b3d6b4fe9c1d44d2c5aeb669cfaec8c0e46', '434f39fa7e77ec6e7989acf60a8a5012e9a9c924'] },
+    art: { accent: '#c9843a', shots: ['ss_cf69250b6b7144244fe5ec715a82e9cf52398715.1920x1080.jpg', 'ss_0e5d0eb8f55e5c201e5bfdaf605ecd20e568771e.1920x1080.jpg', 'ss_eea08b3d6b4fe9c1d44d2c5aeb669cfaec8c0e46.1920x1080.jpg', 'ss_434f39fa7e77ec6e7989acf60a8a5012e9a9c924.1920x1080.jpg'] },
   },
   {
     id: 'days-gone',
@@ -679,7 +679,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'Slow opening — it takes about five hours to click',
     ],
     similar: ['the-last-of-us-part-ii', 'dying-light-2', 'ghost-of-tsushima'],
-    art: { accent: '#8a6a3a', shots: ['8d958e566d5315463d099b21eae729d0f462caad', '4a1a39d5559909424ed36414070477a96c91e92c', '364f3048399fcb95df5e878c708c94e934cd53d4', '80bbb5ea187cc422012f7a84e694f20f87a26862'] },
+    art: { accent: '#8a6a3a', shots: ['ss_8d958e566d5315463d099b21eae729d0f462caad.1920x1080.jpg', 'ss_4a1a39d5559909424ed36414070477a96c91e92c.1920x1080.jpg', 'ss_364f3048399fcb95df5e878c708c94e934cd53d4.1920x1080.jpg', 'ss_80bbb5ea187cc422012f7a84e694f20f87a26862.1920x1080.jpg'] },
   },
   {
     id: 'shadow-of-the-colossus',
@@ -730,7 +730,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'Story mode difficulty available if you only want the spectacle',
     ],
     similar: ['nier-automata', 'sekiro', 'devil-may-cry-5'],
-    art: { accent: '#3ac9c0', shots: ['4291827e357008499d4d5a17bc50d3e93869dd43', '9d4d62e118a167333d53db94354671e10416b25d', 'bcb3946482dc5a1221c024098d2ac09e80255f3e', '1ae903bf4153fa2c2b3ee4381eb355532ba79eab'] },
+    art: { accent: '#3ac9c0', shots: ['ss_4291827e357008499d4d5a17bc50d3e93869dd43.1920x1080.jpg', 'ss_9d4d62e118a167333d53db94354671e10416b25d.1920x1080.jpg', 'ss_bcb3946482dc5a1221c024098d2ac09e80255f3e.1920x1080.jpg', 'ss_1ae903bf4153fa2c2b3ee4381eb355532ba79eab.1920x1080.jpg'] },
   },
   {
     id: 'death-stranding',
@@ -857,7 +857,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'One of the best-value bundles anywhere',
     ],
     similar: ['halo-infinite', 'gears-5', 'left-4-dead-2'],
-    art: { accent: '#3a8a5a', shots: ['ce40a85f9f7f3fa0f620a87f8919f3212ab8e46e', '62bbd86f4735893ef6cd53206cf8c93f87eb86ec', 'fdaf8ebd7f3c62e08398f39c9bfa486294ea5a0a', '85da13aef2acd210f95f4b43540967f24d7bed6a'] },
+    art: { accent: '#3a8a5a', shots: ['ss_ce40a85f9f7f3fa0f620a87f8919f3212ab8e46e.1920x1080.jpg', 'ss_62bbd86f4735893ef6cd53206cf8c93f87eb86ec.1920x1080.jpg', 'ss_fdaf8ebd7f3c62e08398f39c9bfa486294ea5a0a.1920x1080.jpg', 'ss_85da13aef2acd210f95f4b43540967f24d7bed6a.1920x1080.jpg'] },
   },
   {
     id: 'gears-5',
@@ -883,7 +883,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'One of the best-looking games on Xbox',
     ],
     similar: ['halo-infinite', 'helldivers-2', 'left-4-dead-2'],
-    art: { accent: '#c96a3a', shots: ['7f5ef63810c77809b65c19734ba66ea56cf15ee2', '9429a77bad31287dc7c68a6925eb893eeee65f5e', '4869da09b43f0a38ee69e36c76e9a88d5641f03a', 'fedf48da899ad212d37b0ff7c908d9e93328b13a'] },
+    art: { accent: '#c96a3a', shots: ['ss_7f5ef63810c77809b65c19734ba66ea56cf15ee2.1920x1080.jpg', 'ss_9429a77bad31287dc7c68a6925eb893eeee65f5e.1920x1080.jpg', 'ss_4869da09b43f0a38ee69e36c76e9a88d5641f03a.1920x1080.jpg', 'ss_fedf48da899ad212d37b0ff7c908d9e93328b13a.1920x1080.jpg'] },
   },
   {
     id: 'psychonauts-2',
@@ -909,7 +909,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'Invincibility toggle available without shame',
     ],
     similar: ['it-takes-two', 'super-mario-odyssey', 'control'],
-    art: { accent: '#c9a03a', shots: ['d78da4dbc35620193f7c14e0e5e68f7020adfd43', '1b76e40ca9d92bfe8a51ec0603460641229676d4', '1fca58dd7904427261233413a1232320d6c3f005', 'ee2375942ad59bb2027fc5a845bad9936b788b6e'] },
+    art: { accent: '#c9a03a', shots: ['ss_d78da4dbc35620193f7c14e0e5e68f7020adfd43.1920x1080.jpg', 'ss_1b76e40ca9d92bfe8a51ec0603460641229676d4.1920x1080.jpg', 'ss_1fca58dd7904427261233413a1232320d6c3f005.1920x1080.jpg', 'ss_ee2375942ad59bb2027fc5a845bad9936b788b6e.1920x1080.jpg'] },
   },
   {
     id: 'grounded',
@@ -936,7 +936,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'Scale is used cleverly throughout',
     ],
     similar: ['valheim', 'subnautica', 'tinykin'],
-    art: { accent: '#8ac93a', shots: ['91a03b79d881f37cc7d39b5baf5bb597d344fabe', '432b22f117321d942d5bbb4ee49d2acc37b4baf2', '298eedf3441e631910ca29d274da0a54f56632b8', 'ae92bff37bed4b614ae250c9ea8c3e889c2e1614'] },
+    art: { accent: '#8ac93a', shots: ['ss_91a03b79d881f37cc7d39b5baf5bb597d344fabe.1920x1080.jpg', 'ss_432b22f117321d942d5bbb4ee49d2acc37b4baf2.1920x1080.jpg', 'ss_298eedf3441e631910ca29d274da0a54f56632b8.1920x1080.jpg', 'ss_ae92bff37bed4b614ae250c9ea8c3e889c2e1614.1920x1080.jpg'] },
   },
   {
     id: 'sackboy-a-big-adventure',
@@ -962,7 +962,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
       'One of the best family purchases on PlayStation',
     ],
     similar: ['super-mario-3d-world', 'it-takes-two', 'astro-bot'],
-    art: { accent: '#c9843a', shots: ['ba7fd87730ca8e9397a9e31321230042c84d51fb', '475f611dd457bb8800ec63f7df247c1b849f2693', 'f9da210d9b2d57f18e7450b6e3bcec01b117592b', '690e52e5f8fc38fee8ca66ecfd9c181bd2334eca'] },
+    art: { accent: '#c9843a', shots: ['ss_ba7fd87730ca8e9397a9e31321230042c84d51fb.1920x1080.jpg', 'ss_475f611dd457bb8800ec63f7df247c1b849f2693.1920x1080.jpg', 'ss_f9da210d9b2d57f18e7450b6e3bcec01b117592b.1920x1080.jpg', 'ss_690e52e5f8fc38fee8ca66ecfd9c181bd2334eca.1920x1080.jpg'] },
   },
   {
     id: 'nintendo-switch-sports',
