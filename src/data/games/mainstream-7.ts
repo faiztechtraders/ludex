@@ -218,7 +218,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
       'Assist options make them genuinely all-ages',
     ],
     similar: ['super-mario-odyssey', 'super-mario-3d-world', 'astro-bot'],
-    art: { accent: '#3a6ac9', cover: 'https://upload.wikimedia.org/wikipedia/en/b/bf/The_Super_Mario_Galaxy_Movie_poster.jpeg' },
+    art: { accent: '#3a6ac9', cover: 'https://upload.wikimedia.org/wikipedia/en/7/76/SuperMarioGalaxy.jpg' },
   },
   {
     id: 'kirby-air-riders',

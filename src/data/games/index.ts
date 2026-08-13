@@ -13,14 +13,21 @@ import { MAINSTREAM_GAMES_4 } from './mainstream-4.ts';
 import { MAINSTREAM_GAMES_5 } from './mainstream-5.ts';
 import { MAINSTREAM_GAMES_6 } from './mainstream-6.ts';
 import { MAINSTREAM_GAMES_7 } from './mainstream-7.ts';
+import { MAINSTREAM_GAMES_8 } from './mainstream-8.ts';
+import { MAINSTREAM_GAMES_9 } from './mainstream-9.ts';
+import { MAINSTREAM_GAMES_10 } from './mainstream-10.ts';
 import { INDIE_GAMES } from './indie.ts';
 import { INDIE_GAMES_2 } from './indie-2.ts';
 import { INDIE_GAMES_3 } from './indie-3.ts';
 import { INDIE_GAMES_4 } from './indie-4.ts';
+import { INDIE_GAMES_5 } from './indie-5.ts';
+import { INDIE_GAMES_6 } from './indie-6.ts';
 import { HIDDEN_GEMS } from './hidden-gems.ts';
 import { HIDDEN_GEMS_2 } from './hidden-gems-2.ts';
 import { HIDDEN_GEMS_3 } from './hidden-gems-3.ts';
 import { HIDDEN_GEMS_4 } from './hidden-gems-4.ts';
+import { HIDDEN_GEMS_5 } from './hidden-gems-5.ts';
+import { HIDDEN_GEMS_6 } from './hidden-gems-6.ts';
 
 export const GAMES: Game[] = [
   ...MAINSTREAM_GAMES,
@@ -30,14 +37,21 @@ export const GAMES: Game[] = [
   ...MAINSTREAM_GAMES_5,
   ...MAINSTREAM_GAMES_6,
   ...MAINSTREAM_GAMES_7,
+  ...MAINSTREAM_GAMES_8,
+  ...MAINSTREAM_GAMES_9,
+  ...MAINSTREAM_GAMES_10,
   ...INDIE_GAMES,
   ...INDIE_GAMES_2,
   ...INDIE_GAMES_3,
   ...INDIE_GAMES_4,
+  ...INDIE_GAMES_5,
+  ...INDIE_GAMES_6,
   ...HIDDEN_GEMS,
   ...HIDDEN_GEMS_2,
   ...HIDDEN_GEMS_3,
   ...HIDDEN_GEMS_4,
+  ...HIDDEN_GEMS_5,
+  ...HIDDEN_GEMS_6,
 ];
 
 /** Slug -> game, for O(1) lookups by route param and by `similar` resolution. */

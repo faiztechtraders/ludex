@@ -147,6 +147,52 @@ for (const game of GAMES) {
   }
 }
 
+/* -- two games must not claim the same Steam app --
+   `steamAppId` drives cover, hero and screenshot URLs, so a copy-pasted id
+   silently dresses one game in another's art. Placid Plastic Duck Simulator
+   was given ZERO Sievert's id and inherited its screenshots. The shared-
+   screenshot check below catches the symptom; this catches the cause, and
+   catches it even before art has been enriched. */
+const bySteamId = new Map();
+for (const game of GAMES) {
+  if (!game.steamAppId) continue;
+  if (!bySteamId.has(game.steamAppId)) bySteamId.set(game.steamAppId, []);
+  bySteamId.get(game.steamAppId).push(game);
+}
+for (const [id, entries] of bySteamId) {
+  if (entries.length < 2) continue;
+  errors.push(
+    `steamAppId ${id} claimed by ${entries.map((g) => g.slug).join(' and ')} — one of them is wrong`,
+  );
+}
+
+/* -- the same game must not appear twice under different slugs --
+   Checking slugs alone does not catch this: `chicory` and
+   `chicory-a-colorful-tale` are distinct slugs and the same game, as were
+   `prince-of-persia-lost-crown` and `prince-of-persia-the-lost-crown`. Four
+   pairs slipped in during the 557 -> 757 expansion because the collision check
+   compared slugs rather than titles. Normalising the title catches the whole
+   class: punctuation, articles and subtitle separators all fall away. */
+const titleKey = (game) =>
+  game.title
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/[^a-z0-9]/g, '');
+
+const byTitle = new Map();
+for (const game of GAMES) {
+  const key = titleKey(game);
+  if (!byTitle.has(key)) byTitle.set(key, []);
+  byTitle.get(key).push(game);
+}
+for (const [, entries] of byTitle) {
+  if (entries.length < 2) continue;
+  errors.push(
+    `duplicate game: ${entries.map((g) => `"${g.title}" (${g.slug})`).join(' and ')} are the same game under different slugs`,
+  );
+}
+
 /* -- a series must not straddle a tier boundary --
    Hades was `mainstream` while Hades II was `indie-darling`, and Silksong was
    `mainstream` while Hollow Knight was `indie-darling` at the identical

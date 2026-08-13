@@ -59,6 +59,12 @@ every route during development.
 **After any change to `src/data/games/`, run `npm run data:validate`.** It is the cheapest way
 to catch a malformed vibe vector or a dangling `similar` slug.
 
+**When adding games, check for duplicates by normalized *title*, not by slug.** During the
+557 → 757 expansion four games were added twice under near-miss slugs (`chicory` alongside the
+existing `chicory-a-colorful-tale`, `prince-of-persia-the-lost-crown` alongside
+`prince-of-persia-lost-crown`). `data:validate` now fails on this, and on two games claiming the
+same `steamAppId` — which is how one game ends up wearing another's screenshots.
+
 ---
 
 ## Tailwind v4 — read this before touching styles
@@ -265,18 +271,24 @@ plain sort.
   happens again.
 - **Cover art is 2:3**, matching Steam's box art. Changing the card aspect ratio will letterbox
   or crop every cover in the library.
-- **Dataset size drives bundle size.** At 557 games the dataset is ~488 KB raw / ~186 KB
-  gzipped, and the built app chunk is 214 KB gzipped (plus a 113 KB vendor chunk that caches
+- **Dataset size drives bundle size.** At 757 games the dataset is ~865 KB raw / ~264 KB
+  gzipped, and the built app chunk is 296 KB gzipped (plus a 113 KB vendor chunk that caches
   separately). Art storage is already compact — Steam URLs derive from `steamAppId` and only
-  screenshot hashes are stored (`src/data/art.ts`).
+  screenshot path-suffixes are stored (`src/data/art.ts`).
 
-  **The next optimisation, if it is ever needed:** `art.shots` (109 KB raw) and `hooks` (81 KB
-  raw) together are ~40% of the dataset and are used *only* on the detail page. Moving them into
+  **Do the code-split before growing the library again.** `art.shots` and `hooks` together are
+  296 KB raw — **34% of the dataset** — and are used *only* on the detail page. Moving them into
   a module that `GameDetail` imports dynamically would cut roughly a third off the initial
-  payload. Not done yet because it splits the `Game` type across two files, which is a real
-  maintenance cost for a page that already loads acceptably.
+  payload. It splits the `Game` type across two files, which is a real maintenance cost, but at
+  757 games the main chunk is already 296 KB gzipped and that is the point where the cost is
+  worth paying.
 
-  If it grows much further, split the art
-  URL map out of the main chunk before adding more.
+- **Growing the library gets harder, not easier.** Reaching 757 meant sweeping ~400 candidate
+  titles to find 200 that were not already present — **185 of them already were**. The
+  well-known catalogue is largely covered, so further growth digs into genuinely obscure
+  territory and pulls against the 40/30/30 ratio, because there is no supply of unused
+  *household names* left. Expansions from here should be driven by a **coverage gap**
+  (`npm run data:stats`) rather than by a target count. The 557 → 757 batch was aimed at
+  `social`, which went from 80 games at the co-op end to 167.
 - The library must stay **genuinely mixed**. If a change makes results skew toward blockbusters
   or toward obscurities, the tier quota is broken — check `npm run data:stats`.
