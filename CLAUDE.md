@@ -221,10 +221,14 @@ plain sort.
 - **Never advance a sequence on an animation event.** The old gacha reel mounted with its final
   transform already applied, so no transition ran, `transitionend` never fired, and the spin hung
   forever on "Rolling…". `transitionend` is also simply not delivered when a tab is backgrounded
-  mid-animation. `GachaMachine` (which replaced the reel) drives its four stages from **one
+  mid-animation. `GachaMachine` (which replaced the reel) drives its five stages from **one
   timer chain** and treats every visual as decorative — if the compositor drops the whole
   animation, the sequence still completes on schedule. `flows.mjs` asserts both that it reveals
   and that tapping it skips in under 1.2s.
+- **The machine is the control, not a picture next to one.** Its crank is a real `<button>`
+  (58px, clearing the 44px touch minimum) and the Daily Spin has no separate button. Idle and
+  spinning therefore share **one** `AnimatePresence` key — giving them separate keys remounts
+  the machine at the exact moment you touch the crank, flashing it out and back in.
 - **The front page must not be all one tier.** Weighting the daily rotation purely by obscurity
   produced four gold "Hidden Gem" cards, which devalues gold and shows a first-time visitor
   nothing they recognize. `dailyFeatured` draws round-robin from a tier pattern. Tested.

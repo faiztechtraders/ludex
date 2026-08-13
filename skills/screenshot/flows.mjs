@@ -63,7 +63,7 @@ await flow('spin-reveal', desktop, async (page) => {
 });
 
 /* -- the gacha animation can be skipped ------------------------------------ */
-// The machine is ~2.3s of show. That is fine once and an obstacle by the tenth
+// The machine is ~2.9s of show. That is fine once and an obstacle by the tenth
 // reroll, so tapping it must cut straight to the result. Asserting on the
 // elapsed time is the point: a skip that still waits out the timeline passes a
 // "did it reveal" check while being exactly the bug worth catching.

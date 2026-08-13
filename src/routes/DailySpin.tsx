@@ -114,35 +114,37 @@ export default function DailySpin() {
       </p>
 
       {/* ------------------------------------------------------------ stage */}
-      <div className="mt-10 flex min-h-[26rem] flex-col items-center justify-center">
+      {/* Tall enough for the machine (460px) plus its caption, so the reveal
+          card swapping in does not shift the page under the pointer. */}
+      <div className="mt-8 flex min-h-[32rem] flex-col items-center justify-center">
         <AnimatePresence mode="wait">
-          {phase === 'idle' && (
+          {/* One key across idle *and* spinning: the machine is the same object
+              waiting and then running, so remounting it between the two would
+              flash it out and back in at the moment you touch the crank. */}
+          {phase !== 'revealed' && (
             <motion.div
-              key="idle"
-              initial={reduced ? false : { opacity: 0, scale: 0.94 }}
+              key="machine"
+              initial={reduced ? false : { opacity: 0, scale: 0.96 }}
               animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.94 }}
-              // `mode="wait"` holds the machine back until this exit finishes,
-              // so a default-length exit is ~380ms of dead screen before the
-              // show starts — paid on every reroll. Leave quickly.
-              transition={{ duration: 0.14 }}
-              className="flex flex-col items-center gap-6"
+              exit={{ opacity: 0, scale: 0.96 }}
+              transition={{ duration: 0.16 }}
+              className="flex flex-col items-center"
             >
-              <ChaosButton onClick={spin} label={hasSpunToday ? 'ROLL AGAIN' : 'SPIN'} />
-              {hasSpunToday && (
-                <p className="text-xs text-text-muted">
+              <GachaMachine
+                winner={result}
+                running={phase === 'spinning'}
+                label={hasSpunToday ? 'ROLL AGAIN' : 'SPIN'}
+                onSpin={spin}
+                onSettled={() => setPhase('revealed')}
+              />
+              <p className="mt-1 font-display text-xs uppercase tracking-[0.2em] text-text-muted">
+                {phase === 'spinning' ? 'Tap to skip' : 'Turn the crank'}
+              </p>
+              {phase === 'idle' && hasSpunToday && (
+                <p className="mt-3 text-xs text-text-muted">
                   You have already taken today&apos;s official spin. Rerolls are unlimited.
                 </p>
               )}
-            </motion.div>
-          )}
-
-          {phase === 'spinning' && result && (
-            <motion.div key="spinning" initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
-              <GachaMachine winner={result} onSettled={() => setPhase('revealed')} />
-              <p className="mt-2 font-display text-xs uppercase tracking-[0.2em] text-text-muted">
-                Tap to skip
-              </p>
             </motion.div>
           )}
 
@@ -157,37 +159,6 @@ export default function DailySpin() {
         </AnimatePresence>
       </div>
     </div>
-  );
-}
-
-/* -------------------------------------------------------------- the button */
-
-function ChaosButton({ onClick, label }: { onClick: () => void; label: string }) {
-  const reduced = usePrefersReducedMotion();
-  return (
-    <motion.button
-      type="button"
-      onClick={onClick}
-      whileHover={reduced ? undefined : { scale: 1.05 }}
-      whileTap={reduced ? undefined : { scale: 0.94 }}
-      className="relative flex h-52 w-52 items-center justify-center rounded-full font-display text-2xl font-bold tracking-[0.14em] text-text-inverse"
-      style={{
-        background:
-          'radial-gradient(circle at 32% 28%, var(--color-neon-magenta-soft), var(--color-neon-magenta) 42%, var(--color-neon-violet) 100%)',
-        boxShadow:
-          '0 0 0 2px rgb(255 62 165 / 0.5), 0 0 60px -10px rgb(255 62 165 / 0.8), inset 0 -10px 30px -8px rgb(0 0 0 / 0.5)',
-      }}
-    >
-      {/* Halo, held back under reduced motion. */}
-      {!reduced && (
-        <motion.span
-          className="absolute inset-0 rounded-full border-2 border-neon-magenta"
-          animate={{ scale: [1, 1.28], opacity: [0.7, 0] }}
-          transition={{ duration: 1.8, repeat: Infinity, ease: 'easeOut' }}
-        />
-      )}
-      {label}
-    </motion.button>
   );
 }
 
