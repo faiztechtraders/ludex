@@ -463,6 +463,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'we-love-katamari',
     slug: 'we-love-katamari',
+    playstationSlug: 'we-love-katamari-reroll-royal-reverie',
     steamAppId: 1730700,
     title: 'We Love Katamari REROLL+',
     year: 2023,

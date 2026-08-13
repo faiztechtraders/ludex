@@ -576,6 +576,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'ghost-recon-breakpoint',
     slug: 'ghost-recon-breakpoint',
+    playstationSlug: 'tom-clancys-ghost-recon-breakpoint',
     steamAppId: 2231380,
     title: 'Ghost Recon Breakpoint',
     year: 2019,

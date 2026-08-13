@@ -364,6 +364,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'dragon-quest-xi',
     slug: 'dragon-quest-xi',
+    nintendoSlug: 'dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-switch-2',
     steamAppId: 1295510,
     title: 'Dragon Quest XI S',
     year: 2017,

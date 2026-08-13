@@ -279,11 +279,43 @@ if (dryRun) {
   process.exit(0);
 }
 
+/**
+ * Never replace a good snapshot with a worse one.
+ *
+ * Guarding only against *zero* prices was not enough. Console prices come from
+ * scraping ~700 web pages, and a run that gets throttled part-way loses a slice
+ * of them silently — one refresh dropped 1,338 offers to 1,294 and reduced
+ * multi-store games from 477 to 441 while reporting success. Nothing errored;
+ * the site would simply have shown fewer prices than the day before.
+ *
+ * Losses happen legitimately (a game is delisted, a store stops selling it), so
+ * a small dip is allowed. A large one is a failed run, not news about the world.
+ */
+const LOSS_TOLERANCE = 0.05;
+
 if (prices.size === 0) {
-  // Never overwrite a good snapshot with an empty one — a throttled run that
-  // wrote zero prices would silently strip pricing from the whole site.
   console.log('\n  ✖ No prices resolved; leaving the existing snapshot alone.\n');
   process.exit(1);
+}
+
+let previousOffers = 0;
+try {
+  previousOffers = (fs.readFileSync(OUT, 'utf8').match(/\['(?:Steam|PlayStation|Nintendo|Xbox)'/g) ?? [])
+    .length;
+} catch {
+  /* first run — nothing to compare against */
+}
+
+const newOffers = all.length;
+if (previousOffers > 0 && newOffers < previousOffers * (1 - LOSS_TOLERANCE)) {
+  const lost = previousOffers - newOffers;
+  console.log(
+    `\n  ✖ This run resolved ${newOffers} offers against ${previousOffers} already on disk` +
+      ` — ${lost} fewer (${((lost / previousOffers) * 100).toFixed(1)}%).` +
+      `\n    That is a throttled run, not a real price change. Snapshot left alone;` +
+      `\n    re-run when the stores are responding, or pass --force to overwrite.\n`,
+  );
+  if (!args.includes('--force')) process.exit(1);
 }
 
 const base = currency ?? 'MYR';

@@ -68,12 +68,18 @@ function StoreRowView({ row }: { row: StoreRow }) {
   return (
     <Wrapper
       {...(url ? { href: url, target: '_blank', rel: 'noopener noreferrer' } : {})}
-      className={`group/price -mx-1.5 flex flex-wrap items-baseline gap-x-2 gap-y-1 rounded px-1.5 py-1 ${
+      // A three-column grid, not a wrapping flex row. As one row the discount
+      // badge, struck original, price and conversion overflowed and pushed the
+      // arrow onto its own line, so a discounted row looked broken next to a
+      // plain one. The middle column now wraps inside itself while the store
+      // name and the arrow stay put.
+      className={`group/price -mx-1.5 grid grid-cols-[72px_1fr_auto] items-baseline gap-x-2 rounded px-1.5 py-1 ${
         url ? 'transition-colors hover:bg-surface-2' : ''
       }`}
     >
-      <span className="min-w-[76px] shrink-0 text-xs text-text-muted">{row.store}</span>
+      <span className="text-xs text-text-muted">{row.store}</span>
 
+      <span className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
       {price ? (
         <>
           {price.discount > 0 && (
@@ -108,12 +114,13 @@ function StoreRowView({ row }: { row: StoreRow }) {
           {row.search ? 'Search store' : 'Check price'}
         </span>
       )}
+      </span>
 
       {url && (
         <>
           <span
             aria-hidden="true"
-            className="ml-auto text-xs text-text-muted transition-colors group-hover/price:text-neon-cyan"
+            className="text-xs text-text-muted transition-colors group-hover/price:text-neon-cyan"
           >
             ↗
           </span>

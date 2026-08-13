@@ -1034,6 +1034,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'blasphemous-2',
     slug: 'blasphemous-2',
+    playstationSlug: 'blasphemous-2',
     // Pinned: Steam uses the numeral ("Blasphemous 2"), we use the roman.
     steamAppId: 2114740,
     title: 'Blasphemous II',

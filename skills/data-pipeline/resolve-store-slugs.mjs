@@ -47,6 +47,35 @@ function variants(title) {
   return [...out].filter(Boolean);
 }
 
+/**
+ * The store's own full product name, borrowed from Steam.
+ *
+ * Ludex titles are deliberately short — "Dragon Quest XI S" — while console
+ * store URLs use the full retail name,
+ * `dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition-switch`.
+ * No amount of suffix guessing invents a subtitle the dataset never had, so
+ * where a Steam id exists we ask Steam what the game is really called and
+ * derive candidates from that too. Free of extra guessing: it is the
+ * publisher's own name for the product.
+ */
+const steamNames = new Map();
+async function steamName(appId) {
+  if (steamNames.has(appId)) return steamNames.get(appId);
+  let name = null;
+  try {
+    const res = await fetch(
+      `https://store.steampowered.com/api/appdetails?appids=${appId}&filters=basic&l=en`,
+      { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(15_000) },
+    );
+    const json = await res.json();
+    if (json?.[appId]?.success) name = json[appId].data?.name ?? null;
+  } catch {
+    /* fall back to the dataset title */
+  }
+  steamNames.set(appId, name);
+  return name;
+}
+
 async function resolves(url) {
   try {
     const res = await fetch(url, { headers: { 'user-agent': UA }, signal: AbortSignal.timeout(15_000) });
@@ -84,8 +113,17 @@ for (const [name, store] of Object.entries(STORES)) {
   let hits = 0;
 
   for (const [i, game] of targets.entries()) {
+    // Dataset title first — it is right most of the time and costs no request.
+    const bases = variants(game.title);
+    if (game.steamAppId) {
+      const full = await steamName(game.steamAppId);
+      if (full && full.toLowerCase() !== game.title.toLowerCase()) {
+        for (const v of variants(full)) if (!bases.includes(v)) bases.push(v);
+      }
+    }
+
     const candidates = [];
-    for (const base of variants(game.title)) {
+    for (const base of bases) {
       for (const suffix of store.suffixes ?? ['']) candidates.push(`${base}${suffix}`);
     }
 
