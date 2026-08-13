@@ -886,6 +886,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'fall-guys',
     slug: 'fall-guys',
+    nintendoSlug: 'fall-guys-switch',
     title: 'Fall Guys',
     year: 2020,
     developer: 'Mediatonic',

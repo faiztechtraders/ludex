@@ -303,6 +303,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'mario-strikers-battle-league',
     slug: 'mario-strikers-battle-league',
+    nintendoSlug: 'mario-strikers-battle-league-switch',
     title: 'Mario Strikers: Battle League',
     year: 2022,
     developer: 'Next Level Games',
@@ -329,6 +330,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'mario-tennis-aces',
     slug: 'mario-tennis-aces',
+    nintendoSlug: 'mario-tennis-aces-switch',
     title: 'Mario Tennis Aces',
     year: 2018,
     developer: 'Camelot Software Planning',
@@ -355,6 +357,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'mario-golf-super-rush',
     slug: 'mario-golf-super-rush',
+    nintendoSlug: 'mario-golf-super-rush-switch',
     title: 'Mario Golf: Super Rush',
     year: 2021,
     developer: 'Camelot Software Planning',
@@ -381,6 +384,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'just-dance-2024',
     slug: 'just-dance-2024',
+    playstationSlug: 'just-dance-2024-edition',
     title: 'Just Dance 2024 Edition',
     year: 2023,
     developer: 'Ubisoft Paris',
@@ -641,6 +645,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'clubhouse-games',
     slug: 'clubhouse-games',
+    nintendoSlug: 'clubhouse-games-51-worldwide-classics-switch',
     title: 'Clubhouse Games: 51 Worldwide Classics',
     year: 2020,
     developer: 'NDcube',

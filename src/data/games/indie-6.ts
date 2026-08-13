@@ -580,6 +580,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'frog-detective',
     slug: 'frog-detective',
+    nintendoSlug: 'frog-detective-the-entire-mystery-switch',
     title: 'Frog Detective: The Entire Mystery',
     year: 2022,
     developer: 'Worm Club',

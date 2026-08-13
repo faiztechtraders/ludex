@@ -179,6 +179,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'super-bomberman-r-2',
     slug: 'super-bomberman-r-2',
+    nintendoSlug: 'super-bomberman-r-2-switch',
     title: 'Super Bomberman R 2',
     year: 2023,
     developer: 'Konami',
@@ -470,6 +471,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'scott-pilgrim-vs-the-world',
     slug: 'scott-pilgrim-vs-the-world',
+    playstationSlug: 'scott-pilgrim-vs-the-world-the-game',
     title: 'Scott Pilgrim vs. The World: The Game',
     year: 2021,
     developer: 'Ubisoft Chengdu',
@@ -496,6 +498,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'snipperclips',
     slug: 'snipperclips',
+    nintendoSlug: 'snipperclips-cut-it-out-together-switch',
     title: 'Snipperclips – Cut it out, together!',
     year: 2017,
     developer: 'SFB Games',

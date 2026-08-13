@@ -1,6 +1,7 @@
 import type { Game } from '@/data/schema.ts';
 import { primaryStoreLink } from '@/data/links.ts';
-import { formatPrice, priceFor } from '@/lib/price.ts';
+import { approxInSnapshotCurrency, formatPrice, priceFor } from '@/lib/price.ts';
+import { PRICE_SNAPSHOT } from '@/data/prices.ts';
 
 /**
  * Price, discount, and a link to the store page.
@@ -21,6 +22,8 @@ import { formatPrice, priceFor } from '@/lib/price.ts';
 export function PriceTag({ game, className = '' }: { game: Game; className?: string }) {
   const price = priceFor(game.slug);
   const link = primaryStoreLink(game);
+  const approx = price ? approxInSnapshotCurrency(price) : null;
+  const snapshotCurrency = PRICE_SNAPSHOT.currency;
 
   if (!price && !link) return null;
 
@@ -47,6 +50,16 @@ export function PriceTag({ game, className = '' }: { game: Game; className?: str
           >
             {formatPrice(price.final, price.currency)}
           </span>
+
+          {/* Console stores publish USD only. Converting saves the reader doing
+              the sum, which is the whole point — but the regional eShop price is
+              set by the publisher and is usually not the converted US price, so
+              it is marked approximate rather than stated as fact. */}
+          {approx !== null && (
+            <span className="text-sm text-text-muted">
+              ≈ {formatPrice(approx, snapshotCurrency)}
+            </span>
+          )}
         </>
       )}
 
@@ -74,9 +87,15 @@ export function PriceTag({ game, className = '' }: { game: Game; className?: str
 export function PriceFootnote({ game }: { game: Game }) {
   const price = priceFor(game.slug);
   if (!price) return null;
+  const link = primaryStoreLink(game);
+  const store = link && !link.search ? link.store : 'the store';
+  const converted = approxInSnapshotCurrency(price) !== null;
   return (
     <p className="mt-2 text-[11px] leading-relaxed text-text-muted">
-      {price.currency} price on Steam as of {price.asOf}. Check the store for your region.
+      {price.currency} price on {store} as of {price.asOf}.
+      {converted
+        ? ` The ${PRICE_SNAPSHOT.currency} figure is a rough conversion — your regional store sets its own price.`
+        : ' Check the store for your region.'}
     </p>
   );
 }

@@ -60,6 +60,25 @@ export function useListPosition(key: string, firstPage: number) {
    */
   const restoring = useRef(false);
 
+  /**
+   * Take scroll restoration away from the browser.
+   *
+   * Chrome defaults to `scrollRestoration: 'auto'` and restores the offset
+   * itself on a back navigation — asynchronously, and *after* our own restore
+   * has run. It restores against the page as it was at first paint, which is
+   * shorter than the fully-rendered list, so it would reliably drag the user
+   * back to a position part-way up. Two systems doing the same job is worse
+   * than either alone; ours knows about the revealed rows, so it wins.
+   */
+  useEffect(() => {
+    if (typeof window === 'undefined' || !('scrollRestoration' in window.history)) return;
+    const previous = window.history.scrollRestoration;
+    window.history.scrollRestoration = 'manual';
+    return () => {
+      window.history.scrollRestoration = previous;
+    };
+  }, []);
+
   useLayoutEffect(() => {
     if (started.current) return;
     started.current = true;

@@ -24,14 +24,33 @@ export interface GamePrice {
 export function priceFor(slug: string): GamePrice | null {
   const row = PRICES[slug];
   if (!row) return null;
-  const [final, original, discount] = row;
+  const [final, original, discount, currency] = row;
   return {
     final,
     original,
     discount,
-    currency: PRICE_SNAPSHOT.currency,
+    // Absent means "same as the snapshot" — see the note in prices.ts.
+    currency: currency ?? PRICE_SNAPSHOT.currency,
     asOf: PRICE_SNAPSHOT.fetchedAt,
   };
+}
+
+/**
+ * Approximate the snapshot currency for a price quoted in another one.
+ *
+ * Nintendo and PlayStation only publish USD, so a Malaysian reader would
+ * otherwise have to do the sum themselves — which is exactly the click this
+ * feature exists to remove. Returns null when no rate was captured, so the UI
+ * shows the real USD figure alone rather than inventing a number.
+ *
+ * Deliberately approximate: the regional eShop price is set by Nintendo and is
+ * usually *not* the converted US price, so this is a rough guide and the UI
+ * marks it with ≈.
+ */
+export function approxInSnapshotCurrency(price: GamePrice): number | null {
+  if (price.currency === PRICE_SNAPSHOT.currency) return null;
+  if (price.currency !== 'USD' || !PRICE_SNAPSHOT.usdRate) return null;
+  return Math.round(price.final * PRICE_SNAPSHOT.usdRate);
 }
 
 /**
@@ -43,11 +62,11 @@ export function priceFor(slug: string): GamePrice | null {
 export function formatPrice(amount: number, currency: string): string {
   const value = amount / 100;
   try {
-    // Format for the snapshot's own region, not the reader's. These are
-    // Malaysian prices, so they should read "RM 72" — the reader's locale would
-    // render the same figure as "MYR 72.00", which looks like a different,
-    // vaguer thing than the number Steam actually shows.
-    return new Intl.NumberFormat(`en-${PRICE_SNAPSHOT.region}`, {
+    // Format for the currency's own home locale, not the reader's. Malaysian
+    // prices should read "RM 72"; the reader's locale would render the same
+    // figure as "MYR 72.00", which looks vaguer than what Steam actually shows.
+    const locale = currency === PRICE_SNAPSHOT.currency ? `en-${PRICE_SNAPSHOT.region}` : 'en-US';
+    return new Intl.NumberFormat(locale, {
       style: 'currency',
       currency,
       minimumFractionDigits: value % 1 === 0 ? 0 : 2,

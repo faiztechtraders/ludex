@@ -206,6 +206,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'pga-tour-2k23',
     slug: 'pga-tour-2k23',
+    playstationSlug: 'pga-tour-2k23',
     title: 'PGA Tour 2K23',
     year: 2022,
     developer: 'HB Studios',

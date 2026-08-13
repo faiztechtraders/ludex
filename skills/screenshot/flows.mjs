@@ -231,7 +231,12 @@ await flow('back-restores-list-position', desktop, async (page) => {
   await page.waitForTimeout(500);
 
   await page.goBack({ waitUntil: 'networkidle' });
-  await page.waitForTimeout(1200);
+
+  // Wait past useListPosition's 2s restore budget before measuring. An earlier
+  // version polled for the scroll to "stop moving", which latched onto an
+  // intermediate value between restore frames and failed roughly one run in
+  // three — the flakiness was in the assertion, not the app.
+  await page.waitForTimeout(2600);
 
   const rowsAfter = await page.locator('article').count();
   const scrollAfter = await page.evaluate(() => window.scrollY);
@@ -268,14 +273,21 @@ await flow('price-and-store-link', desktop, async (page) => {
     throw new Error(`store link is not a Steam product page: ${href}`);
   }
 
-  // And a Switch exclusive must still reach a Nintendo destination, not Steam.
-  await page.goto(`${BASE}/game/pikmin-4`, { waitUntil: 'networkidle' });
-  await page.waitForTimeout(500);
-  const nin = await page
-    .locator('aside .panel a[target="_blank"]')
-    .first()
-    .getAttribute('href');
+  // A Switch exclusive must reach Nintendo, not Steam, and must show its own
+  // USD price with an approximate conversion — mixing the two currencies
+  // silently would misprice ~90 games by a factor of four.
+  await page.goto(`${BASE}/game/super-mario-odyssey`, { waitUntil: 'networkidle' });
+  await page.waitForTimeout(600);
+  const panel2 = page.locator('aside .panel').first();
+  const text2 = (await panel2.textContent()).replace(/\s+/g, ' ');
+
+  const nin = await panel2.locator('a[target="_blank"]').first().getAttribute('href');
   if (!nin?.includes('nintendo.com')) throw new Error(`Switch exclusive linked to ${nin}`);
+  if (!text2.includes('$')) throw new Error(`no USD price shown: ${text2.slice(-140)}`);
+  if (!/≈\s*RM/.test(text2)) throw new Error(`no approximate conversion shown: ${text2.slice(-140)}`);
+  if (!/rough conversion/.test(text2)) {
+    throw new Error('conversion is not disclosed as approximate');
+  }
 });
 
 /* -- the axis chips stay pills when a reason wraps ------------------------ */
