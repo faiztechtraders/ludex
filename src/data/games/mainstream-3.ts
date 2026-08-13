@@ -228,6 +228,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'gran-turismo-7',
     slug: 'gran-turismo-7',
+    playstationSlug: 'gran-turismo-7',
     title: 'Gran Turismo 7',
     year: 2022,
     developer: 'Polyphony Digital',
@@ -336,6 +337,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'fortnite',
     slug: 'fortnite',
+    nintendoSlug: 'fortnite-switch-2',
     title: 'Fortnite',
     year: 2017,
     developer: 'Epic Games',
@@ -362,6 +364,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'rocket-league',
     slug: 'rocket-league',
+    nintendoSlug: 'rocket-league-switch',
     title: 'Rocket League',
     year: 2015,
     developer: 'Psyonix',

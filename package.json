@@ -18,7 +18,8 @@
     "check": "node skills/screenshot/console-check.mjs",
     "flows": "node skills/screenshot/flows.mjs",
     "data:audit-steam": "node skills/data-pipeline/audit-steam-ids.mjs",
-    "data:report": "node skills/data-pipeline/audit-report.mjs"
+    "data:report": "node skills/data-pipeline/audit-report.mjs",
+    "data:prices": "node skills/data-pipeline/fetch-prices.mjs"
   },
   "dependencies": {
     "motion": "^13.1.0",

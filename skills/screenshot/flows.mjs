@@ -244,6 +244,40 @@ await flow('back-restores-list-position', desktop, async (page) => {
   }
 });
 
+/* -- every game offers a store link, and sales show both prices ----------- */
+// Prices are a build-time snapshot, so the risk is not staleness but silence:
+// a broken import or an empty snapshot would render nothing at all and look
+// exactly like "this game has no price", which is a legitimate state for
+// free-to-play titles. Assert on a game known to be discounted instead.
+await flow('price-and-store-link', desktop, async (page) => {
+  await page.goto(`${BASE}/game/ghost-recon-wildlands`, { waitUntil: 'networkidle' });
+  await page.waitForTimeout(600);
+
+  const panel = page.locator('aside .panel').first();
+  const text = (await panel.textContent()).replace(/\s+/g, ' ');
+
+  if (!/−\d+%/.test(text)) throw new Error(`no discount badge rendered: ${text.slice(-120)}`);
+  if (!/as of \d{4}-\d{2}-\d{2}/.test(text)) throw new Error('snapshot date is not disclosed');
+
+  // Original price must be struck through, or the discount reads as the price.
+  const struck = await panel.locator('s').count();
+  if (struck === 0) throw new Error('original price is not struck through');
+
+  const href = await panel.locator('a[target="_blank"]').first().getAttribute('href');
+  if (!href?.startsWith('https://store.steampowered.com/app/')) {
+    throw new Error(`store link is not a Steam product page: ${href}`);
+  }
+
+  // And a Switch exclusive must still reach a Nintendo destination, not Steam.
+  await page.goto(`${BASE}/game/pikmin-4`, { waitUntil: 'networkidle' });
+  await page.waitForTimeout(500);
+  const nin = await page
+    .locator('aside .panel a[target="_blank"]')
+    .first()
+    .getAttribute('href');
+  if (!nin?.includes('nintendo.com')) throw new Error(`Switch exclusive linked to ${nin}`);
+});
+
 /* -- the axis chips stay pills when a reason wraps ------------------------ */
 // Run at mobile width on purpose. A flex row defaults to `align-items:
 // stretch`, so the chip grows to whatever height the reason beside it needs.

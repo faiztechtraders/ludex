@@ -1,0 +1,57 @@
+name: Refresh price snapshot
+
+# Steam blocks browser-side price reads (no CORS header), so prices are baked
+# in at build time instead of fetched live. This keeps that snapshot fresh
+# without adding a backend: the job commits an updated src/data/prices.ts and
+# Vercel redeploys on push.
+#
+# Daily is the right cadence for the actual question — Steam sales run for days
+# or weeks, so "is this discounted right now" does not change by the minute.
+
+on:
+  schedule:
+    # 02:00 UTC — after Steam's daily sale rollover (17:00 PT / 01:00 UTC).
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-prices
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - run: npm ci
+
+      - name: Fetch prices
+        run: npm run data:prices
+
+      - name: Validate the dataset still holds
+        run: npm run data:validate
+
+      # A snapshot that broke the build would take the site down on the next
+      # deploy, so prove it compiles before committing anything.
+      - name: Type-check and build
+        run: npm run build
+
+      - name: Commit if the prices moved
+        run: |
+          if git diff --quiet -- src/data/prices.ts; then
+            echo "No price changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/prices.ts
+          git commit -m "Refresh Steam price snapshot"
+          git push

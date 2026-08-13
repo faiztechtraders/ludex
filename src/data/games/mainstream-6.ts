@@ -711,6 +711,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'mario-rabbids-sparks-of-hope',
     slug: 'mario-rabbids-sparks-of-hope',
+    nintendoSlug: 'mario-plus-rabbids-sparks-of-hope-switch',
     title: 'Mario + Rabbids Sparks of Hope',
     year: 2022,
     developer: 'Ubisoft Milan',
@@ -737,6 +738,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'advance-wars-reboot-camp',
     slug: 'advance-wars-reboot-camp',
+    nintendoSlug: 'advance-wars-1-plus-2-re-boot-camp-switch',
     title: 'Advance Wars 1+2: Re-Boot Camp',
     year: 2023,
     developer: 'WayForward',

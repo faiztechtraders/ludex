@@ -36,6 +36,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'super-mario-3d-world',
     slug: 'super-mario-3d-world',
+    nintendoSlug: 'super-mario-3d-world-plus-bowsers-fury-switch',
     title: "Super Mario 3D World + Bowser's Fury",
     year: 2021,
     developer: 'Nintendo EPD',
@@ -62,6 +63,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'donkey-kong-country-tropical-freeze',
     slug: 'donkey-kong-country-tropical-freeze',
+    nintendoSlug: 'donkey-kong-country-tropical-freeze-switch',
     title: 'Donkey Kong Country: Tropical Freeze',
     year: 2018,
     developer: 'Retro Studios',
@@ -88,6 +90,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'paper-mario-thousand-year-door',
     slug: 'paper-mario-thousand-year-door',
+    nintendoSlug: 'paper-mario-the-thousand-year-door-switch',
     title: 'Paper Mario: The Thousand-Year Door',
     year: 2024,
     developer: 'Intelligent Systems',
@@ -114,6 +117,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'super-mario-rpg',
     slug: 'super-mario-rpg',
+    nintendoSlug: 'super-mario-rpg-switch',
     title: 'Super Mario RPG',
     year: 2023,
     developer: 'ArtePiazza',
@@ -140,6 +144,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'zelda-echoes-of-wisdom',
     slug: 'zelda-echoes-of-wisdom',
+    nintendoSlug: 'the-legend-of-zelda-echoes-of-wisdom-switch',
     title: 'The Legend of Zelda: Echoes of Wisdom',
     year: 2024,
     developer: 'Grezzo',
@@ -166,6 +171,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'zelda-links-awakening',
     slug: 'zelda-links-awakening',
+    nintendoSlug: 'the-legend-of-zelda-links-awakening-switch',
     title: "The Legend of Zelda: Link's Awakening",
     year: 2019,
     developer: 'Grezzo',
@@ -246,6 +252,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'xenoblade-chronicles-definitive',
     slug: 'xenoblade-chronicles-definitive',
+    nintendoSlug: 'xenoblade-chronicles-definitive-edition-switch',
     title: 'Xenoblade Chronicles: Definitive Edition',
     year: 2020,
     developer: 'Monolith Soft',
@@ -272,6 +279,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'fire-emblem-engage',
     slug: 'fire-emblem-engage',
+    nintendoSlug: 'fire-emblem-engage-switch',
     title: 'Fire Emblem Engage',
     year: 2023,
     developer: 'Intelligent Systems',
@@ -582,6 +590,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'demons-souls',
     slug: 'demons-souls',
+    playstationSlug: 'demons-souls',
     title: "Demon's Souls",
     year: 2020,
     developer: 'Bluepoint Games',
@@ -607,6 +616,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'bloodborne',
     slug: 'bloodborne',
+    playstationSlug: 'bloodborne',
     title: 'Bloodborne',
     year: 2015,
     developer: 'FromSoftware',
@@ -684,6 +694,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'shadow-of-the-colossus',
     slug: 'shadow-of-the-colossus',
+    playstationSlug: 'shadow-of-the-colossus',
     title: 'Shadow of the Colossus',
     year: 2018,
     developer: 'Bluepoint Games',
@@ -967,6 +978,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'nintendo-switch-sports',
     slug: 'nintendo-switch-sports',
+    nintendoSlug: 'nintendo-switch-sports-switch',
     title: 'Nintendo Switch Sports',
     year: 2022,
     developer: 'Nintendo EPD',
@@ -993,6 +1005,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'ring-fit-adventure',
     slug: 'ring-fit-adventure',
+    nintendoSlug: 'ring-fit-adventure-switch',
     title: 'Ring Fit Adventure',
     year: 2019,
     developer: 'Nintendo EPD',

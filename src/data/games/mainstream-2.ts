@@ -12,6 +12,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'minecraft',
     slug: 'minecraft',
+    nintendoSlug: 'minecraft-switch',
     title: 'Minecraft',
     year: 2011,
     developer: 'Mojang Studios',
@@ -120,6 +121,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'super-smash-bros-ultimate',
     slug: 'super-smash-bros-ultimate',
+    nintendoSlug: 'super-smash-bros-ultimate-switch',
     title: 'Super Smash Bros. Ultimate',
     year: 2018,
     developer: 'Sora Ltd.',
@@ -147,6 +149,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'mario-kart-8-deluxe',
     slug: 'mario-kart-8-deluxe',
+    nintendoSlug: 'mario-kart-8-deluxe-switch',
     title: 'Mario Kart 8 Deluxe',
     year: 2017,
     developer: 'Nintendo EPD',
@@ -307,6 +310,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'astro-bot',
     slug: 'astro-bot',
+    playstationSlug: 'astro-bot',
     title: 'Astro Bot',
     year: 2024,
     developer: 'Team Asobi',
@@ -439,6 +443,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'metroid-dread',
     slug: 'metroid-dread',
+    nintendoSlug: 'metroid-dread-switch',
     title: 'Metroid Dread',
     year: 2021,
     developer: 'MercurySteam',
@@ -466,6 +471,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'splatoon-3',
     slug: 'splatoon-3',
+    nintendoSlug: 'splatoon-3-switch',
     title: 'Splatoon 3',
     year: 2022,
     developer: 'Nintendo EPD',
@@ -493,6 +499,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'xenoblade-chronicles-3',
     slug: 'xenoblade-chronicles-3',
+    nintendoSlug: 'xenoblade-chronicles-3-switch',
     title: 'Xenoblade Chronicles 3',
     year: 2022,
     developer: 'Monolith Soft',
@@ -520,6 +527,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'fire-emblem-three-houses',
     slug: 'fire-emblem-three-houses',
+    nintendoSlug: 'fire-emblem-three-houses-switch',
     title: 'Fire Emblem: Three Houses',
     year: 2019,
     developer: 'Intelligent Systems',
@@ -547,6 +555,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'kirby-forgotten-land',
     slug: 'kirby-forgotten-land',
+    nintendoSlug: 'kirby-and-the-forgotten-land-switch',
     title: 'Kirby and the Forgotten Land',
     year: 2022,
     developer: 'HAL Laboratory',
@@ -574,6 +583,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'pikmin-4',
     slug: 'pikmin-4',
+    nintendoSlug: 'pikmin-4-switch',
     title: 'Pikmin 4',
     year: 2023,
     developer: 'Nintendo EPD',
@@ -601,6 +611,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'luigis-mansion-3',
     slug: 'luigis-mansion-3',
+    nintendoSlug: 'luigis-mansion-3-switch',
     title: "Luigi's Mansion 3",
     year: 2019,
     developer: 'Next Level Games',
@@ -682,6 +693,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'alan-wake-2',
     slug: 'alan-wake-2',
+    playstationSlug: 'alan-wake-2',
     title: 'Alan Wake 2',
     year: 2023,
     developer: 'Remedy Entertainment',

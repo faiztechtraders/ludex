@@ -521,6 +521,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'bayonetta-3',
     slug: 'bayonetta-3',
+    nintendoSlug: 'bayonetta-3-switch',
     title: 'Bayonetta 3',
     year: 2022,
     developer: 'PlatinumGames',
@@ -627,6 +628,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'overwatch-2',
     slug: 'overwatch-2',
+    playstationSlug: 'overwatch-2',
     title: 'Overwatch 2',
     year: 2022,
     developer: 'Blizzard Entertainment',

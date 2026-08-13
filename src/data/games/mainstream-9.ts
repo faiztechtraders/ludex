@@ -45,6 +45,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'mlb-the-show-24',
     slug: 'mlb-the-show-24',
+    nintendoSlug: 'mlb-the-show-24-switch',
     title: 'MLB The Show 24',
     year: 2024,
     developer: 'San Diego Studio',
@@ -96,6 +97,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'ufc-5',
     slug: 'ufc-5',
+    playstationSlug: 'ea-sports-ufc-5',
     title: 'EA Sports UFC 5',
     year: 2023,
     developer: 'EA Vancouver',

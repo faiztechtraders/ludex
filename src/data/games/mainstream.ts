@@ -68,6 +68,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'zelda-tears-of-the-kingdom',
     slug: 'zelda-tears-of-the-kingdom',
+    nintendoSlug: 'the-legend-of-zelda-tears-of-the-kingdom-switch',
     title: 'The Legend of Zelda: Tears of the Kingdom',
     year: 2023,
     developer: 'Nintendo EPD',
@@ -95,6 +96,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'zelda-breath-of-the-wild',
     slug: 'zelda-breath-of-the-wild',
+    nintendoSlug: 'the-legend-of-zelda-breath-of-the-wild-switch',
     title: 'The Legend of Zelda: Breath of the Wild',
     year: 2017,
     developer: 'Nintendo EPD',
@@ -122,6 +124,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'mario-kart-world',
     slug: 'mario-kart-world',
+    nintendoSlug: 'mario-kart-world-switch-2',
     title: 'Mario Kart World',
     year: 2025,
     developer: 'Nintendo EPD',
@@ -284,6 +287,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'donkey-kong-bananza',
     slug: 'donkey-kong-bananza',
+    nintendoSlug: 'donkey-kong-bananza-switch-2',
     title: 'Donkey Kong Bananza',
     year: 2025,
     developer: 'Nintendo EPD',
@@ -311,6 +315,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'super-mario-odyssey',
     slug: 'super-mario-odyssey',
+    nintendoSlug: 'super-mario-odyssey-switch',
     title: 'Super Mario Odyssey',
     year: 2017,
     developer: 'Nintendo EPD',
@@ -446,6 +451,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'animal-crossing-new-horizons',
     slug: 'animal-crossing-new-horizons',
+    nintendoSlug: 'animal-crossing-new-horizons-switch',
     title: 'Animal Crossing: New Horizons',
     year: 2020,
     developer: 'Nintendo EPD',
@@ -500,6 +506,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'metroid-prime-4-beyond',
     slug: 'metroid-prime-4-beyond',
+    nintendoSlug: 'metroid-prime-4-beyond-switch',
     title: 'Metroid Prime 4: Beyond',
     year: 2025,
     developer: 'Retro Studios',
@@ -582,6 +589,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'pokemon-legends-z-a',
     slug: 'pokemon-legends-z-a',
+    nintendoSlug: 'pokemon-legends-z-a-switch',
     title: 'Pokémon Legends: Z-A',
     year: 2025,
     developer: 'Game Freak',
@@ -665,6 +673,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'super-mario-party-jamboree',
     slug: 'super-mario-party-jamboree',
+    nintendoSlug: 'super-mario-party-jamboree-switch',
     title: 'Super Mario Party Jamboree',
     year: 2024,
     developer: 'NDcube',

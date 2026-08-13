@@ -534,7 +534,7 @@ async function wikipediaArt(game) {
  * generated fallback, so enrichment must never overwrite it. Anchored on the
  * slug so the right record is edited.
  */
-function writeArt(source, slug, art, accent, steamAppId) {
+function writeArt(source, slug, art, accent, steamAppId, storeSlug) {
   const at = source.indexOf(`slug: '${slug}'`);
   if (at === -1) return null;
 
@@ -556,6 +556,22 @@ function writeArt(source, slug, art, accent, steamAppId) {
   if (steamAppId && !next.slice(at, artAt + 200).includes('steamAppId')) {
     next = next.slice(0, at) + `slug: '${slug}',\n    steamAppId: ${steamAppId},` +
       next.slice(at + `slug: '${slug}',`.length);
+  }
+
+  /**
+   * Persist the console store slug the scrape just *proved* works.
+   *
+   * It was being resolved and thrown away every run, which meant re-guessing
+   * it each time — and, more visibly, that these games had no store link. A
+   * slug that successfully returned a gallery is a slug that resolves to the
+   * product page, so it is the correct link by construction.
+   */
+  if (storeSlug?.field && storeSlug.value) {
+    const head = next.slice(at, artAt + 200);
+    if (!head.includes(storeSlug.field)) {
+      next = next.slice(0, at) + `slug: '${slug}',\n    ${storeSlug.field}: '${storeSlug.value}',` +
+        next.slice(at + `slug: '${slug}',`.length);
+    }
   }
   return next;
 }
@@ -587,6 +603,7 @@ const unmatched = [];
 for (const game of todo) {
   let art = null;
   let via = null;
+  let storeSlug = null;
   let appId = game.steamAppId ?? null;
 
   // Steam first, but only for games actually released on PC.
@@ -639,6 +656,21 @@ for (const game of todo) {
           shots: found.shots,
           derived: false,
         };
+        // The store slug this scrape proved works — persisted so the game gets
+        // a real store link instead of being re-guessed on every run.
+        //
+        // Keyed off `source`, NOT `via`: the line below rewrites `via` to
+        // 'wikipedia' whenever a cover is present, which is true for most
+        // console exclusives, so `via` never says 'nintendo' by the time the
+        // write-back reads it.
+        if (found.slug) {
+          storeSlug =
+            source === 'nintendo'
+              ? { field: 'nintendoSlug', value: found.slug }
+              : source === 'playstation'
+                ? { field: 'playstationSlug', value: found.slug }
+                : storeSlug;
+        }
         via = art.cover ? 'wikipedia' : source;
         tally[source]++;
         break;
@@ -681,6 +713,7 @@ for (const game of todo) {
           art,
           game.art.accent,
           via === 'steam' ? appId : null,
+          storeSlug,
         );
         if (next) {
           sources.set(shard, next);

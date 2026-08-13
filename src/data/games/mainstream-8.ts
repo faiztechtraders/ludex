@@ -752,6 +752,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'astral-chain',
     slug: 'astral-chain',
+    nintendoSlug: 'astral-chain-switch',
     title: 'Astral Chain',
     year: 2019,
     developer: 'PlatinumGames',
@@ -934,6 +935,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'everybody-1-2-switch',
     slug: 'everybody-1-2-switch',
+    nintendoSlug: 'everybody-1-2-switch-switch',
     title: 'Everybody 1-2-Switch!',
     year: 2023,
     developer: 'Nintendo EPD',

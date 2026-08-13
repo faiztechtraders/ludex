@@ -120,6 +120,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'ghost-of-yotei',
     slug: 'ghost-of-yotei',
+    playstationSlug: 'ghost-of-yotei',
     title: 'Ghost of Yōtei',
     year: 2025,
     developer: 'Sucker Punch Productions',
@@ -224,6 +225,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'kirby-air-riders',
     slug: 'kirby-air-riders',
+    nintendoSlug: 'kirby-air-riders-switch-2',
     title: 'Kirby Air Riders',
     year: 2025,
     developer: 'Sora Ltd.',
@@ -250,6 +252,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'princess-peach-showtime',
     slug: 'princess-peach-showtime',
+    nintendoSlug: 'princess-peach-showtime-switch',
     title: 'Princess Peach: Showtime!',
     year: 2024,
     developer: 'Good-Feel',
@@ -276,6 +279,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'warioware-move-it',
     slug: 'warioware-move-it',
+    nintendoSlug: 'warioware-move-it-switch',
     title: 'WarioWare: Move It!',
     year: 2023,
     developer: 'Intelligent Systems',
@@ -430,6 +434,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'unicorn-overlord',
     slug: 'unicorn-overlord',
+    nintendoSlug: 'unicorn-overlord-switch',
     title: 'Unicorn Overlord',
     year: 2024,
     developer: 'Vanillaware',

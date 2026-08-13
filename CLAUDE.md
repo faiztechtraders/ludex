@@ -59,6 +59,15 @@ every route during development.
 **After any change to `src/data/games/`, run `npm run data:validate`.** It is the cheapest way
 to catch a malformed vibe vector or a dangling `similar` slug.
 
+**Prices are a build-time snapshot, and that is not a shortcut.** Steam's price endpoint sends
+no `Access-Control-Allow-Origin` header, so the browser cannot read it from the deployed origin —
+a live price would require a proxy, and a proxy is a backend this app deliberately does not have.
+`npm run data:prices` bakes `src/data/prices.ts`; `.github/workflows/refresh-prices.yml` refreshes
+it daily and Vercel redeploys on the commit. Consequences worth remembering: the snapshot holds
+**one region** (MYR), so the UI always prints the date and currency rather than implying the
+figure is the reader's; and the fetcher refuses to overwrite a good snapshot with an empty one,
+because a throttled run would otherwise strip pricing from the entire site.
+
 **When adding games, check for duplicates by normalized *title*, not by slug.** During the
 557 → 757 expansion four games were added twice under near-miss slugs (`chicory` alongside the
 existing `chicory-a-colorful-tale`, `prince-of-persia-the-lost-crown` alongside

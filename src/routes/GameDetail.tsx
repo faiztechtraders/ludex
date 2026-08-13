@@ -13,6 +13,7 @@ import { TierBadge } from '@/components/game/TierBadge.tsx';
 import { MatchRing } from '@/components/game/MatchRing.tsx';
 import { SaveButton } from '@/components/game/SaveButton.tsx';
 import { WhyItFits } from '@/components/game/WhyItFits.tsx';
+import { PriceTag, PriceFootnote } from '@/components/game/PriceTag.tsx';
 import { PlatformBadgeRow } from '@/components/platform/PlatformBadge.tsx';
 import { ButtonLink } from '@/components/ui/Button.tsx';
 import { Chip } from '@/components/ui/Chip.tsx';
@@ -201,6 +202,14 @@ export default function GameDetail() {
               <Fact label="Art style" value={game.artStyle} />
               <Fact label="Released" value={String(game.year)} />
             </dl>
+
+            {/* Price and store link. Renders nothing for free-to-play titles and
+                anything with no linkable store id, so the panel never shows an
+                empty row that reads as broken. */}
+            <div className="mt-4 border-t border-hairline pt-4">
+              <PriceTag game={game} />
+              <PriceFootnote game={game} />
+            </div>
           </div>
 
           <div className="panel p-5">

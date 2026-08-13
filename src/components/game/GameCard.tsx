@@ -5,6 +5,7 @@ import { PlatformBadgeRow } from '@/components/platform/PlatformBadge.tsx';
 import { GameCover } from './GameCover.tsx';
 import { TierBadge } from './TierBadge.tsx';
 import { MatchRing } from './MatchRing.tsx';
+import { priceFor } from '@/lib/price.ts';
 import { SaveButton } from './SaveButton.tsx';
 
 /**
@@ -27,6 +28,7 @@ export function GameCard({
 }) {
   const accent = game.art.accent;
   const topReason = reasons?.[0]?.text;
+  const discount = priceFor(game.slug)?.discount ?? 0;
 
   return (
     <article
@@ -65,6 +67,18 @@ export function GameCard({
           <div className="absolute right-2 top-2">
             <TierBadge tier={game.tier} overlay />
           </div>
+
+          {/* Only the discount, and only when there is one. A price on every
+              card would be noise; "this is on sale right now" is the single
+              thing worth interrupting a browse for. */}
+          {discount > 0 && (
+            <div
+              className="absolute bottom-2 left-2 rounded-chip px-1.5 py-0.5 font-display text-[11px] font-bold text-text-inverse"
+              style={{ background: 'var(--color-neon-lime)' }}
+            >
+              −{discount}%
+            </div>
+          )}
         </div>
 
         <div className="flex flex-1 flex-col gap-2 p-3">
