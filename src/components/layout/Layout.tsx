@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { Outlet, useLocation, Link } from 'react-router-dom';
+import { Outlet, useLocation, useNavigationType, Link } from 'react-router-dom';
 import { useLudexStore } from '@/store/useLudexStore.ts';
 import { Header } from './Header.tsx';
 
@@ -10,6 +10,7 @@ import { Header } from './Header.tsx';
  */
 export function Layout() {
   const { pathname } = useLocation();
+  const navigationType = useNavigationType();
   const registerVisit = useLudexStore((s) => s.registerVisit);
 
   // Streak is counted once per calendar day, on first load of any route.
@@ -19,9 +20,14 @@ export function Layout() {
 
   // React Router keeps scroll position across navigations by default, which
   // lands users mid-page on a route they have never seen.
+  //
+  // But NOT on a back/forward navigation. Scrolling to top there threw away the
+  // user's place in a long results list every time they opened a game and came
+  // back — the list routes restore their own position, and this would undo it.
   useEffect(() => {
+    if (navigationType === 'POP') return;
     window.scrollTo(0, 0);
-  }, [pathname]);
+  }, [pathname, navigationType]);
 
   return (
     <div className="flex min-h-dvh flex-col">

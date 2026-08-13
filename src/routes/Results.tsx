@@ -1,5 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import { useListPosition } from '@/lib/useListPosition.ts';
 import { GAMES } from '@/data/games/index.ts';
 import { VIBE_META, positionLabel } from '@/data/vibes.ts';
 import { VIBE_AXES } from '@/data/schema.ts';
@@ -29,7 +30,9 @@ export default function Results() {
   const platforms = useLudexStore((s) => s.platforms);
   const vibes = useLudexStore((s) => s.vibes);
   const dismissed = useLudexStore((s) => s.dismissed);
-  const [limit, setLimit] = useState(FIRST_PAGE);
+  // Survives navigation: opening a game and pressing Back returns you to the
+  // row you clicked, with the same number of rows revealed. See useListPosition.
+  const { limit, showMore } = useListPosition('results', FIRST_PAGE);
 
   const answeredAxes = VIBE_AXES.filter((axis) => vibes[axis] !== undefined);
   const hasProfile = answeredAxes.length > 0;
@@ -116,7 +119,7 @@ export default function Results() {
 
           {limit < total && (
             <div className="mt-10 flex justify-center">
-              <Button variant="secondary" size="lg" onClick={() => setLimit((l) => l + NEXT_PAGE)}>
+              <Button variant="secondary" size="lg" onClick={() => showMore(NEXT_PAGE)}>
                 Show more ({total - limit} left)
               </Button>
             </div>

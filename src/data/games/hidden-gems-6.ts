@@ -94,6 +94,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'usagi-shima',
     slug: 'usagi-shima',
+    steamAppId: 3144010,
     title: 'Usagi Shima',
     year: 2024,
     developer: 'Fluffy Fiends',
@@ -114,7 +115,7 @@ export const HIDDEN_GEMS_6: Game[] = [
       'Free, and made by two people',
     ],
     similar: ['placid-plastic-duck-simulator', 'cat-cafe-manager', 'paradise-marsh'],
-    art: { accent: '#e0b8c9', shots: ['ss_67acc3861bcbbebba7e823ce3842ef09a2c7b90d.1920x1080.jpg', 'ss_8b60b1ac4ebba7a7365c837666debb2e53071278.1920x1080.jpg', 'ss_d063fac19985e9e3bfe03c6a9d4d0043676bbe4a.1920x1080.jpg', 'ss_aab252acfcd45c572e37b7d97c988e5fe9488e0a.1920x1080.jpg'] },
+    art: { accent: '#e0b8c9', shots: ['ss_904d77a5c1666ae4a478438b2c5d9125ab822587.1920x1080.jpg', 'ss_cd682134f780e2c53ab7329bfad35a95f1402b1e.1920x1080.jpg', 'ss_115a1608a1049c596c5fb672724be82a40e47f60.1920x1080.jpg', 'ss_56f2359a79c44d71013e2c5dba6d41a68645d226.1920x1080.jpg'] },
   },
   {
     id: 'placid-plastic-duck-simulator',
@@ -805,33 +806,5 @@ export const HIDDEN_GEMS_6: Game[] = [
     ],
     similar: ['lovers-in-a-dangerous-spacetime', 'streets-of-rogue', 'zero-sievert'],
     art: { accent: '#3f7a8a', shots: ['ss_cdf5cbde141fb93a0b23c6adca5378f73e1beeca.1920x1080.jpg', 'ss_3f76fab8878cc134ec1e0032ab91797eed96722d.1920x1080.jpg', 'ss_c56f6f41ab1ec9f98bd449fa7167ec3456dcd306.1920x1080.jpg', 'ss_0158c673e50cf77c4f94e1fa75ae3fddd5629dd3.1920x1080.jpg'] },
-  },
-  {
-    id: 'its-a-wonderful-world',
-    slug: 'its-a-wonderful-world',
-    title: "It's a Wonderful World",
-    year: 2021,
-    developer: 'La Boîte de Jeu',
-    publisher: 'Pandacorn Studio',
-    platforms: ['pc', 'switch2', 'switch'],
-    switch2Status: 'backward-compatible',
-    tier: 'hidden-gem',
-    popularity: 10,
-    rating: 76,
-    genres: ['Board Game', 'Strategy'],
-    tags: ['card-drafting', 'engine-building', 'digital-boardgame', 'solo-mode'],
-    vibes: { pace: 0.3, depth: 0.7, narrative: 0.05, challenge: 0.5, social: 0.6, tone: 0.25, session: 0.25 },
-    artStyle: 'stylized',
-    hoursToBeat: 10,
-    blurb: 'A faithful digital version of the card-drafting board game, where you build a production engine one empire at a time.',
-    hooks: [
-      'Drafting and engine building in about thirty minutes',
-      'Solid solo mode alongside online play',
-      'Genuinely good adaptation of a good board game',
-    ],
-    similar: ['clubhouse-games', 'knock-on-the-coffin-lid'],
-    // No cover: Wikipedia matched the 1946 film "It's a Wonderful Life" and a
-    // movie poster on a board-game adaptation is worse than generated art.
-    art: { accent: '#5f8ac9' },
   },
 ];

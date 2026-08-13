@@ -225,6 +225,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'mullet-madjack',
     slug: 'mullet-madjack',
+    steamAppId: 2111190,
     title: 'MULLET MAD JACK',
     year: 2024,
     developer: 'Hammer95 Studios',
@@ -246,7 +247,7 @@ export const HIDDEN_GEMS_5: Game[] = [
       'Floors are seconds long, runs are minutes',
     ],
     similar: ['turbo-overkill', 'post-void', 'ultrakill'],
-    art: { accent: '#e03f7f', shots: ['ss_1d7a11ad9fd14ec31f003636e2583ade22d70470.1920x1080.jpg', 'ss_3b2987fd590bc5501571e6f6f46c1416fd85ed1a.1920x1080.jpg', 'ss_d008e83962968f04d596a4195f5a5a7e7a826ac0.1920x1080.jpg', 'ss_7ce09e84f90ab5072509237a7c409e49718eb451.1920x1080.jpg'] },
+    art: { accent: '#e03f7f', shots: ['ss_b29d24d0e6947d7c9665a422196ddd53d38e613b.1920x1080.jpg', 'ss_07fc22bc458406e0030e8774ae87461420c09d46.1920x1080.jpg', 'ss_f397e42c1a7c7ef5507c063edf2a576d5d7f4868.1920x1080.jpg', 'ss_9721e68e39c26b644fd7f0215ab0aeb2dbb826ea.1920x1080.jpg'] },
   },
   {
     id: 'post-void',

@@ -30,3 +30,7 @@ coverage/
 # for something `npm run shot` regenerates in seconds. The README stays.
 screenshot/*.png
 screenshot/.tmp/
+
+# The audit PDF is committed — it is the shareable artefact. Its PNG preview
+# exists only so the generator's output can be eyeballed locally.
+reports/preview.png

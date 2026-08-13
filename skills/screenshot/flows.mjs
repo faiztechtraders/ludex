@@ -190,6 +190,60 @@ await flow('save-persists', desktop, async (page) => {
   await page.screenshot({ path: path.join(OUT, 'collection-populated.png'), fullPage: true });
 });
 
+/* -- going back to a list returns you to where you were ------------------- */
+// Reproduces the real complaint: page through the results, open a game, press
+// Back. Both halves have to survive — the number of revealed rows AND the
+// scroll offset. Restoring only the offset does nothing, because a collapsed
+// list is too short to scroll that far.
+await flow('back-restores-list-position', desktop, async (page) => {
+  await page.goto(`${BASE}/results`, { waitUntil: 'networkidle' });
+  await page.waitForTimeout(600);
+
+  const more = page.getByRole('button', { name: /Show more/i });
+  if ((await more.count()) === 0) throw new Error('no "Show more" button to test');
+  await more.click();
+  await page.waitForTimeout(400);
+  await more.click();
+  await page.waitForTimeout(600);
+
+  const rowsBefore = await page.locator('article').count();
+  await page.evaluate(() => window.scrollTo(0, 2600));
+  await page.waitForTimeout(400);
+
+  // Click a card that is ALREADY on screen. Playwright scrolls an off-screen
+  // element into view before clicking, which moves the page and makes the
+  // assertion measure the harness rather than the app.
+  const clicked = await page.evaluate(() => {
+    const link = [...document.querySelectorAll('article a')].find((a) => {
+      const r = a.getBoundingClientRect();
+      // Top edge on screen is enough — the browser will not scroll to click it.
+      return r.top >= 0 && r.top < window.innerHeight - 40;
+    });
+    if (!link) return null;
+    link.click();
+    return window.scrollY;
+  });
+  if (clicked === null) throw new Error('no card fully visible at this scroll offset');
+  const scrollBefore = clicked;
+  if (scrollBefore < 1000) throw new Error(`page did not scroll (y=${scrollBefore})`);
+
+  await page.waitForURL('**/game/**', { timeout: 8000 });
+  await page.waitForTimeout(500);
+
+  await page.goBack({ waitUntil: 'networkidle' });
+  await page.waitForTimeout(1200);
+
+  const rowsAfter = await page.locator('article').count();
+  const scrollAfter = await page.evaluate(() => window.scrollY);
+
+  if (rowsAfter < rowsBefore) {
+    throw new Error(`list collapsed on back: ${rowsBefore} rows -> ${rowsAfter}`);
+  }
+  if (Math.abs(scrollAfter - scrollBefore) > 250) {
+    throw new Error(`scroll not restored: was ${scrollBefore}, came back at ${scrollAfter}`);
+  }
+});
+
 /* -- the axis chips stay pills when a reason wraps ------------------------ */
 // Run at mobile width on purpose. A flex row defaults to `align-items:
 // stretch`, so the chip grows to whatever height the reason beside it needs.
