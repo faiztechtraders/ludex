@@ -36,7 +36,11 @@ export function WhyItFits({
       <ul className="mt-3 space-y-2.5">
         {personalized
           ? reasons.map((reason) => (
-              <li key={reason.axis} className="flex gap-3 text-sm leading-relaxed text-text">
+              // `items-start` is load-bearing: a flex row defaults to
+              // `stretch`, which pulls the axis chip to the full height of the
+              // reason beside it. That looks fine while the reason is one line
+              // and turns the chip into a circle the moment it wraps to two.
+              <li key={reason.axis} className="flex items-start gap-3 text-sm leading-relaxed text-text">
                 <span
                   className="mt-0.5 shrink-0 rounded-chip border px-2 py-0.5 font-display text-[10px] font-semibold uppercase tracking-[0.1em]"
                   style={{ color: accent, borderColor: `color-mix(in oklab, ${accent} 45%, transparent)` }}

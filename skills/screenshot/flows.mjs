@@ -190,6 +190,50 @@ await flow('save-persists', desktop, async (page) => {
   await page.screenshot({ path: path.join(OUT, 'collection-populated.png'), fullPage: true });
 });
 
+/* -- the axis chips stay pills when a reason wraps ------------------------ */
+// Run at mobile width on purpose. A flex row defaults to `align-items:
+// stretch`, so the chip grows to whatever height the reason beside it needs.
+// At desktop width every reason fits one line and the chip looks correct;
+// wrap it to two and the chip becomes square, which `rounded-chip`'s 999px
+// radius then draws as a circle. The bug is invisible at the width most
+// checks run at, which is exactly how it shipped.
+await flow('why-it-fits-chips-do-not-stretch', mobile, async (page) => {
+  await page.goto(`${BASE}/vibe-check`, { waitUntil: 'networkidle' });
+  await page.getByRole('button', { name: /Next/ }).click();
+  for (let guard = 0; guard < 12 && !page.url().endsWith('/results'); guard++) {
+    await page.waitForTimeout(400);
+    const radios = page.getByRole('radio');
+    if ((await radios.count()) > 0) await radios.first().click({ timeout: 5000 });
+    await page.getByRole('button', { name: /Next|See my matches/ }).click({ timeout: 5000 });
+  }
+  await page.waitForURL('**/results', { timeout: 8000 });
+
+  await page.locator('article a').first().click();
+  await page.waitForTimeout(800);
+
+  const panel = page.locator('section', { hasText: 'Why it fits your vibe' }).last();
+  await panel.waitFor({ timeout: 5000 });
+
+  const chips = panel.locator('li > span:first-child');
+  const count = await chips.count();
+  if (count === 0) throw new Error('no reason chips rendered');
+
+  let sawWrap = false;
+  for (let i = 0; i < count; i++) {
+    const chip = await chips.nth(i).boundingBox();
+    const row = await chips.nth(i).locator('..').boundingBox();
+    if (row.height > 30) sawWrap = true;
+    if (chip.height > 26) {
+      const text = (await chips.nth(i).textContent()).trim();
+      throw new Error(
+        `chip "${text}" is ${Math.round(chip.height)}px tall — stretching to its ${Math.round(row.height)}px row`,
+      );
+    }
+  }
+  // Guard the guard: if nothing wrapped, this run proved nothing.
+  if (!sawWrap) throw new Error('no reason wrapped at mobile width — test is not exercising the bug');
+});
+
 /* -- mobile viewport, above the fold, no horizontal overflow -------------- */
 for (const route of [
   ['landing', '/'],
