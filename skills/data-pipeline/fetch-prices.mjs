@@ -173,7 +173,11 @@ async function playstationPrice(game) {
 
 async function fetchBatch(batch, attempt = 0) {
   const ids = batch.map((g) => g.steamAppId).join(',');
-  const url = `https://store.steampowered.com/api/appdetails?appids=${ids}&filters=price_overview&cc=${region}&l=en`;
+  // `basic` comes along for `is_free`. Free-to-play games carry no
+  // price_overview at all, so without it they were indistinguishable from
+  // "not sold in this region" and both fell out of the snapshot — leaving
+  // We Were Here, which is free, showing "Check price".
+  const url = `https://store.steampowered.com/api/appdetails?appids=${ids}&filters=basic,price_overview&cc=${region}&l=en`;
   try {
     const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' } });
     if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
@@ -203,7 +207,18 @@ for (let i = 0; i < priced.length; i += BATCH) {
         continue;
       }
       if (!p) {
-        // Free-to-play, or a region where it simply is not sold.
+        // Free-to-play is a fact worth showing; "not sold in this region" is
+        // not, and both arrive as a missing price_overview. `is_free` tells
+        // them apart. A zero final price is the UI's signal for "Free".
+        if (entry.data?.is_free) {
+          addOffer(game.slug, {
+            store: 'Steam',
+            final: 0,
+            initial: 0,
+            discount: 0,
+            currency: currency ?? 'MYR',
+          });
+        }
         free++;
         continue;
       }

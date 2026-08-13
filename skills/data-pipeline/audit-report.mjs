@@ -15,6 +15,8 @@ import path from 'node:path';
 import { chromium } from 'playwright';
 import { GAMES } from '../../src/data/games/index.ts';
 import { PLATFORMS, PLATFORM_LABELS, TIER_LABELS, VIBE_AXES } from '../../src/data/schema.ts';
+import { PRICES, PRICE_SNAPSHOT } from '../../src/data/prices.ts';
+import { storeLinks } from '../../src/data/links.ts';
 
 const OUT_DIR = 'reports';
 const OUT_PDF = path.join(OUT_DIR, 'ludex-library-audit.pdf');
@@ -55,6 +57,40 @@ const SHOT_REASONS = {
   'pc-building-simulator-2': 'Epic Games Store exclusive. Epic GraphQL is 403 behind Cloudflare.',
 };
 
+/* ------------------------------------------------------------ prices */
+
+const offers = Object.values(PRICES).flat();
+const pricedGames = Object.keys(PRICES).length;
+const multiStore = Object.values(PRICES).filter((o) => o.length > 1).length;
+const onSale = offers.filter((o) => o[3] > 0).length;
+
+const byStore = {};
+for (const [store, , , , currency] of offers) {
+  byStore[store] ??= { count: 0, currency, sale: 0 };
+  byStore[store].count++;
+}
+for (const [store, , , discount] of offers) if (discount > 0) byStore[store].sale++;
+
+/**
+ * A link is only useful if it reaches the product. A search link is honest but
+ * weaker, so the two are counted separately rather than as one "has a link".
+ */
+let directLinks = 0;
+let searchLinks = 0;
+const linkRows = {};
+for (const game of GAMES) {
+  for (const link of storeLinks(game)) {
+    linkRows[link.store] ??= { direct: 0, search: 0 };
+    if (link.search) {
+      linkRows[link.store].search++;
+      searchLinks++;
+    } else {
+      linkRows[link.store].direct++;
+      directLinks++;
+    }
+  }
+}
+
 const integrity = [
   ['Dataset validation', 'pass', `${GAMES.length} games, no errors`],
   ['Duplicate titles', 'pass', 'none'],
@@ -64,6 +100,8 @@ const integrity = [
   ['Repeated `similar` entries', 'pass', 'none'],
   ['Every cached art URL resolves', 'pass', 'verified'],
   ['Switch 2 status honesty', 'pass', 'no back-compat title labelled native'],
+  ['Store links', 'pass', `${directLinks} direct, ${searchLinks} search fallback`],
+  ['Price snapshot freshness', 'pass', `taken ${PRICE_SNAPSHOT.fetchedAt}, refreshed daily by CI`],
 ];
 
 /* ------------------------------------------------------------------- html */
@@ -171,6 +209,36 @@ const html = `<!doctype html>
     )
     .join('')}
 </table>
+
+<h2 class="avoid-break">Prices &amp; store links</h2>
+<div class="sub" style="margin-bottom:2mm">
+  Build-time snapshot taken ${esc(PRICE_SNAPSHOT.fetchedAt)} for the ${esc(PRICE_SNAPSHOT.region)} region.
+  Steam blocks browser-side price reads, so a live figure would need a backend this app does not have.
+</div>
+
+<div class="cards">
+  <div class="card"><div class="lbl">Games priced</div><div class="big">${pricedGames}</div><div class="muted">${pct(pricedGames)}</div></div>
+  <div class="card"><div class="lbl">Total offers</div><div class="big">${offers.length}</div></div>
+  <div class="card"><div class="lbl">Two+ stores</div><div class="big">${multiStore}</div><div class="muted">${pct(multiStore)}</div></div>
+  <div class="card"><div class="lbl">On sale</div><div class="big">${onSale}</div></div>
+</div>
+
+<table class="avoid-break">
+  <tr><th>Store</th><th class="n">Prices</th><th class="n">On sale</th><th class="n">Direct links</th><th class="n">Search only</th><th>Currency</th></tr>
+  ${['Steam', 'PlayStation', 'Nintendo', 'Xbox']
+    .map((store) => {
+      const p = byStore[store];
+      const l = linkRows[store] ?? { direct: 0, search: 0 };
+      return `<tr><td>${store}</td><td class="n">${p?.count ?? 0}</td><td class="n">${p?.sale ?? 0}</td><td class="n">${l.direct}</td><td class="n muted">${l.search}</td><td class="muted">${p?.currency ?? '—'}</td></tr>`;
+    })
+    .join('')}
+</table>
+<div class="sub" style="margin-top:2mm">
+  Nintendo quotes USD only — it publishes no ${esc(PRICE_SNAPSHOT.currency)} price anywhere readable, so those
+  figures carry an approximate conversion marked ≈. PlayStation is fetched per-region and needs none.
+  Xbox cannot be resolved automatically: Microsoft renders store ids client-side, so pairing a title to an
+  id would be guesswork — it links to store search instead of risking the wrong game's price.
+</div>
 
 <h2>Data integrity</h2>
 <table>

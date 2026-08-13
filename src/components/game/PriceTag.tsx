@@ -80,7 +80,14 @@ function StoreRowView({ row }: { row: StoreRow }) {
       <span className="text-xs text-text-muted">{row.store}</span>
 
       <span className="flex flex-wrap items-baseline gap-x-2 gap-y-0.5">
-      {price ? (
+      {price && price.final === 0 ? (
+        // A zero price is free-to-play, recorded deliberately. Showing "Free"
+        // is more useful than any number, and far better than the "Check price"
+        // these games used to fall through to.
+        <span className="font-display text-base font-bold" style={{ color: 'var(--color-neon-lime)' }}>
+          Free
+        </span>
+      ) : price ? (
         <>
           {price.discount > 0 && (
             <>
