@@ -12,6 +12,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'the-last-of-us-part-ii',
     slug: 'the-last-of-us-part-ii',
+    playstationSlug: 'the-last-of-us-part-ii',
     steamAppId: 2531310,
     title: 'The Last of Us Part II',
     year: 2020,
@@ -39,6 +40,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'the-last-of-us-part-i',
     slug: 'the-last-of-us-part-i',
+    playstationSlug: 'the-last-of-us-part-i',
     steamAppId: 1888930,
     title: 'The Last of Us Part I',
     year: 2013,
@@ -66,6 +68,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'uncharted-4',
     slug: 'uncharted-4',
+    playstationSlug: 'uncharted-4-a-thiefs-end',
     steamAppId: 1659420,
     title: "Uncharted 4: A Thief's End",
     year: 2016,
@@ -120,6 +123,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'assassins-creed-odyssey',
     slug: 'assassins-creed-odyssey',
+    playstationSlug: 'assassins-creed-odyssey',
     steamAppId: 812140,
     title: "Assassin's Creed Odyssey",
     year: 2018,
@@ -147,6 +151,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'assassins-creed-black-flag',
     slug: 'assassins-creed-black-flag',
+    playstationSlug: 'assassins-creed-iv-black-flag',
     steamAppId: 242050,
     title: "Assassin's Creed IV: Black Flag",
     year: 2013,
@@ -174,6 +179,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'sea-of-thieves',
     slug: 'sea-of-thieves',
+    playstationSlug: 'sea-of-thieves',
     steamAppId: 1172620,
     title: 'Sea of Thieves',
     year: 2018,
@@ -201,6 +207,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'forza-horizon-5',
     slug: 'forza-horizon-5',
+    playstationSlug: 'forza-horizon-5',
     steamAppId: 1551360,
     title: 'Forza Horizon 5',
     year: 2021,
@@ -255,6 +262,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'call-of-duty-modern-warfare-2019',
     slug: 'call-of-duty-modern-warfare-2019',
+    playstationSlug: 'call-of-duty-modern-warfare',
     steamAppId: 2000950,
     title: 'Call of Duty: Modern Warfare',
     year: 2019,
@@ -282,6 +290,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'battlefield-2042',
     slug: 'battlefield-2042',
+    playstationSlug: 'battlefield-2042',
     steamAppId: 1517290,
     title: 'Battlefield 2042',
     year: 2021,
@@ -309,6 +318,8 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'apex-legends',
     slug: 'apex-legends',
+    nintendoSlug: 'apex-legends-switch-2',
+    playstationSlug: 'apex-legends',
     steamAppId: 1172470,
     title: 'Apex Legends',
     year: 2019,
@@ -337,6 +348,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'fortnite',
     slug: 'fortnite',
+    playstationSlug: 'fortnite',
     nintendoSlug: 'fortnite-switch-2',
     title: 'Fortnite',
     year: 2017,
@@ -364,6 +376,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'rocket-league',
     slug: 'rocket-league',
+    playstationSlug: 'rocket-league',
     nintendoSlug: 'rocket-league-switch',
     title: 'Rocket League',
     year: 2015,
@@ -391,6 +404,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'ea-sports-fc-25',
     slug: 'ea-sports-fc-25',
+    playstationSlug: 'ea-sports-fc-25',
     steamAppId: 2669320,
     title: 'EA Sports FC 25',
     year: 2024,
@@ -419,6 +433,8 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'nba-2k25',
     slug: 'nba-2k25',
+    nintendoSlug: 'nba-2k25-switch',
+    playstationSlug: 'nba-2k25',
     steamAppId: 2878980,
     title: 'NBA 2K25',
     year: 2024,
@@ -447,6 +463,8 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'mortal-kombat-1',
     slug: 'mortal-kombat-1',
+    nintendoSlug: 'mortal-kombat-1-switch',
+    playstationSlug: 'mortal-kombat-1',
     steamAppId: 1971870,
     title: 'Mortal Kombat 1',
     year: 2023,
@@ -475,6 +493,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'tekken-8',
     slug: 'tekken-8',
+    playstationSlug: 'tekken-8',
     steamAppId: 1778820,
     title: 'Tekken 8',
     year: 2024,
@@ -501,6 +520,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'far-cry-5',
     slug: 'far-cry-5',
+    playstationSlug: 'far-cry-5',
     steamAppId: 552520,
     title: 'Far Cry 5',
     year: 2018,
@@ -528,6 +548,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'far-cry-6',
     slug: 'far-cry-6',
+    playstationSlug: 'far-cry-6',
     steamAppId: 2369390,
     title: 'Far Cry 6',
     year: 2021,
@@ -582,6 +603,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'watch-dogs-2',
     slug: 'watch-dogs-2',
+    playstationSlug: 'watch-dogs-2',
     steamAppId: 447040,
     title: 'Watch Dogs 2',
     year: 2016,
@@ -609,6 +631,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'dishonored-2',
     slug: 'dishonored-2',
+    playstationSlug: 'dishonored-2',
     steamAppId: 403640,
     title: 'Dishonored 2',
     year: 2016,
@@ -636,6 +659,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'prey-2017',
     slug: 'prey-2017',
+    playstationSlug: 'prey',
     steamAppId: 480490,
     title: 'Prey',
     year: 2017,
@@ -663,6 +687,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'deathloop',
     slug: 'deathloop',
+    playstationSlug: 'deathloop',
     steamAppId: 1252330,
     title: 'Deathloop',
     year: 2021,
@@ -690,6 +715,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'hitman-world-of-assassination',
     slug: 'hitman-world-of-assassination',
+    playstationSlug: 'hitman',
     steamAppId: 1659040,
     title: 'Hitman: World of Assassination',
     year: 2021,
@@ -717,6 +743,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'system-shock-remake',
     slug: 'system-shock-remake',
+    playstationSlug: 'system-shock',
     steamAppId: 482400,
     title: 'System Shock',
     year: 2023,
@@ -743,6 +770,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'control',
     slug: 'control',
+    playstationSlug: 'control',
     steamAppId: 870780,
     title: 'Control',
     year: 2019,
@@ -771,6 +799,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'star-wars-jedi-survivor',
     slug: 'star-wars-jedi-survivor',
+    playstationSlug: 'star-wars-jedi-survivor',
     steamAppId: 1774580,
     title: 'Star Wars Jedi: Survivor',
     year: 2023,
@@ -798,6 +827,7 @@ export const MAINSTREAM_GAMES_3: Game[] = [
   {
     id: 'star-wars-jedi-fallen-order',
     slug: 'star-wars-jedi-fallen-order',
+    playstationSlug: 'star-wars-jedi-fallen-order',
     steamAppId: 1172380,
     title: 'Star Wars Jedi: Fallen Order',
     year: 2019,

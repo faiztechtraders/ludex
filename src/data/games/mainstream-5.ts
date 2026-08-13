@@ -10,6 +10,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'super-mario-bros-wonder',
     slug: 'super-mario-bros-wonder',
+    nintendoSlug: 'super-mario-bros-wonder-switch',
     title: 'Super Mario Bros. Wonder',
     year: 2023,
     developer: 'Nintendo EPD',
@@ -227,6 +228,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'palworld',
     slug: 'palworld',
+    playstationSlug: 'palworld',
     steamAppId: 1623730,
     title: 'Palworld',
     year: 2024,
@@ -306,6 +308,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'triangle-strategy',
     slug: 'triangle-strategy',
+    nintendoSlug: 'triangle-strategy-switch',
     steamAppId: 1850510,
     title: 'Triangle Strategy',
     year: 2022,
@@ -333,6 +336,8 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'octopath-traveler-ii',
     slug: 'octopath-traveler-ii',
+    nintendoSlug: 'octopath-traveler-ii-switch-2',
+    playstationSlug: 'octopath-traveler-ii',
     steamAppId: 1971650,
     title: 'Octopath Traveler II',
     year: 2023,
@@ -385,6 +390,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'final-fantasy-xvi',
     slug: 'final-fantasy-xvi',
+    playstationSlug: 'final-fantasy-xvi',
     steamAppId: 2515020,
     title: 'Final Fantasy XVI',
     year: 2023,
@@ -410,6 +416,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'final-fantasy-vii-remake',
     slug: 'final-fantasy-vii-remake',
+    playstationSlug: 'final-fantasy-vii-remake-intergrade',
     steamAppId: 1462040,
     title: 'Final Fantasy VII Remake Intergrade',
     year: 2020,
@@ -435,6 +442,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'persona-3-reload',
     slug: 'persona-3-reload',
+    playstationSlug: 'persona-3-reload',
     steamAppId: 2161700,
     title: 'Persona 3 Reload',
     year: 2024,
@@ -460,6 +468,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'metaphor-refantazio',
     slug: 'metaphor-refantazio',
+    playstationSlug: 'metaphor-refantazio',
     steamAppId: 2679460,
     title: 'Metaphor: ReFantazio',
     year: 2024,
@@ -485,6 +494,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'like-a-dragon-infinite-wealth',
     slug: 'like-a-dragon-infinite-wealth',
+    playstationSlug: 'like-a-dragon-infinite-wealth',
     steamAppId: 2072450,
     title: 'Like a Dragon: Infinite Wealth',
     year: 2024,
@@ -511,6 +521,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'yakuza-0',
     slug: 'yakuza-0',
+    playstationSlug: 'yakuza-0',
     steamAppId: 2988580,
     title: 'Yakuza 0',
     year: 2015,
@@ -538,6 +549,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'judgment',
     slug: 'judgment',
+    playstationSlug: 'judgment',
     steamAppId: 2058180,
     title: 'Judgment',
     year: 2018,
@@ -564,6 +576,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'sleeping-dogs',
     slug: 'sleeping-dogs',
+    playstationSlug: 'sleeping-dogs',
     steamAppId: 202170,
     title: 'Sleeping Dogs',
     year: 2012,
@@ -642,6 +655,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'horizon-zero-dawn',
     slug: 'horizon-zero-dawn',
+    playstationSlug: 'horizon-zero-dawn-remastered',
     steamAppId: 2561580,
     title: 'Horizon Zero Dawn Remastered',
     year: 2017,
@@ -668,6 +682,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'days-gone',
     slug: 'days-gone',
+    playstationSlug: 'days-gone',
     steamAppId: 1259420,
     title: 'Days Gone',
     year: 2019,
@@ -720,6 +735,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'stellar-blade',
     slug: 'stellar-blade',
+    playstationSlug: 'stellar-blade',
     steamAppId: 3489700,
     title: 'Stellar Blade',
     year: 2024,
@@ -746,6 +762,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'death-stranding',
     slug: 'death-stranding',
+    playstationSlug: 'death-stranding',
     steamAppId: 1850570,
     title: 'Death Stranding',
     year: 2019,
@@ -771,6 +788,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'death-stranding-2',
     slug: 'death-stranding-2',
+    playstationSlug: 'death-stranding-2-on-the-beach',
     steamAppId: 3280350,
     title: 'Death Stranding 2: On the Beach',
     year: 2025,
@@ -796,6 +814,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'metal-gear-solid-delta',
     slug: 'metal-gear-solid-delta',
+    playstationSlug: 'metal-gear-solid-delta-snake-eater',
     steamAppId: 2417610,
     title: 'Metal Gear Solid Delta: Snake Eater',
     year: 2025,
@@ -899,6 +918,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'psychonauts-2',
     slug: 'psychonauts-2',
+    playstationSlug: 'psychonauts-2',
     steamAppId: 607080,
     title: 'Psychonauts 2',
     year: 2021,
@@ -925,6 +945,8 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'grounded',
     slug: 'grounded',
+    nintendoSlug: 'grounded-switch',
+    playstationSlug: 'grounded',
     steamAppId: 962130,
     title: 'Grounded',
     year: 2022,
@@ -952,6 +974,7 @@ export const MAINSTREAM_GAMES_5: Game[] = [
   {
     id: 'sackboy-a-big-adventure',
     slug: 'sackboy-a-big-adventure',
+    playstationSlug: 'sackboy-a-big-adventure',
     steamAppId: 1599660,
     title: 'Sackboy: A Big Adventure',
     year: 2020,

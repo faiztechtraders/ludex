@@ -12,6 +12,7 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'bug-fables',
     slug: 'bug-fables',
+    nintendoSlug: 'bug-fables-the-everlasting-sapling-switch',
     steamAppId: 1082710,
     title: 'Bug Fables: The Everlasting Sapling',
     year: 2019,
@@ -38,6 +39,7 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'monster-sanctuary',
     slug: 'monster-sanctuary',
+    nintendoSlug: 'monster-sanctuary-switch',
     steamAppId: 814370,
     title: 'Monster Sanctuary',
     year: 2020,
@@ -64,6 +66,7 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'coromon',
     slug: 'coromon',
+    nintendoSlug: 'coromon-switch',
     steamAppId: 1218210,
     title: 'Coromon',
     year: 2022,
@@ -90,6 +93,8 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'cozy-grove',
     slug: 'cozy-grove',
+    nintendoSlug: 'cozy-grove-switch',
+    playstationSlug: 'cozy-grove',
     steamAppId: 1458100,
     title: 'Cozy Grove',
     year: 2021,
@@ -116,6 +121,7 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'ooblets',
     slug: 'ooblets',
+    nintendoSlug: 'ooblets-switch',
     steamAppId: 593150,
     title: 'Ooblets',
     year: 2022,
@@ -142,6 +148,7 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'fae-farm',
     slug: 'fae-farm',
+    nintendoSlug: 'fae-farm-switch',
     steamAppId: 2230110,
     title: 'Fae Farm',
     year: 2023,
@@ -168,6 +175,8 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'planet-of-lana',
     slug: 'planet-of-lana',
+    nintendoSlug: 'planet-of-lana-switch',
+    playstationSlug: 'planet-of-lana',
     steamAppId: 1608230,
     title: 'Planet of Lana',
     year: 2023,
@@ -194,6 +203,8 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'endling',
     slug: 'endling',
+    nintendoSlug: 'endling-extinction-is-forever-switch',
+    playstationSlug: 'endling-extinction-is-forever',
     steamAppId: 898890,
     title: 'Endling: Extinction is Forever',
     year: 2022,
@@ -220,6 +231,8 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'twelve-minutes',
     slug: 'twelve-minutes',
+    nintendoSlug: 'twelve-minutes-switch',
+    playstationSlug: 'twelve-minutes',
     steamAppId: 1097200,
     title: 'Twelve Minutes',
     year: 2021,
@@ -246,6 +259,7 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'before-your-eyes',
     slug: 'before-your-eyes',
+    playstationSlug: 'before-your-eyes',
     steamAppId: 1082430,
     title: 'Before Your Eyes',
     year: 2021,
@@ -271,6 +285,7 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'as-dusk-falls',
     slug: 'as-dusk-falls',
+    playstationSlug: 'as-dusk-falls',
     steamAppId: 1341820,
     title: 'As Dusk Falls',
     year: 2022,
@@ -297,6 +312,7 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'somerville',
     slug: 'somerville',
+    playstationSlug: 'somerville',
     steamAppId: 1671410,
     title: 'Somerville',
     year: 2022,
@@ -323,6 +339,8 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'maquette',
     slug: 'maquette',
+    nintendoSlug: 'maquette-switch',
+    playstationSlug: 'maquette',
     steamAppId: 762840,
     title: 'Maquette',
     year: 2021,
@@ -349,6 +367,7 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'escape-academy',
     slug: 'escape-academy',
+    playstationSlug: 'escape-academy',
     steamAppId: 1812090,
     title: 'Escape Academy',
     year: 2022,
@@ -375,6 +394,7 @@ export const HIDDEN_GEMS_4: Game[] = [
   {
     id: 'the-house-of-da-vinci',
     slug: 'the-house-of-da-vinci',
+    nintendoSlug: 'the-house-of-da-vinci-switch',
     steamAppId: 522470,
     title: 'The House of Da Vinci',
     year: 2019,

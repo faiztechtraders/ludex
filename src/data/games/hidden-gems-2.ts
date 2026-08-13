@@ -12,6 +12,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'hypnospace-outlaw',
     slug: 'hypnospace-outlaw',
+    nintendoSlug: 'hypnospace-outlaw-switch',
     steamAppId: 844590,
     title: 'Hypnospace Outlaw',
     year: 2019,
@@ -39,6 +40,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'heavens-vault',
     slug: 'heavens-vault',
+    nintendoSlug: 'heavens-vault-switch',
     steamAppId: 774201,
     title: "Heaven's Vault",
     year: 2019,
@@ -66,6 +68,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'overboard',
     slug: 'overboard',
+    nintendoSlug: 'overboard-switch',
     steamAppId: 1546920,
     title: 'Overboard!',
     year: 2021,
@@ -93,6 +96,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'in-other-waters',
     slug: 'in-other-waters',
+    nintendoSlug: 'in-other-waters-switch',
     steamAppId: 890720,
     title: 'In Other Waters',
     year: 2020,
@@ -120,6 +124,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'eastward',
     slug: 'eastward',
+    nintendoSlug: 'eastward-switch',
     steamAppId: 977880,
     title: 'Eastward',
     year: 2021,
@@ -147,6 +152,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'wandersong',
     slug: 'wandersong',
+    nintendoSlug: 'wandersong-switch',
     steamAppId: 530320,
     title: 'Wandersong',
     year: 2018,
@@ -174,6 +180,8 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'chicory-a-colorful-tale',
     slug: 'chicory-a-colorful-tale',
+    nintendoSlug: 'chicory-a-colorful-tale-switch',
+    playstationSlug: 'chicory-a-colorful-tale',
     steamAppId: 1123450,
     title: 'Chicory: A Colorful Tale',
     year: 2021,
@@ -254,6 +262,8 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'gorogoa',
     slug: 'gorogoa',
+    nintendoSlug: 'gorogoa-switch',
+    playstationSlug: 'gorogoa',
     steamAppId: 557600,
     title: 'Gorogoa',
     year: 2017,
@@ -333,6 +343,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'patricks-parabox',
     slug: 'patricks-parabox',
+    nintendoSlug: 'patricks-parabox-switch',
     steamAppId: 1260520,
     title: "Patrick's Parabox",
     year: 2022,
@@ -360,6 +371,8 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'superliminal',
     slug: 'superliminal',
+    nintendoSlug: 'superliminal-switch',
+    playstationSlug: 'superliminal',
     steamAppId: 1049410,
     title: 'Superliminal',
     year: 2019,
@@ -387,6 +400,8 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'manifold-garden',
     slug: 'manifold-garden',
+    nintendoSlug: 'manifold-garden-switch',
+    playstationSlug: 'manifold-garden',
     steamAppId: 473950,
     title: 'Manifold Garden',
     year: 2019,
@@ -414,6 +429,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'islanders',
     slug: 'islanders',
+    nintendoSlug: 'islanders-switch',
     steamAppId: 1046030,
     title: 'Islanders',
     year: 2019,
@@ -441,6 +457,8 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'toem',
     slug: 'toem',
+    nintendoSlug: 'toem-switch',
+    playstationSlug: 'toem',
     steamAppId: 1307580,
     title: 'Toem',
     year: 2021,
@@ -468,6 +486,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'strange-horticulture',
     slug: 'strange-horticulture',
+    nintendoSlug: 'strange-horticulture-switch',
     steamAppId: 1574580,
     title: 'Strange Horticulture',
     year: 2022,
@@ -550,6 +569,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'iron-lung',
     slug: 'iron-lung',
+    nintendoSlug: 'iron-lung-switch',
     steamAppId: 1846170,
     title: 'Iron Lung',
     year: 2022,
@@ -603,6 +623,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'mundaun',
     slug: 'mundaun',
+    nintendoSlug: 'mundaun-switch',
     steamAppId: 720350,
     title: 'Mundaun',
     year: 2021,
@@ -630,6 +651,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'the-excavation-of-hobs-barrow',
     slug: 'the-excavation-of-hobs-barrow',
+    nintendoSlug: 'the-excavation-of-hobs-barrow-switch',
     steamAppId: 1182310,
     title: "The Excavation of Hob's Barrow",
     year: 2022,
@@ -657,6 +679,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'genesis-noir',
     slug: 'genesis-noir',
+    nintendoSlug: 'genesis-noir-switch',
     steamAppId: 735290,
     title: 'Genesis Noir',
     year: 2021,
@@ -684,6 +707,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'sludge-life',
     slug: 'sludge-life',
+    nintendoSlug: 'sludge-life-switch',
     steamAppId: 1144770,
     title: 'Sludge Life',
     year: 2020,
@@ -711,6 +735,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'umurangi-generation',
     slug: 'umurangi-generation',
+    playstationSlug: 'umurangi-generation',
     steamAppId: 1223500,
     title: 'Umurangi Generation',
     year: 2020,
@@ -738,6 +763,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'rollerdrome',
     slug: 'rollerdrome',
+    playstationSlug: 'rollerdrome',
     steamAppId: 1294420,
     title: 'Rollerdrome',
     year: 2022,
@@ -764,6 +790,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'dicey-dungeons',
     slug: 'dicey-dungeons',
+    nintendoSlug: 'dicey-dungeons-switch',
     steamAppId: 861540,
     title: 'Dicey Dungeons',
     year: 2019,
@@ -791,6 +818,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'wildfrost',
     slug: 'wildfrost',
+    nintendoSlug: 'wildfrost-switch',
     steamAppId: 1811990,
     title: 'Wildfrost',
     year: 2023,
@@ -818,6 +846,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'cobalt-core',
     slug: 'cobalt-core',
+    nintendoSlug: 'cobalt-core-switch',
     steamAppId: 2179850,
     title: 'Cobalt Core',
     year: 2023,
@@ -845,6 +874,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'suzerain',
     slug: 'suzerain',
+    nintendoSlug: 'suzerain-switch',
     steamAppId: 1207650,
     title: 'Suzerain',
     year: 2020,
@@ -872,6 +902,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'roadwarden',
     slug: 'roadwarden',
+    nintendoSlug: 'roadwarden-switch',
     steamAppId: 1155970,
     title: 'Roadwarden',
     year: 2022,
@@ -899,6 +930,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'fights-in-tight-spaces',
     slug: 'fights-in-tight-spaces',
+    nintendoSlug: 'fights-in-tight-spaces-switch',
     steamAppId: 1265820,
     title: 'Fights in Tight Spaces',
     year: 2021,
@@ -926,6 +958,8 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'citizen-sleeper-2',
     slug: 'citizen-sleeper-2',
+    nintendoSlug: 'citizen-sleeper-2-starward-vector-switch',
+    playstationSlug: 'citizen-sleeper-2-starward-vector',
     steamAppId: 2442460,
     title: 'Citizen Sleeper 2: Starward Vector',
     year: 2025,
@@ -980,6 +1014,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'a-monsters-expedition',
     slug: 'a-monsters-expedition',
+    nintendoSlug: 'a-monsters-expedition-switch',
     steamAppId: 1052990,
     title: "A Monster's Expedition",
     year: 2020,
@@ -1007,6 +1042,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'storyteller',
     slug: 'storyteller',
+    nintendoSlug: 'storyteller-switch',
     steamAppId: 1624540,
     title: 'Storyteller',
     year: 2023,
@@ -1034,6 +1070,8 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'behind-the-frame',
     slug: 'behind-the-frame',
+    nintendoSlug: 'behind-the-frame-the-finest-scenery-switch',
+    playstationSlug: 'behind-the-frame-the-finest-scenery',
     steamAppId: 1634150,
     title: 'Behind the Frame: The Finest Scenery',
     year: 2021,
@@ -1061,6 +1099,8 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'dordogne',
     slug: 'dordogne',
+    nintendoSlug: 'dordogne-switch',
+    playstationSlug: 'dordogne',
     steamAppId: 1272840,
     title: 'Dordogne',
     year: 2023,
@@ -1088,6 +1128,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'season-a-letter-to-the-future',
     slug: 'season-a-letter-to-the-future',
+    playstationSlug: 'season-a-letter-to-the-future',
     steamAppId: 695330,
     title: 'Season: A Letter to the Future',
     year: 2023,
@@ -1141,6 +1182,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'griftlands',
     slug: 'griftlands',
+    nintendoSlug: 'griftlands-switch',
     steamAppId: 601840,
     title: 'Griftlands',
     year: 2021,
@@ -1168,6 +1210,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'peglin',
     slug: 'peglin',
+    nintendoSlug: 'peglin-switch',
     steamAppId: 1296610,
     title: 'Peglin',
     year: 2022,
@@ -1222,6 +1265,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'luck-be-a-landlord',
     slug: 'luck-be-a-landlord',
+    nintendoSlug: 'luck-be-a-landlord-switch',
     steamAppId: 1404850,
     title: 'Luck be a Landlord',
     year: 2021,
@@ -1249,6 +1293,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'backpack-hero',
     slug: 'backpack-hero',
+    nintendoSlug: 'backpack-hero-switch',
     steamAppId: 1970580,
     title: 'Backpack Hero',
     year: 2023,
@@ -1276,6 +1321,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'have-a-nice-death',
     slug: 'have-a-nice-death',
+    nintendoSlug: 'have-a-nice-death-switch',
     steamAppId: 1740720,
     title: 'Have a Nice Death',
     year: 2023,
@@ -1381,6 +1427,7 @@ export const HIDDEN_GEMS_2: Game[] = [
   {
     id: 'wobbledogs',
     slug: 'wobbledogs',
+    nintendoSlug: 'wobbledogs-switch',
     steamAppId: 1424330,
     title: 'Wobbledogs',
     year: 2022,

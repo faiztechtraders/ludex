@@ -210,6 +210,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'stardew-valley',
     slug: 'stardew-valley',
+    nintendoSlug: 'stardew-valley-switch',
     steamAppId: 413150,
     title: 'Stardew Valley',
     year: 2016,
@@ -237,6 +238,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'it-takes-two',
     slug: 'it-takes-two',
+    nintendoSlug: 'it-takes-two-switch',
     playstationSlug: 'it-takes-two',
     steamAppId: 1426210,
     title: 'It Takes Two',
@@ -404,6 +406,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'the-witcher-3',
     slug: 'the-witcher-3',
+    nintendoSlug: 'the-witcher-3-wild-hunt-switch',
     playstationSlug: 'the-witcher-3-wild-hunt',
     steamAppId: 292030,
     title: 'The Witcher 3: Wild Hunt',
@@ -432,6 +435,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'split-fiction',
     slug: 'split-fiction',
+    nintendoSlug: 'split-fiction-switch-2',
     playstationSlug: 'split-fiction',
     steamAppId: 2001120,
     title: 'Split Fiction',
@@ -489,6 +493,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'street-fighter-6',
     slug: 'street-fighter-6',
+    nintendoSlug: 'street-fighter-6-switch-2',
     playstationSlug: 'street-fighter-6',
     steamAppId: 1364780,
     title: 'Street Fighter 6',
@@ -545,6 +550,8 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'hogwarts-legacy',
     slug: 'hogwarts-legacy',
+    nintendoSlug: 'hogwarts-legacy-switch-2',
+    playstationSlug: 'hogwarts-legacy',
     steamAppId: 990080,
     title: 'Hogwarts Legacy',
     year: 2023,
@@ -573,6 +580,7 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'marvels-spider-man-2',
     slug: 'marvels-spider-man-2',
+    playstationSlug: 'marvels-spider-man-2',
     steamAppId: 2651280,
     title: "Marvel's Spider-Man 2",
     year: 2023,
@@ -628,6 +636,8 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'sonic-racing-crossworlds',
     slug: 'sonic-racing-crossworlds',
+    nintendoSlug: 'sonic-racing-crossworlds-switch',
+    playstationSlug: 'sonic-racing-crossworlds',
     steamAppId: 2486820,
     title: 'Sonic Racing: CrossWorlds',
     year: 2025,
@@ -656,6 +666,8 @@ export const MAINSTREAM_GAMES: Game[] = [
   {
     id: 'overcooked-2',
     slug: 'overcooked-2',
+    nintendoSlug: 'overcooked-2-switch',
+    playstationSlug: 'overcooked-2',
     steamAppId: 728880,
     title: 'Overcooked! 2',
     year: 2018,

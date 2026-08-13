@@ -13,6 +13,7 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'hollow-knight',
     slug: 'hollow-knight',
+    nintendoSlug: 'hollow-knight-switch',
     steamAppId: 367520,
     title: 'Hollow Knight',
     year: 2017,
@@ -40,6 +41,7 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'celeste',
     slug: 'celeste',
+    nintendoSlug: 'celeste-switch',
     steamAppId: 504230,
     title: 'Celeste',
     year: 2018,
@@ -70,6 +72,8 @@ export const INDIE_GAMES: Game[] = [
     // the series does not straddle the boundary on a 12-point popularity gap.
     id: 'hades',
     slug: 'hades',
+    nintendoSlug: 'hades-switch',
+    playstationSlug: 'hades',
     steamAppId: 1145360,
     title: 'Hades',
     year: 2020,
@@ -97,6 +101,7 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'hades-ii',
     slug: 'hades-ii',
+    nintendoSlug: 'hades-ii-switch',
     steamAppId: 1145350,
     title: 'Hades II',
     year: 2025,
@@ -124,6 +129,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'disco-elysium',
     slug: 'disco-elysium',
+    nintendoSlug: 'disco-elysium-the-final-cut-switch',
+    playstationSlug: 'disco-elysium',
     // Pinned: Steam lists it as plain "Disco Elysium", so the title match fails.
     steamAppId: 632470,
     title: 'Disco Elysium: The Final Cut',
@@ -152,6 +159,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'outer-wilds',
     slug: 'outer-wilds',
+    nintendoSlug: 'outer-wilds-switch',
+    playstationSlug: 'outer-wilds',
     steamAppId: 753640,
     title: 'Outer Wilds',
     year: 2019,
@@ -206,6 +215,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'tunic',
     slug: 'tunic',
+    nintendoSlug: 'tunic-switch',
+    playstationSlug: 'tunic',
     steamAppId: 553420,
     title: 'Tunic',
     year: 2022,
@@ -233,6 +244,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'dead-cells',
     slug: 'dead-cells',
+    nintendoSlug: 'dead-cells-switch',
+    playstationSlug: 'dead-cells',
     steamAppId: 588650,
     title: 'Dead Cells',
     year: 2018,
@@ -260,6 +273,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'cult-of-the-lamb',
     slug: 'cult-of-the-lamb',
+    nintendoSlug: 'cult-of-the-lamb-switch',
+    playstationSlug: 'cult-of-the-lamb',
     steamAppId: 1313140,
     title: 'Cult of the Lamb',
     year: 2022,
@@ -287,6 +302,7 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'slay-the-spire',
     slug: 'slay-the-spire',
+    nintendoSlug: 'slay-the-spire-switch',
     steamAppId: 646570,
     title: 'Slay the Spire',
     year: 2019,
@@ -314,6 +330,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'inscryption',
     slug: 'inscryption',
+    nintendoSlug: 'inscryption-switch',
+    playstationSlug: 'inscryption',
     steamAppId: 1092790,
     title: 'Inscryption',
     year: 2021,
@@ -341,6 +359,7 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'return-of-the-obra-dinn',
     slug: 'return-of-the-obra-dinn',
+    nintendoSlug: 'return-of-the-obra-dinn-switch',
     steamAppId: 653530,
     title: 'Return of the Obra Dinn',
     year: 2018,
@@ -368,6 +387,7 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'a-short-hike',
     slug: 'a-short-hike',
+    nintendoSlug: 'a-short-hike-switch',
     steamAppId: 1055540,
     title: 'A Short Hike',
     year: 2019,
@@ -395,6 +415,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'spiritfarer',
     slug: 'spiritfarer',
+    nintendoSlug: 'spiritfarer-switch',
+    playstationSlug: 'spiritfarer',
     // Pinned: Steam lists it as "Spiritfarer®: Farewell Edition".
     steamAppId: 972660,
     title: 'Spiritfarer',
@@ -423,6 +445,7 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'undertale',
     slug: 'undertale',
+    nintendoSlug: 'undertale-switch',
     steamAppId: 391540,
     title: 'Undertale',
     year: 2015,
@@ -450,6 +473,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'balatro',
     slug: 'balatro',
+    nintendoSlug: 'balatro-switch-2',
+    playstationSlug: 'balatro',
     steamAppId: 2379780,
     title: 'Balatro',
     year: 2024,
@@ -477,6 +502,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'animal-well',
     slug: 'animal-well',
+    nintendoSlug: 'animal-well-switch',
+    playstationSlug: 'animal-well',
     steamAppId: 813230,
     title: 'Animal Well',
     year: 2024,
@@ -504,6 +531,7 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'pizza-tower',
     slug: 'pizza-tower',
+    nintendoSlug: 'pizza-tower-switch',
     steamAppId: 2231450,
     title: 'Pizza Tower',
     year: 2023,
@@ -531,6 +559,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'chants-of-sennaar',
     slug: 'chants-of-sennaar',
+    nintendoSlug: 'chants-of-sennaar-switch',
+    playstationSlug: 'chants-of-sennaar',
     steamAppId: 1931770,
     title: 'Chants of Sennaar',
     year: 2023,
@@ -558,6 +588,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'blue-prince',
     slug: 'blue-prince',
+    nintendoSlug: 'blue-prince-switch-2',
+    playstationSlug: 'blue-prince',
     steamAppId: 1569580,
     title: 'Blue Prince',
     year: 2025,
@@ -587,6 +619,8 @@ export const INDIE_GAMES: Game[] = [
     // widely reviewed, so its reach is real. Reach decides the tier, not quality.
     id: 'death-s-door',
     slug: 'death-s-door',
+    nintendoSlug: 'deaths-door-switch',
+    playstationSlug: 'deaths-door',
     steamAppId: 894020,
     title: "Death's Door",
     year: 2021,
@@ -615,6 +649,7 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'deep-rock-galactic',
     slug: 'deep-rock-galactic',
+    playstationSlug: 'deep-rock-galactic',
     steamAppId: 548430,
     title: 'Deep Rock Galactic',
     year: 2020,
@@ -667,6 +702,7 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'phasmophobia',
     slug: 'phasmophobia',
+    playstationSlug: 'phasmophobia',
     steamAppId: 739630,
     title: 'Phasmophobia',
     year: 2020,
@@ -693,6 +729,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'powerwash-simulator',
     slug: 'powerwash-simulator',
+    nintendoSlug: 'powerwash-simulator-switch',
+    playstationSlug: 'powerwash-simulator',
     steamAppId: 1290000,
     title: 'PowerWash Simulator',
     year: 2022,
@@ -720,6 +758,8 @@ export const INDIE_GAMES: Game[] = [
   {
     id: 'dredge',
     slug: 'dredge',
+    nintendoSlug: 'dredge-switch',
+    playstationSlug: 'dredge',
     steamAppId: 1562430,
     title: 'Dredge',
     year: 2023,

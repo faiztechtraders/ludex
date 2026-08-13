@@ -1,4 +1,8 @@
 import type { Game } from './schema.ts';
+import { PRICE_SNAPSHOT } from './prices.ts';
+
+/** Keep store links in the same region the prices were quoted for. */
+const PS_LOCALE = `en-${PRICE_SNAPSHOT.region.toLowerCase()}`;
 
 /**
  * Official store links, derived from the ids the art pipeline already resolves.
@@ -24,57 +28,59 @@ export interface StoreLink {
   search?: boolean;
 }
 
+/**
+ * A link for **every platform the game is actually on**, never just the one we
+ * happen to have an id for.
+ *
+ * Someone who owns only a Switch was previously shown a Steam price and nothing
+ * else, because a direct Steam link suppressed the fallbacks entirely. Each
+ * platform family the game supports now gets its own row: a direct product link
+ * where the id resolved, a store search where it did not. A search is a weaker
+ * answer than a price, but it is on the right storefront and it is one click —
+ * silence is the only genuinely useless option.
+ */
 export function storeLinks(game: Game): StoreLink[] {
   const links: StoreLink[] = [];
+  const q = encodeURIComponent(game.title);
+  const on = (...ps: string[]) => ps.some((p) => game.platforms.includes(p as Game['platforms'][number]));
 
   if (game.steamAppId) {
     links.push({ store: 'Steam', url: `https://store.steampowered.com/app/${game.steamAppId}/` });
+  } else if (on('pc')) {
+    links.push({ store: 'Steam', url: `https://store.steampowered.com/search/?term=${q}`, search: true });
   }
+
+  if (game.playstationSlug) {
+    links.push({
+      store: 'PlayStation',
+      url: `https://www.playstation.com/${PS_LOCALE}/games/${game.playstationSlug}/`,
+    });
+  } else if (on('ps5', 'ps4')) {
+    links.push({
+      store: 'PlayStation',
+      url: `https://www.playstation.com/${PS_LOCALE}/search/?q=${q}`,
+      search: true,
+    });
+  }
+
   if (game.nintendoSlug) {
     links.push({
       store: 'Nintendo',
       url: `https://www.nintendo.com/us/store/products/${game.nintendoSlug}/`,
     });
+  } else if (on('switch', 'switch2')) {
+    links.push({ store: 'Nintendo', url: `https://www.nintendo.com/us/search/#q=${q}`, search: true });
   }
-  if (game.playstationSlug) {
-    links.push({
-      store: 'PlayStation',
-      url: `https://www.playstation.com/en-us/games/${game.playstationSlug}/`,
-    });
-  }
+
   if (game.xboxStoreId) {
-    // Microsoft ignores the slug segment and resolves on the id alone.
     links.push({ store: 'Xbox', url: `https://www.xbox.com/games/store/game/${game.xboxStoreId}` });
+  } else if (on('xbox-series', 'xbox-one')) {
+    // Xbox ids cannot be resolved automatically — Microsoft's search page
+    // renders them client-side, so pairing a title to an id would be guesswork.
+    links.push({ store: 'Xbox', url: `https://www.xbox.com/en-US/Search?q=${q}`, search: true });
   }
 
-  if (links.length > 0) return links;
-
-  /**
-   * Nothing resolvable — fall back to a search on whichever store the game is
-   * actually sold in. Roughly 65 games land here: Nintendo first-party titles
-   * whose store slug could not be guessed, and launcher-only games that have no
-   * storefront page at all.
-   *
-   * Chosen by where the game exists, not by a fixed order: sending a Switch
-   * exclusive to a Steam search would return nothing at all.
-   */
-  const q = encodeURIComponent(game.title);
-  const onlyNintendo = game.platforms.every((p) => p === 'switch' || p === 'switch2');
-  const onlyPlayStation = game.platforms.every((p) => p === 'ps5' || p === 'ps4');
-  const onlyXbox = game.platforms.every((p) => p === 'xbox-series' || p === 'xbox-one');
-
-  if (onlyNintendo) {
-    return [{ store: 'Nintendo', url: `https://www.nintendo.com/us/search/#q=${q}`, search: true }];
-  }
-  if (onlyPlayStation) {
-    return [
-      { store: 'PlayStation', url: `https://www.playstation.com/en-us/search/?q=${q}`, search: true },
-    ];
-  }
-  if (onlyXbox) {
-    return [{ store: 'Xbox', url: `https://www.xbox.com/en-US/Search?q=${q}`, search: true }];
-  }
-  return [{ store: 'Steam', url: `https://store.steampowered.com/search/?term=${q}`, search: true }];
+  return links;
 }
 
 /** The single link worth showing when there is only room for one. */

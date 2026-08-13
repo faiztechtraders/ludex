@@ -37,6 +37,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'lies-of-p',
     slug: 'lies-of-p',
+    playstationSlug: 'lies-of-p',
     steamAppId: 1627720,
     title: 'Lies of P',
     year: 2023,
@@ -62,6 +63,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'black-myth-wukong',
     slug: 'black-myth-wukong',
+    playstationSlug: 'black-myth-wukong',
     steamAppId: 2358720,
     title: 'Black Myth: Wukong',
     year: 2024,
@@ -138,6 +140,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'metro-exodus',
     slug: 'metro-exodus',
+    playstationSlug: 'metro-exodus',
     steamAppId: 412020,
     title: 'Metro Exodus',
     year: 2019,
@@ -164,6 +167,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'silent-hill-2-remake',
     slug: 'silent-hill-2-remake',
+    playstationSlug: 'silent-hill-2',
     steamAppId: 2124490,
     title: 'Silent Hill 2',
     year: 2024,
@@ -190,6 +194,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'dead-space-remake',
     slug: 'dead-space-remake',
+    playstationSlug: 'dead-space',
     steamAppId: 1693980,
     title: 'Dead Space',
     year: 2023,
@@ -216,6 +221,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'resident-evil-2-remake',
     slug: 'resident-evil-2-remake',
+    playstationSlug: 'resident-evil-2',
     steamAppId: 883710,
     title: 'Resident Evil 2',
     year: 2019,
@@ -241,6 +247,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'resident-evil-3-remake',
     slug: 'resident-evil-3-remake',
+    playstationSlug: 'resident-evil-3',
     steamAppId: 952060,
     title: 'Resident Evil 3',
     year: 2020,
@@ -266,6 +273,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'resident-evil-7',
     slug: 'resident-evil-7',
+    playstationSlug: 'resident-evil-7-biohazard',
     steamAppId: 418370,
     title: 'Resident Evil 7: Biohazard',
     year: 2017,
@@ -291,6 +299,8 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'alien-isolation',
     slug: 'alien-isolation',
+    nintendoSlug: 'alien-isolation-switch',
+    playstationSlug: 'alien-isolation',
     steamAppId: 214490,
     title: 'Alien: Isolation',
     year: 2014,
@@ -318,6 +328,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'until-dawn',
     slug: 'until-dawn',
+    playstationSlug: 'until-dawn',
     steamAppId: 2172010,
     title: 'Until Dawn',
     year: 2015,
@@ -344,6 +355,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'the-quarry',
     slug: 'the-quarry',
+    playstationSlug: 'the-quarry',
     steamAppId: 1577120,
     title: 'The Quarry',
     year: 2022,
@@ -370,6 +382,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'detroit-become-human',
     slug: 'detroit-become-human',
+    playstationSlug: 'detroit-become-human',
     steamAppId: 1222140,
     title: 'Detroit: Become Human',
     year: 2018,
@@ -395,6 +408,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'dragons-dogma-2',
     slug: 'dragons-dogma-2',
+    playstationSlug: 'dragons-dogma-2',
     steamAppId: 2054970,
     title: "Dragon's Dogma 2",
     year: 2024,
@@ -420,6 +434,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'kingdom-come-deliverance-2',
     slug: 'kingdom-come-deliverance-2',
+    playstationSlug: 'kingdom-come-deliverance-ii',
     steamAppId: 1771300,
     title: 'Kingdom Come: Deliverance II',
     year: 2025,
@@ -472,6 +487,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'indiana-jones-great-circle',
     slug: 'indiana-jones-great-circle',
+    playstationSlug: 'indiana-jones-and-the-great-circle',
     steamAppId: 2677660,
     title: 'Indiana Jones and the Great Circle',
     year: 2024,
@@ -498,6 +514,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'assassins-creed-shadows',
     slug: 'assassins-creed-shadows',
+    playstationSlug: 'assassins-creed-shadows',
     steamAppId: 3159330,
     title: "Assassin's Creed Shadows",
     year: 2025,
@@ -524,6 +541,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'assassins-creed-valhalla',
     slug: 'assassins-creed-valhalla',
+    playstationSlug: 'assassins-creed-valhalla',
     steamAppId: 2208920,
     title: "Assassin's Creed Valhalla",
     year: 2020,
@@ -550,6 +568,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'titanfall-2',
     slug: 'titanfall-2',
+    playstationSlug: 'titanfall-2',
     steamAppId: 1237970,
     title: 'Titanfall 2',
     year: 2016,
@@ -576,6 +595,8 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'sonic-frontiers',
     slug: 'sonic-frontiers',
+    nintendoSlug: 'sonic-frontiers-switch',
+    playstationSlug: 'sonic-frontiers',
     steamAppId: 1237320,
     title: 'Sonic Frontiers',
     year: 2022,
@@ -603,6 +624,8 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'sonic-mania',
     slug: 'sonic-mania',
+    nintendoSlug: 'sonic-mania-switch',
+    playstationSlug: 'sonic-mania',
     steamAppId: 584400,
     title: 'Sonic Mania',
     year: 2017,
@@ -630,6 +653,8 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'crash-bandicoot-4',
     slug: 'crash-bandicoot-4',
+    nintendoSlug: 'crash-bandicoot-4-its-about-time-switch',
+    playstationSlug: 'crash-bandicoot-4-its-about-time',
     steamAppId: 1378990,
     title: "Crash Bandicoot 4: It's About Time",
     year: 2020,
@@ -657,6 +682,8 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'spyro-reignited-trilogy',
     slug: 'spyro-reignited-trilogy',
+    nintendoSlug: 'spyro-reignited-trilogy-switch',
+    playstationSlug: 'spyro-reignited-trilogy',
     steamAppId: 996580,
     title: 'Spyro Reignited Trilogy',
     year: 2018,
@@ -684,6 +711,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'tony-hawks-pro-skater-1-2',
     slug: 'tony-hawks-pro-skater-1-2',
+    playstationSlug: 'tony-hawks-pro-skater-1-2',
     steamAppId: 2395210,
     title: "Tony Hawk's Pro Skater 1 + 2",
     year: 2020,
@@ -765,6 +793,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'the-sims-4',
     slug: 'the-sims-4',
+    playstationSlug: 'the-sims-4',
     steamAppId: 1222670,
     title: 'The Sims 4',
     year: 2014,
@@ -817,6 +846,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'frostpunk-2',
     slug: 'frostpunk-2',
+    playstationSlug: 'frostpunk-2',
     steamAppId: 1601580,
     title: 'Frostpunk 2',
     year: 2024,
@@ -844,6 +874,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
     // and no household-name reach. Kept in this shard; `tier` is authoritative.
     id: 'two-point-museum',
     slug: 'two-point-museum',
+    playstationSlug: 'two-point-museum',
     steamAppId: 2185060,
     title: 'Two Point Museum',
     year: 2025,
@@ -896,6 +927,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'marvel-rivals',
     slug: 'marvel-rivals',
+    playstationSlug: 'marvel-rivals',
     steamAppId: 2767030,
     title: 'Marvel Rivals',
     year: 2024,
@@ -921,6 +953,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'the-finals',
     slug: 'the-finals',
+    playstationSlug: 'the-finals',
     steamAppId: 2073850,
     title: 'The Finals',
     year: 2023,
@@ -946,6 +979,7 @@ export const MAINSTREAM_GAMES_6: Game[] = [
   {
     id: 'path-of-exile-2',
     slug: 'path-of-exile-2',
+    playstationSlug: 'path-of-exile-2',
     steamAppId: 2694490,
     title: 'Path of Exile 2',
     year: 2024,

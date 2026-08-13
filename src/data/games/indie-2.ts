@@ -15,6 +15,8 @@ export const INDIE_GAMES_2: Game[] = [
     // rounding difference is exactly the inconsistency the rule exists to stop.
     id: 'hollow-knight-silksong',
     slug: 'hollow-knight-silksong',
+    nintendoSlug: 'hollow-knight-silksong-switch',
+    playstationSlug: 'hollow-knight-silksong',
     steamAppId: 1030300,
     title: 'Hollow Knight: Silksong',
     year: 2025,
@@ -42,6 +44,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'vampire-survivors',
     slug: 'vampire-survivors',
+    nintendoSlug: 'vampire-survivors-switch',
+    playstationSlug: 'vampire-survivors',
     steamAppId: 1794680,
     title: 'Vampire Survivors',
     year: 2022,
@@ -69,6 +73,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'stray',
     slug: 'stray',
+    nintendoSlug: 'stray-switch-2',
+    playstationSlug: 'stray',
     steamAppId: 1332010,
     title: 'Stray',
     year: 2022,
@@ -97,6 +103,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'dave-the-diver',
     slug: 'dave-the-diver',
+    nintendoSlug: 'dave-the-diver-switch',
+    playstationSlug: 'dave-the-diver',
     steamAppId: 1868140,
     title: 'Dave the Diver',
     year: 2023,
@@ -124,6 +132,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'sea-of-stars',
     slug: 'sea-of-stars',
+    nintendoSlug: 'sea-of-stars-switch-2',
+    playstationSlug: 'sea-of-stars',
     steamAppId: 1244090,
     title: 'Sea of Stars',
     year: 2023,
@@ -151,6 +161,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'cocoon',
     slug: 'cocoon',
+    nintendoSlug: 'cocoon-switch',
+    playstationSlug: 'cocoon',
     steamAppId: 1497440,
     title: 'Cocoon',
     year: 2023,
@@ -178,6 +190,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'neon-white',
     slug: 'neon-white',
+    nintendoSlug: 'neon-white-switch',
+    playstationSlug: 'neon-white',
     steamAppId: 1533420,
     title: 'Neon White',
     year: 2022,
@@ -205,6 +219,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'hi-fi-rush',
     slug: 'hi-fi-rush',
+    playstationSlug: 'hi-fi-rush',
     steamAppId: 1817230,
     title: 'Hi-Fi Rush',
     year: 2023,
@@ -232,6 +247,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'sifu',
     slug: 'sifu',
+    nintendoSlug: 'sifu-switch',
+    playstationSlug: 'sifu',
     steamAppId: 2138710,
     title: 'Sifu',
     year: 2022,
@@ -259,6 +276,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'katana-zero',
     slug: 'katana-zero',
+    nintendoSlug: 'katana-zero-switch',
     steamAppId: 460950,
     title: 'Katana ZERO',
     year: 2019,
@@ -286,6 +304,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'ori-will-of-the-wisps',
     slug: 'ori-will-of-the-wisps',
+    nintendoSlug: 'ori-and-the-will-of-the-wisps-switch',
     steamAppId: 1057090,
     title: 'Ori and the Will of the Wisps',
     year: 2020,
@@ -314,6 +333,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'risk-of-rain-2',
     slug: 'risk-of-rain-2',
+    nintendoSlug: 'risk-of-rain-2-switch',
+    playstationSlug: 'risk-of-rain-2',
     steamAppId: 632360,
     title: 'Risk of Rain 2',
     year: 2020,
@@ -341,6 +362,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'subnautica',
     slug: 'subnautica',
+    nintendoSlug: 'subnautica-switch',
+    playstationSlug: 'subnautica',
     steamAppId: 264710,
     title: 'Subnautica',
     year: 2018,
@@ -420,6 +443,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'factorio',
     slug: 'factorio',
+    nintendoSlug: 'factorio-switch',
     steamAppId: 427520,
     title: 'Factorio',
     year: 2020,
@@ -447,6 +471,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'divinity-original-sin-2',
     slug: 'divinity-original-sin-2',
+    playstationSlug: 'divinity-original-sin-2',
     steamAppId: 435150,
     title: 'Divinity: Original Sin 2',
     year: 2017,
@@ -474,6 +499,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'darkest-dungeon',
     slug: 'darkest-dungeon',
+    nintendoSlug: 'darkest-dungeon-switch',
     steamAppId: 262060,
     title: 'Darkest Dungeon',
     year: 2016,
@@ -501,6 +527,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'into-the-breach',
     slug: 'into-the-breach',
+    nintendoSlug: 'into-the-breach-switch',
     steamAppId: 590380,
     title: 'Into the Breach',
     year: 2018,
@@ -554,6 +581,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'baba-is-you',
     slug: 'baba-is-you',
+    nintendoSlug: 'baba-is-you-switch',
     steamAppId: 736260,
     title: 'Baba Is You',
     year: 2019,
@@ -581,6 +609,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'the-witness',
     slug: 'the-witness',
+    playstationSlug: 'the-witness',
     steamAppId: 210970,
     title: 'The Witness',
     year: 2016,
@@ -607,6 +636,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'inside',
     slug: 'inside',
+    nintendoSlug: 'inside-switch',
+    playstationSlug: 'inside',
     steamAppId: 304430,
     title: 'Inside',
     year: 2016,
@@ -634,6 +665,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'limbo',
     slug: 'limbo',
+    nintendoSlug: 'limbo-switch',
+    playstationSlug: 'limbo',
     steamAppId: 48000,
     title: 'Limbo',
     year: 2010,
@@ -661,6 +694,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'little-nightmares-2',
     slug: 'little-nightmares-2',
+    nintendoSlug: 'little-nightmares-ii-switch',
+    playstationSlug: 'little-nightmares-ii',
     steamAppId: 860510,
     title: 'Little Nightmares II',
     year: 2021,
@@ -689,6 +724,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'what-remains-of-edith-finch',
     slug: 'what-remains-of-edith-finch',
+    nintendoSlug: 'what-remains-of-edith-finch-switch',
+    playstationSlug: 'what-remains-of-edith-finch',
     steamAppId: 501300,
     title: 'What Remains of Edith Finch',
     year: 2017,
@@ -717,6 +754,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'firewatch',
     slug: 'firewatch',
+    nintendoSlug: 'firewatch-switch',
     steamAppId: 383870,
     title: 'Firewatch',
     year: 2016,
@@ -744,6 +782,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'oxenfree',
     slug: 'oxenfree',
+    nintendoSlug: 'oxenfree-switch',
     steamAppId: 388880,
     title: 'Oxenfree',
     year: 2016,
@@ -797,6 +836,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'gris',
     slug: 'gris',
+    nintendoSlug: 'gris-switch',
+    playstationSlug: 'gris',
     steamAppId: 683320,
     title: 'Gris',
     year: 2018,
@@ -824,6 +865,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'journey',
     slug: 'journey',
+    playstationSlug: 'journey',
     steamAppId: 638230,
     title: 'Journey',
     year: 2012,
@@ -850,6 +892,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'untitled-goose-game',
     slug: 'untitled-goose-game',
+    nintendoSlug: 'untitled-goose-game-switch',
+    playstationSlug: 'untitled-goose-game',
     steamAppId: 837470,
     title: 'Untitled Goose Game',
     year: 2019,
@@ -877,6 +921,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'superhot',
     slug: 'superhot',
+    nintendoSlug: 'superhot-switch',
+    playstationSlug: 'superhot',
     steamAppId: 322500,
     title: 'Superhot',
     year: 2016,
@@ -931,6 +977,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'shovel-knight',
     slug: 'shovel-knight',
+    nintendoSlug: 'shovel-knight-treasure-trove-switch',
     steamAppId: 250760,
     title: 'Shovel Knight: Treasure Trove',
     year: 2014,
@@ -958,6 +1005,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'rogue-legacy-2',
     slug: 'rogue-legacy-2',
+    nintendoSlug: 'rogue-legacy-2-switch',
+    playstationSlug: 'rogue-legacy-2',
     steamAppId: 1253920,
     title: 'Rogue Legacy 2',
     year: 2022,
@@ -1013,6 +1062,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'ender-lilies',
     slug: 'ender-lilies',
+    nintendoSlug: 'ender-lilies-quietus-of-the-knights-switch',
+    playstationSlug: 'ender-lilies-quietus-of-the-knights',
     steamAppId: 1369630,
     title: 'Ender Lilies: Quietus of the Knights',
     year: 2021,
@@ -1040,6 +1091,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'loop-hero',
     slug: 'loop-hero',
+    nintendoSlug: 'loop-hero-switch',
     steamAppId: 1282730,
     title: 'Loop Hero',
     year: 2021,
@@ -1067,6 +1119,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'kena-bridge-of-spirits',
     slug: 'kena-bridge-of-spirits',
+    playstationSlug: 'kena-bridge-of-spirits',
     steamAppId: 1954200,
     title: 'Kena: Bridge of Spirits',
     year: 2021,
@@ -1120,6 +1173,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'cassette-beasts',
     slug: 'cassette-beasts',
+    nintendoSlug: 'cassette-beasts-switch',
     steamAppId: 1321440,
     title: 'Cassette Beasts',
     year: 2023,
@@ -1173,6 +1227,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'unpacking',
     slug: 'unpacking',
+    nintendoSlug: 'unpacking-switch',
+    playstationSlug: 'unpacking',
     // Pinned: the generic title otherwise collides with shovelware.
     steamAppId: 1135690,
     title: 'Unpacking',
@@ -1201,6 +1257,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'dorfromantik',
     slug: 'dorfromantik',
+    nintendoSlug: 'dorfromantik-switch',
     steamAppId: 1455840,
     title: 'Dorfromantik',
     year: 2022,
@@ -1228,6 +1285,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'the-talos-principle-2',
     slug: 'the-talos-principle-2',
+    playstationSlug: 'the-talos-principle-2',
     steamAppId: 835960,
     title: 'The Talos Principle 2',
     year: 2023,
@@ -1254,6 +1312,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'chained-echoes',
     slug: 'chained-echoes',
+    nintendoSlug: 'chained-echoes-switch',
+    playstationSlug: 'chained-echoes',
     steamAppId: 1229240,
     title: 'Chained Echoes',
     year: 2022,
@@ -1281,6 +1341,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'tchia',
     slug: 'tchia',
+    nintendoSlug: 'tchia-switch',
+    playstationSlug: 'tchia',
     steamAppId: 1496590,
     title: 'Tchia',
     year: 2023,
@@ -1308,6 +1370,8 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'olliolli-world',
     slug: 'olliolli-world',
+    nintendoSlug: 'olliolli-world-switch',
+    playstationSlug: 'olliolli-world',
     steamAppId: 1190170,
     title: 'OlliOlli World',
     year: 2022,
@@ -1335,6 +1399,7 @@ export const INDIE_GAMES_2: Game[] = [
   {
     id: 'hardspace-shipbreaker',
     slug: 'hardspace-shipbreaker',
+    playstationSlug: 'hardspace-shipbreaker',
     steamAppId: 1161580,
     title: 'Hardspace: Shipbreaker',
     year: 2022,

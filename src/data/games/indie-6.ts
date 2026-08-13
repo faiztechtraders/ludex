@@ -17,6 +17,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'art-of-rally',
     slug: 'art-of-rally',
+    nintendoSlug: 'art-of-rally-switch',
     steamAppId: 550320,
     title: 'art of rally',
     year: 2020,
@@ -44,6 +45,8 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'descenders',
     slug: 'descenders',
+    nintendoSlug: 'descenders-switch',
+    playstationSlug: 'descenders',
     steamAppId: 681280,
     title: 'Descenders',
     year: 2019,
@@ -71,6 +74,8 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'lonely-mountains-downhill',
     slug: 'lonely-mountains-downhill',
+    nintendoSlug: 'lonely-mountains-downhill-switch',
+    playstationSlug: 'lonely-mountains-downhill',
     steamAppId: 711540,
     title: 'Lonely Mountains: Downhill',
     year: 2019,
@@ -124,6 +129,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'weird-west',
     slug: 'weird-west',
+    playstationSlug: 'weird-west',
     steamAppId: 1097350,
     title: 'Weird West',
     year: 2022,
@@ -151,6 +157,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'evil-west',
     slug: 'evil-west',
+    playstationSlug: 'evil-west',
     steamAppId: 1065310,
     title: 'Evil West',
     year: 2022,
@@ -177,6 +184,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'darkest-dungeon-ii',
     slug: 'darkest-dungeon-ii',
+    nintendoSlug: 'darkest-dungeon-ii-switch',
     steamAppId: 1940340,
     title: 'Darkest Dungeon II',
     year: 2023,
@@ -204,6 +212,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'monster-train-2',
     slug: 'monster-train-2',
+    nintendoSlug: 'monster-train-2-switch',
     steamAppId: 2742830,
     title: 'Monster Train 2',
     year: 2025,
@@ -257,6 +266,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'ring-of-pain',
     slug: 'ring-of-pain',
+    nintendoSlug: 'ring-of-pain-switch',
     steamAppId: 998740,
     title: 'Ring of Pain',
     year: 2020,
@@ -284,6 +294,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'astral-ascent',
     slug: 'astral-ascent',
+    nintendoSlug: 'astral-ascent-switch',
     steamAppId: 1280930,
     title: 'Astral Ascent',
     year: 2023,
@@ -311,6 +322,8 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'huntdown',
     slug: 'huntdown',
+    nintendoSlug: 'huntdown-switch',
+    playstationSlug: 'huntdown',
     steamAppId: 598550,
     title: 'Huntdown',
     year: 2020,
@@ -338,6 +351,8 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'blazing-chrome',
     slug: 'blazing-chrome',
+    nintendoSlug: 'blazing-chrome-switch',
+    playstationSlug: 'blazing-chrome',
     steamAppId: 609110,
     title: 'Blazing Chrome',
     year: 2019,
@@ -365,6 +380,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'ultros',
     slug: 'ultros',
+    playstationSlug: 'ultros',
     steamAppId: 2386310,
     title: 'Ultros',
     year: 2024,
@@ -391,6 +407,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'crypt-custodian',
     slug: 'crypt-custodian',
+    nintendoSlug: 'crypt-custodian-switch',
     steamAppId: 2394650,
     title: 'Crypt Custodian',
     year: 2024,
@@ -418,6 +435,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'bo-path-of-the-teal-lotus',
     slug: 'bo-path-of-the-teal-lotus',
+    nintendoSlug: 'bo-path-of-the-teal-lotus-switch',
     steamAppId: 1614440,
     title: 'Bō: Path of the Teal Lotus',
     year: 2024,
@@ -472,6 +490,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'streets-of-rogue',
     slug: 'streets-of-rogue',
+    nintendoSlug: 'streets-of-rogue-switch',
     steamAppId: 512900,
     title: 'Streets of Rogue',
     year: 2019,
@@ -499,6 +518,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'trine-4',
     slug: 'trine-4',
+    nintendoSlug: 'trine-4-the-nightmare-prince-switch',
     steamAppId: 690640,
     title: 'Trine 4: The Nightmare Prince',
     year: 2019,
@@ -526,6 +546,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'trine-5',
     slug: 'trine-5',
+    nintendoSlug: 'trine-5-a-clockwork-conspiracy-switch',
     steamAppId: 1436700,
     title: 'Trine 5: A Clockwork Conspiracy',
     year: 2023,
@@ -553,6 +574,8 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'subnautica-below-zero',
     slug: 'subnautica-below-zero',
+    nintendoSlug: 'subnautica-below-zero-switch',
+    playstationSlug: 'subnautica-below-zero',
     steamAppId: 848450,
     title: 'Subnautica: Below Zero',
     year: 2021,
@@ -607,6 +630,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'duck-detective',
     slug: 'duck-detective',
+    nintendoSlug: 'duck-detective-the-secret-salami-switch',
     steamAppId: 2637990,
     title: 'Duck Detective: The Secret Salami',
     year: 2024,
@@ -660,6 +684,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'prince-of-persia-rogue',
     slug: 'prince-of-persia-rogue',
+    nintendoSlug: 'the-rogue-prince-of-persia-switch-2',
     steamAppId: 2717880,
     title: 'The Rogue Prince of Persia',
     year: 2024,
@@ -687,6 +712,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'space-engineers',
     slug: 'space-engineers',
+    playstationSlug: 'space-engineers',
     steamAppId: 244850,
     title: 'Space Engineers',
     year: 2019,
@@ -765,6 +791,7 @@ export const INDIE_GAMES_6: Game[] = [
   {
     id: 'catastronauts',
     slug: 'catastronauts',
+    nintendoSlug: 'catastronauts-switch',
     steamAppId: 737890,
     title: 'Catastronauts',
     year: 2018,

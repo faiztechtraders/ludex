@@ -19,6 +19,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'rayman-legends',
     slug: 'rayman-legends',
+    playstationSlug: 'rayman-legends',
     steamAppId: 242550,
     title: 'Rayman Legends',
     year: 2013,
@@ -46,6 +47,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'quake-ii-remastered',
     slug: 'quake-ii-remastered',
+    nintendoSlug: 'quake-ii-switch',
     steamAppId: 2320,
     title: 'Quake II',
     year: 2023,
@@ -73,6 +75,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'doom-64',
     slug: 'doom-64',
+    nintendoSlug: 'doom-64-switch',
     steamAppId: 1148590,
     title: 'DOOM 64',
     year: 2020,
@@ -100,6 +103,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'turok',
     slug: 'turok',
+    nintendoSlug: 'turok-switch',
     steamAppId: 405820,
     title: 'Turok: Dinosaur Hunter',
     year: 1997,
@@ -127,6 +131,8 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'unravel-two',
     slug: 'unravel-two',
+    nintendoSlug: 'unravel-two-switch',
+    playstationSlug: 'unravel-two',
     steamAppId: 1225570,
     title: 'Unravel Two',
     year: 2018,
@@ -154,6 +160,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'trials-rising',
     slug: 'trials-rising',
+    playstationSlug: 'trials-rising',
     title: 'Trials Rising',
     year: 2019,
     developer: 'RedLynx',
@@ -180,6 +187,8 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'hot-wheels-unleashed-2',
     slug: 'hot-wheels-unleashed-2',
+    nintendoSlug: 'hot-wheels-unleashed-2-turbocharged-switch',
+    playstationSlug: 'hot-wheels-unleashed-2-turbocharged',
     title: 'Hot Wheels Unleashed 2: Turbocharged',
     year: 2023,
     developer: 'Milestone',
@@ -232,6 +241,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'train-sim-world-4',
     slug: 'train-sim-world-4',
+    playstationSlug: 'train-sim-world-4',
     title: 'Train Sim World 4',
     year: 2023,
     developer: 'Dovetail Games',
@@ -283,6 +293,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'rec-room',
     slug: 'rec-room',
+    playstationSlug: 'rec-room',
     steamAppId: 471710,
     title: 'Rec Room',
     year: 2016,
@@ -335,6 +346,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'walkabout-mini-golf',
     slug: 'walkabout-mini-golf',
+    playstationSlug: 'walkabout-mini-golf',
     title: 'Walkabout Mini Golf',
     year: 2021,
     developer: 'Mighty Coconut',
@@ -412,6 +424,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'delta-force',
     slug: 'delta-force',
+    playstationSlug: 'delta-force',
     steamAppId: 2507950,
     title: 'Delta Force',
     year: 2024,
@@ -438,6 +451,8 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'brawlhalla',
     slug: 'brawlhalla',
+    nintendoSlug: 'brawlhalla-switch',
+    playstationSlug: 'brawlhalla',
     steamAppId: 291550,
     title: 'Brawlhalla',
     year: 2017,

@@ -12,6 +12,7 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'slime-rancher-2',
     slug: 'slime-rancher-2',
+    playstationSlug: 'slime-rancher-2',
     steamAppId: 1657630,
     title: 'Slime Rancher 2',
     year: 2022,
@@ -37,6 +38,8 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'the-plucky-squire',
     slug: 'the-plucky-squire',
+    nintendoSlug: 'the-plucky-squire-switch',
+    playstationSlug: 'the-plucky-squire',
     steamAppId: 1627570,
     title: 'The Plucky Squire',
     year: 2024,
@@ -63,6 +66,8 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'thank-goodness-youre-here',
     slug: 'thank-goodness-youre-here',
+    nintendoSlug: 'thank-goodness-youre-here-switch',
+    playstationSlug: 'thank-goodness-you-re-here',
     steamAppId: 2366980,
     title: "Thank Goodness You're Here!",
     year: 2024,
@@ -114,6 +119,8 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'skul-the-hero-slayer',
     slug: 'skul-the-hero-slayer',
+    nintendoSlug: 'skul-the-hero-slayer-switch',
+    playstationSlug: 'skul-the-hero-slayer',
     steamAppId: 1147560,
     title: 'Skul: The Hero Slayer',
     year: 2021,
@@ -140,6 +147,7 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'viewfinder',
     slug: 'viewfinder',
+    playstationSlug: 'viewfinder',
     steamAppId: 1382070,
     title: 'Viewfinder',
     year: 2023,
@@ -165,6 +173,8 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'keep-talking-and-nobody-explodes',
     slug: 'keep-talking-and-nobody-explodes',
+    nintendoSlug: 'keep-talking-and-nobody-explodes-switch',
+    playstationSlug: 'keep-talking-and-nobody-explodes',
     steamAppId: 341800,
     title: 'Keep Talking and Nobody Explodes',
     year: 2015,
@@ -191,6 +201,8 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'braid-anniversary-edition',
     slug: 'braid-anniversary-edition',
+    nintendoSlug: 'braid-anniversary-edition-switch',
+    playstationSlug: 'braid-anniversary-edition',
     steamAppId: 499180,
     title: 'Braid, Anniversary Edition',
     year: 2024,
@@ -217,6 +229,7 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'little-nightmares-3',
     slug: 'little-nightmares-3',
+    nintendoSlug: 'little-nightmares-iii-switch-2',
     steamAppId: 1392860,
     title: 'Little Nightmares III',
     year: 2025,
@@ -244,6 +257,8 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'road-96',
     slug: 'road-96',
+    nintendoSlug: 'road-96-switch',
+    playstationSlug: 'road-96',
     steamAppId: 1466640,
     title: 'Road 96',
     year: 2021,
@@ -270,6 +285,7 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'life-is-strange',
     slug: 'life-is-strange',
+    playstationSlug: 'life-is-strange',
     steamAppId: 319630,
     title: 'Life is Strange',
     year: 2015,
@@ -297,6 +313,8 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'life-is-strange-true-colors',
     slug: 'life-is-strange-true-colors',
+    nintendoSlug: 'life-is-strange-true-colors-switch',
+    playstationSlug: 'life-is-strange-true-colors',
     steamAppId: 936790,
     title: 'Life is Strange: True Colors',
     year: 2021,
@@ -324,6 +342,7 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'night-in-the-woods',
     slug: 'night-in-the-woods',
+    nintendoSlug: 'night-in-the-woods-switch',
     steamAppId: 481510,
     title: 'Night in the Woods',
     year: 2017,
@@ -350,6 +369,8 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'disney-dreamlight-valley',
     slug: 'disney-dreamlight-valley',
+    nintendoSlug: 'disney-dreamlight-valley-switch',
+    playstationSlug: 'disney-dreamlight-valley',
     steamAppId: 1401590,
     title: 'Disney Dreamlight Valley',
     year: 2023,
@@ -376,6 +397,8 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'two-point-hospital',
     slug: 'two-point-hospital',
+    nintendoSlug: 'two-point-hospital-switch',
+    playstationSlug: 'two-point-hospital',
     steamAppId: 535930,
     title: 'Two Point Hospital',
     year: 2018,
@@ -403,6 +426,8 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'moving-out',
     slug: 'moving-out',
+    nintendoSlug: 'moving-out-switch',
+    playstationSlug: 'moving-out',
     steamAppId: 996770,
     title: 'Moving Out',
     year: 2020,
@@ -429,6 +454,8 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'plateup',
     slug: 'plateup',
+    nintendoSlug: 'plateup-switch',
+    playstationSlug: 'plateup',
     steamAppId: 1599600,
     title: 'PlateUp!',
     year: 2022,
@@ -505,6 +532,7 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'webbed',
     slug: 'webbed',
+    nintendoSlug: 'webbed-switch',
     steamAppId: 1390350,
     title: 'Webbed',
     year: 2021,
@@ -556,6 +584,7 @@ export const INDIE_GAMES_4: Game[] = [
   {
     id: 'we-were-here-together',
     slug: 'we-were-here-together',
+    nintendoSlug: 'we-were-here-together-switch',
     steamAppId: 865360,
     title: 'We Were Here Together',
     year: 2019,

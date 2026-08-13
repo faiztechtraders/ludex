@@ -66,6 +66,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'enter-the-gungeon',
     slug: 'enter-the-gungeon',
+    nintendoSlug: 'enter-the-gungeon-switch',
     steamAppId: 311690,
     title: 'Enter the Gungeon',
     year: 2016,
@@ -92,6 +93,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'nuclear-throne',
     slug: 'nuclear-throne',
+    nintendoSlug: 'nuclear-throne-switch',
     steamAppId: 242680,
     title: 'Nuclear Throne',
     year: 2015,
@@ -118,6 +120,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'spelunky-2',
     slug: 'spelunky-2',
+    nintendoSlug: 'spelunky-2-switch',
+    playstationSlug: 'spelunky-2',
     steamAppId: 418530,
     title: 'Spelunky 2',
     year: 2020,
@@ -144,6 +148,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'dont-starve-together',
     slug: 'dont-starve-together',
+    nintendoSlug: 'dont-starve-together-switch',
     steamAppId: 322330,
     title: "Don't Starve Together",
     year: 2016,
@@ -195,6 +200,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'astroneer',
     slug: 'astroneer',
+    nintendoSlug: 'astroneer-switch',
+    playstationSlug: 'astroneer',
     steamAppId: 361420,
     title: 'Astroneer',
     year: 2019,
@@ -271,6 +278,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'green-hell',
     slug: 'green-hell',
+    nintendoSlug: 'green-hell-switch',
+    playstationSlug: 'green-hell',
     steamAppId: 815370,
     title: 'Green Hell',
     year: 2019,
@@ -297,6 +306,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'the-long-dark',
     slug: 'the-long-dark',
+    nintendoSlug: 'the-long-dark-switch',
     steamAppId: 305620,
     title: 'The Long Dark',
     year: 2017,
@@ -373,6 +383,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'core-keeper',
     slug: 'core-keeper',
+    nintendoSlug: 'core-keeper-switch',
+    playstationSlug: 'core-keeper',
     steamAppId: 1621690,
     title: 'Core Keeper',
     year: 2024,
@@ -399,6 +411,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'my-time-at-sandrock',
     slug: 'my-time-at-sandrock',
+    nintendoSlug: 'my-time-at-sandrock-switch',
     steamAppId: 1084600,
     title: 'My Time at Sandrock',
     year: 2023,
@@ -425,6 +438,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'coral-island',
     slug: 'coral-island',
+    playstationSlug: 'coral-island',
     steamAppId: 1158160,
     title: 'Coral Island',
     year: 2023,
@@ -451,6 +465,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'graveyard-keeper',
     slug: 'graveyard-keeper',
+    nintendoSlug: 'graveyard-keeper-switch',
     steamAppId: 599140,
     title: 'Graveyard Keeper',
     year: 2018,
@@ -477,6 +492,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'moonlighter',
     slug: 'moonlighter',
+    nintendoSlug: 'moonlighter-switch',
     steamAppId: 606150,
     title: 'Moonlighter',
     year: 2018,
@@ -503,6 +519,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'forager',
     slug: 'forager',
+    nintendoSlug: 'forager-switch',
     steamAppId: 751780,
     title: 'Forager',
     year: 2019,
@@ -529,6 +546,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'potion-craft',
     slug: 'potion-craft',
+    nintendoSlug: 'potion-craft-alchemist-simulator-switch',
+    playstationSlug: 'potion-craft-alchemist-simulator',
     steamAppId: 1210320,
     title: 'Potion Craft: Alchemist Simulator',
     year: 2022,
@@ -555,6 +574,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'townscaper',
     slug: 'townscaper',
+    nintendoSlug: 'townscaper-switch',
     steamAppId: 1291340,
     title: 'Townscaper',
     year: 2021,
@@ -606,6 +626,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'against-the-storm',
     slug: 'against-the-storm',
+    nintendoSlug: 'against-the-storm-switch',
+    playstationSlug: 'against-the-storm',
     steamAppId: 1336490,
     title: 'Against the Storm',
     year: 2023,
@@ -632,6 +654,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'satisfactory',
     slug: 'satisfactory',
+    playstationSlug: 'satisfactory',
     steamAppId: 526870,
     title: 'Satisfactory',
     year: 2024,
@@ -707,6 +730,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'mini-motorways',
     slug: 'mini-motorways',
+    nintendoSlug: 'mini-motorways-switch',
     steamAppId: 1127500,
     title: 'Mini Motorways',
     year: 2021,
@@ -733,6 +757,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'mini-metro',
     slug: 'mini-metro',
+    nintendoSlug: 'mini-metro-switch',
     steamAppId: 287980,
     title: 'Mini Metro',
     year: 2015,
@@ -759,6 +784,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'kerbal-space-program',
     slug: 'kerbal-space-program',
+    playstationSlug: 'kerbal-space-program',
     steamAppId: 220200,
     title: 'Kerbal Space Program',
     year: 2015,
@@ -809,6 +835,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'teardown',
     slug: 'teardown',
+    playstationSlug: 'teardown',
     steamAppId: 1167630,
     title: 'Teardown',
     year: 2022,
@@ -834,6 +861,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'human-fall-flat',
     slug: 'human-fall-flat',
+    nintendoSlug: 'human-fall-flat-switch',
+    playstationSlug: 'human-fall-flat',
     steamAppId: 477160,
     title: 'Human: Fall Flat',
     year: 2016,
@@ -860,6 +889,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'gang-beasts',
     slug: 'gang-beasts',
+    nintendoSlug: 'gang-beasts-switch',
     steamAppId: 285900,
     title: 'Gang Beasts',
     year: 2017,
@@ -912,6 +942,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'ultimate-chicken-horse',
     slug: 'ultimate-chicken-horse',
+    nintendoSlug: 'ultimate-chicken-horse-switch',
+    playstationSlug: 'ultimate-chicken-horse',
     steamAppId: 386940,
     title: 'Ultimate Chicken Horse',
     year: 2016,
@@ -938,6 +970,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'golf-with-your-friends',
     slug: 'golf-with-your-friends',
+    nintendoSlug: 'golf-with-your-friends-switch',
     steamAppId: 431240,
     title: 'Golf With Your Friends',
     year: 2020,
@@ -990,6 +1023,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'broforce',
     slug: 'broforce',
+    nintendoSlug: 'broforce-switch',
     steamAppId: 274190,
     title: 'Broforce',
     year: 2015,
@@ -1016,6 +1050,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'streets-of-rage-4',
     slug: 'streets-of-rage-4',
+    nintendoSlug: 'streets-of-rage-4-switch',
+    playstationSlug: 'streets-of-rage-4',
     steamAppId: 985890,
     title: 'Streets of Rage 4',
     year: 2020,
@@ -1042,6 +1078,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'salt-and-sanctuary',
     slug: 'salt-and-sanctuary',
+    nintendoSlug: 'salt-and-sanctuary-switch',
+    playstationSlug: 'salt-and-sanctuary',
     steamAppId: 283640,
     title: 'Salt and Sanctuary',
     year: 2016,
@@ -1068,6 +1106,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'the-messenger',
     slug: 'the-messenger',
+    nintendoSlug: 'the-messenger-switch',
+    playstationSlug: 'the-messenger',
     steamAppId: 764790,
     title: 'The Messenger',
     year: 2018,
@@ -1094,6 +1134,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'owlboy',
     slug: 'owlboy',
+    nintendoSlug: 'owlboy-switch',
     steamAppId: 115800,
     title: 'Owlboy',
     year: 2016,
@@ -1120,6 +1161,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'carrion',
     slug: 'carrion',
+    nintendoSlug: 'carrion-switch',
+    playstationSlug: 'carrion',
     steamAppId: 953490,
     title: 'Carrion',
     year: 2020,
@@ -1146,6 +1189,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'ape-out',
     slug: 'ape-out',
+    nintendoSlug: 'ape-out-switch',
     steamAppId: 447150,
     title: 'Ape Out',
     year: 2019,
@@ -1172,6 +1216,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'guacamelee-2',
     slug: 'guacamelee-2',
+    nintendoSlug: 'guacamelee-2-switch',
+    playstationSlug: 'guacamelee-2',
     steamAppId: 534550,
     title: 'Guacamelee! 2',
     year: 2018,
@@ -1198,6 +1244,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'prince-of-persia-lost-crown',
     slug: 'prince-of-persia-lost-crown',
+    nintendoSlug: 'prince-of-persia-the-lost-crown-switch',
+    playstationSlug: 'prince-of-persia-the-lost-crown',
     steamAppId: 2751000,
     title: 'Prince of Persia: The Lost Crown',
     year: 2024,
@@ -1225,6 +1273,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'brotato',
     slug: 'brotato',
+    nintendoSlug: 'brotato-switch',
     steamAppId: 1942280,
     title: 'Brotato',
     year: 2023,
@@ -1251,6 +1300,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'monster-train',
     slug: 'monster-train',
+    playstationSlug: 'monster-train',
     steamAppId: 1102190,
     title: 'Monster Train',
     year: 2020,
@@ -1332,6 +1382,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'monument-valley',
     slug: 'monument-valley',
+    nintendoSlug: 'monument-valley-switch',
     steamAppId: 1927720,
     title: 'Monument Valley',
     year: 2014,
@@ -1358,6 +1409,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'a-little-to-the-left',
     slug: 'a-little-to-the-left',
+    nintendoSlug: 'a-little-to-the-left-switch',
+    playstationSlug: 'a-little-to-the-left',
     steamAppId: 1629520,
     title: 'A Little to the Left',
     year: 2022,
@@ -1384,6 +1437,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'a-plague-tale-innocence',
     slug: 'a-plague-tale-innocence',
+    playstationSlug: 'a-plague-tale-innocence',
     steamAppId: 752590,
     title: 'A Plague Tale: Innocence',
     year: 2019,
@@ -1411,6 +1465,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'a-plague-tale-requiem',
     slug: 'a-plague-tale-requiem',
+    playstationSlug: 'a-plague-tale-requiem',
     steamAppId: 1182900,
     title: 'A Plague Tale: Requiem',
     year: 2022,
@@ -1438,6 +1493,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'children-of-morta',
     slug: 'children-of-morta',
+    nintendoSlug: 'children-of-morta-switch',
     steamAppId: 330020,
     title: 'Children of Morta',
     year: 2019,
@@ -1464,6 +1520,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'bloodstained-ritual-of-the-night',
     slug: 'bloodstained-ritual-of-the-night',
+    nintendoSlug: 'bloodstained-ritual-of-the-night-switch',
+    playstationSlug: 'bloodstained-ritual-of-the-night',
     steamAppId: 692850,
     title: 'Bloodstained: Ritual of the Night',
     year: 2019,
@@ -1490,6 +1548,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'axiom-verge',
     slug: 'axiom-verge',
+    nintendoSlug: 'axiom-verge-switch',
     steamAppId: 332200,
     title: 'Axiom Verge',
     year: 2015,
@@ -1516,6 +1575,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'steamworld-dig-2',
     slug: 'steamworld-dig-2',
+    nintendoSlug: 'steamworld-dig-2-switch',
     steamAppId: 571310,
     title: 'SteamWorld Dig 2',
     year: 2017,
@@ -1542,6 +1602,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'steamworld-heist-ii',
     slug: 'steamworld-heist-ii',
+    nintendoSlug: 'steamworld-heist-ii-switch',
     steamAppId: 2396240,
     title: 'SteamWorld Heist II',
     year: 2024,
@@ -1568,6 +1629,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'omori',
     slug: 'omori',
+    nintendoSlug: 'omori-switch',
     steamAppId: 1150690,
     title: 'Omori',
     year: 2020,
@@ -1594,6 +1656,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'deltarune',
     slug: 'deltarune',
+    nintendoSlug: 'deltarune-switch-2',
     steamAppId: 1671210,
     title: 'Deltarune',
     year: 2025,
@@ -1620,6 +1683,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'crosscode',
     slug: 'crosscode',
+    nintendoSlug: 'crosscode-switch',
+    playstationSlug: 'crosscode',
     steamAppId: 368340,
     title: 'CrossCode',
     year: 2018,
@@ -1646,6 +1711,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'donut-county',
     slug: 'donut-county',
+    nintendoSlug: 'donut-county-switch',
+    playstationSlug: 'donut-county',
     steamAppId: 702670,
     title: 'Donut County',
     year: 2018,
@@ -1672,6 +1739,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'what-the-golf',
     slug: 'what-the-golf',
+    nintendoSlug: 'what-the-golf-switch',
     steamAppId: 785790,
     title: 'What the Golf?',
     year: 2019,
@@ -1698,6 +1766,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'katamari-damacy-reroll',
     slug: 'katamari-damacy-reroll',
+    nintendoSlug: 'katamari-damacy-reroll-switch',
     steamAppId: 848350,
     title: 'Katamari Damacy Reroll',
     year: 2018,
@@ -1724,6 +1793,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'abzu',
     slug: 'abzu',
+    nintendoSlug: 'abzu-switch',
+    playstationSlug: 'abzu',
     steamAppId: 384190,
     title: 'Abzû',
     year: 2016,
@@ -1750,6 +1821,8 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'the-pathless',
     slug: 'the-pathless',
+    nintendoSlug: 'the-pathless-switch',
+    playstationSlug: 'the-pathless',
     steamAppId: 1492680,
     title: 'The Pathless',
     year: 2020,
@@ -1776,6 +1849,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'jusant',
     slug: 'jusant',
+    playstationSlug: 'jusant',
     steamAppId: 1977170,
     title: 'Jusant',
     year: 2023,
@@ -1801,6 +1875,7 @@ export const INDIE_GAMES_3: Game[] = [
   {
     id: 'rime',
     slug: 'rime',
+    nintendoSlug: 'rime-switch',
     steamAppId: 493200,
     title: 'Rime',
     year: 2017,

@@ -141,6 +141,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'ikaruga',
     slug: 'ikaruga',
+    nintendoSlug: 'ikaruga-switch',
     steamAppId: 253750,
     title: 'Ikaruga',
     year: 2001,
@@ -218,6 +219,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'sunless-skies',
     slug: 'sunless-skies',
+    nintendoSlug: 'sunless-skies-sovereign-edition-switch',
     steamAppId: 596970,
     title: 'Sunless Skies: Sovereign Edition',
     year: 2019,
@@ -372,6 +374,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'islets',
     slug: 'islets',
+    nintendoSlug: 'islets-switch',
     steamAppId: 1669420,
     title: 'Islets',
     year: 2022,
@@ -398,6 +401,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'gato-roboto',
     slug: 'gato-roboto',
+    nintendoSlug: 'gato-roboto-switch',
     steamAppId: 916730,
     title: 'Gato Roboto',
     year: 2019,
@@ -424,6 +428,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'yokus-island-express',
     slug: 'yokus-island-express',
+    nintendoSlug: 'yokus-island-express-switch',
     steamAppId: 334940,
     title: "Yoku's Island Express",
     year: 2018,
@@ -450,6 +455,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'grime',
     slug: 'grime',
+    nintendoSlug: 'grime-switch',
     steamAppId: 1123050,
     title: 'GRIME',
     year: 2021,
@@ -478,6 +484,8 @@ export const HIDDEN_GEMS_3: Game[] = [
     // sequel. Kept in this shard; `tier` is authoritative, not the filename.
     id: 'ender-magnolia',
     slug: 'ender-magnolia',
+    nintendoSlug: 'ender-magnolia-bloom-in-the-mist-switch',
+    playstationSlug: 'ender-magnolia-bloom-in-the-mist',
     steamAppId: 2725260,
     title: 'Ender Magnolia: Bloom in the Mist',
     year: 2025,
@@ -504,6 +512,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'afterimage',
     slug: 'afterimage',
+    nintendoSlug: 'afterimage-switch',
     steamAppId: 1701520,
     title: 'Afterimage',
     year: 2023,
@@ -530,6 +539,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'momodora-moonlit-farewell',
     slug: 'momodora-moonlit-farewell',
+    nintendoSlug: 'momodora-moonlit-farewell-switch',
     steamAppId: 1747760,
     title: 'Momodora: Moonlit Farewell',
     year: 2024,
@@ -556,6 +566,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'iconoclasts',
     slug: 'iconoclasts',
+    nintendoSlug: 'iconoclasts-switch',
     steamAppId: 393520,
     title: 'Iconoclasts',
     year: 2018,
@@ -582,6 +593,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'downwell',
     slug: 'downwell',
+    nintendoSlug: 'downwell-switch',
     steamAppId: 360740,
     title: 'Downwell',
     year: 2015,
@@ -634,6 +646,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'deaths-gambit-afterlife',
     slug: 'deaths-gambit-afterlife',
+    nintendoSlug: 'deaths-gambit-afterlife-switch',
     steamAppId: 356650,
     title: "Death's Gambit: Afterlife",
     year: 2021,
@@ -660,6 +673,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'aeterna-noctis',
     slug: 'aeterna-noctis',
+    nintendoSlug: 'aeterna-noctis-switch',
     steamAppId: 1517970,
     title: 'Aeterna Noctis',
     year: 2021,
@@ -686,6 +700,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'wizard-of-legend',
     slug: 'wizard-of-legend',
+    nintendoSlug: 'wizard-of-legend-switch',
     steamAppId: 445980,
     title: 'Wizard of Legend',
     year: 2018,
@@ -714,6 +729,7 @@ export const HIDDEN_GEMS_3: Game[] = [
     // series. Kept in this shard; `tier` is authoritative, not the filename.
     id: 'risk-of-rain-returns',
     slug: 'risk-of-rain-returns',
+    nintendoSlug: 'risk-of-rain-returns-switch',
     steamAppId: 1337520,
     title: 'Risk of Rain Returns',
     year: 2023,
@@ -790,6 +806,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: '20-minutes-till-dawn',
     slug: '20-minutes-till-dawn',
+    nintendoSlug: '20-minutes-till-dawn-switch',
     steamAppId: 1966900,
     title: '20 Minutes Till Dawn',
     year: 2022,
@@ -816,6 +833,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'astrea-six-sided-oracles',
     slug: 'astrea-six-sided-oracles',
+    nintendoSlug: 'astrea-six-sided-oracles-switch',
     steamAppId: 1755830,
     title: 'Astrea: Six-Sided Oracles',
     year: 2023,
@@ -892,6 +910,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'nowhere-prophet',
     slug: 'nowhere-prophet',
+    nintendoSlug: 'nowhere-prophet-switch',
     steamAppId: 681730,
     title: 'Nowhere Prophet',
     year: 2019,
@@ -944,6 +963,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'roguebook',
     slug: 'roguebook',
+    nintendoSlug: 'roguebook-switch',
     steamAppId: 1076200,
     title: 'Roguebook',
     year: 2021,
@@ -995,6 +1015,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'bonfire-peaks',
     slug: 'bonfire-peaks',
+    nintendoSlug: 'bonfire-peaks-switch',
     steamAppId: 1147890,
     title: 'Bonfire Peaks',
     year: 2021,
@@ -1047,6 +1068,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'void-bastards',
     slug: 'void-bastards',
+    nintendoSlug: 'void-bastards-switch',
     steamAppId: 857980,
     title: 'Void Bastards',
     year: 2019,
@@ -1073,6 +1095,8 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'the-rise-of-the-golden-idol',
     slug: 'the-rise-of-the-golden-idol',
+    nintendoSlug: 'the-rise-of-the-golden-idol-switch',
+    playstationSlug: 'the-rise-of-the-golden-idol',
     steamAppId: 2716400,
     title: 'The Rise of the Golden Idol',
     year: 2024,
@@ -1176,6 +1200,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'orwell',
     slug: 'orwell',
+    nintendoSlug: 'orwell-keeping-an-eye-on-you-switch',
     steamAppId: 491950,
     title: 'Orwell: Keeping an Eye On You',
     year: 2016,
@@ -1253,6 +1278,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'lake',
     slug: 'lake',
+    nintendoSlug: 'lake-switch',
     steamAppId: 1118240,
     title: 'Lake',
     year: 2021,
@@ -1279,6 +1305,8 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'coffee-talk',
     slug: 'coffee-talk',
+    nintendoSlug: 'coffee-talk-switch',
+    playstationSlug: 'coffee-talk',
     steamAppId: 914800,
     title: 'Coffee Talk',
     year: 2020,
@@ -1357,6 +1385,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'gnosia',
     slug: 'gnosia',
+    nintendoSlug: 'gnosia-switch',
     steamAppId: 1608290,
     title: 'Gnosia',
     year: 2021,
@@ -1383,6 +1412,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'paranormasight',
     slug: 'paranormasight',
+    nintendoSlug: 'paranormasight-the-seven-mysteries-of-honjo-switch',
     steamAppId: 2106840,
     title: 'Paranormasight: The Seven Mysteries of Honjo',
     year: 2023,
@@ -1409,6 +1439,8 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'crow-country',
     slug: 'crow-country',
+    nintendoSlug: 'crow-country-switch',
+    playstationSlug: 'crow-country',
     steamAppId: 1996010,
     title: 'Crow Country',
     year: 2024,
@@ -1460,6 +1492,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'pacific-drive',
     slug: 'pacific-drive',
+    playstationSlug: 'pacific-drive',
     steamAppId: 1458140,
     title: 'Pacific Drive',
     year: 2024,
@@ -1511,6 +1544,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'poly-bridge-3',
     slug: 'poly-bridge-3',
+    nintendoSlug: 'poly-bridge-3-switch',
     steamAppId: 1850160,
     title: 'Poly Bridge 3',
     year: 2023,
@@ -1537,6 +1571,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'wytchwood',
     slug: 'wytchwood',
+    nintendoSlug: 'wytchwood-switch',
     steamAppId: 729000,
     title: 'Wytchwood',
     year: 2021,
@@ -1588,6 +1623,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'littlewood',
     slug: 'littlewood',
+    nintendoSlug: 'littlewood-switch',
     steamAppId: 894940,
     title: 'Littlewood',
     year: 2020,
@@ -1614,6 +1650,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'garden-story',
     slug: 'garden-story',
+    nintendoSlug: 'garden-story-switch',
     steamAppId: 1062140,
     title: 'Garden Story',
     year: 2021,
@@ -1640,6 +1677,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'lil-gator-game',
     slug: 'lil-gator-game',
+    nintendoSlug: 'lil-gator-game-switch',
     steamAppId: 1586800,
     title: 'Lil Gator Game',
     year: 2022,
@@ -1717,6 +1755,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'shogun-showdown',
     slug: 'shogun-showdown',
+    nintendoSlug: 'shogun-showdown-switch',
     steamAppId: 2084000,
     title: 'Shogun Showdown',
     year: 2024,
@@ -1843,6 +1882,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'tangle-tower',
     slug: 'tangle-tower',
+    nintendoSlug: 'tangle-tower-switch',
     steamAppId: 359510,
     title: 'Tangle Tower',
     year: 2019,
@@ -1869,6 +1909,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'refind-self',
     slug: 'refind-self',
+    nintendoSlug: 'refind-self-the-personality-test-game-switch',
     steamAppId: 2514960,
     title: 'Refind Self: The Personality Test Game',
     year: 2023,
@@ -1895,6 +1936,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'ynglet',
     slug: 'ynglet',
+    nintendoSlug: 'ynglet-switch',
     steamAppId: 1015920,
     title: 'Ynglet',
     year: 2021,
@@ -1921,6 +1963,7 @@ export const HIDDEN_GEMS_3: Game[] = [
   {
     id: 'summerhouse',
     slug: 'summerhouse',
+    nintendoSlug: 'summerhouse-switch',
     steamAppId: 2533960,
     title: 'Summerhouse',
     year: 2024,

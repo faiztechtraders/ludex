@@ -68,6 +68,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'forgive-me-father',
     slug: 'forgive-me-father',
+    nintendoSlug: 'forgive-me-father-switch',
     steamAppId: 1590910,
     title: 'Forgive Me Father',
     year: 2022,
@@ -252,6 +253,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'post-void',
     slug: 'post-void',
+    nintendoSlug: 'post-void-switch',
     steamAppId: 1285670,
     title: 'Post Void',
     year: 2020,
@@ -383,6 +385,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'mother-russia-bleeds',
     slug: 'mother-russia-bleeds',
+    nintendoSlug: 'mother-russia-bleeds-switch',
     steamAppId: 361300,
     title: 'Mother Russia Bleeds',
     year: 2016,
@@ -410,6 +413,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'double-dragon-gaiden',
     slug: 'double-dragon-gaiden',
+    nintendoSlug: 'double-dragon-gaiden-rise-of-the-dragons-switch',
     steamAppId: 1967260,
     title: 'Double Dragon Gaiden: Rise of the Dragons',
     year: 2023,
@@ -437,6 +441,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'crawl',
     slug: 'crawl',
+    nintendoSlug: 'crawl-switch',
     steamAppId: 293780,
     title: 'Crawl',
     year: 2017,
@@ -490,6 +495,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'one-step-from-eden',
     slug: 'one-step-from-eden',
+    nintendoSlug: 'one-step-from-eden-switch',
     steamAppId: 960690,
     title: 'One Step From Eden',
     year: 2020,
@@ -543,6 +549,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'banners-of-ruin',
     slug: 'banners-of-ruin',
+    nintendoSlug: 'banners-of-ruin-switch',
     steamAppId: 1075740,
     title: 'Banners of Ruin',
     year: 2021,
@@ -597,6 +604,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'othercide',
     slug: 'othercide',
+    nintendoSlug: 'othercide-switch',
     steamAppId: 798490,
     title: 'Othercide',
     year: 2020,
@@ -624,6 +632,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'shotgun-king',
     slug: 'shotgun-king',
+    nintendoSlug: 'shotgun-king-the-final-checkmate-switch',
     steamAppId: 1972440,
     title: 'Shotgun King: The Final Checkmate',
     year: 2022,
@@ -703,6 +712,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'siralim-ultimate',
     slug: 'siralim-ultimate',
+    nintendoSlug: 'siralim-ultimate-switch',
     steamAppId: 1289810,
     title: 'Siralim Ultimate',
     year: 2021,
@@ -756,6 +766,7 @@ export const HIDDEN_GEMS_5: Game[] = [
   {
     id: 'moonstone-island',
     slug: 'moonstone-island',
+    nintendoSlug: 'moonstone-island-switch',
     steamAppId: 1658150,
     title: 'Moonstone Island',
     year: 2023,

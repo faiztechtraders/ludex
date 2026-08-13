@@ -14,6 +14,8 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'signalis',
     slug: 'signalis',
+    nintendoSlug: 'signalis-switch',
+    playstationSlug: 'signalis',
     steamAppId: 1262350,
     title: 'Signalis',
     year: 2022,
@@ -41,6 +43,7 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'sable',
     slug: 'sable',
+    playstationSlug: 'sable',
     steamAppId: 757310,
     title: 'Sable',
     year: 2021,
@@ -68,6 +71,7 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'citizen-sleeper',
     slug: 'citizen-sleeper',
+    nintendoSlug: 'citizen-sleeper-switch',
     steamAppId: 1578650,
     title: 'Citizen Sleeper',
     year: 2022,
@@ -95,6 +99,7 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'the-forgotten-city',
     slug: 'the-forgotten-city',
+    playstationSlug: 'the-forgotten-city',
     steamAppId: 874260,
     title: 'The Forgotten City',
     year: 2021,
@@ -176,6 +181,8 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'lorelei-and-the-laser-eyes',
     slug: 'lorelei-and-the-laser-eyes',
+    nintendoSlug: 'lorelei-and-the-laser-eyes-switch',
+    playstationSlug: 'lorelei-and-the-laser-eyes',
     steamAppId: 2008920,
     title: 'Lorelei and the Laser Eyes',
     year: 2024,
@@ -203,6 +210,8 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'pentiment',
     slug: 'pentiment',
+    nintendoSlug: 'pentiment-switch',
+    playstationSlug: 'pentiment',
     steamAppId: 1205520,
     title: 'Pentiment',
     year: 2022,
@@ -230,6 +239,7 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'immortality',
     slug: 'immortality',
+    playstationSlug: 'immortality',
     steamAppId: 1350200,
     title: 'Immortality',
     year: 2022,
@@ -256,6 +266,8 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'tinykin',
     slug: 'tinykin',
+    nintendoSlug: 'tinykin-switch',
+    playstationSlug: 'tinykin',
     steamAppId: 1599020,
     title: 'Tinykin',
     year: 2022,
@@ -310,6 +322,7 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'rain-world',
     slug: 'rain-world',
+    nintendoSlug: 'rain-world-switch',
     steamAppId: 312520,
     title: 'Rain World',
     year: 2017,
@@ -337,6 +350,8 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: '1000xresist',
     slug: '1000xresist',
+    nintendoSlug: '1000xresist-switch',
+    playstationSlug: '1000xresist',
     steamAppId: 1675830,
     title: '1000xRESIST',
     year: 2024,
@@ -364,6 +379,8 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'nine-sols',
     slug: 'nine-sols',
+    nintendoSlug: 'nine-sols-switch',
+    playstationSlug: 'nine-sols',
     steamAppId: 1809540,
     title: 'Nine Sols',
     year: 2024,
@@ -391,6 +408,8 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'bomb-rush-cyberfunk',
     slug: 'bomb-rush-cyberfunk',
+    nintendoSlug: 'bomb-rush-cyberfunk-switch',
+    playstationSlug: 'bomb-rush-cyberfunk',
     steamAppId: 1353230,
     title: 'Bomb Rush Cyberfunk',
     year: 2023,
@@ -418,6 +437,8 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'venba',
     slug: 'venba',
+    nintendoSlug: 'venba-switch',
+    playstationSlug: 'venba',
     steamAppId: 1491670,
     title: 'Venba',
     year: 2023,
@@ -445,6 +466,8 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'paradise-killer',
     slug: 'paradise-killer',
+    nintendoSlug: 'paradise-killer-switch',
+    playstationSlug: 'paradise-killer',
     steamAppId: 1160220,
     title: 'Paradise Killer',
     year: 2020,
@@ -472,6 +495,7 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'astlibra-revision',
     slug: 'astlibra-revision',
+    nintendoSlug: 'astlibra-revision-switch',
     steamAppId: 1718570,
     title: 'Astlibra Revision',
     year: 2022,
@@ -499,6 +523,8 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'unrailed',
     slug: 'unrailed',
+    nintendoSlug: 'unrailed-switch',
+    playstationSlug: 'unrailed',
     steamAppId: 1016920,
     title: 'Unrailed!',
     year: 2020,
@@ -526,6 +552,7 @@ export const HIDDEN_GEMS: Game[] = [
   {
     id: 'moon-remix-rpg',
     slug: 'moon-remix-rpg',
+    nintendoSlug: 'moon-switch',
     steamAppId: 1714580,
     title: 'Moon: Remix RPG Adventure',
     year: 1997,

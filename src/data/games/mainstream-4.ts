@@ -10,6 +10,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'mass-effect-legendary-edition',
     slug: 'mass-effect-legendary-edition',
+    playstationSlug: 'mass-effect-legendary-edition',
     steamAppId: 1328670,
     title: 'Mass Effect Legendary Edition',
     year: 2021,
@@ -37,6 +38,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'dragon-age-inquisition',
     slug: 'dragon-age-inquisition',
+    playstationSlug: 'dragon-age-inquisition',
     steamAppId: 1222690,
     title: 'Dragon Age: Inquisition',
     year: 2014,
@@ -64,6 +66,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'starfield',
     slug: 'starfield',
+    playstationSlug: 'starfield',
     steamAppId: 1716740,
     title: 'Starfield',
     year: 2023,
@@ -90,6 +93,8 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'no-mans-sky',
     slug: 'no-mans-sky',
+    nintendoSlug: 'no-mans-sky-switch-2',
+    playstationSlug: 'no-mans-sky',
     steamAppId: 275850,
     title: "No Man's Sky",
     year: 2016,
@@ -117,6 +122,8 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'the-outer-worlds',
     slug: 'the-outer-worlds',
+    nintendoSlug: 'the-outer-worlds-switch',
+    playstationSlug: 'the-outer-worlds',
     steamAppId: 1920490,
     title: 'The Outer Worlds',
     year: 2019,
@@ -144,6 +151,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'fallout-4',
     slug: 'fallout-4',
+    playstationSlug: 'fallout-4',
     steamAppId: 377160,
     title: 'Fallout 4',
     year: 2015,
@@ -197,6 +205,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'dying-light-2',
     slug: 'dying-light-2',
+    playstationSlug: 'dying-light-2-stay-human',
     steamAppId: 534380,
     title: 'Dying Light 2 Stay Human',
     year: 2022,
@@ -224,6 +233,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'dead-island-2',
     slug: 'dead-island-2',
+    playstationSlug: 'dead-island-2',
     steamAppId: 934700,
     title: 'Dead Island 2',
     year: 2023,
@@ -304,6 +314,8 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'batman-arkham-knight',
     slug: 'batman-arkham-knight',
+    nintendoSlug: 'batman-arkham-knight-switch',
+    playstationSlug: 'batman-arkham-knight',
     steamAppId: 208650,
     title: 'Batman: Arkham Knight',
     year: 2015,
@@ -332,6 +344,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'middle-earth-shadow-of-war',
     slug: 'middle-earth-shadow-of-war',
+    playstationSlug: 'middle-earth-shadow-of-war',
     steamAppId: 356190,
     title: 'Middle-earth: Shadow of War',
     year: 2017,
@@ -359,6 +372,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'destiny-2',
     slug: 'destiny-2',
+    playstationSlug: 'destiny-2',
     steamAppId: 1085660,
     title: 'Destiny 2',
     year: 2017,
@@ -385,6 +399,8 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'warframe',
     slug: 'warframe',
+    nintendoSlug: 'warframe-switch-2',
+    playstationSlug: 'warframe',
     steamAppId: 230410,
     title: 'Warframe',
     year: 2013,
@@ -412,6 +428,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'the-crew-motorfest',
     slug: 'the-crew-motorfest',
+    playstationSlug: 'the-crew-motorfest',
     steamAppId: 2698940,
     title: 'The Crew Motorfest',
     year: 2023,
@@ -439,6 +456,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'f1-24',
     slug: 'f1-24',
+    playstationSlug: 'f1-24',
     steamAppId: 2488620,
     title: 'F1 24',
     year: 2024,
@@ -466,6 +484,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'a-way-out',
     slug: 'a-way-out',
+    playstationSlug: 'a-way-out',
     steamAppId: 1222700,
     title: 'A Way Out',
     year: 2018,
@@ -493,6 +512,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'nier-automata',
     slug: 'nier-automata',
+    playstationSlug: 'nier-automata',
     steamAppId: 524220,
     title: 'NieR: Automata',
     year: 2017,
@@ -549,6 +569,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'devil-may-cry-5',
     slug: 'devil-may-cry-5',
+    playstationSlug: 'devil-may-cry-5',
     steamAppId: 601150,
     title: 'Devil May Cry 5',
     year: 2019,
@@ -575,6 +596,8 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'monster-hunter-rise',
     slug: 'monster-hunter-rise',
+    nintendoSlug: 'monster-hunter-rise-switch',
+    playstationSlug: 'monster-hunter-rise',
     steamAppId: 1446780,
     title: 'Monster Hunter Rise',
     year: 2021,
@@ -602,6 +625,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'monster-hunter-world',
     slug: 'monster-hunter-world',
+    playstationSlug: 'monster-hunter-world',
     steamAppId: 582010,
     title: 'Monster Hunter: World',
     year: 2018,
@@ -811,6 +835,8 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'civilization-vi',
     slug: 'civilization-vi',
+    nintendoSlug: 'sid-meiers-civilization-vi-switch',
+    playstationSlug: 'sid-meier-s-civilization-vi',
     steamAppId: 289070,
     title: 'Sid Meier’s Civilization VI',
     year: 2016,
@@ -839,6 +865,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'crusader-kings-iii',
     slug: 'crusader-kings-iii',
+    playstationSlug: 'crusader-kings-iii',
     steamAppId: 1158310,
     title: 'Crusader Kings III',
     year: 2020,
@@ -918,6 +945,7 @@ export const MAINSTREAM_GAMES_4: Game[] = [
   {
     id: 'xcom-2',
     slug: 'xcom-2',
+    playstationSlug: 'xcom-2',
     steamAppId: 268500,
     title: 'XCOM 2',
     year: 2016,

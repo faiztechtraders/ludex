@@ -12,6 +12,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'minecraft',
     slug: 'minecraft',
+    playstationSlug: 'minecraft',
     nintendoSlug: 'minecraft-switch',
     title: 'Minecraft',
     year: 2011,
@@ -42,6 +43,8 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'elder-scrolls-v-skyrim',
     slug: 'elder-scrolls-v-skyrim',
+    nintendoSlug: 'the-elder-scrolls-v-skyrim-switch',
+    playstationSlug: 'the-elder-scrolls-v-skyrim',
     steamAppId: 489830,
     title: 'The Elder Scrolls V: Skyrim',
     year: 2011,
@@ -69,6 +72,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'grand-theft-auto-v',
     slug: 'grand-theft-auto-v',
+    playstationSlug: 'grand-theft-auto-v',
     steamAppId: 3240220,
     title: 'Grand Theft Auto V',
     year: 2013,
@@ -177,6 +181,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'sekiro',
     slug: 'sekiro',
+    playstationSlug: 'sekiro-shadows-die-twice',
     steamAppId: 814380,
     title: 'Sekiro: Shadows Die Twice',
     year: 2019,
@@ -204,6 +209,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'dark-souls-iii',
     slug: 'dark-souls-iii',
+    playstationSlug: 'dark-souls-iii',
     steamAppId: 374320,
     title: 'Dark Souls III',
     year: 2016,
@@ -231,6 +237,8 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'persona-5-royal',
     slug: 'persona-5-royal',
+    nintendoSlug: 'persona-5-royal-switch',
+    playstationSlug: 'persona-5-royal',
     steamAppId: 1687950,
     title: 'Persona 5 Royal',
     year: 2019,
@@ -258,6 +266,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'final-fantasy-vii-rebirth',
     slug: 'final-fantasy-vii-rebirth',
+    playstationSlug: 'final-fantasy-vii-rebirth',
     steamAppId: 2909400,
     title: 'Final Fantasy VII Rebirth',
     year: 2024,
@@ -337,6 +346,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'ghost-of-tsushima',
     slug: 'ghost-of-tsushima',
+    playstationSlug: 'ghost-of-tsushima',
     steamAppId: 2215430,
     title: 'Ghost of Tsushima',
     year: 2020,
@@ -364,6 +374,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'horizon-forbidden-west',
     slug: 'horizon-forbidden-west',
+    playstationSlug: 'horizon-forbidden-west',
     steamAppId: 2420110,
     title: 'Horizon Forbidden West',
     year: 2022,
@@ -391,6 +402,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'monster-hunter-wilds',
     slug: 'monster-hunter-wilds',
+    playstationSlug: 'monster-hunter-wilds',
     steamAppId: 2246340,
     title: 'Monster Hunter Wilds',
     year: 2025,
@@ -417,6 +429,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'diablo-iv',
     slug: 'diablo-iv',
+    playstationSlug: 'diablo-iv',
     steamAppId: 2344520,
     title: 'Diablo IV',
     year: 2023,
@@ -639,6 +652,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'returnal',
     slug: 'returnal',
+    playstationSlug: 'returnal',
     steamAppId: 1649240,
     title: 'Returnal',
     year: 2021,
@@ -719,6 +733,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'resident-evil-village',
     slug: 'resident-evil-village',
+    playstationSlug: 'resident-evil-village',
     steamAppId: 1196590,
     title: 'Resident Evil Village',
     year: 2021,
@@ -745,6 +760,8 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'cuphead',
     slug: 'cuphead',
+    nintendoSlug: 'cuphead-switch',
+    playstationSlug: 'cuphead',
     steamAppId: 268910,
     title: 'Cuphead',
     year: 2017,
@@ -772,6 +789,8 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'terraria',
     slug: 'terraria',
+    nintendoSlug: 'terraria-switch',
+    playstationSlug: 'terraria',
     steamAppId: 105600,
     title: 'Terraria',
     year: 2011,
@@ -799,6 +818,7 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'doom-the-dark-ages',
     slug: 'doom-the-dark-ages',
+    playstationSlug: 'doom-the-dark-ages',
     steamAppId: 3017860,
     title: 'Doom: The Dark Ages',
     year: 2025,
@@ -826,6 +846,8 @@ export const MAINSTREAM_GAMES_2: Game[] = [
   {
     id: 'among-us',
     slug: 'among-us',
+    nintendoSlug: 'among-us-switch',
+    playstationSlug: 'among-us',
     steamAppId: 945360,
     title: 'Among Us',
     year: 2018,

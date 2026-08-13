@@ -15,6 +15,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'god-of-war-2018',
     slug: 'god-of-war-2018',
+    playstationSlug: 'god-of-war',
     steamAppId: 1593500,
     title: 'God of War',
     year: 2018,
@@ -41,6 +42,8 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'sonic-x-shadow-generations',
     slug: 'sonic-x-shadow-generations',
+    nintendoSlug: 'sonic-x-shadow-generations-switch-2',
+    playstationSlug: 'sonic-x-shadow-generations',
     steamAppId: 2513280,
     title: 'Sonic X Shadow Generations',
     year: 2024,
@@ -68,6 +71,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'nioh-2',
     slug: 'nioh-2',
+    playstationSlug: 'nioh-2',
     steamAppId: 1325200,
     title: 'Nioh 2',
     year: 2020,
@@ -94,6 +98,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'wo-long-fallen-dynasty',
     slug: 'wo-long-fallen-dynasty',
+    playstationSlug: 'wo-long-fallen-dynasty',
     steamAppId: 1448440,
     title: 'Wo Long: Fallen Dynasty',
     year: 2023,
@@ -146,6 +151,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'elden-ring-nightreign',
     slug: 'elden-ring-nightreign',
+    playstationSlug: 'elden-ring-nightreign',
     steamAppId: 2622380,
     title: 'Elden Ring Nightreign',
     year: 2025,
@@ -172,6 +178,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'the-outer-worlds-2',
     slug: 'the-outer-worlds-2',
+    playstationSlug: 'the-outer-worlds-2',
     steamAppId: 1449110,
     title: 'The Outer Worlds 2',
     year: 2025,
@@ -306,6 +313,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'tony-hawk-3-4',
     slug: 'tony-hawk-3-4',
+    playstationSlug: 'tony-hawks-pro-skater-3-4',
     steamAppId: 2545710,
     title: "Tony Hawk's Pro Skater 3 + 4",
     year: 2025,
@@ -333,6 +341,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'rainbow-six-siege',
     slug: 'rainbow-six-siege',
+    playstationSlug: 'tom-clancys-rainbow-six-siege',
     steamAppId: 359550,
     title: 'Tom Clancy’s Rainbow Six Siege',
     year: 2015,
@@ -383,6 +392,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'kingdom-hearts-iii',
     slug: 'kingdom-hearts-iii',
+    playstationSlug: 'kingdom-hearts-iii',
     steamAppId: 2552450,
     title: 'Kingdom Hearts III',
     year: 2019,
@@ -409,6 +419,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'granblue-fantasy-relink',
     slug: 'granblue-fantasy-relink',
+    playstationSlug: 'granblue-fantasy-relink',
     steamAppId: 881020,
     title: 'Granblue Fantasy: Relink',
     year: 2024,
@@ -434,6 +445,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'unicorn-overlord',
     slug: 'unicorn-overlord',
+    playstationSlug: 'unicorn-overlord',
     nintendoSlug: 'unicorn-overlord-switch',
     title: 'Unicorn Overlord',
     year: 2024,
@@ -461,6 +473,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'tales-of-arise',
     slug: 'tales-of-arise',
+    playstationSlug: 'tales-of-arise',
     steamAppId: 740130,
     title: 'Tales of Arise',
     year: 2021,
@@ -537,6 +550,7 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'goat-simulator-3',
     slug: 'goat-simulator-3',
+    playstationSlug: 'goat-simulator-3',
     steamAppId: 850190,
     title: 'Goat Simulator 3',
     year: 2022,
@@ -612,6 +626,8 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'doom-eternal',
     slug: 'doom-eternal',
+    nintendoSlug: 'doom-eternal-switch',
+    playstationSlug: 'doom-eternal',
     steamAppId: 782330,
     title: 'Doom Eternal',
     year: 2020,
@@ -639,6 +655,8 @@ export const MAINSTREAM_GAMES_7: Game[] = [
   {
     id: 'dragons-dogma-dark-arisen',
     slug: 'dragons-dogma-dark-arisen',
+    nintendoSlug: 'dragons-dogma-dark-arisen-switch',
+    playstationSlug: 'dragons-dogma-dark-arisen',
     steamAppId: 367500,
     title: "Dragon's Dogma: Dark Arisen",
     year: 2013,

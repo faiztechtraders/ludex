@@ -46,6 +46,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'borderlands-3',
     slug: 'borderlands-3',
+    playstationSlug: 'borderlands-3',
     steamAppId: 397540,
     title: 'Borderlands 3',
     year: 2019,
@@ -125,6 +126,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'rust',
     slug: 'rust',
+    playstationSlug: 'rust',
     steamAppId: 252490,
     title: 'Rust',
     year: 2018,
@@ -151,6 +153,8 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'ark-survival-evolved',
     slug: 'ark-survival-evolved',
+    nintendoSlug: 'ark-survival-evolved-switch',
+    playstationSlug: 'ark-survival-evolved',
     steamAppId: 346110,
     title: 'ARK: Survival Evolved',
     year: 2017,
@@ -178,6 +182,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'v-rising',
     slug: 'v-rising',
+    playstationSlug: 'v-rising',
     steamAppId: 1604030,
     title: 'V Rising',
     year: 2024,
@@ -230,6 +235,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'the-division-2',
     slug: 'the-division-2',
+    playstationSlug: 'tom-clancys-the-division-2',
     steamAppId: 2221490,
     title: "Tom Clancy's The Division 2",
     year: 2019,
@@ -256,6 +262,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'ghost-recon-wildlands',
     slug: 'ghost-recon-wildlands',
+    playstationSlug: 'tom-clancys-ghost-recon-wildlands',
     steamAppId: 460930,
     title: "Tom Clancy's Ghost Recon Wildlands",
     year: 2017,
@@ -282,6 +289,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'back-4-blood',
     slug: 'back-4-blood',
+    playstationSlug: 'back-4-blood',
     steamAppId: 924970,
     title: 'Back 4 Blood',
     year: 2021,
@@ -308,6 +316,8 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'world-war-z',
     slug: 'world-war-z',
+    nintendoSlug: 'world-war-z-switch',
+    playstationSlug: 'world-war-z',
     steamAppId: 699130,
     title: 'World War Z: Aftermath',
     year: 2019,
@@ -491,6 +501,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'the-elder-scrolls-online',
     slug: 'the-elder-scrolls-online',
+    playstationSlug: 'the-elder-scrolls-online',
     steamAppId: 306130,
     title: 'The Elder Scrolls Online',
     year: 2014,
@@ -517,6 +528,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'star-wars-battlefront-ii',
     slug: 'star-wars-battlefront-ii',
+    playstationSlug: 'star-wars-battlefront-ii',
     title: 'Star Wars Battlefront II',
     year: 2017,
     developer: 'DICE',
@@ -542,6 +554,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'call-of-duty-black-ops-6',
     slug: 'call-of-duty-black-ops-6',
+    playstationSlug: 'call-of-duty-black-ops-6',
     steamAppId: 4384550,
     title: 'Call of Duty: Black Ops 6',
     year: 2024,
@@ -568,6 +581,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'guilty-gear-strive',
     slug: 'guilty-gear-strive',
+    playstationSlug: 'guilty-gear-strive',
     steamAppId: 1384160,
     title: 'Guilty Gear -Strive-',
     year: 2021,
@@ -595,6 +609,8 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'red-dead-redemption',
     slug: 'red-dead-redemption',
+    nintendoSlug: 'red-dead-redemption-switch',
+    playstationSlug: 'red-dead-redemption',
     steamAppId: 2668510,
     title: 'Red Dead Redemption',
     year: 2010,
@@ -648,6 +664,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'mafia-definitive-edition',
     slug: 'mafia-definitive-edition',
+    playstationSlug: 'mafia-definitive-edition',
     steamAppId: 1030840,
     title: 'Mafia: Definitive Edition',
     year: 2020,
@@ -674,6 +691,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'assassins-creed-mirage',
     slug: 'assassins-creed-mirage',
+    playstationSlug: 'assassins-creed-mirage',
     title: "Assassin's Creed Mirage",
     year: 2023,
     developer: 'Ubisoft Bordeaux',
@@ -699,6 +717,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'injustice-2',
     slug: 'injustice-2',
+    playstationSlug: 'injustice-2',
     steamAppId: 627270,
     title: 'Injustice 2',
     year: 2017,
@@ -725,6 +744,8 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'persona-4-golden',
     slug: 'persona-4-golden',
+    nintendoSlug: 'persona-4-golden-switch',
+    playstationSlug: 'persona-4-golden',
     steamAppId: 1113000,
     title: 'Persona 4 Golden',
     year: 2012,
@@ -779,6 +800,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'nier-replicant',
     slug: 'nier-replicant',
+    playstationSlug: 'nier-replicant-ver-1-22474487139',
     steamAppId: 1113560,
     title: 'NieR Replicant ver.1.22474487139...',
     year: 2021,
@@ -805,6 +827,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'jurassic-world-evolution-2',
     slug: 'jurassic-world-evolution-2',
+    playstationSlug: 'jurassic-world-evolution-2',
     steamAppId: 1244460,
     title: 'Jurassic World Evolution 2',
     year: 2021,
@@ -883,6 +906,8 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'dead-by-daylight',
     slug: 'dead-by-daylight',
+    nintendoSlug: 'dead-by-daylight-switch',
+    playstationSlug: 'dead-by-daylight',
     steamAppId: 381210,
     title: 'Dead by Daylight',
     year: 2016,

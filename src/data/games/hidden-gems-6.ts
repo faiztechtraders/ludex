@@ -67,6 +67,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'cat-cafe-manager',
     slug: 'cat-cafe-manager',
+    nintendoSlug: 'cat-cafe-manager-switch',
     steamAppId: 1354830,
     title: 'Cat Cafe Manager',
     year: 2022,
@@ -120,6 +121,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'placid-plastic-duck-simulator',
     slug: 'placid-plastic-duck-simulator',
+    nintendoSlug: 'placid-plastic-duck-simulator-switch',
     steamAppId: 1999360,
     title: 'Placid Plastic Duck Simulator',
     year: 2022,
@@ -147,6 +149,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'paradise-marsh',
     slug: 'paradise-marsh',
+    nintendoSlug: 'paradise-marsh-switch',
     steamAppId: 1709170,
     title: 'Paradise Marsh',
     year: 2022,
@@ -174,6 +177,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'haven-park',
     slug: 'haven-park',
+    nintendoSlug: 'haven-park-switch',
     steamAppId: 1549550,
     title: 'Haven Park',
     year: 2021,
@@ -201,6 +205,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'snufkin-melody-of-moominvalley',
     slug: 'snufkin-melody-of-moominvalley',
+    nintendoSlug: 'snufkin-melody-of-moominvalley-switch',
     steamAppId: 1808680,
     title: 'Snufkin: Melody of Moominvalley',
     year: 2024,
@@ -228,6 +233,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'lil-guardsman',
     slug: 'lil-guardsman',
+    nintendoSlug: 'lil-guardsman-switch',
     steamAppId: 1924360,
     title: 'Lil Guardsman',
     year: 2024,
@@ -255,6 +261,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'videoverse',
     slug: 'videoverse',
+    nintendoSlug: 'videoverse-switch',
     steamAppId: 2079180,
     title: 'Videoverse',
     year: 2023,
@@ -361,6 +368,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'neon-blood',
     slug: 'neon-blood',
+    nintendoSlug: 'neon-blood-switch',
     steamAppId: 2067310,
     title: 'Neon Blood',
     year: 2024,
@@ -388,6 +396,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'into-the-restless-ruins',
     slug: 'into-the-restless-ruins',
+    nintendoSlug: 'into-the-restless-ruins-switch',
     steamAppId: 2877770,
     title: 'Into the Restless Ruins',
     year: 2025,
@@ -415,6 +424,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'railbound',
     slug: 'railbound',
+    nintendoSlug: 'railbound-switch',
     steamAppId: 1967510,
     title: 'Railbound',
     year: 2022,
@@ -442,6 +452,8 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'cursed-to-golf',
     slug: 'cursed-to-golf',
+    nintendoSlug: 'cursed-to-golf-switch',
+    playstationSlug: 'cursed-to-golf',
     steamAppId: 1726120,
     title: 'Cursed to Golf',
     year: 2022,
@@ -469,6 +481,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'pizza-possum',
     slug: 'pizza-possum',
+    nintendoSlug: 'pizza-possum-switch',
     steamAppId: 1951230,
     title: 'Pizza Possum',
     year: 2023,
@@ -522,6 +535,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'totally-reliable-delivery-service',
     slug: 'totally-reliable-delivery-service',
+    nintendoSlug: 'totally-reliable-delivery-service-switch',
     steamAppId: 1011670,
     title: 'Totally Reliable Delivery Service',
     year: 2020,
@@ -549,6 +563,8 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'lawn-mowing-simulator',
     slug: 'lawn-mowing-simulator',
+    nintendoSlug: 'lawn-mowing-simulator-switch',
+    playstationSlug: 'lawn-mowing-simulator',
     steamAppId: 1480560,
     title: 'Lawn Mowing Simulator',
     year: 2021,
@@ -602,6 +618,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'good-pizza-great-pizza',
     slug: 'good-pizza-great-pizza',
+    nintendoSlug: 'good-pizza-great-pizza-switch',
     title: 'Good Pizza, Great Pizza',
     year: 2020,
     developer: 'TapBlaze',
@@ -679,6 +696,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'forever-skies',
     slug: 'forever-skies',
+    playstationSlug: 'forever-skies',
     steamAppId: 1641960,
     title: 'Forever Skies',
     year: 2024,
@@ -705,6 +723,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'breathedge',
     slug: 'breathedge',
+    nintendoSlug: 'breathedge-switch',
     steamAppId: 738520,
     title: 'Breathedge',
     year: 2021,

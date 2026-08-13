@@ -72,6 +72,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'stick-fight',
     slug: 'stick-fight',
+    nintendoSlug: 'stick-fight-the-game-switch',
     steamAppId: 674940,
     title: 'Stick Fight: The Game',
     year: 2017,
@@ -125,6 +126,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'speedrunners',
     slug: 'speedrunners',
+    nintendoSlug: 'speedrunners-switch',
     steamAppId: 207140,
     title: 'SpeedRunners',
     year: 2016,
@@ -152,6 +154,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'boomerang-fu',
     slug: 'boomerang-fu',
+    nintendoSlug: 'boomerang-fu-switch',
     steamAppId: 965680,
     title: 'Boomerang Fu',
     year: 2020,
@@ -179,6 +182,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'super-bomberman-r-2',
     slug: 'super-bomberman-r-2',
+    playstationSlug: 'super-bomberman-r-2',
     nintendoSlug: 'super-bomberman-r-2-switch',
     title: 'Super Bomberman R 2',
     year: 2023,
@@ -232,6 +236,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'pico-park',
     slug: 'pico-park',
+    nintendoSlug: 'pico-park-switch',
     steamAppId: 1509960,
     title: 'PICO PARK',
     year: 2021,
@@ -259,6 +264,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'tools-up',
     slug: 'tools-up',
+    nintendoSlug: 'tools-up-switch',
     steamAppId: 1004490,
     title: 'Tools Up!',
     year: 2019,
@@ -312,6 +318,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'operation-tango',
     slug: 'operation-tango',
+    playstationSlug: 'operation-tango',
     steamAppId: 1335790,
     title: 'Operation: Tango',
     year: 2021,
@@ -364,6 +371,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'lovers-in-a-dangerous-spacetime',
     slug: 'lovers-in-a-dangerous-spacetime',
+    nintendoSlug: 'lovers-in-a-dangerous-spacetime-switch',
     steamAppId: 252110,
     title: 'Lovers in a Dangerous Spacetime',
     year: 2015,
@@ -417,6 +425,8 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'tmnt-shredders-revenge',
     slug: 'tmnt-shredders-revenge',
+    nintendoSlug: 'teenage-mutant-ninja-turtles-shredders-revenge-switch',
+    playstationSlug: 'teenage-mutant-ninja-turtles-shredders-revenge',
     steamAppId: 1361510,
     title: "Teenage Mutant Ninja Turtles: Shredder's Revenge",
     year: 2022,
@@ -444,6 +454,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'river-city-girls',
     slug: 'river-city-girls',
+    nintendoSlug: 'river-city-girls-switch',
     steamAppId: 1049320,
     title: 'River City Girls',
     year: 2019,
@@ -552,6 +563,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'lethal-league-blaze',
     slug: 'lethal-league-blaze',
+    nintendoSlug: 'lethal-league-blaze-switch',
     steamAppId: 553310,
     title: 'Lethal League Blaze',
     year: 2018,
@@ -579,6 +591,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'dusk',
     slug: 'dusk',
+    nintendoSlug: 'dusk-switch',
     steamAppId: 519860,
     title: 'DUSK',
     year: 2018,
@@ -633,6 +646,8 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'prodeus',
     slug: 'prodeus',
+    nintendoSlug: 'prodeus-switch',
+    playstationSlug: 'prodeus',
     steamAppId: 964800,
     title: 'Prodeus',
     year: 2022,
@@ -660,6 +675,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'warhammer-40k-boltgun',
     slug: 'warhammer-40k-boltgun',
+    nintendoSlug: 'warhammer-40-000-boltgun-switch',
     steamAppId: 2005010,
     title: 'Warhammer 40,000: Boltgun',
     year: 2023,
@@ -687,6 +703,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'turbo-overkill',
     slug: 'turbo-overkill',
+    nintendoSlug: 'turbo-overkill-switch',
     steamAppId: 1328350,
     title: 'Turbo Overkill',
     year: 2023,
@@ -714,6 +731,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'severed-steel',
     slug: 'severed-steel',
+    nintendoSlug: 'severed-steel-switch',
     steamAppId: 1227690,
     title: 'Severed Steel',
     year: 2021,
@@ -741,6 +759,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'ghostrunner-2',
     slug: 'ghostrunner-2',
+    playstationSlug: 'ghostrunner-2',
     steamAppId: 2144740,
     title: 'Ghostrunner 2',
     year: 2023,

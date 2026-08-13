@@ -19,6 +19,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'madden-nfl-25',
     slug: 'madden-nfl-25',
+    playstationSlug: 'madden-nfl-25',
     steamAppId: 2582560,
     title: 'Madden NFL 25',
     year: 2024,
@@ -45,6 +46,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'mlb-the-show-24',
     slug: 'mlb-the-show-24',
+    playstationSlug: 'mlb-the-show-24',
     nintendoSlug: 'mlb-the-show-24-switch',
     title: 'MLB The Show 24',
     year: 2024,
@@ -72,6 +74,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'wwe-2k24',
     slug: 'wwe-2k24',
+    playstationSlug: 'wwe-2k24',
     title: 'WWE 2K24',
     year: 2024,
     developer: 'Visual Concepts',
@@ -149,6 +152,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'dirt-rally-2',
     slug: 'dirt-rally-2',
+    playstationSlug: 'dirt-rally-2-0',
     steamAppId: 690790,
     title: 'DiRT Rally 2.0',
     year: 2019,
@@ -175,6 +179,8 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'wreckfest',
     slug: 'wreckfest',
+    nintendoSlug: 'wreckfest-switch',
+    playstationSlug: 'wreckfest',
     steamAppId: 228380,
     title: 'Wreckfest',
     year: 2018,
@@ -202,6 +208,8 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'burnout-paradise',
     slug: 'burnout-paradise',
+    nintendoSlug: 'burnout-paradise-remastered-switch',
+    playstationSlug: 'burnout-paradise-remastered',
     title: 'Burnout Paradise Remastered',
     year: 2018,
     developer: 'Criterion Games',
@@ -228,6 +236,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'need-for-speed-unbound',
     slug: 'need-for-speed-unbound',
+    playstationSlug: 'need-for-speed-unbound',
     title: 'Need for Speed Unbound',
     year: 2022,
     developer: 'Criterion Games',
@@ -253,6 +262,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'riders-republic',
     slug: 'riders-republic',
+    playstationSlug: 'riders-republic',
     title: 'Riders Republic',
     year: 2021,
     developer: 'Ubisoft Annecy',
@@ -411,6 +421,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'beat-saber',
     slug: 'beat-saber',
+    playstationSlug: 'beat-saber',
     steamAppId: 620980,
     title: 'Beat Saber',
     year: 2019,
@@ -489,6 +500,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'farming-simulator-25',
     slug: 'farming-simulator-25',
+    playstationSlug: 'farming-simulator-25',
     title: 'Farming Simulator 25',
     year: 2024,
     developer: 'Giants Software',
@@ -618,6 +630,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'jackbox-party-pack-10',
     slug: 'jackbox-party-pack-10',
+    nintendoSlug: 'the-jackbox-party-pack-10-switch',
     steamAppId: 2216830,
     title: 'The Jackbox Party Pack 10',
     year: 2023,
