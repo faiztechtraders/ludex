@@ -325,12 +325,21 @@ const newOffers = all.length;
 if (previousOffers > 0 && newOffers < previousOffers * (1 - LOSS_TOLERANCE)) {
   const lost = previousOffers - newOffers;
   console.log(
-    `\n  ✖ This run resolved ${newOffers} offers against ${previousOffers} already on disk` +
+    `\n  ⚠ This run resolved ${newOffers} offers against ${previousOffers} already on disk` +
       ` — ${lost} fewer (${((lost / previousOffers) * 100).toFixed(1)}%).` +
       `\n    That is a throttled run, not a real price change. Snapshot left alone;` +
       `\n    re-run when the stores are responding, or pass --force to overwrite.\n`,
   );
-  if (!args.includes('--force')) process.exit(1);
+  /**
+   * Exit 0, not 1.
+   *
+   * This runs nightly in CI. Declining to write is the guard doing its job —
+   * the snapshot on disk stays correct and the site is unaffected — so failing
+   * the workflow would paint the Actions tab red on any throttled night and
+   * train the reader to ignore it. A red run should mean something is broken,
+   * not that Steam was busy. Real errors below still exit non-zero.
+   */
+  if (!args.includes('--force')) process.exit(0);
 }
 
 const base = currency ?? 'MYR';
