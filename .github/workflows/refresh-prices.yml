@@ -54,4 +54,18 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/prices.ts
           git commit -m "Refresh Steam price snapshot"
-          git push
+
+          # The fetch takes ~30 minutes, so main has often moved on by the time
+          # this runs — run #2 failed exactly here after a clean fetch, because
+          # three commits landed while it was working. Rebase onto whatever is
+          # current and retry; only prices.ts is touched, so a rebase is safe.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Push rejected — rebasing onto origin/main and retrying."
+            git pull --rebase origin main || exit 1
+          done
+          echo "Could not push after 3 attempts."
+          exit 1
