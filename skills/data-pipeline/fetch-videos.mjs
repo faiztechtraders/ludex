@@ -50,6 +50,28 @@ if (found.size === 0) {
   process.exit(1);
 }
 
+/**
+ * Never replace a good map with a thinner one.
+ *
+ * The same guard the price fetcher needed, for the same reason: appdetails
+ * throttles silently, so a re-run can resolve far fewer trailers than the last
+ * one and quietly delete working videos. Trailers do get pulled occasionally,
+ * so a small dip is real; a large one is a throttled run.
+ */
+let previous = 0;
+try {
+  previous = (fs.readFileSync(OUT, 'utf8').match(/^\s*'[^']+':\s*\d+,/gm) ?? []).length;
+} catch {
+  /* first run */
+}
+if (previous > 0 && found.size < previous * 0.95) {
+  console.log(
+    `\n  ⚠ Resolved ${found.size} against ${previous} already on disk — keeping the existing map.` +
+      `\n    Re-run when Steam is answering, or pass --force.\n`,
+  );
+  if (!process.argv.includes('--force')) process.exit(0);
+}
+
 const rows = [...found.entries()]
   .sort(([a], [b]) => (a < b ? -1 : 1))
   .map(([slug, id]) => `  '${slug}': ${id},`)
