@@ -158,8 +158,20 @@ async function playstationPrice(game) {
   }
   if (offers.length === 0) return null;
 
-  // Standard edition, not the deluxe bundle the page may list first.
-  const best = offers.reduce((a, b) => (b.final < a.final ? b : a));
+  /**
+   * The Standard edition is the one with the lowest **list** price, not the
+   * lowest sale price.
+   *
+   * Assassin's Creed Shadows lists Standard at RM 299 and a Gold edition at
+   * RM 379 discounted to RM 189.50. Picking the cheapest final price therefore
+   * quoted a premium edition as if it were the base game — RM 189.50 against
+   * the RM 299 the store actually shows. A discount on a fancier edition can
+   * always dip under the standard price, so `final` is the wrong key; `initial`
+   * identifies the edition, and its own discount is then reported honestly.
+   */
+  const best = offers.reduce((a, b) =>
+    b.initial < a.initial || (b.initial === a.initial && b.final < a.final) ? b : a,
+  );
   return {
     final: best.final,
     initial: best.initial,

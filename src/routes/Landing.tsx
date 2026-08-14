@@ -49,7 +49,7 @@ export default function Landing() {
               {quizCompleted ? 'Redo the Vibe Check' : 'Start the Vibe Check'}
             </ButtonLink>
             <ButtonLink to="/spin" variant="secondary" size="lg">
-              {hasSpunToday ? '🎰 Spin again' : '🎰 Just pick something'}
+              {hasSpunToday ? '🎁 Spin again' : '🎁 Just pick something'}
             </ButtonLink>
             {quizCompleted && (
               <ButtonLink to="/results" variant="ghost" size="lg">
@@ -90,7 +90,7 @@ export default function Landing() {
           />
           <ModeCard
             to="/spin"
-            glyph="🎰"
+            glyph="🎁"
             title="Daily Spin"
             body="A gacha reel that hands you one game right now. One official spin a day, unlimited chaos rerolls. Hidden gems drop as legendary."
             accent="var(--color-tier-gem)"

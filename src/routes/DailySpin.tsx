@@ -137,14 +137,21 @@ export default function DailySpin() {
                 onSpin={spin}
                 onSettled={() => setPhase('revealed')}
               />
-              <p className="mt-1 font-display text-xs uppercase tracking-[0.2em] text-text-muted">
-                {phase === 'spinning' ? 'Tap to skip' : 'Turn the crank'}
-              </p>
-              {phase === 'idle' && hasSpunToday && (
-                <p className="mt-3 text-xs text-text-muted">
-                  You have already taken today&apos;s official spin. Rerolls are unlimited.
+              {/* Fixed height, because this block changes on the very frame the
+                  machine starts moving: the caption swaps and the "already spun"
+                  note disappears. Letting it collapse pulled the machine down
+                  mid-animation — barely visible on desktop, obvious on a phone
+                  where the note wraps to two lines. */}
+              <div className="mt-1 flex h-14 flex-col items-center justify-start">
+                <p className="font-display text-xs uppercase tracking-[0.2em] text-text-muted">
+                  {phase === 'spinning' ? 'Tap to skip' : 'Turn the crank'}
                 </p>
-              )}
+                {phase === 'idle' && hasSpunToday && (
+                  <p className="mt-2 max-w-[18rem] text-center text-xs text-text-muted">
+                    You have already taken today&apos;s official spin. Rerolls are unlimited.
+                  </p>
+                )}
+              </div>
             </motion.div>
           )}
 
