@@ -127,7 +127,16 @@ async function playstationPrice(game) {
   const html = await res.text();
 
   const money = (s) => {
-    if (!/\d/.test(String(s))) return null; // "Included", "Free", "Pre-order"
+    /**
+     * "Free" is a price, not an absence of one.
+     *
+     * Discarding it meant Fortnite's own listing — `basePrice: "Free"` — was
+     * thrown away, and the cheapest *numeric* block won instead: a RM 16
+     * cosmetic bundle, shown as the price of a free game. Anything else without
+     * digits ("Included", "Pre-order") is still not a purchase price.
+     */
+    if (/free/i.test(String(s))) return 0;
+    if (!/\d/.test(String(s))) return null;
     // Strip thousands separators before parsing, or "RM 1,299.00" becomes 1.299.
     const n = Number(String(s).replace(/[^0-9.,]/g, '').replace(/,(?=\d{3}\b)/g, ''));
     return Number.isFinite(n) && n > 0 ? Math.round(n * 100) : null;

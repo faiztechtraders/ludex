@@ -17,7 +17,8 @@ const PS_LOCALE = `en-${PRICE_SNAPSHOT.region.toLowerCase()}`;
  */
 
 export interface StoreLink {
-  store: 'Steam' | 'Nintendo' | 'PlayStation' | 'Xbox';
+  /** Steam, PlayStation, Nintendo, Xbox — or a PC storefront like Epic. */
+  store: string;
   url: string;
   /**
    * True when the link goes to the store's search results rather than the
@@ -47,7 +48,40 @@ export function storeLinks(game: Game): StoreLink[] {
   if (game.steamAppId) {
     links.push({ store: 'Steam', url: `https://store.steampowered.com/app/${game.steamAppId}/` });
   } else if (on('pc')) {
-    links.push({ store: 'Steam', url: `https://store.steampowered.com/search/?term=${q}`, search: true });
+    /**
+     * Not every PC game is on Steam, and sending someone to a Steam search for
+     * Fortnite returns nothing — a link that is worse than none, because it
+     * implies the game is there. Route by who actually sells it.
+     */
+    /**
+     * Hand-pinned where the publisher name does not give it away. Guessing from
+     * the developer works for Riot and Blizzard, whose names are on the store,
+     * but not for an Epic-published game by an independent studio.
+     */
+    const PINNED: Record<string, { store: string; url: string }> = {
+      fortnite: { store: 'Epic', url: 'https://store.epicgames.com/en-US/p/fortnite' },
+      minecraft: { store: 'Minecraft.net', url: 'https://www.minecraft.net/en-us/store/minecraft-deluxe-collection-pc' },
+      'rocket-league': { store: 'Epic', url: 'https://store.epicgames.com/en-US/p/rocket-league' },
+      'fall-guys': { store: 'Epic', url: 'https://store.epicgames.com/en-US/p/fall-guys' },
+      'alan-wake-2': { store: 'Epic', url: 'https://store.epicgames.com/en-US/p/alan-wake-2' },
+      'resident-evil-4-vr': { store: 'Meta Quest', url: 'https://www.meta.com/experiences/4094949507207447/' },
+      'pc-building-simulator-2': { store: 'Epic', url: 'https://store.epicgames.com/en-US/p/pc-building-simulator-2' },
+    };
+    const who = `${game.developer} ${game.publisher ?? ''}`.toLowerCase();
+    const pinned = PINNED[game.slug];
+
+    if (pinned) {
+      // A real product page, so not flagged as a search.
+      links.push(pinned);
+    } else if (/epic games/.test(who)) {
+      links.push({ store: 'Epic', url: `https://store.epicgames.com/en-US/browse?q=${q}`, search: true });
+    } else if (/riot games/.test(who)) {
+      links.push({ store: 'Riot', url: 'https://www.riotgames.com/en/games', search: true });
+    } else if (/blizzard/.test(who)) {
+      links.push({ store: 'Battle.net', url: 'https://us.shop.battle.net/en-us', search: true });
+    } else {
+      links.push({ store: 'Steam', url: `https://store.steampowered.com/search/?term=${q}`, search: true });
+    }
   }
 
   if (game.playstationSlug) {
