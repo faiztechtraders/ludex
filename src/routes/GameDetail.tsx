@@ -14,6 +14,7 @@ import { MatchRing } from '@/components/game/MatchRing.tsx';
 import { SaveButton } from '@/components/game/SaveButton.tsx';
 import { WhyItFits } from '@/components/game/WhyItFits.tsx';
 import { PriceTag, PriceFootnote } from '@/components/game/PriceTag.tsx';
+import { GameVideo } from '@/components/game/GameVideo.tsx';
 import { PlatformBadgeRow } from '@/components/platform/PlatformBadge.tsx';
 import { ButtonLink } from '@/components/ui/Button.tsx';
 import { Chip } from '@/components/ui/Chip.tsx';
@@ -173,6 +174,8 @@ export default function GameDetail() {
               </p>
             )}
           </section>
+
+          <GameVideo game={game} />
 
           {/* Screenshots, when art has been cached. */}
           {shots.length > 0 && (
