@@ -36,8 +36,19 @@ export function GameVideo({ game }: { game: Game }) {
           onError={() => setFailed(true)}
           className="aspect-video w-full rounded-card border border-hairline bg-abyss"
         >
-          <source src={`${STEAM_VIDEO}/${movieId}/movie480_vp9.webm`} type="video/webm" />
+          {/**
+           * Highest quality first — the browser takes the first source it can
+           * play, so listing 480p first served everyone 480p with no way to
+           * change it. `preload="none"` means the larger file costs nothing
+           * until someone actually presses play.
+           *
+           * `movie480.mp4` is last as a genuine fallback: older trailers have
+           * no `_vp9` webm at all, and Red Dead Redemption 2's 404'd, which
+           * silently dropped the whole player to the YouTube link.
+           */}
+          <source src={`${STEAM_VIDEO}/${movieId}/movie_max.webm`} type="video/webm" />
           <source src={`${STEAM_VIDEO}/${movieId}/movie_max.mp4`} type="video/mp4" />
+          <source src={`${STEAM_VIDEO}/${movieId}/movie480.mp4`} type="video/mp4" />
         </video>
       </section>
     );
