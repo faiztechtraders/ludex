@@ -5,7 +5,7 @@ import { PlatformBadgeRow } from '@/components/platform/PlatformBadge.tsx';
 import { GameCover } from './GameCover.tsx';
 import { TierBadge } from './TierBadge.tsx';
 import { MatchRing } from './MatchRing.tsx';
-import { bestDiscount } from '@/lib/price.ts';
+import { bestDiscount, isFree } from '@/lib/price.ts';
 import { SaveButton } from './SaveButton.tsx';
 
 /**
@@ -30,6 +30,7 @@ export function GameCard({
   const topReason = reasons?.[0]?.text;
   // Best discount across every store — a Switch sale matters as much as a Steam one.
   const discount = bestDiscount(game.slug);
+  const free = isFree(game.slug);
 
   return (
     <article
@@ -69,15 +70,16 @@ export function GameCard({
             <TierBadge tier={game.tier} overlay />
           </div>
 
-          {/* Only the discount, and only when there is one. A price on every
-              card would be noise; "this is on sale right now" is the single
-              thing worth interrupting a browse for. */}
-          {discount > 0 && (
+          {/* Only price news, never the price itself. A figure on every card is
+              noise; "free" or "on sale right now" is the one thing worth
+              interrupting a browse for. Free wins over a discount — it is the
+              stronger reason to click, and "−100%" would be absurd. */}
+          {(free || discount > 0) && (
             <div
               className="absolute bottom-2 left-2 rounded-chip px-1.5 py-0.5 font-display text-[11px] font-bold text-text-inverse"
               style={{ background: 'var(--color-neon-lime)' }}
             >
-              −{discount}%
+              {free ? 'FREE' : `−${discount}%`}
             </div>
           )}
         </div>

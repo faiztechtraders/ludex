@@ -53,6 +53,17 @@ export function bestDiscount(slug: string): number {
 }
 
 /**
+ * Free on at least one store.
+ *
+ * Checked ahead of the discount badge: "−100%" would be technically true for a
+ * free-to-play game and completely the wrong thing to say, and free is a
+ * stronger reason to click than any percentage.
+ */
+export function isFree(slug: string): boolean {
+  return pricesFor(slug).some((p) => p.final === 0);
+}
+
+/**
  * Approximate the snapshot currency for a price quoted in another one.
  *
  * Nintendo publishes USD only, so a Malaysian reader would otherwise have to do
