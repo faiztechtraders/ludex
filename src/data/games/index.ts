@@ -22,6 +22,7 @@ import { INDIE_GAMES_3 } from './indie-3.ts';
 import { INDIE_GAMES_4 } from './indie-4.ts';
 import { INDIE_GAMES_5 } from './indie-5.ts';
 import { INDIE_GAMES_6 } from './indie-6.ts';
+import { RECENT_GAMES } from './recent-2025.ts';
 import { HIDDEN_GEMS } from './hidden-gems.ts';
 import { HIDDEN_GEMS_2 } from './hidden-gems-2.ts';
 import { HIDDEN_GEMS_3 } from './hidden-gems-3.ts';
@@ -46,6 +47,7 @@ export const GAMES: Game[] = [
   ...INDIE_GAMES_4,
   ...INDIE_GAMES_5,
   ...INDIE_GAMES_6,
+  ...RECENT_GAMES,
   ...HIDDEN_GEMS,
   ...HIDDEN_GEMS_2,
   ...HIDDEN_GEMS_3,
