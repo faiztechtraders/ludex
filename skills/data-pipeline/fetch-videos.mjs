@@ -24,6 +24,19 @@ const OUT = 'src/data/videos.ts';
 const targets = GAMES.filter((g) => g.steamAppId);
 console.log(`\n  Fetching trailers for ${targets.length} games…\n`);
 
+const STEAM_VIDEO = 'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps';
+
+/** Both qualities the player will try — if neither loads, the id is useless. */
+async function mediaExists(id) {
+  for (const file of ['movie_max.mp4', 'movie480.mp4']) {
+    try {
+      const res = await fetch(`${STEAM_VIDEO}/${id}/${file}`, { method: 'HEAD', signal: AbortSignal.timeout(10_000) });
+      if (res.status === 200) return true;
+    } catch { /* try the next one */ }
+  }
+  return false;
+}
+
 const found = new Map();
 let checked = 0;
 
@@ -35,7 +48,15 @@ for (const game of targets) {
     );
     const body = await res.json();
     const movie = body?.[String(game.steamAppId)]?.data?.movies?.[0];
-    if (movie?.id) found.set(game.slug, movie.id);
+    /**
+     * An id in the payload does not mean the media exists.
+     *
+     * 85 of the first 459 resolved to URLs that 404, which shipped a player
+     * that died the moment anyone pressed play — worse than showing no video,
+     * because it looked broken rather than absent. The same lesson as derived
+     * art URLs: confirm, do not assume.
+     */
+    if (movie?.id && (await mediaExists(movie.id))) found.set(game.slug, movie.id);
   } catch {
     /* a missing trailer is a normal outcome */
   }
