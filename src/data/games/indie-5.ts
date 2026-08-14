@@ -182,6 +182,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'super-bomberman-r-2',
     slug: 'super-bomberman-r-2',
+    steamAppId: 1913740,
     playstationSlug: 'super-bomberman-r-2',
     nintendoSlug: 'super-bomberman-r-2-switch',
     title: 'Super Bomberman R 2',
@@ -482,6 +483,7 @@ export const INDIE_GAMES_5: Game[] = [
   {
     id: 'scott-pilgrim-vs-the-world',
     slug: 'scott-pilgrim-vs-the-world',
+    steamAppId: 2215260,
     playstationSlug: 'scott-pilgrim-vs-the-world-the-game',
     title: 'Scott Pilgrim vs. The World: The Game',
     year: 2021,

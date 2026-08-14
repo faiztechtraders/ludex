@@ -51,6 +51,8 @@ function addOffer(slug, offer) {
 let currency = null;
 let free = 0;
 let unavailable = 0;
+/** Games with no price_overview — checked individually for is_free later. */
+const maybeFree = [];
 
 /**
  * Console stores quote in USD, Steam in the requested region. Rather than
@@ -185,11 +187,17 @@ async function playstationPrice(game) {
 
 async function fetchBatch(batch, attempt = 0) {
   const ids = batch.map((g) => g.steamAppId).join(',');
-  // `basic` comes along for `is_free`. Free-to-play games carry no
-  // price_overview at all, so without it they were indistinguishable from
-  // "not sold in this region" and both fell out of the snapshot — leaving
-  // We Were Here, which is free, showing "Check price".
-  const url = `https://store.steampowered.com/api/appdetails?appids=${ids}&filters=basic,price_overview&cc=${region}&l=en`;
+  /**
+   * `filters=price_overview` and nothing else.
+   *
+   * Steam only honours multiple app ids for a *single* filter. Asking for
+   * `basic,price_overview` returns an empty object for the whole batch — no
+   * error, just `{}` — which silently wiped every Steam price and cost two
+   * full runs that I misread as throttling, because the loss looked plausible.
+   * `is_free` is fetched separately below, one call per game, and only for the
+   * handful that come back without a price.
+   */
+  const url = `https://store.steampowered.com/api/appdetails?appids=${ids}&filters=price_overview&cc=${region}&l=en`;
   try {
     const res = await fetch(url, { headers: { 'user-agent': 'Mozilla/5.0' } });
     if (res.status === 429 || res.status >= 500) throw new Error(`HTTP ${res.status}`);
@@ -219,18 +227,10 @@ for (let i = 0; i < priced.length; i += BATCH) {
         continue;
       }
       if (!p) {
-        // Free-to-play is a fact worth showing; "not sold in this region" is
-        // not, and both arrive as a missing price_overview. `is_free` tells
-        // them apart. A zero final price is the UI's signal for "Free".
-        if (entry.data?.is_free) {
-          addOffer(game.slug, {
-            store: 'Steam',
-            final: 0,
-            initial: 0,
-            discount: 0,
-            currency: currency ?? 'MYR',
-          });
-        }
+        // Free-to-play and "not sold in this region" both arrive as a missing
+        // price_overview. Checked individually after the batch loop, since the
+        // filter that distinguishes them cannot be batched.
+        maybeFree.push(game);
         free++;
         continue;
       }
@@ -248,6 +248,42 @@ for (let i = 0; i < priced.length; i += BATCH) {
   const done = Math.min(i + BATCH, priced.length);
   if (done % 200 === 0 || done === priced.length) console.log(`    …${done}/${priced.length}`);
   await new Promise((r) => setTimeout(r, DELAY_MS));
+}
+
+/* ------------------------------------------------------------ free to play */
+/**
+ * Which of the priceless games are actually free.
+ *
+ * One request each, but only for the ~30 that came back without a price — the
+ * `basic` filter carries `is_free` and cannot be combined with a batch.
+ * Showing "Free" is worth this; showing "Check price" on a free game is not.
+ */
+if (maybeFree.length) {
+  console.log(`\n  Checking ${maybeFree.length} priceless games for free-to-play…`);
+  let freeFound = 0;
+  for (const game of maybeFree) {
+    try {
+      const res = await fetch(
+        `https://store.steampowered.com/api/appdetails?appids=${game.steamAppId}&filters=basic&l=en`,
+        { headers: { 'user-agent': 'Mozilla/5.0' } },
+      );
+      const body = await res.json();
+      if (body?.[String(game.steamAppId)]?.data?.is_free) {
+        addOffer(game.slug, {
+          store: 'Steam',
+          final: 0,
+          initial: 0,
+          discount: 0,
+          currency: currency ?? 'MYR',
+        });
+        freeFound++;
+      }
+    } catch {
+      /* a missed free flag just leaves the game priceless, as before */
+    }
+    await new Promise((r) => setTimeout(r, 350));
+  }
+  console.log(`    ${freeFound} free-to-play`);
 }
 
 /* --------------------------------------------------------- console stores */

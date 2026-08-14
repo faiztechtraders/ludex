@@ -160,6 +160,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'trials-rising',
     slug: 'trials-rising',
+    steamAppId: 641080,
     playstationSlug: 'trials-rising',
     title: 'Trials Rising',
     year: 2019,
@@ -187,6 +188,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'hot-wheels-unleashed-2',
     slug: 'hot-wheels-unleashed-2',
+    steamAppId: 2051120,
     nintendoSlug: 'hot-wheels-unleashed-2-turbocharged-switch',
     playstationSlug: 'hot-wheels-unleashed-2-turbocharged',
     title: 'Hot Wheels Unleashed 2: Turbocharged',
@@ -241,6 +243,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'train-sim-world-4',
     slug: 'train-sim-world-4',
+    steamAppId: 2362300,
     playstationSlug: 'train-sim-world-4',
     title: 'Train Sim World 4',
     year: 2023,
@@ -321,6 +324,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'gorilla-tag',
     slug: 'gorilla-tag',
+    steamAppId: 1533390,
     title: 'Gorilla Tag',
     year: 2021,
     developer: 'Another Axiom',
@@ -346,6 +350,7 @@ export const MAINSTREAM_GAMES_10: Game[] = [
   {
     id: 'walkabout-mini-golf',
     slug: 'walkabout-mini-golf',
+    steamAppId: 1408230,
     playstationSlug: 'walkabout-mini-golf',
     title: 'Walkabout Mini Golf',
     year: 2021,

@@ -20,7 +20,8 @@
     "data:audit-steam": "node skills/data-pipeline/audit-steam-ids.mjs",
     "data:report": "node skills/data-pipeline/audit-report.mjs",
     "data:prices": "node skills/data-pipeline/fetch-prices.mjs",
-    "data:store-slugs": "node skills/data-pipeline/resolve-store-slugs.mjs"
+    "data:store-slugs": "node skills/data-pipeline/resolve-store-slugs.mjs",
+    "data:steam-ids": "node skills/data-pipeline/resolve-steam-ids.mjs"
   },
   "dependencies": {
     "motion": "^13.1.0",

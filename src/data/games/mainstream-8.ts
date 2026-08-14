@@ -528,6 +528,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'star-wars-battlefront-ii',
     slug: 'star-wars-battlefront-ii',
+    steamAppId: 1237950,
     playstationSlug: 'star-wars-battlefront-ii',
     title: 'Star Wars Battlefront II',
     year: 2017,
@@ -691,6 +692,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'assassins-creed-mirage',
     slug: 'assassins-creed-mirage',
+    steamAppId: 3035570,
     playstationSlug: 'assassins-creed-mirage',
     title: "Assassin's Creed Mirage",
     year: 2023,
@@ -935,6 +937,7 @@ export const MAINSTREAM_GAMES_8: Game[] = [
   {
     id: 'quake-champions',
     slug: 'quake-champions',
+    steamAppId: 611500,
     title: 'Quake Champions',
     year: 2022,
     developer: 'id Software',

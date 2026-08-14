@@ -74,6 +74,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'wwe-2k24',
     slug: 'wwe-2k24',
+    steamAppId: 2315690,
     playstationSlug: 'wwe-2k24',
     title: 'WWE 2K24',
     year: 2024,
@@ -208,6 +209,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'burnout-paradise',
     slug: 'burnout-paradise',
+    steamAppId: 1238080,
     nintendoSlug: 'burnout-paradise-remastered-switch',
     playstationSlug: 'burnout-paradise-remastered',
     title: 'Burnout Paradise Remastered',
@@ -236,6 +238,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'need-for-speed-unbound',
     slug: 'need-for-speed-unbound',
+    steamAppId: 1846380,
     playstationSlug: 'need-for-speed-unbound',
     title: 'Need for Speed Unbound',
     year: 2022,
@@ -262,6 +265,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'riders-republic',
     slug: 'riders-republic',
+    steamAppId: 2290180,
     playstationSlug: 'riders-republic',
     title: 'Riders Republic',
     year: 2021,
@@ -500,6 +504,7 @@ export const MAINSTREAM_GAMES_9: Game[] = [
   {
     id: 'farming-simulator-25',
     slug: 'farming-simulator-25',
+    steamAppId: 2300320,
     playstationSlug: 'farming-simulator-25',
     title: 'Farming Simulator 25',
     year: 2024,

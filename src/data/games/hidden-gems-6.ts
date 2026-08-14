@@ -618,6 +618,7 @@ export const HIDDEN_GEMS_6: Game[] = [
   {
     id: 'good-pizza-great-pizza',
     slug: 'good-pizza-great-pizza',
+    steamAppId: 770810,
     nintendoSlug: 'good-pizza-great-pizza-switch',
     title: 'Good Pizza, Great Pizza',
     year: 2020,
