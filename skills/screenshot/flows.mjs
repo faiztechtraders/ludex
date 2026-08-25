@@ -255,7 +255,21 @@ await flow('back-restores-list-position', desktop, async (page) => {
 // exactly like "this game has no price", which is a legitimate state for
 // free-to-play titles. Assert on a game known to be discounted instead.
 await flow('price-and-store-link', desktop, async (page) => {
-  await page.goto(`${BASE}/game/ghost-recon-wildlands`, { waitUntil: 'networkidle' });
+  /**
+   * Pick a discounted game from the snapshot rather than naming one.
+   *
+   * This used to hardcode Ghost Recon Wildlands as "a game known to be
+   * discounted", which was true the day it was written and false once the sale
+   * ended — the test then failed for a reason that had nothing to do with the
+   * code. Sales are the one thing in this dataset guaranteed to change.
+   */
+  const { PRICES } = await import('../../src/data/prices.ts');
+  const onSale = Object.entries(PRICES).find(([, offers]) =>
+    offers.some((o) => o[0] === 'Steam' && o[3] > 0),
+  );
+  if (!onSale) throw new Error('no discounted Steam game in the snapshot to test against');
+
+  await page.goto(`${BASE}/game/${onSale[0]}`, { waitUntil: 'networkidle' });
   await page.waitForTimeout(600);
 
   const panel = page.locator('aside .panel').first();

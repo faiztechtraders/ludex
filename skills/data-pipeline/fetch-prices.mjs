@@ -113,7 +113,7 @@ async function nintendoPrice(game) {
  * scraper made. Every block is parsed and the cheapest genuine purchase price
  * wins, with subscription offers skipped outright.
  */
-async function playstationPrice(game) {
+async function playstationPrice(game, allowFree) {
   // Sony localises the whole page, so the requested region's own currency comes
   // back directly — RM 99.00 rather than $19.99. Worth doing: the real Malaysian
   // price is RM 99 while converting the US price gives RM 81.71, so the
@@ -135,7 +135,7 @@ async function playstationPrice(game) {
      * cosmetic bundle, shown as the price of a free game. Anything else without
      * digits ("Included", "Pre-order") is still not a purchase price.
      */
-    if (/free/i.test(String(s))) return 0;
+    if (/free/i.test(String(s))) return allowFree ? 0 : null;
     if (!/\d/.test(String(s))) return null;
     // Strip thousands separators before parsing, or "RM 1,299.00" becomes 1.299.
     const n = Number(String(s).replace(/[^0-9.,]/g, '').replace(/,(?=\d{3}\b)/g, ''));
@@ -315,7 +315,20 @@ for (const [i, game] of consoles.entries()) {
   ]) {
     if (!fetcher) continue;
     try {
-      const found = await fetcher(game);
+      /**
+       * Trust a PlayStation "Free" only when another store already proved the
+       * game is free-to-play.
+       *
+       * Sony lists free DLC and demo entitlements as their own price blocks —
+       * Sonic Frontiers has free cosmetic suits, Devil May Cry 5 a subscription
+       * trial — so the cheapest-list-price rule crowned a giveaway as the price
+       * of a paid game. Steam's is_free flag and Nintendo's zero price are
+       * evidence; a bare "Free" string on a page full of paid editions is not.
+       * Steam runs before this loop and Nintendo before PlayStation within it,
+       * so the evidence is already in hand.
+       */
+      const knownFree = (prices.get(game.slug) ?? []).some((o) => o.final === 0);
+      const found = await fetcher(game, knownFree);
       if (found) {
         addOffer(game.slug, { store, ...found });
         consoleHits++;
