@@ -11,7 +11,7 @@
 
 export const PRICE_SNAPSHOT = {
   /** ISO date the snapshot was taken. Shown to the user, so it stays honest. */
-  fetchedAt: '2026-09-13',
+  fetchedAt: '2026-09-14',
   /** Steam store region the prices were quoted for. */
   region: 'MY',
   /** ISO 4217 code the Steam prices are quoted in, e.g. MYR. */
@@ -21,7 +21,7 @@ export const PRICE_SNAPSHOT = {
    * Null when unavailable, in which case the UI shows the USD figure alone
    * rather than an invented conversion.
    */
-  usdRate: 4.06821,
+  usdRate: 4.070246,
 } as const;
 
 /**
@@ -98,12 +98,12 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'batman-arkham-knight': [['Steam', 3800, 3800, 0, 'MYR'], ['PlayStation', 7947, 7947, 0, 'MYR'], ['Nintendo', 2499, 2499, 0, 'USD']],
   'battleblock-theater': [['Steam', 3100, 3100, 0, 'MYR']],
   'battlefield-2042': [['Steam', 19900, 19900, 0, 'MYR'], ['PlayStation', 2445, 2445, 0, 'MYR']],
-  'battlefield-6': [['Steam', 12950, 25900, 50, 'MYR']],
+  'battlefield-6': [['Steam', 25900, 25900, 0, 'MYR']],
   'bayonetta-3': [['Nintendo', 4199, 5999, 30, 'USD']],
   'beat-saber': [['Steam', 8099, 8099, 0, 'MYR'], ['PlayStation', 917, 917, 0, 'MYR']],
   'before-your-eyes': [['Steam', 2675, 2675, 0, 'MYR'], ['PlayStation', 6011, 6011, 0, 'MYR']],
   'behind-the-frame': [['Steam', 1279, 3199, 60, 'MYR'], ['PlayStation', 3973, 3973, 0, 'MYR'], ['Nintendo', 649, 1299, 50, 'USD']],
-  'beholder': [['Steam', 3600, 3600, 0, 'MYR']],
+  'beholder': [['Steam', 360, 3600, 90, 'MYR']],
   'besiege': [['Steam', 3850, 3850, 0, 'MYR']],
   'betrayal-at-club-low': [['Steam', 2549, 2549, 0, 'MYR']],
   'big-walk': [['Steam', 4900, 4900, 0, 'MYR']],
@@ -125,7 +125,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'breathedge': [['Steam', 5900, 5900, 0, 'MYR'], ['Nintendo', 249, 2499, 90, 'USD']],
   'broforce': [['Steam', 3850, 3850, 0, 'MYR'], ['Nintendo', 1499, 1499, 0, 'USD']],
   'brotato': [['Steam', 839, 1399, 40, 'MYR'], ['Nintendo', 499, 499, 0, 'USD']],
-  'bug-fables': [['Steam', 4900, 4900, 0, 'MYR'], ['Nintendo', 999, 2499, 60, 'USD']],
+  'bug-fables': [['Steam', 4900, 4900, 0, 'MYR'], ['Nintendo', 2499, 2499, 0, 'USD']],
   'burnout-paradise': [['Steam', 7900, 7900, 0, 'MYR'], ['PlayStation', 8559, 8559, 0, 'MYR'], ['Nintendo', 2999, 2999, 0, 'USD']],
   'call-of-duty-black-ops-6': [['Steam', 13300, 33250, 60, 'MYR'], ['PlayStation', 950, 950, 0, 'MYR']],
   'call-of-duty-modern-warfare-2019': [['Steam', 7125, 28500, 75, 'MYR']],
@@ -197,7 +197,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'deltarune': [['Steam', 6100, 6100, 0, 'MYR'], ['Nintendo', 2499, 2499, 0, 'USD']],
   'demons-souls': [['PlayStation', 30465, 30465, 0, 'MYR']],
   'descenders': [['Steam', 4399, 4399, 0, 'MYR'], ['PlayStation', 10087, 10087, 0, 'MYR'], ['Nintendo', 2499, 2499, 0, 'USD']],
-  'destiny-2': [['Steam', 0, 0, 0, 'MYR'], ['PlayStation', 2200, 2200, 0, 'MYR']],
+  'destiny-2': [['Steam', 0, 0, 0, 'MYR'], ['PlayStation', 0, 0, 0, 'USD']],
   'detroit-become-human': [['Steam', 13900, 13900, 0, 'MYR'], ['PlayStation', 7900, 7900, 0, 'MYR']],
   'deus-ex-human-revolution': [['Steam', 6900, 6900, 0, 'MYR']],
   'devil-daggers': [['Steam', 1375, 1375, 0, 'MYR']],
@@ -508,7 +508,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'peak': [['Steam', 2199, 2199, 0, 'MYR']],
   'peglin': [['Steam', 4900, 4900, 0, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'pentiment': [['Steam', 6900, 6900, 0, 'MYR'], ['PlayStation', 8049, 8049, 0, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
-  'peripeteia': [['Steam', 4880, 6100, 20, 'MYR']],
+  'peripeteia': [['Steam', 6100, 6100, 0, 'MYR']],
   'persona-3-reload': [['Steam', 19900, 19900, 0, 'MYR'], ['PlayStation', 5550, 11100, 50, 'MYR']],
   'persona-4-golden': [['Steam', 7900, 7900, 0, 'MYR'], ['PlayStation', 4829, 8049, 40, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'persona-5-royal': [['Steam', 25200, 25200, 0, 'MYR'], ['PlayStation', 7702, 25676, 70, 'MYR'], ['Nintendo', 5999, 5999, 0, 'USD']],
