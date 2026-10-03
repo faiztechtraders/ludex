@@ -11,7 +11,7 @@
 
 export const PRICE_SNAPSHOT = {
   /** ISO date the snapshot was taken. Shown to the user, so it stays honest. */
-  fetchedAt: '2026-10-02',
+  fetchedAt: '2026-10-03',
   /** Steam store region the prices were quoted for. */
   region: 'MY',
   /** ISO 4217 code the Steam prices are quoted in, e.g. MYR. */
@@ -21,7 +21,7 @@ export const PRICE_SNAPSHOT = {
    * Null when unavailable, in which case the UI shows the USD figure alone
    * rather than an invented conversion.
    */
-  usdRate: 4.085002,
+  usdRate: 4.08426,
 } as const;
 
 /**
@@ -41,7 +41,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   '20-minutes-till-dawn': [['Steam', 699, 1399, 50, 'MYR'], ['Nintendo', 499, 499, 0, 'USD']],
   '7-days-to-die': [['Steam', 5500, 10000, 45, 'MYR']],
   'a-little-to-the-left': [['Steam', 1440, 3600, 60, 'MYR'], ['PlayStation', 2038, 2038, 0, 'MYR'], ['Nintendo', 1499, 1499, 0, 'USD']],
-  'a-monsters-expedition': [['Steam', 1470, 4900, 70, 'MYR'], ['Nintendo', 599, 1999, 70, 'USD']],
+  'a-monsters-expedition': [['Steam', 1470, 4900, 70, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'a-plague-tale-innocence': [['Steam', 1090, 10900, 90, 'MYR'], ['PlayStation', 17218, 17218, 0, 'MYR']],
   'a-plague-tale-requiem': [['Steam', 4170, 13900, 70, 'MYR'], ['PlayStation', 25370, 25370, 0, 'MYR']],
   'a-short-hike': [['Steam', 1170, 1950, 40, 'MYR'], ['Nintendo', 799, 799, 0, 'USD']],
@@ -115,7 +115,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'blue-prince': [['Steam', 4320, 7200, 40, 'MYR'], ['PlayStation', 13144, 13144, 0, 'MYR'], ['Nintendo', 1799, 2999, 40, 'USD']],
   'bo-path-of-the-teal-lotus': [['Steam', 4550, 9100, 50, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'bomb-rush-cyberfunk': [['Steam', 8800, 8800, 0, 'MYR'], ['PlayStation', 2038, 2038, 0, 'MYR'], ['Nintendo', 3999, 3999, 0, 'USD']],
-  'bonfire-peaks': [['Steam', 1470, 4900, 70, 'MYR'], ['Nintendo', 599, 1999, 70, 'USD']],
+  'bonfire-peaks': [['Steam', 1470, 4900, 70, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'book-of-hours': [['Steam', 2440, 6100, 60, 'MYR']],
   'boomerang-fu': [['Steam', 3675, 3675, 0, 'MYR'], ['Nintendo', 1499, 1499, 0, 'USD']],
   'borderlands-2': [['Steam', 950, 3800, 75, 'MYR']],
@@ -196,7 +196,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'delta-force': [['Steam', 0, 0, 0, 'MYR'], ['PlayStation', 0, 0, 0, 'USD']],
   'deltarune': [['Steam', 6100, 6100, 0, 'MYR'], ['Nintendo', 2499, 2499, 0, 'USD']],
   'demons-souls': [['PlayStation', 30465, 30465, 0, 'MYR']],
-  'descenders': [['Steam', 1099, 4399, 75, 'MYR'], ['PlayStation', 3026, 10087, 70, 'MYR'], ['Nintendo', 2499, 2499, 0, 'USD']],
+  'descenders': [['Steam', 1099, 4399, 75, 'MYR'], ['PlayStation', 3026, 10087, 70, 'MYR'], ['Nintendo', 624, 2499, 75, 'USD']],
   'destiny-2': [['Steam', 0, 0, 0, 'MYR'], ['PlayStation', 0, 0, 0, 'USD']],
   'detroit-become-human': [['Steam', 1390, 13900, 90, 'MYR'], ['PlayStation', 7900, 7900, 0, 'MYR']],
   'deus-ex-human-revolution': [['Steam', 690, 6900, 90, 'MYR']],
@@ -344,7 +344,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'huntdown': [['Steam', 1320, 6600, 80, 'MYR'], ['PlayStation', 13144, 13144, 0, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'hyper-demon': [['Steam', 705, 2075, 66, 'MYR']],
   'hyper-light-drifter': [['Steam', 950, 3800, 75, 'MYR']],
-  'hypnospace-outlaw': [['Steam', 975, 3900, 75, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
+  'hypnospace-outlaw': [['Steam', 975, 3900, 75, 'MYR'], ['Nintendo', 599, 1999, 70, 'USD']],
   'hyrule-warriors-age-of-imprisonment': [['Nintendo', 6999, 6999, 0, 'USD']],
   'iconoclasts': [['Steam', 4900, 4900, 0, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'ikaruga': [['Steam', 1150, 2300, 50, 'MYR'], ['Nintendo', 1499, 1499, 0, 'USD']],
@@ -383,7 +383,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'knock-on-the-coffin-lid': [['Steam', 2200, 4400, 50, 'MYR']],
   'lake': [['Steam', 1326, 3900, 66, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'last-epoch': [['Steam', 5880, 8400, 30, 'MYR']],
-  'lawn-mowing-simulator': [['Steam', 1600, 6400, 75, 'MYR'], ['PlayStation', 2038, 2038, 0, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
+  'lawn-mowing-simulator': [['Steam', 1600, 6400, 75, 'MYR'], ['PlayStation', 2038, 2038, 0, 'MYR'], ['Nintendo', 799, 1999, 60, 'USD']],
   'left-4-dead-2': [['Steam', 535, 2675, 80, 'MYR']],
   'lethal-company': [['Steam', 2675, 2675, 0, 'MYR']],
   'lethal-league-blaze': [['Steam', 3900, 3900, 0, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
@@ -473,7 +473,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'noita': [['Steam', 1560, 3900, 60, 'MYR']],
   'norco': [['Steam', 1270, 3850, 67, 'MYR']],
   'not-for-broadcast': [['Steam', 1525, 6100, 75, 'MYR']],
-  'nowhere-prophet': [['Steam', 1100, 4400, 75, 'MYR'], ['Nintendo', 2499, 2499, 0, 'USD']],
+  'nowhere-prophet': [['Steam', 1100, 4400, 75, 'MYR'], ['Nintendo', 749, 2499, 70, 'USD']],
   'nubby-s-number-factory': [['Steam', 699, 1399, 50, 'MYR']],
   'nuclear-throne': [['Steam', 2100, 2800, 25, 'MYR'], ['Nintendo', 1399, 1399, 0, 'USD']],
   'octopath-traveler-ii': [['Steam', 6360, 15900, 60, 'MYR'], ['PlayStation', 15900, 15900, 0, 'MYR'], ['Nintendo', 5999, 5999, 0, 'USD']],
@@ -504,7 +504,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'paranormasight': [['Steam', 4200, 8400, 50, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'path-of-exile-2': [['Steam', 13400, 13400, 0, 'MYR'], ['PlayStation', 2038, 2038, 0, 'MYR']],
   'pathologic-2': [['Steam', 1680, 8400, 80, 'MYR']],
-  'patricks-parabox': [['Steam', 3920, 4900, 20, 'MYR'], ['Nintendo', 999, 1999, 50, 'USD']],
+  'patricks-parabox': [['Steam', 3920, 4900, 20, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'peak': [['Steam', 1363, 2199, 38, 'MYR']],
   'peglin': [['Steam', 2940, 4900, 40, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'pentiment': [['Steam', 3450, 6900, 50, 'MYR'], ['PlayStation', 8049, 8049, 0, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
