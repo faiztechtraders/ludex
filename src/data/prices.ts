@@ -11,7 +11,7 @@
 
 export const PRICE_SNAPSHOT = {
   /** ISO date the snapshot was taken. Shown to the user, so it stays honest. */
-  fetchedAt: '2026-10-04',
+  fetchedAt: '2026-10-05',
   /** Steam store region the prices were quoted for. */
   region: 'MY',
   /** ISO 4217 code the Steam prices are quoted in, e.g. MYR. */
@@ -21,7 +21,7 @@ export const PRICE_SNAPSHOT = {
    * Null when unavailable, in which case the UI shows the USD figure alone
    * rather than an invented conversion.
    */
-  usdRate: 4.084171,
+  usdRate: 4.084534,
 } as const;
 
 /**
@@ -112,7 +112,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'blazing-chrome': [['Steam', 1075, 4300, 75, 'MYR'], ['PlayStation', 5807, 5807, 0, 'MYR'], ['Nintendo', 1699, 1699, 0, 'USD']],
   'bloodborne': [['PlayStation', 7400, 7400, 0, 'MYR']],
   'bloodstained-ritual-of-the-night': [['Steam', 4075, 16300, 75, 'MYR'], ['PlayStation', 17218, 17218, 0, 'MYR'], ['Nintendo', 3999, 3999, 0, 'USD']],
-  'blue-prince': [['Steam', 4320, 7200, 40, 'MYR'], ['PlayStation', 13144, 13144, 0, 'MYR'], ['Nintendo', 1799, 2999, 40, 'USD']],
+  'blue-prince': [['Steam', 4320, 7200, 40, 'MYR'], ['PlayStation', 13144, 13144, 0, 'MYR'], ['Nintendo', 2999, 2999, 0, 'USD']],
   'bo-path-of-the-teal-lotus': [['Steam', 4550, 9100, 50, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'bomb-rush-cyberfunk': [['Steam', 8800, 8800, 0, 'MYR'], ['PlayStation', 2038, 2038, 0, 'MYR'], ['Nintendo', 3999, 3999, 0, 'USD']],
   'bonfire-peaks': [['Steam', 1470, 4900, 70, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
@@ -159,7 +159,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'core-keeper': [['Steam', 2940, 4900, 40, 'MYR'], ['PlayStation', 8049, 8049, 0, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'coromon': [['Steam', 1225, 4900, 75, 'MYR'], ['Nintendo', 499, 1999, 75, 'USD']],
   'counter-strike-2': [['Steam', 0, 0, 0, 'MYR']],
-  'cozy-grove': [['Steam', 1347, 3850, 65, 'MYR'], ['PlayStation', 6011, 6011, 0, 'MYR'], ['Nintendo', 723, 1499, 52, 'USD']],
+  'cozy-grove': [['Steam', 1347, 3850, 65, 'MYR'], ['PlayStation', 3973, 3973, 0, 'MYR'], ['Nintendo', 723, 1499, 52, 'USD']],
   'crash-bandicoot-4': [['Steam', 9500, 19000, 50, 'MYR'], ['PlayStation', 25370, 25370, 0, 'MYR'], ['Nintendo', 3999, 3999, 0, 'USD']],
   'crawl': [['Steam', 735, 3675, 80, 'MYR'], ['Nintendo', 1499, 1499, 0, 'USD']],
   'cronos-the-new-dawn': [['Steam', 9395, 18790, 50, 'MYR']],
@@ -346,7 +346,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'hyper-light-drifter': [['Steam', 950, 3800, 75, 'MYR']],
   'hypnospace-outlaw': [['Steam', 975, 3900, 75, 'MYR'], ['Nintendo', 599, 1999, 70, 'USD']],
   'hyrule-warriors-age-of-imprisonment': [['Nintendo', 6999, 6999, 0, 'USD']],
-  'iconoclasts': [['Steam', 4900, 4900, 0, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
+  'iconoclasts': [['Steam', 1470, 4900, 70, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'ikaruga': [['Steam', 1150, 2300, 50, 'MYR'], ['Nintendo', 1499, 1499, 0, 'USD']],
   'immortality': [['Steam', 2940, 4900, 40, 'MYR'], ['PlayStation', 4829, 8049, 40, 'MYR']],
   'in-other-waters': [['Steam', 962, 3850, 75, 'MYR'], ['Nintendo', 1499, 1499, 0, 'USD']],
@@ -396,7 +396,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'lil-guardsman': [['Steam', 980, 4900, 80, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'limbo': [['Steam', 300, 3000, 90, 'MYR'], ['PlayStation', 3973, 3973, 0, 'MYR'], ['Nintendo', 1249, 1249, 0, 'USD']],
   'little-nightmares-2': [['Steam', 3267, 9900, 67, 'MYR'], ['PlayStation', 11900, 11900, 0, 'MYR'], ['Nintendo', 989, 2999, 67, 'USD']],
-  'little-nightmares-3': [['Steam', 5950, 11900, 50, 'MYR'], ['Nintendo', 1999, 3999, 50, 'USD']],
+  'little-nightmares-3': [['Steam', 5950, 11900, 50, 'MYR'], ['Nintendo', 3999, 3999, 0, 'USD']],
   'littlewood': [['Steam', 1925, 3850, 50, 'MYR'], ['Nintendo', 1499, 1499, 0, 'USD']],
   'lonely-mountains-downhill': [['Steam', 980, 4900, 80, 'MYR'], ['PlayStation', 8049, 8049, 0, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'loop-hero': [['Steam', 770, 3850, 80, 'MYR'], ['Nintendo', 1499, 1499, 0, 'USD']],
@@ -663,7 +663,7 @@ export const PRICES: Record<string, readonly PriceOffer[]> = {
   'super-mario-rpg': [['Nintendo', 5999, 5999, 0, 'USD']],
   'super-smash-bros-ultimate': [['Nintendo', 5999, 5999, 0, 'USD']],
   'superhot': [['Steam', 1470, 4900, 70, 'MYR'], ['PlayStation', 10087, 10087, 0, 'MYR'], ['Nintendo', 749, 2499, 70, 'USD']],
-  'superliminal': [['Steam', 1960, 4900, 60, 'MYR'], ['PlayStation', 3219, 8049, 60, 'MYR'], ['Nintendo', 799, 1999, 60, 'USD']],
+  'superliminal': [['Steam', 1960, 4900, 60, 'MYR'], ['PlayStation', 3219, 8049, 60, 'MYR'], ['Nintendo', 1999, 1999, 0, 'USD']],
   'supermarket-simulator': [['Steam', 2940, 4900, 40, 'MYR']],
   'suzerain': [['Steam', 1470, 4900, 70, 'MYR'], ['Nintendo', 599, 1999, 70, 'USD']],
   'sword-of-the-sea': [['Steam', 5040, 7200, 30, 'MYR']],
